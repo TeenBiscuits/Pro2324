@@ -9,9 +9,9 @@ de dicha licencia.
 
 ## Objetivos / To-Do List
 
-- [ ] Boletín 1 ( 00 / 20 )
-- [ ] Boletín 2 ( 00 / 50 )
-- [ ] Boletín 3 ( 00 / 36 )
+- [x] Boletín 1 ( 20 / 20 )
+- [ ] Boletín 2 ( 20 / 50 )
+- [ ] Boletín 3 ( 11 / 36 )
 - [ ] Boletín 4 ( 00 / 40 )
 
 ## Notas Importantes / Must Reads
