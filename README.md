@@ -9,10 +9,20 @@ de dicha licencia.
 
 ## Objetivos / To-Do List
 
+![Boletín 1](https://progress-bar.dev/100/?title=Boletín%201&width=200&color=572364)
+
+![Boletín 2](https://progress-bar.dev/40/?title=Boletín%202&width=200&color=572364)
+
+![Boletín 3](https://progress-bar.dev/31/?title=Boletín%203&width=200&color=572364)
+
+![Boletín 4](https://progress-bar.dev/0/?title=Boletín%204&width=200&color=572364)
+
+<!---
 - [x] Boletín 1 ( 20 / 20 )
-- [ ] Boletín 2 ( 20 / 50 )
-- [ ] Boletín 3 ( 11 / 36 )
+- [ ] Boletín 2 ( 20 / 50 ) 
+- [ ] Boletín 3 ( 11 / 36 ) 
 - [ ] Boletín 4 ( 00 / 40 )
+--->
 
 ## Notas Importantes / Must Reads
 
