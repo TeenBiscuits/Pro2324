@@ -19,7 +19,7 @@ de dicha licencia.
 Para este proyecto se utiliza la revisión de lenguaje C, **C99** (ISO/IEC 9899:1999).
 El proyecto ha sido estructurado como un proyecto para el IDE **CLion** by JetBrains (R).
 
-Cada boletín de la asignatura se encuentra en una sub carpeta diferente (Bol1, Bol2, Bol3...). Por otra parte, son una
+Cada boletín de la asignatura se encuentra en una sub carpeta diferente (Boletin_1, Boletin_2, Boletin_3...). Por otra parte, son una
 excepción a esta regla la carpeta *Prácticas* y *Extras*, donde se añadirá el código hecho en prácticas y el código que
 se considere de interés respectivamente.
 
