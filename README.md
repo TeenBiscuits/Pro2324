@@ -38,6 +38,8 @@ Cada archivo ```*.c``` es un ejecutable diferente declarado en ``./CMakeLists.tx
 Por norma general en cada boletín solo se empleará lo aprendido en teoría hasta ese bloque, así los ejercicios valdrán
 para quién todavía esté empezando.
 
+Cada autor tiene una *branch* de este repositorio, que son fusionadas con ``main`` cada poco.
+
 A la hora de compilar los ejecutables puede utilizarse cualquier compilador,
 pero es recomendable, en Windows, utilizar [Cywing](https://www.cygwin.com) (Para el correcto
 de display de tíldes y otros caracteres especiales).
