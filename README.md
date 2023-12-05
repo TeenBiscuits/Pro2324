@@ -1,6 +1,6 @@
 # Pro2324
 
-Código en C para la asignatura de Programación 2023/24 de GEI da UDC.
+Código en C para la asignatura de Programación I/II 2023/24 de GEI da UDC.
 
 > Este código esta bajo desarrollo constante (hay examen) así que se esperan cambios constantes
 
@@ -9,13 +9,13 @@ de dicha licencia.
 
 ## Objetivos / To-Do List
 
-![Boletín 1](https://progress-bar.dev/100/?title=Boletín%201&width=200&color=572364)
+![Boletín 1](https://progress-bar.dev/100/?title=Boletín%201&width=200&color=d2007b)
 
-![Boletín 2](https://progress-bar.dev/40/?title=Boletín%202&width=200&color=572364)
+![Boletín 2](https://progress-bar.dev/40/?title=Boletín%202&width=200&color=d2007b)
 
-![Boletín 3](https://progress-bar.dev/31/?title=Boletín%203&width=200&color=572364)
+![Boletín 3](https://progress-bar.dev/31/?title=Boletín%203&width=200&color=d2007b)
 
-![Boletín 4](https://progress-bar.dev/0/?title=Boletín%204&width=200&color=572364)
+![Boletín 4](https://progress-bar.dev/0/?title=Boletín%204&width=200&color=d2007b)
 
 <!---
 - [x] Boletín 1 ( 20 / 20 )
@@ -49,4 +49,4 @@ de display de tíldes y otros caracteres especiales).
 
 > Futuros/as ingenieros/as informáticos/as
 
-- Pablo Portas López
+- Pablo Portas López | [@TeenBiscuits](https://github.com/TeenBiscuits)
