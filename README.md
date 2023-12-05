@@ -1,10 +1,10 @@
 # Pro2324
 
-Código en C para la asignatura de Programación I/II 2023/24 de GEI da UDC.
+Código en C para la asignatura de Programación I/II 2023/24 de GEI da UDC. 💻🎓
 
 > Este código esta bajo desarrollo constante (hay examen) así que se esperan cambios constantes
 
-Bajo la licencia **GNU GPLv3** este código es libre de compatir y módificar siempre amparado bajo los términos de dicha
+🕊️ Bajo la licencia **GNU GPLv3** este código es libre de compatir y módificar siempre amparado bajo los términos de dicha
 licencia.
 
 ## Objetivos / To-Do List
@@ -26,7 +26,7 @@ licencia.
 
 ## Notas Importantes / Must Reads
 
-**Todo el código está en la carpeta ``./src``**
+**Todo el código está en la carpeta ``./src``** 📢
 
 Para este proyecto se utiliza la revisión de lenguaje C, **C99** (ISO/IEC 9899:1999). El proyecto ha sido estructurado
 como un proyecto para el IDE **CLion** by JetBrains (R).
@@ -52,6 +52,6 @@ utilizar [Cywing](https://www.cygwin.com) (Para el correcto de display de tílde
 
 ## Authors
 
-> Futuros/as ingenieros/as informáticos/as
+> Futuros/as ingenieros/as informáticos/as 😎
 
 - Pablo Portas López | [@TeenBiscuits](https://github.com/TeenBiscuits)
