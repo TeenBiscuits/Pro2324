@@ -26,6 +26,8 @@ licencia.
 
 ## Notas Importantes / Must Reads
 
+**Todo el código está en la carpeta ``./src``**
+
 Para este proyecto se utiliza la revisión de lenguaje C, **C99** (ISO/IEC 9899:1999). El proyecto ha sido estructurado
 como un proyecto para el IDE **CLion** by JetBrains (R).
 
@@ -33,7 +35,9 @@ Cada boletín de la asignatura se encuentra en una sub carpeta diferente (Boleti
 parte, son una excepción a esta regla la carpeta *Prácticas* y *Extras*, donde se añadirá el código hecho en prácticas y
 el código que se considere de interés respectivamente.
 
-Cada archivo ```*.c``` es un ejecutable diferente declarado en ``.configure/CMakeLists.txt``.
+Cada archivo ```*.c``` es un ejecutable diferente declarado en ``./src/*/CMakeLists.txt`` que a su vez es referenciado
+en el ``./CMakeLists.txt`` del directorio raíz. (Están todos declarados, los que todavía no fueron añadidos con
+un ``#``)
 
 Por norma general en cada boletín solo se empleará lo aprendido en teoría hasta ese bloque, así los ejercicios valdrán
 para quién todavía esté empezando.
