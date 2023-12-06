@@ -11,17 +11,17 @@ dicha licencia.
 
 ![Boletín 1](https://progress-bar.dev/100/?title=Boletín%201&width=200&color=d2007b)
 
-![Boletín 2](https://progress-bar.dev/40/?title=Boletín%202&width=200&color=d2007b)
+![Boletín 2](https://progress-bar.dev/52/?title=Boletín%202&width=200&color=d2007b)
 
 ![Boletín 3](https://progress-bar.dev/31/?title=Boletín%203&width=200&color=d2007b)
 
-![Boletín 4](https://progress-bar.dev/0/?title=Boletín%204&width=200&color=d2007b)
+![Boletín 4](https://progress-bar.dev/5/?title=Boletín%204&width=200&color=d2007b)
 
 <!---
 - [x] Boletín 1 ( 20 / 20 )
-- [ ] Boletín 2 ( 20 / 50 ) 
+- [ ] Boletín 2 ( 26 / 50 ) 
 - [ ] Boletín 3 ( 11 / 36 ) 
-- [ ] Boletín 4 ( 00 / 40 )
+- [ ] Boletín 4 ( 02 / 40 )
 --->
 
 ## Notas Importantes / Must Reads
@@ -52,6 +52,7 @@ utilizar [Cywing](https://www.cygwin.com) (Para el correcto de display de tílde
 
 ## Authors
 
-> Futuros/as ingenieros/as informáticos/as 😎
+> Futuros/as ingenieros/as informáticos/as 😎😎
 
 - Pablo Portas López | [@TeenBiscuits](https://github.com/TeenBiscuits)
+- Miguel Fraga Pico | [@Fraagaa](https://github.com/Fraagaa)
