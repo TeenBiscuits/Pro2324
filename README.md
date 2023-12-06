@@ -52,7 +52,7 @@ utilizar [Cywing](https://www.cygwin.com) (Para el correcto de display de tílde
 
 ## Authors
 
-> Futuros/as ingenieros/as informáticos/as 😎😎
+> Futuros/as ingenieros/as informáticos/as 😎😎😎
 
 - Pablo Portas López | [@TeenBiscuits](https://github.com/TeenBiscuits)
 - Miguel Fraga Pico | [@Fraagaa](https://github.com/Fraagaa)
