@@ -60,6 +60,7 @@ dkms.conf
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/**/.gitignore
 
 # AWS User-specific
 .idea/**/aws.xml
