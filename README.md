@@ -13,14 +13,14 @@ dicha licencia.
 
 ![Boletín 2](https://progress-bar.dev/52/?title=Boletín%202&width=200&color=d2007b)
 
-![Boletín 3](https://progress-bar.dev/31/?title=Boletín%203&width=200&color=d2007b)
+![Boletín 3](https://progress-bar.dev/64/?title=Boletín%203&width=200&color=d2007b)
 
 ![Boletín 4](https://progress-bar.dev/5/?title=Boletín%204&width=200&color=d2007b)
 
 <!---
 - [x] Boletín 1 ( 20 / 20 )
 - [ ] Boletín 2 ( 26 / 50 ) 
-- [ ] Boletín 3 ( 11 / 36 ) 
+- [ ] Boletín 3 ( 23 / 36 ) 
 - [ ] Boletín 4 ( 02 / 40 )
 --->
 
@@ -56,3 +56,4 @@ utilizar [Cywing](https://www.cygwin.com) (Para el correcto de display de tílde
 
 - Pablo Portas López | [@TeenBiscuits](https://github.com/TeenBiscuits)
 - Miguel Fraga Pico | [@Fraagaa](https://github.com/Fraagaa)
+- Santiago Neira Segean | [@sneiira](https://github.com/sneiira)
