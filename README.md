@@ -13,14 +13,14 @@ dicha licencia.
 
 ![Boletín 2](https://progress-bar.dev/100/?title=Boletín%202&width=200&color=d2007b)
 
-![Boletín 3](https://progress-bar.dev/64/?title=Boletín%203&width=200&color=d2007b)
+![Boletín 3](https://progress-bar.dev/69/?title=Boletín%203&width=200&color=d2007b)
 
 ![Boletín 4](https://progress-bar.dev/5/?title=Boletín%204&width=200&color=d2007b)
 
 <!---
 - [x] Boletín 1 ( 20 / 20 )
-- [ ] Boletín 2 ( 50 / 50 ) 
-- [ ] Boletín 3 ( 23 / 36 ) 
+- [x] Boletín 2 ( 50 / 50 ) 
+- [ ] Boletín 3 ( 25 / 36 ) 
 - [ ] Boletín 4 ( 02 / 40 )
 --->
 
