@@ -1,5 +1,15 @@
 # Pro2324
 
+[![Licence](https://img.shields.io/github/license/TeenBiscuits/Pro2324.svg)](./LICENSE)
+![C](https://img.shields.io/badge/C99-%2300599C.svg?logo=c&logoColor=white)
+![CLion](https://img.shields.io/badge/CLion-black.svg?logo=clion&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-E44C30?logo=git&logoColor=white)
+![Stars](https://img.shields.io/github/stars/TeenBiscuits/Pro2324.svg)
+![Pull Request](https://img.shields.io/github/issues-pr-closed/TeenBiscuits/Pro2324.svg)
+
+<!--![GitHub release (latest by SemVer including pre-releases)](https://img.shields.io/github/downloads-pre/TeenBiscuits/Pro2324/release/total) -->
+<!--![C99](https://img.shields.io/badge/made%20with-C99-%2300599C.svg?logo=C&logoColor=white)-->
+
 Código en C para la asignatura de Programación I/II 2023/24 de GEI da UDC. 💻🎓
 
 > Este código esta bajo desarrollo constante (hay examen) así que se esperan cambios constantes
