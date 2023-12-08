@@ -30,7 +30,7 @@ dicha licencia.
 
 <!---
 - [x] Boletín 1 ( 20 / 20 )
-- [x] Boletín 2 ( 50 / 50 ) 
+- [x] Boletín 2 ( 50 / 50 )
 - [ ] Boletín 3 ( 24 / 36 ) 
 - [ ] Boletín 4 ( 02 / 40 )
 --->
