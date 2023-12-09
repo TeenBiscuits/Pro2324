@@ -1,5 +1,12 @@
 # Pro2324
 
+[![Licence](https://img.shields.io/github/license/TeenBiscuits/Pro2324.svg)](./LICENSE)
+[![C](https://img.shields.io/badge/C99-%2300599C.svg?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C99)
+[![CLion](https://img.shields.io/badge/CLion-black.svg?logo=clion&logoColor=white)](https://www.jetbrains.com/es-es/clion/)
+[![Git](https://img.shields.io/badge/GIT-E44C30?logo=git&logoColor=white)](https://en.wikipedia.org/wiki/Git)
+[![Stars](https://img.shields.io/github/stars/TeenBiscuits/Pro2324.svg)](https://github.com/TeenBiscuits/Pro2324)
+[![Pull Request](https://img.shields.io/github/issues-pr-closed/TeenBiscuits/Pro2324.svg)](https://github.com/TeenBiscuits/Pro2324/pulls)
+
 Código en C para la asignatura de Programación I/II 2023/24 de GEI da UDC. 💻🎓
 
 > Este código esta bajo desarrollo constante (hay examen) así que se esperan cambios constantes
@@ -9,18 +16,22 @@ dicha licencia.
 
 ## Objetivos / To-Do List
 
-![Boletín 1](https://progress-bar.dev/100/?title=Boletín%201&width=200&color=d2007b)
+[![Boletín 1](https://progress-bar.dev/100/?title=Boletín%201&width=200&color=d2007b)](./src/Boletin_1)
 
-![Boletín 2](https://progress-bar.dev/90/?title=Boletín%202&width=200&color=d2007b)
+[![Boletín 2](https://progress-bar.dev/100/?title=Boletín%202&width=200&color=d2007b)](./src/Boletin_2)
 
-![Boletín 3](https://progress-bar.dev/64/?title=Boletín%203&width=200&color=d2007b)
+[![Boletín 3](https://progress-bar.dev/66/?title=Boletín%203&width=200&color=d2007b)](./src/Boletin_3)
 
-![Boletín 4](https://progress-bar.dev/5/?title=Boletín%204&width=200&color=d2007b)
+[![Boletín 4](https://progress-bar.dev/5/?title=Boletín%204&width=200&color=d2007b)](./src/Boletin_4)
+
+[![Extras](https://img.shields.io/badge/Extras-1-grey?labelColor=d2007b)](./src/Extras)
+
+[![Prácticas](https://img.shields.io/badge/Prácticas-0-grey?labelColor=d2007b)](./src/Practicas)
 
 <!---
 - [x] Boletín 1 ( 20 / 20 )
-- [ ] Boletín 2 ( 45 / 50 ) 
-- [ ] Boletín 3 ( 23 / 36 ) 
+- [x] Boletín 2 ( 50 / 50 )
+- [ ] Boletín 3 ( 24 / 36 ) 
 - [ ] Boletín 4 ( 02 / 40 )
 --->
 
@@ -57,3 +68,4 @@ utilizar [Cywing](https://www.cygwin.com) (Para el correcto de display de tílde
 - Pablo Portas López | [@TeenBiscuits](https://github.com/TeenBiscuits)
 - Miguel Fraga Pico | [@Fraagaa](https://github.com/Fraagaa)
 - Santiago Neira Sejean | [@sneiira](https://github.com/sneiira)
+
