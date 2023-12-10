@@ -22,7 +22,7 @@ dicha licencia.
 
 [![Boletín 3](https://progress-bar.dev/66/?title=Boletín%203&width=200&color=d2007b)](./src/Boletin_3)
 
-[![Boletín 4](https://progress-bar.dev/17/?title=Boletín%204&width=200&color=d2007b)](./src/Boletin_4)
+[![Boletín 4](https://progress-bar.dev/22/?title=Boletín%204&width=200&color=d2007b)](./src/Boletin_4)
 
 [![Extras](https://img.shields.io/badge/Extras-1-grey?labelColor=d2007b)](./src/Extras)
 
@@ -32,7 +32,7 @@ dicha licencia.
 - [x] Boletín 1 ( 20 / 20 )
 - [x] Boletín 2 ( 50 / 50 )
 - [ ] Boletín 3 ( 24 / 36 ) 
-- [ ] Boletín 4 ( 07 / 40 )
+- [ ] Boletín 4 ( 09 / 40 )
 --->
 
 ## Notas Importantes / Must Reads
