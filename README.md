@@ -9,8 +9,6 @@
 
 Código en C para la asignatura de Programación I/II 2023/24 de GEI da UDC. 💻🎓
 
-> Este código esta bajo desarrollo constante (hay examen) así que se esperan cambios constantes
-
 🕊️ Bajo la licencia **GNU GPLv3** este código es libre de compatir y módificar siempre amparado bajo los términos de
 dicha licencia.
 
