@@ -22,6 +22,8 @@ dicha licencia.
 
 [![Boletín 4](https://progress-bar.dev/22/?title=Boletín%204&width=200&color=d2007b)](./src/Boletin_4)
 
+[![Exámenes](https://img.shields.io/badge/Exámenes-2-grey?labelColor=d2007b)](./src/Examenes)
+
 [![Extras](https://img.shields.io/badge/Extras-1-grey?labelColor=d2007b)](./src/Extras)
 
 [![Prácticas](https://img.shields.io/badge/Prácticas-0-grey?labelColor=d2007b)](./src/Practicas)
