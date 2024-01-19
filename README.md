@@ -9,7 +9,7 @@
 
 Código en C para la asignatura de Programación I/II 2023/24 de GEI da UDC. 💻🎓
 
-🕊️ Bajo la licencia **GNU GPLv3** este código es libre de compatir y módificar siempre amparado bajo los términos de
+🕊️ Bajo la licencia **GNU GPLv3** el código de este proyecto es libre de compartir y módificar siempre amparado bajo los términos de
 dicha licencia.
 
 ## Objetivos / To-Do List
@@ -48,7 +48,8 @@ el código que se considere de interés respectivamente.
 
 Cada archivo ```*.c``` es un ejecutable diferente declarado en ``./src/*/CMakeLists.txt`` que a su vez es referenciado
 en el ``./CMakeLists.txt`` del directorio raíz. (Están todos declarados, los que todavía no fueron añadidos con
-un ``#``)
+un ``#``) Además de añadir sú código también a la carpeta ``./docs/code`` para que pueda ser referenciado más tarde en
+la documentación.
 
 Por norma general en cada boletín solo se empleará lo aprendido en teoría hasta ese bloque, así los ejercicios valdrán
 para quién todavía esté empezando.
@@ -69,4 +70,12 @@ utilizar [Cywing](https://www.cygwin.com) (Para el correcto de display de tílde
 - Miguel Fraga Pico | [@Fraagaa](https://github.com/Fraagaa)
 - Santiago Neira Sejean | [@sneiira](https://github.com/sneiira)
 - Daniel Deza Prieto | [@dza205](https://github.com/dza205)
+
+## Licencias
+
+Este proyecto contiende dos licencias. Una para el código y los ejemplos,  **GNU GPLv3** y otra para la documentación escrita con **WriteSide** y publicada en GitHub Pages.
+
+[![Licence](https://img.shields.io/github/license/TeenBiscuits/Pro2324.svg)](./LICENSE)
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://teenbiscuits.github.io/Pro2324/readme.html">Pro2324</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/TeenBiscuits">Pablo Portas López</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"></a></p>
 
