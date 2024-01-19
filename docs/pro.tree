@@ -3,10 +3,9 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="pro" name="Programación"
-                  start-page="README.md">
+                  start-page="Pro2324.topic">
 
-    <toc-element topic="README.md">
-    </toc-element>
+    <toc-element topic="Pro2324.topic"/>
     <toc-element topic="Boletines.md">
         <toc-element topic="Boletín-1.md"/>
         <toc-element topic="Boletín-2.md"/>
@@ -16,4 +15,5 @@
     <toc-element topic="Exámenes.md"/>
     <toc-element topic="Extras.md"/>
     <toc-element topic="Prácticas.md"/>
+    <toc-element topic="README.md"/>
 </instance-profile>

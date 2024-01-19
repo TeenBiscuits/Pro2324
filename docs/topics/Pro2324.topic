@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Pro2324" id="Pro2324">
+
+<!-- Basado en la plantilla por defecto del Writeside -->
+
+<!--    A section combines multiple topics dedicated to a specific subject.
+            Add a starting page to provide an overview of the topics in the section.
+            Start with two topics you want to promote in the <spotlight> group,
+            several important topics in the <primary> group (for example, where to start),
+            several less important topics in the <secondary> group (for example, more advanced topics),
+            and optionally add any other relevant topics in the <misc> group as cards and lists of links
+            (maybe related topics from other sections).
+            Only the spotlight section is limited to two topics.
+            For other groups, try to keep the number between 2 and 6, but you can add more if necessary.-->
+
+    <section-starting-page>
+        <title>Pro2324</title>
+        <description>
+            Ejercicios Resueltos y Teoría para la asignatura de Programación I/II 2023/24 de GEI da UDC. 💻🎓
+        </description>
+
+
+        <spotlight>
+            <a href="" type="learn" summary="Material de estudio del lenguaje de programación C">Teoría</a>
+            <a href="" type="documents" summary="Ejercicios resueltos de los boletines">Boletines</a>
+        </spotlight>
+
+
+        <primary>
+            <title>Otras cosas interesantes</title>
+            <a href="" type="cross-check" summary="Ejemplos sencillos y no tan sencillos, algunos sacados de prácticas">Ejemplos</a>
+            <a href="" type="academy" summary="Exámenes antiguos resueltos">Exámenes</a>
+            <a href="" type="keyboard" summary="Lo difícil hecho fácil">Tutoriales</a>
+        </primary>
+
+        <!--    Add several topics that are less important or are relevant only for advanced/experienced users.    -->
+        <secondary>
+            <title>Para estudiantes más avanzados</title>
+            <a href="" type="mixed" summary="Algunos prográmas extras interesantes">Extras</a>
+            <a href="https://github.com/TeenBiscuits/Pro2324" type="open-source" summary="Este proyecto es Open Source, el código es libre y todos pueden verlo y editarlo. Ayúdanos aportando tu granito de arena">Colabora</a>
+        </secondary>
+
+        <!--    Optionally add additional cards and links to topics that are not in this section but may be relevant.    -->
+        <misc>
+            <cards narrow="true">
+                <title>Artículos relevantes</title>
+                <a href=""/>
+                <a href=""/>
+                <a href="" summary="With a custom card summary"/>
+                <a href="">Custom card title</a>
+                <a href="">Custom card title</a>
+                <a href="" summary="With a custom card summary">Custom card title</a>
+            </cards>
+        </misc>
+    </section-starting-page>
+</topic>
