@@ -1,3 +1,0 @@
-# Boletines
-
-Start typing here...
