@@ -20,13 +20,13 @@
     <section-starting-page>
         <title>Pro2324</title>
         <description>
-            Ejercicios Resueltos y Teoría para la asignatura de Programación I/II 2023/24 de GEI da UDC. 💻🎓
+            Ejercicios Resueltos y Apuntes para teoría para la asignatura de Programación I/II 2023/24 de GEI da UDC. 💻🎓
         </description>
 
 
         <spotlight>
-            <a href="" type="learn" summary="Material de estudio del lenguaje de programación C">Teoría</a>
-            <a href="" type="documents" summary="Ejercicios resueltos de los boletines">Boletines</a>
+            <a href="Boletines.topic" type="documents" summary="Ejercicios resueltos de los boletines">Boletines</a>
+            <a href="Teoría.topic" type="learn" summary="Material de estudio del lenguaje de programación C">Apuntes - Teoría</a>
         </spotlight>
 
 
@@ -41,10 +41,10 @@
         <secondary>
             <title>Para estudiantes más avanzados</title>
             <a href="" type="mixed" summary="Algunos prográmas extras interesantes">Extras</a>
-            <a href="https://github.com/TeenBiscuits/Pro2324" type="open-source" summary="Este proyecto es Open Source, el código es libre y todos pueden verlo y editarlo. Ayúdanos aportando tu granito de arena">Colabora</a>
+            <a href="https://github.com/TeenBiscuits/Pro2324" type="open-source" summary="Este proyecto es Open Source, el código es libre y todos pueden verlo y editarlo. Ayúdanos aportando tu granito de arena o simplemente danos una estrellita. ⭐">Colabora</a>
         </secondary>
 
-        <!--    Optionally add additional cards and links to topics that are not in this section but may be relevant.    -->
+        <!-- UNCOMMENT Cuando tengamos artículos que destacar.
         <misc>
             <cards narrow="true">
                 <title>Artículos relevantes</title>
@@ -56,5 +56,6 @@
                 <a href="" summary="With a custom card summary">Custom card title</a>
             </cards>
         </misc>
+        -->
     </section-starting-page>
 </topic>

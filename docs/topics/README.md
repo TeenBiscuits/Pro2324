@@ -14,13 +14,13 @@ dicha licencia.
 
 ## Objetivos / To-Do List
 
-[![Boletín 1](https://progress-bar.dev/100/?title=Boletín%201&width=200&color=d2007b)](Boletín-1.md)
+[![Boletín 1](https://progress-bar.dev/100/?title=Boletín%201&width=200&color=d2007b)](Pro-1-Boletín-1.md)
 
-[![Boletín 2](https://progress-bar.dev/100/?title=Boletín%202&width=200&color=d2007b)](Boletín-2.md)
+[![Boletín 2](https://progress-bar.dev/100/?title=Boletín%202&width=200&color=d2007b)](Pro-1-Boletín-2.md)
 
-[![Boletín 3](https://progress-bar.dev/66/?title=Boletín%203&width=200&color=d2007b)](Boletín-3.md)
+[![Boletín 3](https://progress-bar.dev/66/?title=Boletín%203&width=200&color=d2007b)](Pro-1-Boletín-3.md)
 
-[![Boletín 4](https://progress-bar.dev/27/?title=Boletín%204&width=200&color=d2007b)](Boletín-4.md)
+[![Boletín 4](https://progress-bar.dev/27/?title=Boletín%204&width=200&color=d2007b)](Pro-1-Boletín-4.md)
 
 [![Exámenes](https://img.shields.io/badge/Exámenes-2-grey?labelColor=d2007b)](Exámenes.md)
 
