@@ -9,7 +9,7 @@ permissions:
   pages: write
 
 env:
-  INSTANCE: /pro
+  INSTANCE: Pro2324/pro
   ARTIFACT: webHelpPRO2-all.zip
   # Writerside docker image version
   DOCKER_VERSION: 233.4797
