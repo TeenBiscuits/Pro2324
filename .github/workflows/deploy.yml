@@ -1,0 +1,84 @@
+name: Construir documentación
+
+on:
+  push:
+    branches: ["web-docs"]
+
+permissions:
+  id-token: write
+  pages: write
+
+env:
+  INSTANCE: docs/pro
+  ARTIFACT: webHelpPRO2-all.zip
+  # Writerside docker image version
+  DOCKER_VERSION: 233.4797
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v3
+
+      - name: Construir documentación de Writerside usando Docker
+        uses: JetBrains/writerside-github-action@v4
+        with:
+          instance: ${{ env.INSTANCE }}
+          artifact: ${{ env.ARTIFACT }}
+          docker-version: ${{ env.DOCKER_VERSION }}
+
+      - name: Subir documentación
+        uses: actions/upload-artifact@v3
+        with:
+          name: docs
+          path: |
+            artifacts/${{ env.ARTIFACT }}
+            artifacts/report.json
+          retention-days: 7
+
+  test:
+    # Requires build job results
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar artefactos
+        uses: actions/download-artifact@v1
+        with:
+          name: docs
+          path: artifacts
+
+      - name: Comprobar documentación
+        uses: JetBrains/writerside-checker-action@v1
+        with:
+          instance: ${{ env.INSTANCE }}
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    # Requires the build job results
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar artefacto
+        uses: actions/download-artifact@v3
+        with:
+          name: docs
+
+      - name: Descomprimiendo artefacto
+        run: unzip -O UTF-8 -qq ${{ env.ARTIFACT }} -d dir
+
+      - name: Configurar Pages
+        uses: actions/configure-pages@v2
+
+      - name: Subir artefacto
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: dir
+
+      - name: Implementar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
