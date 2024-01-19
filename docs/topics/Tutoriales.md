@@ -1,3 +1,3 @@
-# Prácticas
+# Tutoriales
 
 Start typing here...

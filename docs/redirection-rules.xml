@@ -6,8 +6,4 @@
         <accepts>page.html</accepts>
     </rule>
     -->
-    <rule id="5da9da86">
-        <description>Created after removal of "Boletines" from Programación</description>
-        <accepts>Boletines.html</accepts>
-    </rule>
 </rules>
