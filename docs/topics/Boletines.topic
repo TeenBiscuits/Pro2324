@@ -15,23 +15,23 @@
         complicados por eso salen aquí -->
         <spotlight>
             <!-- TODO La descripción de los boletines -->
-            <a href="Pro-1-Boletín-3.md" type="documents" summary="Descripción de este boletín">Boletín 3</a>
-            <a href="Pro-1-Boletín-4.md" type="documents" summary="Descripción de este boletín">Boletín 4</a>
+            <a href="Pro-1-Boletin-3.md" type="documents" summary="Descripción de este boletín">Boletín 3</a>
+            <a href="Pro-1-Boletin-4.md" type="documents" summary="Descripción de este boletín">Boletín 4</a>
         </spotlight>
 
         <!--    Pro I    -->
         <primary>
             <title>Programación I</title>
-            <a href="Pro-1-Boletín-1.md" summary="">Boletín 1</a>
-            <a href="Pro-1-Boletín-2.md" summary="">Boletín 2</a>
-            <a href="Pro-1-Boletín-3.md" summary="">Boletín 3</a>
-            <a href="Pro-1-Boletín-4.md" summary="">Boletín 4</a>
+            <a href="Pro-1-Boletin-1.md" summary="Descripción de este boletín">Boletín 1</a>
+            <a href="Pro-1-Boletin-2.md" summary="Descripción de este boletín">Boletín 2</a>
+            <a href="Pro-1-Boletin-3.md" summary="Descripción de este boletín">Boletín 3</a>
+            <a href="Pro-1-Boletin-4.md" summary="Descripción de este boletín">Boletín 4</a>
         </primary>
 
         <!--    Pro II    -->
         <secondary>
             <title>Programación II</title>
-            <a href="" summary="">Boletín 1</a>
+            <a href="Pro-2-Boletin-1.md" summary="Descripción de este boletín">Boletín 1</a>
         </secondary>
 
     </section-starting-page>

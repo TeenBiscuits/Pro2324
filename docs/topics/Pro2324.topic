@@ -26,14 +26,14 @@
 
         <spotlight>
             <a href="Boletines.topic" type="documents" summary="Ejercicios resueltos de los boletines">Boletines</a>
-            <a href="Teoría.topic" type="learn" summary="Material de estudio del lenguaje de programación C">Apuntes - Teoría</a>
+            <a href="Teoria.topic" type="learn" summary="Material de estudio del lenguaje de programación C">Apuntes - Teoría</a>
         </spotlight>
 
 
         <primary>
             <title>Otras cosas interesantes</title>
             <a href="Ejemplos.md" type="cross-check" summary="Ejemplos sencillos y no tan sencillos, algunos sacados de clases de prácticas">Ejemplos</a>
-            <a href="Exámenes.md" type="academy" summary="Exámenes antiguos resueltos">Exámenes</a>
+            <a href="Examenes.md" type="academy" summary="Exámenes antiguos resueltos">Exámenes</a>
             <a href="Tutoriales.md" type="keyboard" summary="Lo difícil hecho fácil">Tutoriales</a>
         </primary>
 

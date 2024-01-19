@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Apuntes - Teoría" id="Teoría">
+       title="Apuntes - Teoría" id="Teoria" help-id="Teoría">
 
     <section-starting-page>
         <title>Apuntes - Teoría</title>
@@ -14,8 +14,8 @@
 
         <!-- Introducción y bibliografía -->
         <spotlight>
-            <a href="Teoría-Introducción.md" type="presentation" summary="Bienvenido/a al mundo de la programación">Introducción</a>
-            <a href="Bibliografía.md" type="library" summary="Bibliografía recomendada, desde las lecturas esenciales más básicas hasta
+            <a href="Teoria-Introduccion.md" type="presentation" summary="Bienvenido/a al mundo de la programación">Introducción</a>
+            <a href="Bibliografia.md" type="library" summary="Bibliografía recomendada, desde las lecturas esenciales más básicas hasta
             los grandes clásicos.">Bibliografía</a>
         </spotlight>
 
