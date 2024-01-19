@@ -22,13 +22,17 @@
         <!--    Pro I    -->
         <primary>
             <title>Programación I</title>
-
+            <a href="Pro2324.topic" summary="Proximamente...">Bloque 1</a>
+            <a href="Pro2324.topic" summary="Proximamente...">Bloque 2</a>
+            <a href="Pro2324.topic" summary="Proximamente...">Bloque 3</a>
+            <a href="Pro2324.topic" summary="Proximamente...">Bloque 4</a>
         </primary>
 
         <!--    Pro II    -->
         <secondary>
-            <title>Explore advanced features</title>
-
+            <title>Programación II</title>
+            <a href="Pro2324.topic" summary="Proximamente...">Bloque 5</a>
+            <a href="Pro2324.topic" summary="Proximamente...">Proximamente...</a>
         </secondary>
 
     </section-starting-page>
