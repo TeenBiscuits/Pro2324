@@ -1,24 +1,26 @@
 # Pro2324
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE.md)
-[![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC_BY--ND_4.0-lightgrey.svg)](./docs/LICENSE)
+<div align="center">
+
 [![C](https://img.shields.io/badge/C99-%2300599C.svg?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C99)
 [![CLion](https://img.shields.io/badge/CLion-black.svg?logo=clion&logoColor=white)](https://www.jetbrains.com/es-es/clion/)
 [![Writerside](https://img.shields.io/badge/Writerside-purple.svg?logo=jetbrains&logoColor=white)](https://www.jetbrains.com/es-es/writerside/)
 [![Git](https://img.shields.io/badge/GIT-E44C30?logo=git&logoColor=white)](https://en.wikipedia.org/wiki/Git)
-[![Stars](https://img.shields.io/github/stars/TeenBiscuits/Pro2324.svg)](https://github.com/TeenBiscuits/Pro2324)
-[![Pull Request](https://img.shields.io/github/issues-pr-closed/TeenBiscuits/Pro2324.svg)](https://github.com/TeenBiscuits/Pro2324/pulls)
 ![Build](https://github.com/TeenBiscuits/Pro2324/actions/workflows/deploy.yml/badge.svg)
 [![Web](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fteenbiscuits.github.io%2FPro2324%2Fpro2324.html)](https://teenbiscuits.github.io/Pro2324/pro2324.html)
+[![Pull Request](https://img.shields.io/github/issues-pr-closed/TeenBiscuits/Pro2324.svg)](https://github.com/TeenBiscuits/Pro2324/pulls)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE.md)
+[![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC_BY--ND_4.0-lightgrey.svg)](./docs/LICENSE)
+[![Stars](https://img.shields.io/github/stars/TeenBiscuits/Pro2324.svg)](https://github.com/TeenBiscuits/Pro2324)
 
-**Ejercicios Resueltos y Apuntes** para la asignatura de Programación I/II 2023/24 de GEI da UDC. 💻🎓
+</div>
 
-📖 Los apuntes y el código de este repositorio es publicado en esta
-web. [Enlace](https://teenbiscuits.github.io/Pro2324/pro2324.html)
+📝 **Ejercicios Resueltos** 📝 y 📚 **Apuntes** 📚 para las asignaturas de 💻 **Programación I y II** 💻 del 🎓 _Grao en Enxeñaría Informática_ de la  _Universidade Da Coruña_ 🎓 en el curso 📅2023/24📅.
 
-🕊️ Bajo la licencia **GNU GPLv3** el código de este proyecto es libre de compartir y módificar siempre amparado bajo los
-términos de
-dicha licencia.
+📖 Los apuntes y el código de este repositorio están publicados en [esta
+web](https://teenbiscuits.github.io/Pro2324/pro2324.html).
+
+🕊️ Bajo la licencia **GNU GPLv3**, el código de este proyecto es libre de ser compartido y modificado, siempre amparado bajo los términos de dicha [licencia](LICENSE.md).
 
 > Este repositorio está bajo desarrollo activo, se esperan cambios y se aceptan contribuciones. 🤗
 
@@ -26,21 +28,27 @@ dicha licencia.
 
 ### Código
 
+<div align="center">
+
 | [![Boletín 1](https://progress-bar.dev/100/?title=Boletín%201&width=200&color=d2007b)](./src/Boletin_1) | [![Boletín 2](https://progress-bar.dev/100/?title=Boletín%202&width=200&color=d2007b)](./src/Boletin_2) |
-|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | [![Boletín 3](https://progress-bar.dev/66/?title=Boletín%203&width=200&color=d2007b)](./src/Boletin_3)  | [![Boletín 4](https://progress-bar.dev/27/?title=Boletín%204&width=200&color=d2007b)](./src/Boletin_4)  |
 | [![Exámenes](https://img.shields.io/badge/Exámenes-2-grey?labelColor=d2007b)](./src/Examenes)           | [![Extras](https://img.shields.io/badge/Extras-6-grey?labelColor=d2007b)](./src/Extras)                 |
 | [![Prácticas](https://img.shields.io/badge/Prácticas-0-grey?labelColor=d2007b)](./src/Practicas)        |                                                                                                         |
 
+</div>
+
 ### Teoría
 
-| [![Bloque 1](https://progress-bar.dev/100/?title=Bloque%201&width=200&color=d2007b)](./docs/topics)  | [![Bloque 2](https://progress-bar.dev/0/?title=Bloque%202&width=200&color=d2007b)](./docs/topics)  |
-|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| [![Bloque 3](https://progress-bar.dev/0/?title=Bloque%203&width=200&color=d2007b)](./docs/topics)    | [![Bloque 4](https://progress-bar.dev/0/?title=Bloque%204&width=200&color=d2007b)](./docs/topics)  |
+<div align="center">
+
+| [![Bloque 1](https://progress-bar.dev/100/?title=Bloque%201&width=200&color=d2007b)](./docs/topics) | [![Bloque 2](https://progress-bar.dev/0/?title=Bloque%202&width=200&color=d2007b)](./docs/topics) |
+| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| [![Bloque 3](https://progress-bar.dev/0/?title=Bloque%203&width=200&color=d2007b)](./docs/topics)   | [![Bloque 4](https://progress-bar.dev/0/?title=Bloque%204&width=200&color=d2007b)](./docs/topics) |
+
+</div>
 
 ## Contribuciones
-
-> ¿Quieres aparecer ahí abajo? **¡Contribuye!**
 
 🛠️️ Todas las contribuciones son bienvenidas. Lee la guía para contribuir en [CONTRIBUTING.md](./CONTRIBUTING.md)
 
@@ -49,6 +57,10 @@ dicha licencia.
 <a href="https://github.com/TeenBiscuits/Pro2324/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=TeenBiscuits/Pro2324" width="100%"/>
 </a>
+
+<br>
+
+> ¿Quieres aparecer ahí arriba? **¡Contribuye!**
 
 <!-- Me daba pena borrarlo :(
 - Pablo Portas López | [@TeenBiscuits](https://github.com/TeenBiscuits)
