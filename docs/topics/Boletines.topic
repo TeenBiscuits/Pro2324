@@ -15,23 +15,24 @@
         complicados por eso salen aquí -->
         <spotlight>
             <!-- TODO La descripción de los boletines -->
-            <a href="Pro-1-Boletin-3.md" type="documents" summary="Descripción de este boletín">Boletín 3</a>
-            <a href="Pro-1-Boletin-4.md" type="documents" summary="Descripción de este boletín">Boletín 4</a>
+            <a href="Pro-1-Boletin-1.md" type="documents" summary="Entra y Salida. printf, scanf, gets, define y operaciones artiméticas básicas.">Boletín 1</a>
+            <!--<a href="Pro-1-Boletin-3.md" type="documents" summary="¡En construcción!">Boletín 3</a>-->
+            <a href="Pro-1-Boletin-4.md" type="documents" summary="¡En construcción!">Boletín 4</a>
         </spotlight>
 
         <!--    Pro I    -->
         <primary>
             <title>Programación I</title>
-            <a href="Pro-1-Boletin-1.md" summary="Descripción de este boletín">Boletín 1</a>
-            <a href="Pro-1-Boletin-2.md" summary="Descripción de este boletín">Boletín 2</a>
-            <a href="Pro-1-Boletin-3.md" summary="Descripción de este boletín">Boletín 3</a>
-            <a href="Pro-1-Boletin-4.md" summary="Descripción de este boletín">Boletín 4</a>
+            <a href="Pro-1-Boletin-1.md"
+               summary="Entra y Salida. printf, scanf, gets, define y operaciones artiméticas básicas.">Boletín 1</a>
+            <a href="Pro-1-Boletin-2.md" summary="¡En construcción!">Boletín 2</a>
+            <a href="Pro-1-Boletin-3.md" summary="¡En construcción!">Boletín 3</a>
+            <a href="Pro-1-Boletin-4.md" summary="¡En construcción!">Boletín 4</a>
         </primary>
 
         <!--    Pro II    -->
         <secondary>
             <title>Programación II</title>
-            <a href="Pro2324.topic" summary="Próximamente...">Boletín 5</a>
             <a href="Pro2324.topic" summary="Próximamente...">Próximamente...</a>
         </secondary>
 

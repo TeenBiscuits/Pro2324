@@ -1,3 +1,3 @@
 # Boletín 3
 
-<emphasis>Próximamente...</emphasis>
+<warning>¡En construcción!</warning>

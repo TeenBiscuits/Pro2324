@@ -1,3 +1,3 @@
 # Introducción
 
-<emphasis>Próximamente...</emphasis>
+<warning>¡En construcción!</warning>

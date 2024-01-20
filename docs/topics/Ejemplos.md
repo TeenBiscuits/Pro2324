@@ -1,3 +1,3 @@
 # Ejemplos
 
-<emphasis>Próximamente...</emphasis>
+<note>Próximamente...</note>
