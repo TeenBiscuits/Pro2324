@@ -5,7 +5,7 @@
 <instance-profile id="pro" name="Programación"
                   start-page="Pro2324.topic">
 
-    <toc-element topic="Pro2324.topic"/>
+    <toc-element topic="Pro2324.topic" accepts-web-file-names="readme.html"/>
     <toc-element topic="Boletines.topic">
         <toc-element toc-title="Pro I">
             <toc-element topic="Pro-1-Boletin-1.md"/>
