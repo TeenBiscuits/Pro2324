@@ -22,10 +22,10 @@
     <toc-element topic="Teoria.topic">
         <toc-element topic="Teoria-Introduccion.md"/>
         <toc-element toc-title="Pro I">
-            <toc-element toc-title="Bloque 4"/>
             <toc-element topic="Bloque-1.md"/>
             <toc-element topic="Bloque-2.md"/>
             <toc-element topic="Bloque-3.md"/>
+            <toc-element topic="Bloque-4.md"/>
         </toc-element>
         <toc-element toc-title="Pro II">
             <toc-element toc-title="Bloque 5??"/>
