@@ -22,10 +22,11 @@
         <!--    Pro I    -->
         <primary>
             <title>Programación I</title>
-            <a href="Pro2324.topic" summary="Proximamente...">Bloque 1</a>
             <a href="Pro2324.topic" summary="Proximamente...">Bloque 2</a>
             <a href="Pro2324.topic" summary="Proximamente...">Bloque 3</a>
             <a href="Pro2324.topic" summary="Proximamente...">Bloque 4</a>
+            <!-- TODO -->
+            <a href="Bloque-1.md" summary="Resumen">Bloque 1 - Conceptos Básicos</a>
         </primary>
 
         <!--    Pro II    -->
