@@ -3,6 +3,6 @@ project(Boletin_4 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Examen_Grupo_3.1 Examen_Grupo_3.1.c)
-add_executable(Examen_Grupo_2.2_Ejercicio_1 Examen_Grupo_2.2_Ejercicio_1.c)
-add_executable(Examen_Grupo_2.2_Ejercicio_2 Examen_Grupo_2.2_Ejercicio_2.c)
+#add_executable(Examen_Grupo_3.1 Examen_Grupo_3.1.c)
+#add_executable(Examen_Grupo_2.2_Ejercicio_1 Examen_Grupo_2.2_Ejercicio_1.c)
+#add_executable(Examen_Grupo_2.2_Ejercicio_2 Examen_Grupo_2.2_Ejercicio_2.c)
