@@ -2,7 +2,7 @@ name: Construir documentación
 
 on:
   push:
-    branches: ["web-docs"]
+    branches: ["main"]
 
 permissions:
   id-token: write
