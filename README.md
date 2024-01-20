@@ -34,15 +34,15 @@ dicha licencia.
 
 ### Teoría
 
-| [![Bloque 1](https://progress-bar.dev/0/?title=Bloque%201&width=200&color=d2007b)](./docs/topics) | [![Bloque 2](https://progress-bar.dev/0/?title=Bloque%202&width=200&color=d2007b)](./docs/topics) |
-|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| [![Bloque 3](https://progress-bar.dev/0/?title=Bloque%203&width=200&color=d2007b)](./docs/topics) | [![Bloque 4](https://progress-bar.dev/0/?title=Bloque%204&width=200&color=d2007b)](./docs/topics) |
+| [![Bloque 1](https://progress-bar.dev/100/?title=Bloque%201&width=200&color=d2007b)](./docs/topics)  | [![Bloque 2](https://progress-bar.dev/0/?title=Bloque%202&width=200&color=d2007b)](./docs/topics)  |
+|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| [![Bloque 3](https://progress-bar.dev/0/?title=Bloque%203&width=200&color=d2007b)](./docs/topics)    | [![Bloque 4](https://progress-bar.dev/0/?title=Bloque%204&width=200&color=d2007b)](./docs/topics)  |
 
 ## Contribuciones
 
 > ¿Quieres aparecer ahí abajo? **¡Contribuye!**
 
-💻 Todas las contribuciones son bienvenidas. Lee la guía para contribuir en [CONTRIBUTING.md](./CONTRIBUTING.md)
+🛠️️ Todas las contribuciones son bienvenidas. Lee la guía para contribuir en [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ### Futuros/as ingenieros/as informáticos/as 😎😎😎😎
 
