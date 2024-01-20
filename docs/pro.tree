@@ -36,4 +36,6 @@
     <toc-element topic="Tutoriales.md"/>
     <toc-element topic="Ejemplos.md"/>
     <toc-element topic="Extras.md"/>
+    <toc-element toc-title="GitHub"
+                 href="https://github.com/TeenBiscuits/Pro2324"/>
 </instance-profile>

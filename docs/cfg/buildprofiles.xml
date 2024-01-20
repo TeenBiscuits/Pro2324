@@ -5,7 +5,7 @@
     <variables>
         <primary-color>blueberry</primary-color>
         <product-web-url>https://github.com/TeenBiscuits/Pro2324</product-web-url>
-        <download-title>GitHub Repo ¿⭐?</download-title>
+        <download-title>Repositorio en GitHub</download-title>
         <download-page>https://github.com/TeenBiscuits/Pro2324</download-page>
         <showDownloadButton>true</showDownloadButton>
     </variables>
@@ -15,6 +15,9 @@
         </variables>
     </build-profile>
     <footer>
-        <link href="https://github.com/TeenBiscuits/Pro2324">GitHub Repo (Danos una ⭐)</link>
+        <link href="https://github.com/TeenBiscuits/Pro2324">GitHub (Danos una ⭐)</link>
+        <link href="https://creativecommons.org/licenses/by-nc/4.0/">Licencia Documentación</link>
+        <link href="https://www.gnu.org/licenses/gpl-3.0.en.html#license-text">Licencia Código</link>
+        <copyright>2024 Pablo Portas López</copyright>
     </footer>
 </buildprofiles>
