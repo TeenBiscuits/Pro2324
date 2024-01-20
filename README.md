@@ -11,7 +11,7 @@
 ![Build](https://github.com/TeenBiscuits/Pro2324/actions/workflows/deploy.yml/badge.svg)
 [![Web](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fteenbiscuits.github.io%2FPro2324%2Fpro2324.html)](https://teenbiscuits.github.io/Pro2324/pro2324.html)
 
-**Apuntes y Código** en C para la asignatura de Programación I/II 2023/24 de GEI da UDC. 💻🎓
+**Ejercicios Resueltos y Apuntes** para la asignatura de Programación I/II 2023/24 de GEI da UDC. 💻🎓
 
 📖 Los apuntes y el código de este repositorio es publicado en esta
 web. [Enlace](https://teenbiscuits.github.io/Pro2324/pro2324.html)
