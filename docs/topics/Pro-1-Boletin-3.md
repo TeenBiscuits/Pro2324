@@ -1,3 +1,3 @@
 # Boletín 3
 
-Start typing here...
+<emphasis>Próximamente...</emphasis>
