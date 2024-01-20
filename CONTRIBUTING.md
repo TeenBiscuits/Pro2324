@@ -27,7 +27,8 @@ Tampoco se añadirá código que no sea de creación propia o que fuera consegui
 #### Código
 
 **Todo el código está en la carpeta** ``./src`` **y una copia solo de los archivos** ``*.c`` **en el directorio de la
-documentación** ``./docs/code``
+documentación** ``./docs/code`` Esto es temporal pero es lo mejor que se puede hacer ahora para que la documentación
+funcione.
 
 Para este proyecto se utiliza la revisión de lenguaje C, **C99** (ISO/IEC 9899:1999). El proyecto ha sido estructurado
 como un proyecto para el IDE **CLion** by JetBrains (R).
@@ -43,8 +44,6 @@ la documentación.
 
 Por norma general en cada boletín solo se empleará lo aprendido en teoría hasta ese bloque, así los ejercicios valdrán
 para quién todavía esté empezando.
-
-Cada autor tiene una *branch* de este repositorio, que son fusionadas con ``main`` cada poco.
 
 A la hora de compilar los ejecutables puede utilizarse cualquier compilador, pero es recomendable, en Windows,
 utilizar [Cywing](https://www.cygwin.com) (Para el correcto de display de tíldes y otros caracteres especiales).

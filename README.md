@@ -15,7 +15,9 @@
 
 </div>
 
-📝 **Ejercicios Resueltos** 📝 y 📚 **Apuntes** 📚 para las asignaturas de 💻 **Programación I y II** 💻 del 🎓 _Grao en Enxeñaría Informática_ de la  _Universidade Da Coruña_ 🎓 en el curso 📅2023/24📅.
+<div align="center">
+<b>Ejercicios Resueltos</b> 📝 y <b>Apuntes</b> 📚 para las asignaturas de <b>Programación I y II</b> del <i>Grao en Enxeñaría Informática</i> de la <i>Universidade Da Coruña</i> en el curso 2023/24. 💻🎓
+</div>
 
 📖 Los apuntes y el código de este repositorio están publicados en [esta
 web](https://teenbiscuits.github.io/Pro2324/pro2324.html).
@@ -31,8 +33,9 @@ web](https://teenbiscuits.github.io/Pro2324/pro2324.html).
 <div align="center">
 
 | [![Boletín 1](https://progress-bar.dev/100/?title=Boletín%201&width=200&color=d2007b)](./src/Boletin_1) | [![Boletín 2](https://progress-bar.dev/100/?title=Boletín%202&width=200&color=d2007b)](./src/Boletin_2) |
-| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [![Boletín 3](https://progress-bar.dev/66/?title=Boletín%203&width=200&color=d2007b)](./src/Boletin_3)  | [![Boletín 4](https://progress-bar.dev/27/?title=Boletín%204&width=200&color=d2007b)](./src/Boletin_4)  |
+| [![Boletín 5](https://progress-bar.dev/0/?title=Boletín%205&width=200&color=d2007b)](./src/Boletin_5)   | [![Boletín 3](https://progress-bar.dev/0/?title=Boletín%206&width=200&color=d2007b)](./src/Boletin_6)   |
 | [![Exámenes](https://img.shields.io/badge/Exámenes-2-grey?labelColor=d2007b)](./src/Examenes)           | [![Extras](https://img.shields.io/badge/Extras-6-grey?labelColor=d2007b)](./src/Extras)                 |
 | [![Prácticas](https://img.shields.io/badge/Prácticas-0-grey?labelColor=d2007b)](./src/Practicas)        |                                                                                                         |
 
@@ -42,9 +45,10 @@ web](https://teenbiscuits.github.io/Pro2324/pro2324.html).
 
 <div align="center">
 
-| [![Bloque 1](https://progress-bar.dev/100/?title=Bloque%201&width=200&color=d2007b)](./docs/topics) | [![Bloque 2](https://progress-bar.dev/0/?title=Bloque%202&width=200&color=d2007b)](./docs/topics) |
-| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| [![Bloque 3](https://progress-bar.dev/0/?title=Bloque%203&width=200&color=d2007b)](./docs/topics)   | [![Bloque 4](https://progress-bar.dev/0/?title=Bloque%204&width=200&color=d2007b)](./docs/topics) |
+| [![Bloque 1](https://progress-bar.dev/100/?title=Bloque%201&width=200&color=d2007b)](./docs/topics) | [![Bloque 2](https://progress-bar.dev/100/?title=Bloque%202&width=200&color=d2007b)](./docs/topics) |
+|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| [![Bloque 3](https://progress-bar.dev/100/?title=Bloque%203&width=200&color=d2007b)](./docs/topics) | [![Bloque 4](https://progress-bar.dev/100/?title=Bloque%204&width=200&color=d2007b)](./docs/topics) |
+| [![Bloque 5](https://progress-bar.dev/0/?title=Bloque%205&width=200&color=d2007b)](./docs/topics) | [![Bloque 6](https://progress-bar.dev/0/?title=Bloque%206&width=200&color=d2007b)](./docs/topics) |
 
 </div>
 
