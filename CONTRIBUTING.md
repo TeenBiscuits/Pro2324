@@ -54,7 +54,7 @@ utilizar [Cywing](https://www.cygwin.com) (Para el correcto de display de tílde
 
 #### Documentación
 
-La documentación del proyecto ha sido estructurada como un proyecto para el IDE **Writeside** by JetBrains (R).
+La documentación del proyecto ha sido estructurada como un proyecto para el IDE **Writerside** by JetBrains (R).
 
 La documentación se separa en dos partes claramente diferenciadas. Código y Teoría.
 

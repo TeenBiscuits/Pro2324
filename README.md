@@ -4,7 +4,7 @@
 [![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC_BY--ND_4.0-lightgrey.svg)](./docs/LICENSE)
 [![C](https://img.shields.io/badge/C99-%2300599C.svg?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C99)
 [![CLion](https://img.shields.io/badge/CLion-black.svg?logo=clion&logoColor=white)](https://www.jetbrains.com/es-es/clion/)
-[![CLion](https://img.shields.io/badge/Writeside-purple.svg?logo=jetbrains&logoColor=white)](https://www.jetbrains.com/es-es/writerside/)
+[![Writerside](https://img.shields.io/badge/Writerside-purple.svg?logo=jetbrains&logoColor=white)](https://www.jetbrains.com/es-es/writerside/)
 [![Git](https://img.shields.io/badge/GIT-E44C30?logo=git&logoColor=white)](https://en.wikipedia.org/wiki/Git)
 [![Stars](https://img.shields.io/github/stars/TeenBiscuits/Pro2324.svg)](https://github.com/TeenBiscuits/Pro2324)
 [![Pull Request](https://img.shields.io/github/issues-pr-closed/TeenBiscuits/Pro2324.svg)](https://github.com/TeenBiscuits/Pro2324/pulls)
@@ -19,6 +19,8 @@ web. [Enlace](https://teenbiscuits.github.io/Pro2324/pro2324.html)
 🕊️ Bajo la licencia **GNU GPLv3** el código de este proyecto es libre de compartir y módificar siempre amparado bajo los
 términos de
 dicha licencia.
+
+> Este repositorio está bajo desarrollo activo, se esperan cambios y se aceptan contribuciones. 🤗
 
 ## Objetivos / To-Do List
 
