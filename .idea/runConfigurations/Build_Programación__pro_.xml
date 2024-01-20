@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Build Programación (pro)" type="StardustRunConfiguration" factoryName="save-as-zip">
+    <option name="folderPath" value="$PROJECT_DIR$/.idea/artifacts" />
+    <option name="instanceId" value="pro" />
+    <option name="instanceName" value="Programación" />
+    <method v="2" />
+  </configuration>
+</component>
