@@ -20,28 +20,28 @@
     <section-starting-page>
         <title>Pro2324</title>
         <description>
-            Ejercicios Resueltos 📝 y Apuntes 📚 para las asignaturas de Programación I y II del Grao en Enxeñaría Informática de la Universidade Da Coruña en el curso 2023/24. 💻🎓
+            Ejercicios Resueltos 📝 y Apuntes 📚 para las asignaturas de Programación I y II del Grao en Enxeñaría Informática de la Universidade da Coruña en el curso 2023/24. 💻🎓
         </description>
 
 
         <spotlight>
-            <a href="Boletines.topic" type="documents" summary="Ejercicios resueltos de los boletines">Boletines</a>
-            <a href="Teoria.topic" type="learn" summary="Material de estudio del lenguaje de programación C">Apuntes - Teoría</a>
+            <a href="Boletines.topic" type="documents" summary="Ejercicios resueltos de los boletines.">Boletines</a>
+            <a href="Teoria.topic" type="learn" summary="Material de estudio del lenguaje de programación C.">Apuntes - Teoría</a>
         </spotlight>
 
 
         <primary>
             <title>Otras cosas interesantes</title>
-            <a href="Ejemplos.md" type="cross-check" summary="Ejemplos sencillos y no tan sencillos, algunos sacados de clases de prácticas">Ejemplos</a>
-            <a href="Examenes.md" type="academy" summary="Exámenes antiguos resueltos">Exámenes</a>
-            <a href="Tutoriales.md" type="keyboard" summary="Lo difícil hecho fácil">Tutoriales</a>
+            <a href="Ejemplos.md" type="cross-check" summary="Ejemplos sencillos y no tan sencillos, algunos sacados de clases de prácticas.">Ejemplos</a>
+            <a href="Examenes.md" type="academy" summary="Exámenes antiguos resueltos.">Exámenes</a>
+            <a href="Tutoriales.topic" type="keyboard" summary="Lo difícil hecho fácil.">Tutoriales</a>
         </primary>
 
         <!--    Add several topics that are less important or are relevant only for advanced/experienced users.    -->
         <secondary>
             <title>Para estudiantes más avanzados</title>
-            <a href="Extras.md" type="mixed" summary="Algunos prográmas extras interesantes">Extras</a>
-            <a href="https://github.com/TeenBiscuits/Pro2324" type="open-source" summary="Este proyecto es Open Source, el código es libre y todos pueden verlo y editarlo. Ayúdanos aportando tu granito de arena o simplemente danos una estrellita. ⭐">Colabora</a>
+            <a href="Extras.md" type="mixed" summary="Algunos prográmas extras interesantes.">Extras</a>
+            <a href="https://github.com/TeenBiscuits/Pro2324" type="open-source" summary="Este proyecto es Open Source, el código es libre y todo el mundo puede verlo y editarlo. Ayúdanos aportando tu granito de arena o simplemente danos una estrellita. ⭐">Colabora</a>
         </secondary>
 
         <!-- UNCOMMENT Cuando tengamos artículos que destacar.

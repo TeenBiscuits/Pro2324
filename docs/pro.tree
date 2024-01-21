@@ -34,10 +34,13 @@
     </toc-element>
     <toc-element topic="Examenes.md">
     </toc-element>
-    <toc-element topic="Tutoriales.md"/>
+    <toc-element topic="Tutoriales.topic">
+        <toc-element topic="Compilador.md"/>
+    </toc-element>
     <toc-element topic="Ejemplos.md"/>
     <toc-element topic="Extras.md"/>
     <toc-element toc-title="GitHub"
                  href="https://github.com/TeenBiscuits/Pro2324"/>
+    <toc-element topic="Agradecimientos.md" hidden="true"/>
     <toc-element topic="Para-Colaboradores.md" hidden="true"/>
 </instance-profile>

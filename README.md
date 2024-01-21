@@ -23,13 +23,13 @@
 
 <div align="center">
 <br/>
-<b>Ejercicios Resueltos</b> 📝 y <b>Apuntes</b> 📚 para las asignaturas de <b>Programación I y II</b> del <i>Grao en Enxeñaría Informática</i> de la <i>Universidade Da Coruña</i> en el curso 2023/24. 💻🎓
+<b>Ejercicios Resueltos</b> 📝 y <b>Apuntes</b> 📚 para las asignaturas de <b>Programación I y II</b> del <i>Grao en Enxeñaría Informática</i> de la <i>Universidade da Coruña</i> en el curso 2023/24. 💻🎓
 <br/>
 </div>
 
 <div align="right">
 <br/>
-📖 Los apuntes y el código de este repositorio están publicados en <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html">esta web</a>.
+Los apuntes y el código de este repositorio están publicados en <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html">esta web</a>. 📖
 <br/>
 </div>
 
@@ -39,7 +39,13 @@
 <br/>
 </div>
 
+<div>
+<br/>
+
 > Este repositorio está bajo desarrollo activo, se esperan cambios y se aceptan contribuciones. 🤗
+
+<br/>
+</div>
 
 ## Objetivos / To-Do List
 
@@ -77,7 +83,7 @@
   <img src="https://contrib.rocks/image?repo=TeenBiscuits/Pro2324" width="100%"/>
 </a>
 
-<br>
+<br/>
 
 > ¿Quieres aparecer ahí arriba? **¡Contribuye!**
 
