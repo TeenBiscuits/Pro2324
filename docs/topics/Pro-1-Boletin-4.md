@@ -2,6 +2,13 @@
 
 <tldr>Arrays, registros y cadenas de caracteres.</tldr>
 
+<!-- TODO FALTAN EJERCICIOS 29 - 31, 33 - 36 -->
+<warning>
+<b><b>¡Se necesita tu ayuda!</b></b>
+
+Faltan soluciones para los ejercicios del 5 al 8, del 11 al 14, del 16 al 19, del 21 al 23, del 26 al 28 y del 30 al 40. [Colabora](https://github.com/TeenBiscuits/Pro2324)
+</warning>
+
 ### Ejercicio 1
 
 Plantee e implemente un programa en lenguaje C, que utilizando exclusivamente subprogramas, solicite números enteros por
@@ -35,7 +42,7 @@ horas estudiando) y más vago (menor número de horas estudiando).
 
 <!-- TODO FALTAN EJERCICIOS 5 - 8 -->
 <warning>
-¡Se necesita ayuda!
+<b>¡Se necesita tu ayuda!</b>
 
 Faltan soluciones para los ejercicios del 5 al 8. [Colabora](https://github.com/TeenBiscuits/Pro2324)
 </warning>
@@ -58,7 +65,7 @@ devuelva una array ordenado con los elementos de los dos anteriores.
 
 <!-- TODO FALTAN EJERCICIOS 11 - 14 -->
 <warning>
-¡Se necesita ayuda!
+<b>¡Se necesita tu ayuda!</b>
 
 Faltan soluciones para los ejercicios del 11 al 14. [Colabora](https://github.com/TeenBiscuits/Pro2324)
 </warning>
@@ -73,7 +80,7 @@ mismo considerando como tipo base de la matriz números enteros.
 
 <!-- TODO FALTAN EJERCICIOS 16 - 19 -->
 <warning>
-¡Se necesita ayuda!
+<b>¡Se necesita tu ayuda!</b>
 
 Faltan soluciones para los ejercicios del 16 al 19. [Colabora](https://github.com/TeenBiscuits/Pro2324)
 </warning>
@@ -88,7 +95,7 @@ calificación. Además muestre a continuación el listado con el nombre y nota d
 
 <!-- TODO FALTAN EJERCICIOS 21 - 23 -->
 <warning>
-¡Se necesita ayuda!
+<b>¡Se necesita tu ayuda!</b>
 
 Faltan soluciones para los ejercicios del 21 al 23. [Colabora](https://github.com/TeenBiscuits/Pro2324)
 </warning>
@@ -111,7 +118,7 @@ línea), y determine la frecuencia de aparición de cada vocal respecto al total
 
 <!-- TODO FALTAN EJERCICIOS 26 - 28 -->
 <warning>
-¡Se necesita ayuda!
+<b>¡Se necesita tu ayuda!</b>
 
 Faltan soluciones para los ejercicios del 26 al 28. [Colabora](https://github.com/TeenBiscuits/Pro2324)
 </warning>
@@ -124,7 +131,7 @@ Diseñe una función que devuelva al revés la cadena recibida como parámetro.
 
 <!-- TODO FALTAN EJERCICIOS 30 - 40 -->
 <warning>
-¡Se necesita ayuda!
+<b>¡Se necesita tu ayuda!</b>
 
 Faltan soluciones para los ejercicios del 30 al 40. [Colabora](https://github.com/TeenBiscuits/Pro2324)
 </warning>

@@ -1,6 +1,6 @@
 # Boletín 2
 
-<warning><b>¡En construcción!</b></warning>
+<!-- VERSIÓN SIN ENUNCIADOS -->
 
 <tldr>Bucles (while / do while / for) y condicionales (if / else / switch)</tldr>
 

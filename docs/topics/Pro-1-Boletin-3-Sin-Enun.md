@@ -1,6 +1,6 @@
 # Boletín 3
 
-<warning><b>¡En construcción!</b></warning>
+<!-- VERSIÓN SIN ENUNCIADOS -->
 
 <tldr>Funciones, recursividad y retorno de datos.</tldr>
 
