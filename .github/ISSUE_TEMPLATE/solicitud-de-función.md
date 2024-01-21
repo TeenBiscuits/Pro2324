@@ -1,9 +1,9 @@
 ---
-name: Solicitud de función
+name: 💡 Solicitud de función
 about: Sugiere una idea para este proyecto.
 title: "[FEATURE REQUEST]"
-labels: enhancement
-assignees: ''
+labels: mejora
+assignees: 'TeenBiscuits'
 
 ---
 

@@ -1,9 +1,9 @@
 ---
-name: Informe de error/bug
+name: 🐛 Informe de error/bug
 about: Crea un informe para ayudarnos a mejorar
 title: "[BUG]"
 labels: bug, good first issue
-assignees: ''
+assignees: 'TeenBiscuits'
 
 ---
 
