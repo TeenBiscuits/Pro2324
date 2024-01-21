@@ -341,7 +341,78 @@ Indicando que el programa se ejecutó correctamente.
 
 <emphasis>Guía de configuración para CLion en los equipos de la FIC</emphasis>
 
-<warning><b>¡En construcción!</b></warning>
+<note>Esta guía está orientada a alumnos/as de la Facultade de Informática da Coruña <b>FIC</b>.</note>
 
+<procedure>
+<step>
+
+**Usar CLion en las máquinas de la FIC desde los laboratorios wifi**
+
+Para usar las máquinas del laboratorio desde un ordenador basta con conectarse a ellas a través de VDI. Los pasos de
+cómo instalar y configurar el entorno están en el siguiente
+enlace: [](https://axudatic.udc.gal/display/SIC/Escritorio+virtual+VDI#expand-Manuaiseguas)
+
+Una vez se tenga instalado el VDI basta con introducir las credenciales de conexión.
+
+![VDIConfig01.png](VDIConfig01.png)
+
+A continuación, se selecciona la imagen de la FIC para poder acceder a la versión del sistema operativo
+instalado en los laboratorios.
+
+![VDIConfig02.png](VDIConfig02.png)
+
+</step>
+<step>
+
+**Usar CLion en las máquinas de la FIC**
+
+En los ordenadores de los laboratorios está instalado CLion, con lo que se puede buscar en el menú para ejecutarlo.
+
+![VDIConfig03.png](VDIConfig03.png)
+
+Al usarlo por primera vez se solicitará el tipo de activación. Se deja marcada la opción “Activate” para usar una
+licencia y el tipo de licencia a usar es con una cuenta de JetBrains (opción “JetBrains account”). Se introducen el
+correo y la contraseña de la cuenta de JetBrains creada y se pulsa el botón Activate.
+
+![VDIConfig04.png](VDIConfig04.png){thumbnail="true"}
+
+Si los datos introducidos son los correctos CLion se iniciará
+
+![VDIConfig05.png](VDIConfig05.png)
+
+Una vez se cargue CLion se puede empezar a usar. Para comprobar que se ejecuta correctamente se puede ejecutar un
+programa. Para ello es necesario pulsar la opción de _“+ New Project”_.
+
+![VDIConfig06.png](VDIConfig06.png)
+
+En las opciones de nuevo proyecto es necesario indicar que se usará una ejecutable de C (opción
+_“C Executable”_ en el menú izquierdo).
+
+NOTA: El nombre de la carpeta donde se guarde el proyecto es el nombre que CLion usará para el proyecto creado.
+
+![VDIConfig07.png](VDIConfig07.png){thumbnail="true"}
+
+Si al arrancar aparece el mensaje de _“Environment (MinGW/Cygwin/Visual Studio/WSL is not selected Configure”_ es que el
+entorno de C no está configurado, para configurarlo es necesario pulsar en el enlace Configure.
+
+![VDIConfig08.png](VDIConfig08.png){thumbnail="true"}
+
+Como las máquinas de la FIC tienen el entorno instalado solo es necesario esperar a que CLion lo encuentre.
+
+![VDIConfig09.png](VDIConfig09.png){thumbnail="true"}
+
+Una vez que CLion encuentre el entorno todas las opciones tendrán cargada la configuración correcta y se puede pulsar el
+botón de OK.
+
+![VDIConfig10.png](VDIConfig10.png){thumbnail="true"}
+
+Para comprobar que el entorno funciona correctamente basta con compilar y ejecutar el programa que ha creado por
+defecto. Para ello se pulsa el botón de _play_ que aparece en la parte superior derecha he imprimirá en la parte
+inferior ``Hello, World!``.
+
+![VDIConfig11.png](VDIConfig11.png){thumbnail="true"}
+
+</step>
+</procedure>
 </tab>
 </tabs>
