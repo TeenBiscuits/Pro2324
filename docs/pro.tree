@@ -39,4 +39,5 @@
     <toc-element topic="Extras.md"/>
     <toc-element toc-title="GitHub"
                  href="https://github.com/TeenBiscuits/Pro2324"/>
+    <toc-element topic="Para-Colaboradores.md" hidden="true"/>
 </instance-profile>

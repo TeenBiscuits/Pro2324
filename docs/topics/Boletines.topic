@@ -18,7 +18,7 @@
             <a href="Pro-1-Boletin-1.md" type="check-list"
                summary="Entra y Salida. printf, scanf, gets, define y operaciones artiméticas básicas.">Boletín 1</a>
             <!--<a href="Pro-1-Boletin-3.md" type="documents" summary="¡En construcción!">Boletín 3</a>-->
-            <a href="Pro-1-Boletin-4.md" type="data" summary="¡En construcción!">Boletín 4</a>
+            <a href="Pro-1-Boletin-4.md" type="data" summary="Arrays, registros y cadenas de caracteres.">Boletín 4</a>
         </spotlight>
 
         <!--    Pro I    -->
@@ -28,7 +28,7 @@
                summary="Entra y Salida. printf, scanf, gets, define y operaciones artiméticas básicas.">Boletín 1</a>
             <a href="Pro-1-Boletin-2.md" type="branch" summary="¡En construcción!">Boletín 2</a>
             <a href="Pro-1-Boletin-3.md" type="development" summary="¡En construcción!">Boletín 3</a>
-            <a href="Pro-1-Boletin-4.md" type="data" summary="¡En construcción!">Boletín 4</a>
+            <a href="Pro-1-Boletin-4.md" type="data" summary="Arrays, registros y cadenas de caracteres.">Boletín 4</a>
         </primary>
 
         <!--    Pro II    -->

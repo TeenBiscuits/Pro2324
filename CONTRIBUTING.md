@@ -63,3 +63,6 @@ Tutoriales y Extras.
 La teoría se basa en trabajos previos readaptados a este nuevo formato. Cualquier añadido es bienvenido, siempre que
 mejore la calidad educativa y la sencillez de las explicaciones. Más no es siempre mejor. La teoría se añade a secciones
 como: Apuntes - Teoría, Ejemplos y Tutoriales.
+
+Para facilitar las contribuciones hay una página oculta llamada ``Para Colaboradores`` con algunas estructuras
+reutilizables.
