@@ -2,6 +2,4 @@
 
 <warning>¡En construcción!</warning>
 
-<!--
-<tldr>Bucles (while / do while / for) y Condicionales (if / else / switch)</tldr>
--->
+<tldr>Bucles (while / do while / for) y condicionales (if / else / switch)</tldr>

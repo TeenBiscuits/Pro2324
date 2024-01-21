@@ -2,9 +2,7 @@
 
 <warning>¡En construcción!</warning>
 
-<!--
 <tldr>Funciones, recursividad y retorno de datos.</tldr>
--->
 
 <!-- TODO FALTAN EJERCICIOS 29 - 31 -->
 <warning>
