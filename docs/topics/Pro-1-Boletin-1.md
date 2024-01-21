@@ -1,5 +1,7 @@
 # Boletín 1
 
+<!-- VERSIÓN CON ENUNCIADOS -->
+
 <tldr>Entra y Salida. printf, scanf, gets, define y operaciones artiméticas básicas.</tldr>
 
 ### Ejercicio 1

@@ -1,5 +1,7 @@
 # Boletín 4
 
+<!-- VERSIÓN CON ENUNCIADOS -->
+
 <tldr>Arrays, registros y cadenas de caracteres.</tldr>
 
 <!-- TODO FALTAN EJERCICIOS 29 - 31, 33 - 36 -->

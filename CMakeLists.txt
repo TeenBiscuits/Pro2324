@@ -13,8 +13,8 @@ add_subdirectory(./src/Boletin_2)
 add_subdirectory(./src/Boletin_3)
 # Boletín 4
 add_subdirectory(./src/Boletin_4)
-# Prácticas
-add_subdirectory(./src/Practicas)
+# Ejemplos (Antiguamente Prácticas)
+add_subdirectory(./src/Ejemplos)
 # Extras
 add_subdirectory(./src/Extras)
 # Examenes

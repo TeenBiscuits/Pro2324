@@ -12,5 +12,7 @@ Supongo que ya lo has hecho, pero recuerda leer [la guía de contribución](http
 </warning>
 
 <tip>
-<b>En construcción...</b>
+<b>En construcción...</b> 
+<!-- No voy a mentir, esto es lo último que tengo 
+            como prioridad por acabar          -->
 </tip>

@@ -58,18 +58,22 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 | [![Boletín 3](https://progress-bar.dev/66/?title=Boletín%203&width=200&color=d2007b)](./src/Boletin_3)  | [![Boletín 4](https://progress-bar.dev/27/?title=Boletín%204&width=200&color=d2007b)](./src/Boletin_4)  |
 | [![Boletín 5](https://progress-bar.dev/0/?title=Boletín%205&width=200&color=d2007b)](./src/Boletin_5)   | [![Boletín 3](https://progress-bar.dev/0/?title=Boletín%206&width=200&color=d2007b)](./src/Boletin_6)   |
 | [![Exámenes](https://img.shields.io/badge/Exámenes-0-grey?labelColor=d2007b)](./src/Examenes)           | [![Extras](https://img.shields.io/badge/Extras-6-grey?labelColor=d2007b)](./src/Extras)                 |
-| [![Prácticas](https://img.shields.io/badge/Prácticas-0-grey?labelColor=d2007b)](./src/Practicas)        |                                                                                                         |
+| [![Ejemplos](https://img.shields.io/badge/Ejemplos-0-grey?labelColor=d2007b)](./src/Ejemplos)          |                                                                                                         |
 
 </div>
+
+- [ ] 
 
 ### Teoría
 
 <div align="center">
 
-| [![Bloque 1](https://progress-bar.dev/100/?title=Bloque%201&width=200&color=d2007b)](./docs/topics) | [![Bloque 2](https://progress-bar.dev/100/?title=Bloque%202&width=200&color=d2007b)](./docs/topics) |
-|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| [![Bloque 3](https://progress-bar.dev/100/?title=Bloque%203&width=200&color=d2007b)](./docs/topics) | [![Bloque 4](https://progress-bar.dev/100/?title=Bloque%204&width=200&color=d2007b)](./docs/topics) |
-| [![Bloque 5](https://progress-bar.dev/0/?title=Bloque%205&width=200&color=d2007b)](./docs/topics)   | [![Bloque 6](https://progress-bar.dev/0/?title=Bloque%206&width=200&color=d2007b)](./docs/topics)   |
+| [![Bloque 1](https://progress-bar.dev/100/?title=Bloque%201&width=200&color=d2007b)](https://teenbiscuits.github.io/Pro2324/bloque-1.html) | [![Bloque 2](https://progress-bar.dev/100/?title=Bloque%202&width=200&color=d2007b)](https://teenbiscuits.github.io/Pro2324/bloque-2.html) |
+|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| [![Bloque 3](https://progress-bar.dev/100/?title=Bloque%203&width=200&color=d2007b)](https://teenbiscuits.github.io/Pro2324/bloque-3.html) | [![Bloque 4](https://progress-bar.dev/100/?title=Bloque%204&width=200&color=d2007b)](https://teenbiscuits.github.io/Pro2324/bloque-1.html) |
+| [![Bloque 5](https://progress-bar.dev/0/?title=Bloque%205&width=200&color=d2007b)](https://teenbiscuits.github.io/Pro2324/bloque-5.html)   | [![Bloque 6](https://progress-bar.dev/0/?title=Bloque%206&width=200&color=d2007b)](https://teenbiscuits.github.io/Pro2324/bloque-6.html)   |
+| [![Exámenes](https://img.shields.io/badge/Exámenes-0-grey?labelColor=d2007b)](https://teenbiscuits.github.io/Pro2324/examenes.html)        | [![Tutoriales](https://img.shields.io/badge/Tutoriales-1-grey?labelColor=d2007b)](https://teenbiscuits.github.io/Pro2324/tutoriales.html)  |
+| [![Ejemplos](https://img.shields.io/badge/Ejemplos-0-grey?labelColor=d2007b)](https://teenbiscuits.github.io/Pro2324/ejemplos.html)                                              | [![Extras](https://img.shields.io/badge/Extras-0-grey?labelColor=d2007b)](https://teenbiscuits.github.io/Pro2324/extras.html)                                                  |
 
 </div>
 

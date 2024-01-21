@@ -11,6 +11,7 @@
             Enunciados y soluciones a los boletines de ejercicios de Programación.
         </description>
 
+
         <!-- Aquí van lo boletines más importantes, hasta ahora el boletín 3 y el 4 son los más
         complicados por eso salen aquí -->
         <spotlight>
@@ -18,6 +19,7 @@
                 3</a>
             <a href="Pro-1-Boletin-4.md" type="data" summary="Arrays, registros y cadenas de caracteres.">Boletín 4</a>
         </spotlight>
+
 
         <!--    Pro I    -->
         <primary>
@@ -30,11 +32,14 @@
             <a href="Pro-1-Boletin-4.md" type="data" summary="Arrays, registros y cadenas de caracteres.">Boletín 4</a>
         </primary>
 
+
         <!--    Pro II    -->
         <secondary>
             <title>Programación II</title>
+            <!-- TODO Añadir los boletines de Programación II -->
             <a href="Pro2324.topic" type="lock" summary="Próximamente...">Próximamente...</a>
         </secondary>
+
 
     </section-starting-page>
 

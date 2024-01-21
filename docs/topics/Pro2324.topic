@@ -7,16 +7,6 @@
 
 <!-- Basado en la plantilla por defecto del Writeside -->
 
-<!--    A section combines multiple topics dedicated to a specific subject.
-            Add a starting page to provide an overview of the topics in the section.
-            Start with two topics you want to promote in the <spotlight> group,
-            several important topics in the <primary> group (for example, where to start),
-            several less important topics in the <secondary> group (for example, more advanced topics),
-            and optionally add any other relevant topics in the <misc> group as cards and lists of links
-            (maybe related topics from other sections).
-            Only the spotlight section is limited to two topics.
-            For other groups, try to keep the number between 2 and 6, but you can add more if necessary.-->
-
     <section-starting-page>
         <title>Pro2324</title>
         <description>
@@ -24,12 +14,14 @@
         </description>
 
 
+        <!-- Secciones principales de la web -->
         <spotlight>
             <a href="Boletines.topic" type="documents" summary="Ejercicios resueltos de los boletines.">Boletines</a>
             <a href="Teoria.topic" type="learn" summary="Material de estudio del lenguaje de programación C.">Apuntes</a>
         </spotlight>
 
 
+        <!-- El resto de secciones -->
         <primary>
             <title>Otras cosas interesantes</title>
             <!-- <a href="Ejemplos.md" type="cross-check" summary="Ejemplos sencillos y no tan sencillos, algunos sacados de clases de prácticas.">Ejemplos</a> -->
@@ -41,12 +33,14 @@
             <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html" type="lock" summary="Próximamente...">Próximamente...</a>
         </primary>
 
-        <!--    Add several topics that are less important or are relevant only for advanced/experienced users.    -->
+
+        <!-- Secciones para "advanced/experienced users." -->
         <secondary>
             <title>Para estudiantes más avanzados</title>
             <a href="Extras.md" type="mixed" summary="Algunos prográmas extras interesantes.">Extras</a>
             <a href="https://github.com/TeenBiscuits/Pro2324" type="open-source" summary="Este proyecto es Open Source, el código es libre y todo el mundo puede verlo y editarlo. Ayúdanos aportando tu granito de arena o simplemente danos una estrellita. ⭐">Colabora</a>
         </secondary>
+
 
         <!-- UNCOMMENT Cuando tengamos artículos que destacar.
         <misc>
@@ -54,12 +48,10 @@
                 <title>Artículos relevantes</title>
                 <a href=""/>
                 <a href=""/>
-                <a href="" summary="With a custom card summary"/>
-                <a href="">Custom card title</a>
-                <a href="">Custom card title</a>
-                <a href="" summary="With a custom card summary">Custom card title</a>
             </cards>
         </misc>
         -->
+
+
     </section-starting-page>
 </topic>
