@@ -16,13 +16,22 @@
 </div>
 
 <div align="center">
+<br/>
 <b>Ejercicios Resueltos</b> 📝 y <b>Apuntes</b> 📚 para las asignaturas de <b>Programación I y II</b> del <i>Grao en Enxeñaría Informática</i> de la <i>Universidade Da Coruña</i> en el curso 2023/24. 💻🎓
+<br/>
 </div>
 
-📖 Los apuntes y el código de este repositorio están publicados en [esta
-web](https://teenbiscuits.github.io/Pro2324/pro2324.html).
+<div align="right">
+<br/>
+📖 Los apuntes y el código de este repositorio están publicados en <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html">esta web</a>.
+<br/>
+</div>
 
-🕊️ Bajo la licencia **GNU GPLv3**, el código de este proyecto es libre de ser compartido y modificado, siempre amparado bajo los términos de dicha [licencia](LICENSE.md).
+<div align="left">
+<br/>
+🕊️ Bajo la licencia <b>GNU GPLv3</b>, el código de este proyecto es libre de ser compartido y modificado, siempre amparado bajo los términos de dicha <a href="./LICENSE">licencia</a>.
+<br/>
+</div>
 
 > Este repositorio está bajo desarrollo activo, se esperan cambios y se aceptan contribuciones. 🤗
 
