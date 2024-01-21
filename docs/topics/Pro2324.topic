@@ -37,7 +37,8 @@
         <!-- Secciones para "advanced/experienced users." -->
         <secondary>
             <title>Para estudiantes más avanzados</title>
-            <a href="Extras.md" type="mixed" summary="Algunos prográmas extras interesantes.">Extras</a>
+            <!-- <a href="Extras.md" type="mixed" summary="Algunos prográmas extras interesantes.">Extras</a> -->
+            <a href="Extras.md" type="lock" summary="¡En construcción!">Extras</a>
             <a href="https://github.com/TeenBiscuits/Pro2324" type="open-source" summary="Este proyecto es Open Source, el código es libre y todo el mundo puede verlo y editarlo. Ayúdanos aportando tu granito de arena o simplemente danos una estrellita. ⭐">Colabora</a>
         </secondary>
 
