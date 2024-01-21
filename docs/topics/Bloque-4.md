@@ -2,6 +2,8 @@
 
 # Bloque 4 - Estructuras de Datos
 
+<tldr>Arrays, registros, cadenas de caracteres y algoritmos de búsqueda y ordenación.</tldr>
+
 ## Tipos Estructurados
 
 Las estructuras de datos pueden ser:
@@ -23,7 +25,8 @@ Las estructuras de datos pueden ser:
 #### Sobre los arreglos
 
 Un arreglo o "**array**" es un tipo de datos estructurado que está formado por un número **finito** de elementos todos
-del **mismo tipo** que están situados en **posiciones consecutivas** en memoria y que se asocian con un **único identificador**.
+del **mismo tipo** que están situados en **posiciones consecutivas** en memoria y que se asocian con un **único
+identificador**.
 
 - Todos los elementos comparten un tipo común: el tipo base del array.
 - La posición que cada elemento ocupa en el grupo de datos se indica mediante el tipo índice.
@@ -75,16 +78,19 @@ En una inicialización en declaración, la longitud de la matriz se puede omitir
 int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 ```
 
-A menudo solo unos pocos elementos de una matriz deben inicializarse explícitamente, los otros elementos pueden tener valores por defecto.
+A menudo solo unos pocos elementos de una matriz deben inicializarse explícitamente, los otros elementos pueden tener
+valores por defecto.
 
 ```c
 int a[15] ={0, 0, 29, 0, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 48};
 ```
+
 En el compilador `C99` se pueden usar la definición siguiente:
 
 ```c
 int a[15] = { [2]=29, [9]=7, [14]=48 };
 ```
+
 Los restantes se inicializan a cero.
 
 El orden de inicialización no se tiene en cuenta:
@@ -111,6 +117,7 @@ const int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 Un arreglo que se haya declarado constante no debe ser modificada por el programa.
 
 #### Indexación de arreglos
+
 Para acceder a un elemento del array, se escribe el nombre del array seguido de un valor entero entre corchetes.
 
 - Esto se conoce como subíndice o indexación del array.
@@ -118,16 +125,19 @@ Para acceder a un elemento del array, se escribe el nombre del array seguido de 
 - Los elementos de un array de longitud `n` se indexan de `0` a `n-1`.
 
 Los arrays son una estructura de **acceso aleatorio**, se
-caracterizan porque se puede acceder de forma **directa**, y con el **mismo esfuerzo**, a cada uno de sus elementos utilizando el nombre de la variable de tipo array seguida de un índice.
+caracterizan porque se puede acceder de forma **directa**, y con el **mismo esfuerzo**, a cada uno de sus elementos
+utilizando el nombre de la variable de tipo array seguida de un índice.
 
-El compilador de C no realiza la comprobación de los límites de los subíndices: si un subíndice se sale del rango, el comportamiento del programa no está definido.
+El compilador de C no realiza la comprobación de los límites de los subíndices: si un subíndice se sale del rango, el
+comportamiento del programa no está definido.
 
 #### Obtención del tamaño de un arreglo
 
 La función `sizeof()` permite determinar el tamaño de un array
 en _bytes_.
 
-> Si `a` es una matriz de 10 enteros, entonces `sizeof(a)` suele ser 40 (asumiendo que cada entero requiere cuatro _bytes_).
+> Si `a` es una matriz de 10 enteros, entonces `sizeof(a)` suele ser 40 (asumiendo que cada entero requiere cuatro
+_bytes_).
 
 Al dividir el tamaño de la matriz por el tamaño del elemento, se obtiene la longitud de la matriz:
 
@@ -145,7 +155,8 @@ int m[5][9];
 /* m tiene 5 filas y 9 columnas */
 ```
 
-C almacena las matrices como valores consecutivos en orden de fila mayor, esto es, con la fila 0 primero, luego la fila 1, y así sucesivamente.
+C almacena las matrices como valores consecutivos en orden de fila mayor, esto es, con la fila 0 primero, luego la fila
+1, y así sucesivamente.
 
 #### Arreglos en funciones
 
@@ -159,7 +170,7 @@ void funcion(int array[]) {
 
 C no proporciona ninguna forma fácil para que una función determine la longitud de un array que se le pase.
 
--  En su lugar, hay que proporcionar la longitud como un argumento.
+- En su lugar, hay que proporcionar la longitud como un argumento.
 
 ```c
 void funcion(int array[], int n) {
@@ -211,7 +222,8 @@ Se puede acceder a cualquier elemento de una cadena como un array.
 
 #### Escritura y lectura de cadenas de caracteres
 
-La escritura y lectura de cadenas se puede realizar con `printf()` y `scanf()`, usando el especificador de conversión: `%s`.
+La escritura y lectura de cadenas se puede realizar con `printf()` y `scanf()`, usando el especificador de
+conversión: `%s`.
 
 > `scanf()` deja de buscar cuando encuentra un espacio en blanco.
 >
@@ -238,7 +250,8 @@ C también tiene definidas funciones específicas de lectura y escritura de cara
 
 #### Sobre los registros
 
-Un registro, estructura o "**struct**" es un tipo de datos estructurado que está formado por un número finito de elementos que pueden ser de **distinto tipo** y que se asocian con un **único identificador**.
+Un registro, estructura o "**struct**" es un tipo de datos estructurado que está formado por un número finito de
+elementos que pueden ser de **distinto tipo** y que se asocian con un **único identificador**.
 
 Los distintos componentes de un struct denominan habitualmente "**campos**".
 
@@ -257,7 +270,6 @@ Para inicializar una estructura se siguen reglas similares a las de los arrays.
 
 - No se tienen que inicializar todos los campos.
 - Cualquier miembro sobrante recibe 0 como su valor inicial.
-
 
 ```c
 struct {
@@ -319,8 +331,8 @@ etiqueta_registro funcion(struct etiqueta_registro) {
 
 Se puede incluir una estructura como miembro de otra estructura.
 
-Para acceder a los miembros de la estructura interior se requieren dos aplicaciones del operador `.`: `registro1.registro2.miembro`.
-
+Para acceder a los miembros de la estructura interior se requieren dos aplicaciones del
+operador `.`: `registro1.registro2.miembro`.
 
 ## Algoritmos de Búsqueda y Ordenación
 
@@ -328,7 +340,8 @@ Para acceder a los miembros de la estructura interior se requieren dos aplicacio
 
 #### Búsqueda Secuencial
 
-La **búsqueda secuencial** consiste en comparar secuencialmente el elemento buscado con los valores contenidos en las posiciones `min..max` del array hasta que:
+La **búsqueda secuencial** consiste en comparar secuencialmente el elemento buscado con los valores contenidos en las
+posiciones `min..max` del array hasta que:
 
 - Bien se le encuentre en la posición índice `i`.
 - O bien se legue al final del array sin encontrarlo.
@@ -453,7 +466,8 @@ int main() {
 
 #### Ordenación Burbuja
 
-El método de ordenación de la burbuja (**_Bubble sort_**) se basa en la comparación e intercambio de posiciones consecutivas.
+El método de ordenación de la burbuja (**_Bubble sort_**) se basa en la comparación e intercambio de posiciones
+consecutivas.
 
 ```c
 #define N /* Tamaño */

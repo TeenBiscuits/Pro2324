@@ -2,13 +2,17 @@
 
 # Bloque 2 - Control de Flujo
 
+<tldr>Bucles (while / do while / for), Condicionales (if / else / switch) y el Teorema de Böhm y Jacopini (o de la programación estructurada)</tldr>
+
 ## Introducción
 
 ### Teorema de Böhm y Jacopini (o de la programación estructurada)
 
-La programación estructurada se basa en programas propios que tienen **un solo punto de entrada** y **un solo punto de salida**.
+La programación estructurada se basa en programas propios que tienen **un solo punto de entrada** y **un solo punto de
+salida**.
 
-- Toda acción del algoritmo es accesible pues existe al menos un camino que va desde el inicio hasta el fin del algoritmo pasando a través de dicha acción.
+- Toda acción del algoritmo es accesible pues existe al menos un camino que va desde el inicio hasta el fin del
+  algoritmo pasando a través de dicha acción.
 - No tienen bucles infinitos
 
 TEOREMA: todo algoritmo (y por lo tanto, cualquier programa)
@@ -45,7 +49,7 @@ Corresponde a un simple `;` sin nada que lo preceda.
 La instrucción `goto` permite saltar a otro pundo del programa maracado con una etiqueta.
 
 > Su utilización está **prohibida** dentro de una programación
-estructurada.
+> estructurada.
 >
 > Si se quiere alterar el orden de ejecución secuencial se puede realizar con instrucciones condicionales.
 
@@ -109,7 +113,6 @@ flowchart TD
     Instrucción4 --> F(["Fin"])
 ```
 
-
 #### Operador terciario
 
 El operador terciario `?:` se utiliza para ejecutar instrucciones de una forma similar a las cláusulas `if`-`else`:
@@ -128,7 +131,8 @@ if (/* Condición */) {
 
 #### Switch
 
-La cláusula `switch` permite decidir las siguientes instrucciones en función de si una expresión de control coincide con otras denotadas por etiquetas `case`:
+La cláusula `switch` permite decidir las siguientes instrucciones en función de si una expresión de control coincide con
+otras denotadas por etiquetas `case`:
 
 - La expresión de control entre paréntesis debe ser una expresión entera.
     - Los caracteres se tratan como enteros en C y, por lo tanto, se pueden usar en expresiones de control.
@@ -147,9 +151,11 @@ switch(/* Expresión de control */) {
 }
 ```
 
-Tras ejecutar un caso **se ejecutarán todos los siguientes** hasta encontrar una instrucción `break;`, que se utiliza para salir del `switch`.
+Tras ejecutar un caso **se ejecutarán todos los siguientes** hasta encontrar una instrucción `break;`, que se utiliza
+para salir del `switch`.
 
-Se puede expecificar un caso por defecto `default` que se ejecuta si el valor de la expresión de control no coincide con ninguna etiqueta.
+Se puede expecificar un caso por defecto `default` que se ejecuta si el valor de la expresión de control no coincide con
+ninguna etiqueta.
 
 - Si no hay ninguno, el control del programa pasa a la siguiente instrucción después del `swtich`.
 
@@ -197,7 +203,8 @@ Pasos:
 
 #### do while
 
-La construcción `do` `while` se parece a la construcción `while`, pero garantiza que el cuerpo del bulce se ejecute al menos una vez.
+La construcción `do` `while` se parece a la construcción `while`, pero garantiza que el cuerpo del bulce se ejecute al
+menos una vez.
 
 La condición se evalua por primera vez después de la primera ejecución del cuerpo del bucle.
 

@@ -16,7 +16,7 @@
         </toc-element>
         <toc-element toc-title="Pro II">
             <!--<toc-element toc-title="Boletín 5"/>-->
-            <toc-element toc-title="Proximamente ..."/>
+            <toc-element toc-title="Próximamente ..."/>
         </toc-element>
     </toc-element>
     <toc-element topic="Teoria.topic">
@@ -28,7 +28,7 @@
             <toc-element topic="Bloque-4.md"/>
         </toc-element>
         <toc-element toc-title="Pro II">
-            <toc-element toc-title="Bloque 5??"/>
+            <toc-element toc-title="Próximamente..."/>
         </toc-element>
         <toc-element topic="Bibliografia.md"/>
     </toc-element>
