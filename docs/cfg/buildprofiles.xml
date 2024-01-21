@@ -5,6 +5,8 @@
     <variables>
         <primary-color>blueberry</primary-color>
         <product-web-url>https://github.com/TeenBiscuits/Pro2324</product-web-url>
+        <custom-favicons>Logo.svg</custom-favicons>
+        <header-logo>Logo.svg</header-logo>
         <download-title>Repositorio en GitHub</download-title>
         <download-page>https://github.com/TeenBiscuits/Pro2324</download-page>
         <showDownloadButton>true</showDownloadButton>
