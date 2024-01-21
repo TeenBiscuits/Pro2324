@@ -20,7 +20,7 @@ jobs:
 
     steps:
       - name: Checkout repositorio
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Construir documentación de Writerside usando Docker
         uses: JetBrains/writerside-github-action@v4
