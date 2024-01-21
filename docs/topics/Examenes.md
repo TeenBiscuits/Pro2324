@@ -1,3 +1,3 @@
-# Exámenes
+# Antiguos Exámenes
 
-<warning>¡En construcción!</warning>
+<warning><b>¡En construcción!</b></warning>

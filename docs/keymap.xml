@@ -1,5 +1,6 @@
-<!-- Siguiendo la documentación https://www.jetbrains.com/help/writerside/tutorial-reference-shortcuts.html#configure-project-to-use-the-keymap-file -->
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Siguiendo la documentación https://www.jetbrains.com/help/writerside/tutorial-reference-shortcuts.html#configure-project-to-use-the-keymap-file -->
+
 <keymap id="my_keymap">
     <layouts>
         <layout name="Windows" platform="PC"/>

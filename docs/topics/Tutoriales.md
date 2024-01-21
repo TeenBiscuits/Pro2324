@@ -1,3 +1,0 @@
-# Tutoriales
-
-<note>Próximamente...</note>

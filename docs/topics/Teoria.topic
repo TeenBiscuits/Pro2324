@@ -3,10 +3,10 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Apuntes - Teoría" id="Teoria" help-id="Teoría">
+       title="Apuntes" id="Teoria" help-id="Teoría">
 
     <section-starting-page>
-        <title>Apuntes - Teoría</title>
+        <title>Apuntes</title>
         <description>
             Programar puede llegar a ser abrumador. Una base teórica sólida es fundamental para escribir código eficaz y
             eficiente.
@@ -14,9 +14,12 @@
 
         <!-- Introducción y bibliografía -->
         <spotlight>
-            <a href="Teoria-Introduccion.md" type="presentation" summary="Bienvenido/a al mundo de la programación"/>
+            <!-- TODO Una vez escritas la introducción y la bibliografía desbloquearlas -->
+            <!-- <a href="Teoria-Introduccion.md" type="presentation" summary="Bienvenido/a al mundo de la programación"/>
             <a href="Bibliografia.md" type="library" summary="Bibliografía recomendada, desde las lecturas esenciales más básicas hasta
-            los grandes clásicos."/>
+            los grandes clásicos."/> -->
+            <a href="Teoria-Introduccion.md" type="lock" summary="¡En construcción!"/>
+            <a href="Bibliografia.md" type="lock" summary="¡En construcción!"/>
         </spotlight>
 
         <!--    Pro I    -->
@@ -36,6 +39,7 @@
         <!--    Pro II    -->
         <secondary>
             <title>Programación II</title>
+            <!-- TODO Añadir Apuntes de Pro II -->
             <a href="Pro2324.topic" type="lock" summary="Proximamente...">Proximamente...</a>
         </secondary>
 
