@@ -37,7 +37,7 @@ horas estudiando) y más vago (menor número de horas estudiando).
 <warning>
 ¡Se necesita ayuda!
 
-Faltan soluciones para los ejercicios 5 al 8. [Colabora](https://github.com/TeenBiscuits/Pro2324)
+Faltan soluciones para los ejercicios del 5 al 8. [Colabora](https://github.com/TeenBiscuits/Pro2324)
 </warning>
 
 ### Ejercicio 9
@@ -60,7 +60,7 @@ devuelva una array ordenado con los elementos de los dos anteriores.
 <warning>
 ¡Se necesita ayuda!
 
-Faltan soluciones para los ejercicios 11 al 14. [Colabora](https://github.com/TeenBiscuits/Pro2324)
+Faltan soluciones para los ejercicios del 11 al 14. [Colabora](https://github.com/TeenBiscuits/Pro2324)
 </warning>
 
 ### Ejercicio 15
@@ -75,7 +75,7 @@ mismo considerando como tipo base de la matriz números enteros.
 <warning>
 ¡Se necesita ayuda!
 
-Faltan soluciones para los ejercicios 16 al 19. [Colabora](https://github.com/TeenBiscuits/Pro2324)
+Faltan soluciones para los ejercicios del 16 al 19. [Colabora](https://github.com/TeenBiscuits/Pro2324)
 </warning>
 
 ### Ejercicio 20
@@ -90,7 +90,7 @@ calificación. Además muestre a continuación el listado con el nombre y nota d
 <warning>
 ¡Se necesita ayuda!
 
-Faltan soluciones para los ejercicios 21 al 23. [Colabora](https://github.com/TeenBiscuits/Pro2324)
+Faltan soluciones para los ejercicios del 21 al 23. [Colabora](https://github.com/TeenBiscuits/Pro2324)
 </warning>
 
 ### Ejercicio 24
@@ -113,7 +113,7 @@ línea), y determine la frecuencia de aparición de cada vocal respecto al total
 <warning>
 ¡Se necesita ayuda!
 
-Faltan soluciones para los ejercicios 26 al 28. [Colabora](https://github.com/TeenBiscuits/Pro2324)
+Faltan soluciones para los ejercicios del 26 al 28. [Colabora](https://github.com/TeenBiscuits/Pro2324)
 </warning>
 
 ### Ejercicio 29
@@ -126,5 +126,5 @@ Diseñe una función que devuelva al revés la cadena recibida como parámetro.
 <warning>
 ¡Se necesita ayuda!
 
-Faltan soluciones para los ejercicios 30 al 40. [Colabora](https://github.com/TeenBiscuits/Pro2324)
+Faltan soluciones para los ejercicios del 30 al 40. [Colabora](https://github.com/TeenBiscuits/Pro2324)
 </warning>
