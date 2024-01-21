@@ -1,5 +1,7 @@
 # Boletín 1
 
+<tldr>Entra y Salida. printf, scanf, gets, define y operaciones artiméticas básicas.</tldr>
+
 ### Ejercicio 1
 
 Plantee e implemente un programa en lenguaje C que solicite el nombre y la edad de un usuario por teclado de forma que

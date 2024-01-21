@@ -2,6 +2,8 @@
 
 # Bloque 3 - Subprogramas
 
+<tldr>Funciones, recursividad y retorno de datos. Divide y vencerás.</tldr>
+
 ## Introducción
 
 La programación estructurada original se basa en la técnica
@@ -9,10 +11,12 @@ La programación estructurada original se basa en la técnica
 
 - Descomposición de un problema complejo en subproblemas más
   simples y manejables.
-- Se el problema en tareas y cada tarea en una serie de subprogramas que incluirán los algoritmos más adecuados para cada tarea.
+- Se el problema en tareas y cada tarea en una serie de subprogramas que incluirán los algoritmos más adecuados para
+  cada tarea.
     - Técnica TOP-DOWN o de Refinamiento Sucesivo.
 
-Un **subprograma** o subrutina es un conjunto de instrucciones que permiten la ejecución de algún proceso determinado y lógico desde el punto de vista humano.
+Un **subprograma** o subrutina es un conjunto de instrucciones que permiten la ejecución de algún proceso determinado y
+lógico desde el punto de vista humano.
 
 Los esfuerzos del programador deben concentrarse en que cada
 subprograma presente:
@@ -21,7 +25,8 @@ subprograma presente:
 - Descripción correcta de los argumentos de entrada y salida.
 - Independencia del resto.
 
-Los subprogramas se escriben una **única vez**, luego es posible hacer referencia a ellos (invocarlos o llamarlos) desde diferentes puntos del código:
+Los subprogramas se escriben una **única vez**, luego es posible hacer referencia a ellos (invocarlos o llamarlos) desde
+diferentes puntos del código:
 
 - Son un conjunto de instrucciones con un nombre asignado.
 - Permiten su reutilización y evitan la duplicación de código.
@@ -36,19 +41,20 @@ Los subprogramas son independientes entre sí:
 
 ### Resumen
 
--  Permiten **modularidad** (diseño modular top-down).
--  Proporcionan **reutilización** del código.
-    -  Se escriben una única vez y se invocan siempre que es necesario.
--  Proporcionan **abstracción**.
-    -  Se comportan como una caja negra.
--  Permiten **distribuir el trabajo**.
-    -  Dividen el problema en subproblemas.
--  Mejoran la **depuración** de código.
-    -  Simplifican la localización de errores.
+- Permiten **modularidad** (diseño modular top-down).
+- Proporcionan **reutilización** del código.
+    - Se escriben una única vez y se invocan siempre que es necesario.
+- Proporcionan **abstracción**.
+    - Se comportan como una caja negra.
+- Permiten **distribuir el trabajo**.
+    - Dividen el problema en subproblemas.
+- Mejoran la **depuración** de código.
+    - Simplifican la localización de errores.
 
 ## Concepto
 
-Las **subrutinas** son un conjunto de sentencias que tienen asociado un identificador y que se ejecutan como un grupo cuando se invocan desde la sección ejecutable del
+Las **subrutinas** son un conjunto de sentencias que tienen asociado un identificador y que se ejecutan como un grupo
+cuando se invocan desde la sección ejecutable del
 programa para que realicen una tarea.
 
 Un procedimiento es una **unidad** desde el punto de vista:
@@ -97,7 +103,9 @@ Reglas que rigen el tipo de retorno:
 
 C no requiere que la definición de una función preceda a sus llamadas.
 
-Aun así, cuando el compilador encuentra la primera llamada a la función en `main()` y no tiene información sobre la misma, en lugar de generar un mensaje de error, el compilador asume que la función devuelve un valor `int` y genera un mensaje de _warning_.
+Aun así, cuando el compilador encuentra la primera llamada a la función en `main()` y no tiene información sobre la
+misma, en lugar de generar un mensaje de error, el compilador asume que la función devuelve un valor `int` y genera un
+mensaje de _warning_.
 
 - Se dice que el compilador ha creado una declaración implícita de la función.
 - Esto puede causar muchos problemas.
@@ -114,11 +122,13 @@ La llamada a una función consiste en el nombre de la función seguido por la li
 
 Los argumentos pueden pasarse por **valor** o por **referencia**.
 
-Cuando los argumentos se pasan por **valor**, al llamar a una función, cada argumento se evalúa y su valor se asigna al parámetro correspondiente.
+Cuando los argumentos se pasan por **valor**, al llamar a una función, cada argumento se evalúa y su valor se asigna al
+parámetro correspondiente.
 
 - El parámetro contiene una **copia** del valor del argumento.
 - Cualquier cambio realizado en el parámetro durante la ejecución de la función **no** afectará al argumento.
-- Con un paso de argumentos por valor, el parámetro puede modificarse sin afectar el argumento correspondiente, podemos usar parámetros como variables dentro de la función, reduciendo así el número de variables necesarias.
+- Con un paso de argumentos por valor, el parámetro puede modificarse sin afectar el argumento correspondiente, podemos
+  usar parámetros como variables dentro de la función, reduciendo así el número de variables necesarias.
 
 Se puede realizar el paso de parámetros por **referencia** mediante el uso de punteros.
 
@@ -128,8 +138,8 @@ Se puede realizar el paso de parámetros por **referencia** mediante el uso de p
 
 Si una función no es definida como `void` debe usar la declaración de `return` para especificar qué valor devolverá.
 
-
-Si el tipo de expresión en una declaración de retorno no coincide con el tipo de retorno de la función, la expresión se convertirá implícitamente al tipo de retorno.
+Si el tipo de expresión en una declaración de retorno no coincide con el tipo de retorno de la función, la expresión se
+convertirá implícitamente al tipo de retorno.
 
 Ejecutar una declaración `return` en `main()` es una forma de finalizar.
 
@@ -137,7 +147,8 @@ Ejecutar una declaración `return` en `main()` es una forma de finalizar.
 
 #### exit()
 
-La diferencia entre el `exit()` y `return` es que `exit()` provoca la terminación del programa independientemente de la función que lo llame.
+La diferencia entre el `exit()` y `return` es que `exit()` provoca la terminación del programa independientemente de la
+función que lo llame.
 
 La declaración de `return` provoca la finalización del programa solo cuando aparece en la función principal `main()`.
 
@@ -179,7 +190,8 @@ Los algoritmos recursivos suelen ser apropiados cuando se define de forma recurs
 
 ### Funciones recursivas vs funciones iterativas
 
-En la mayoría de los casos la solución recursiva no es la mejor porque pueden obtenerse soluciones simples por iteración.
+En la mayoría de los casos la solución recursiva no es la mejor porque pueden obtenerse soluciones simples por
+iteración.
 
 Sin embargo permite resolver de forma natural problemas de tipo recursivo difíciles de abordar.
 

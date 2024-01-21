@@ -2,26 +2,32 @@
 
 # Bloque 1 - Conceptos Básicos
 
+<tldr>Algoritmos, lenguajes de programación, programas y sus elementos, tipos de datos y operadores, entrada y salida (printf / scanf), conceptos básicos de macros e introducción a los punteros.</tldr>
+
 ## Introducción
 
-La **programación** busca resolver **problemas** mediante la construcción de **programas** ejecutables en un **computador**.
+La **programación** busca resolver **problemas** mediante la construcción de **programas** ejecutables en un *
+*computador**.
 
 <deflist>
 <def title="Programa">
 
-- Conjunto unitario de instrucciones que permite a una computadora realizar funciones diversas, como el tratamiento de textos, el diseño de gráficos, la resolución de problemas matemáticos, el manejo de bancos de datos, etc.
+- Conjunto unitario de instrucciones que permite a una computadora realizar funciones diversas, como el tratamiento de
+  textos, el diseño de gráficos, la resolución de problemas matemáticos, el manejo de bancos de datos, etc.
 - Codificación en cualquier lenguaje de programación específico de uno o varios algoritmos.
 
 </def>
 
 <def title="Computador">
 
-Máquina electrónica que, mediante determinados programas, permite almacenar y tratar información, y resolver problemas de diversa índole.
+Máquina electrónica que, mediante determinados programas, permite almacenar y tratar información, y resolver problemas
+de diversa índole.
 
 </def>
 </deflist>
 
-Los **lenguajes de programación** están diseñados de forma que sólo se requiere que los programadores indiquen sus intenciones explícitamente.
+Los **lenguajes de programación** están diseñados de forma que sólo se requiere que los programadores indiquen sus
+intenciones explícitamente.
 
 ## Algoritmos
 
@@ -34,10 +40,12 @@ Conjunto ordenado y finito de operaciones que permite hallar la solución de un 
 </deflist>
 
 Condiciones necesarias:
+
 - Finitud.
 - No ambigüedad.
 
 Propiedades deseables:
+
 - Generalidad.
 - Eficiencia.
 - Independencia del medio de ejecución.
@@ -54,9 +62,9 @@ Propiedades deseables:
 
 Un diagrama de flujo es la representación gráfica de un algoritmo o proceso.
 
-|                                                                                 Forma                                                                                  |     Nombre     |         Forma         | Descripción                                                                                                                                                                        |
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------:| :------------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|        <img alt="Línea de flujo" width="80" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Flowchart_Line.svg/150px-Flowchart_Line.svg.png" />         | Línea de flujo |        Flecha         | Línea saliendo de un símbolo y apuntando a otro.                                                                                                                                   |
+|                                                                           Forma                                                                           |     Nombre     |         Forma         | Descripción                                                                                                                                                                        |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------:|:---------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <img alt="Línea de flujo" width="80" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Flowchart_Line.svg/150px-Flowchart_Line.svg.png" />  | Línea de flujo |        Flecha         | Línea saliendo de un símbolo y apuntando a otro.                                                                                                                                   |
 | <img alt="Terminal" width="80" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Flowchart_Terminal.svg/150px-Flowchart_Terminal.svg.png" /> |    Terminal    |         Óvalo         | Inicio o fin de un programa o subprocesos.                                                                                                                                         |
 |  <img alt="Proceso" width="80" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Flowchart_Process.svg/150px-Flowchart_Process.svg.png" />   |    Proceso     |    ​    Rectángulo    | Conjunto de operaciones que cambian el valor, forma o ubicación de datos.                                                                                                          |
 | <img alt="Decisión" width="80" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Flowchart_Decision.svg/150px-Flowchart_Decision.svg.png" /> |    Decisión    |      ​    Rombo       | ​    Muestra una operación condicional que determina cuál de los dos caminos tomará el programa. La operación es comúnmente una pregunta de sí/no o una prueba de verdadero/falso. |
@@ -67,7 +75,8 @@ Un diagrama de flujo es la representación gráfica de un algoritmo o proceso.
 
 Descripción de alto nivel compacta e informal del principio operativo de un programa informático u otro algoritmo.
 
-Utiliza las convenciones estructurales de un lenguaje de programación real, pero está diseñado para la lectura humana en lugar de la lectura mediante máquina, y con independencia de cualquier otro lenguaje de programación.
+Utiliza las convenciones estructurales de un lenguaje de programación real, pero está diseñado para la lectura humana en
+lugar de la lectura mediante máquina, y con independencia de cualquier otro lenguaje de programación.
 
 ## Lenguajes de programación
 
@@ -86,9 +95,11 @@ Utiliza las convenciones estructurales de un lenguaje de programación real, per
 
 Ejecución de un programa **compilado**:
 
-- Se realiza previamente la **compilación** del **programa fuente** en la versión equivalente del programa en **lenguaje máquina**.
+- Se realiza previamente la **compilación** del **programa fuente** en la versión equivalente del programa en **lenguaje
+  máquina**.
     - Esta versión se conoce como **programa objeto**.
-- El **programa objeto** se une, eventualmente, con los **subprogramas de biblioteca** descritos en el programa fuente para obtener el **programa ejecutable**.
+- El **programa objeto** se une, eventualmente, con los **subprogramas de biblioteca** descritos en el programa fuente
+  para obtener el **programa ejecutable**.
     - Esto lo realiza el montador de enlaces (_linker_).
 - Se inica el **programa ejecutable**.
 
@@ -126,7 +137,8 @@ Ejecución de un programa **interpretado**:
 
 - **Asignación**: Evaluar una expresión y almacenar el resultado en una variable.
     - `a = b + c`.
-- **Entrada** / **Salida**: Transferencia de información con el exterior a través de dispositivos de entrada (teclado, ficheros, etc.) y salida (monitor, impresora, etc.).
+- **Entrada** / **Salida**: Transferencia de información con el exterior a través de dispositivos de entrada (teclado,
+  ficheros, etc.) y salida (monitor, impresora, etc.).
     - `printf`, `scanf`...
 - **Control de flujo**:
     - Condiciones: `if` , `if-else`, `switch`...
@@ -156,10 +168,11 @@ Para describir el lenguaje se utilizan reglas que se construyen con tres tipos d
 
 - **Metasímbolos**: propios de la notación BNF.
 - **Símbolos terminales**: se usan en el texto del programa tal y como aparecen en la regla (sin comillas).
-- **Símbolos no terminales**: resto de símbolos. Se definen utilizando combinaciones de símbolos terminales, no terminales y metasímbolos
+- **Símbolos no terminales**: resto de símbolos. Se definen utilizando combinaciones de símbolos terminales, no
+  terminales y metasímbolos
 
 | Metasímbolo | Significado           |
-| :---------: | :-------------------- |
+|:-----------:|:----------------------|
 |    `::=`    | Se define como        |
 |    `\|`     | Opción alternativa    |
 | `(a \| b)`  | a ó b pero no ambos   |
@@ -214,7 +227,6 @@ Se utilizan también símbolos terminales y no terminales:
 
 Ambos símbolos se enlazan con flechas que indican el orden en que se debe realizar la interpretación de los diagramas.
 
-
 ## Programas
 
 ### Tipos de programas
@@ -268,7 +280,8 @@ Tabla ASCII de 7 bits:
 
 #### Símbolos especiales
 
-**Símbolos especiales**: símbolos con un significado especial dentro del lenguaje que se usan para representar delimitadores, operadores y otros elementos sintácticos.
+**Símbolos especiales**: símbolos con un significado especial dentro del lenguaje que se usan para representar
+delimitadores, operadores y otros elementos sintácticos.
 
 ```BNF
 special-symbol ::= '+' | '-' | '*' | '/' | '=' | '<' | '>' 
@@ -279,7 +292,8 @@ special-symbol ::= '+' | '-' | '*' | '/' | '=' | '<' | '>'
 
 #### Palabras reservadas
 
-**Palabras reservadas** (_keywords_) se utilizan para especificar nombres de instrucciones, funciones de librería, tipos de datos, operadores, etc.
+**Palabras reservadas** (_keywords_) se utilizan para especificar nombres de instrucciones, funciones de librería, tipos
+de datos, operadores, etc.
 
 - No se pueden redefinir para usarlas como identificadores.
 
@@ -300,7 +314,8 @@ else        register    union
 
 #### Identificadores
 
-**Identificadores**: son nombres que pueden utilizarse para denominar una función, una constante, una variable, un tipo, una función, una interfaz...
+**Identificadores**: son nombres que pueden utilizarse para denominar una función, una constante, una variable, un tipo,
+una función, una interfaz...
 
 ```BNF
 underscore ::= '_' .
@@ -319,7 +334,8 @@ constant-definition ::= identifier '=' constant-expression
 
 #### Variables
 
-**Variables**: identificadores que se corresponden a valores que pueden cambiar durante la ejecución de un programa, permaneciendo dentro del rango establecido para su tipo.
+**Variables**: identificadores que se corresponden a valores que pueden cambiar durante la ejecución de un programa,
+permaneciendo dentro del rango establecido para su tipo.
 
 Cuando se declara una variable:
 
@@ -383,7 +399,8 @@ Según la denominación:
 
     - `+`, `-`, `*`, `/`, `%`.
 
-- **Relacionales**: comparan dos expresiones de tipo ordinal, real, cadena de caracteres o conjunto, obteniendo un resultado de tipo lógico.
+- **Relacionales**: comparan dos expresiones de tipo ordinal, real, cadena de caracteres o conjunto, obteniendo un
+  resultado de tipo lógico.
 
     - `<` , `>`, `<=` , `>=`, `==` (igual), `!=` (distinto).
 
@@ -396,11 +413,14 @@ Según la denominación:
 
     - `&` (AND binario), `|` (OR binario), `^` ( XOR ).
 
-Los distintos tipos de operadores tiene diferente [precedencia](<https://en.cppreference.com/w/c/language/operator_precedence>) y asociatividad que depende del lenguaje de programación.
+Los distintos tipos de operadores tiene
+diferente [precedencia](<https://en.cppreference.com/w/c/language/operator_precedence>) y asociatividad que depende del
+lenguaje de programación.
 
 ### Efectos secundarios
 
-Se dice que una función o expresión tiene efecto colateral o efecto secundario si esta, además de retornar un valor, modifica el estado de su entorno.
+Se dice que una función o expresión tiene efecto colateral o efecto secundario si esta, además de retornar un valor,
+modifica el estado de su entorno.
 
 ### Conversión de tipos
 
@@ -411,7 +431,8 @@ En estas situaciones se realiza una **conversion de tipos**, que puede ser:
 - **implicita** si la realiza el propio compilador.
 - **explicita** si la realiza en programador (_casting_).
 
-Para realizar una conversión explícita, (_casting_) se especifica el tipo de dato entre paréntesis delante de la expresión o variable a convertir.
+Para realizar una conversión explícita, (_casting_) se especifica el tipo de dato entre paréntesis delante de la
+expresión o variable a convertir.
 
 ### Definición de tipos
 
@@ -432,7 +453,7 @@ El operador `sizeof`, devuelve el tamaño en _bytes_ que ocupa un determinado ti
 Rangos en una máquina de 64 _bits_:
 
 |         Tipo         |     Mínimo      |      Máximo      |
-| :------------------: | :-------------: | :--------------: |
+|:--------------------:|:---------------:|:----------------:|
 |     `short int`      |     –32,768     |      32,767      |
 | `unsigned short int` |        0        |      65,535      |
 |        `int`         | –2,147,483,648  |  2,147,483,647   |
@@ -447,7 +468,7 @@ Rangos en una máquina de 64 _bits_:
 Las características de `float` y `double` corresponden a un estándar IEEE:
 
 |   Tipo   |           Mínimo            |           Máximo           | Precisión  |
-| :------: | :-------------------------: | :------------------------: | :--------: |
+|:--------:|:---------------------------:|:--------------------------:|:----------:|
 | `float`  | 1.17549 × 10<sup>–38</sup>  | 3.40282 × 10<sup>38</sup>  | 6 digitos  |
 | `double` | 2.22507 × 10<sup>–308</sup> | 1.79769 × 10<sup>308</sup> | 15 digitos |
 
@@ -479,7 +500,7 @@ C permite trabajar a la vez como `int` y como `char` un carácter.
 ### Notaciones comprimidas
 
 | Notación larga | Notación comprimida |
-| :------------: | :-----------------: |
+|:--------------:|:-------------------:|
 |  `a = a + b`   |      `a += b`       |
 |  `a = a - b`   |      `a -= b`       |
 |  `a = a * b`   |      `a *= b`       |
@@ -505,13 +526,16 @@ printf("i es %d\n", i); /* imprime "i es 0" */
 
 ### Función printf
 
-La función `printf` tiene asociado un formato: _format string_, seguido de los valores (variables que tienen que mostrarse por pantalla).
+La función `printf` tiene asociado un formato: _format string_, seguido de los valores (variables que tienen que
+mostrarse por pantalla).
 
 ```c
 printf(string, expr1, expr2, ...);
 ```
 
-La cadena de formato puede contener tanto caracteres ordinarios como especificaciones de conversión, que comienzan con el carácter `%`.
+La cadena de formato puede contener tanto caracteres ordinarios como especificaciones de conversión, que comienzan con
+el carácter `%`.
+
 - Una especificación de conversión es un marcador de posición que
   representa un valor que se debe completar durante la impresión.
     - `%d` se usa para valores enteros .
@@ -542,7 +566,8 @@ i = 10, j = 20, x = 12.345600, y = 1234.000000
 
 Los compiladores **no** están obligados a:
 
-- Verificar que el número de especificaciones de conversión en una cadena de formato coincida con el número de elementos de salida.
+- Verificar que el número de especificaciones de conversión en una cadena de formato coincida con el número de elementos
+  de salida.
 
 ```c
 printf ("%d %d \n", i); /* INCORRECTO */
@@ -557,14 +582,16 @@ printf ("%d \n", i, j); /* INCORRECTO */
 printf ("%f %d \n", i, x); /*INCORRECTO */
 ```
 
+Una especificación de conversión puede tener la forma `%m.pX` o `%-m.pX`, donde `m` y `p` son constantes enteras y `X`
+es una letra que indica el tipo de dato.
 
-Una especificación de conversión puede tener la forma `%m.pX` o `%-m.pX`, donde `m` y `p` son constantes enteras y `X` es una letra que indica el tipo de dato.
 - `m` y `p` son opcionales.
     - Si se omite `p`, también se elimina el punto que separa `m` y `p`.
 - `m`, el ancho de campo mínimo, especifica el número mínimo de caracteres para imprimir.
     - Si el valor a imprimir requiere menos de `m` caracteres, se justifica a la derecha dentro del campo.
     - Poner un signo menos delante de `m` causa justificación a la izquierda.
-    - Si el valor que se va a imprimir requiere más de `m` caracteres, el ancho del campo se expande automáticamente al tamaño necesario.
+    - Si el valor que se va a imprimir requiere más de `m` caracteres, el ancho del campo se expande automáticamente al
+      tamaño necesario.
 - `p` indica el número mínimo de dígitos para mostrar.
     - Si se omite `p`, se supone que es 1.
 
@@ -578,8 +605,8 @@ Una especificación de conversión puede tener la forma `%m.pX` o `%-m.pX`, dond
 - `X` puede ser:
     - `e`para formato exponencial.
         - `p` indica cuántos dígitos deben aparecer después del punto decimal.
-        -  El valor predeterminado es 6.
-        -  Si `p` es 0, no se muestra ningún punto decimal.
+        - El valor predeterminado es 6.
+        - Si `p` es 0, no se muestra ningún punto decimal.
     - `f` para formato decimal fijo.
         - `p` tiene el mismo significado que para el especificador `e`.
     - `g` para formato exponencial o formato decimal fijo, según el tamaño del número.
@@ -610,7 +637,8 @@ int main() {
 
 El código `\` que se usa en las cadenas de formato se llama secuencia de escape.
 
-Las secuencias de escape permiten que las cadenas contengan caracteres no imprimibles (caracteres de control) y caracteres que tienen un significado especial.
+Las secuencias de escape permiten que las cadenas contengan caracteres no imprimibles (caracteres de control) y
+caracteres que tienen un significado especial.
 
 Algunas secuencias de escape son:
 
@@ -627,14 +655,17 @@ Algunas secuencias de escape son:
 
 Una cadena de formato `scanf` puede contener tanto caracteres ordinarios como especificaciones de conversión.
 
--  Las conversiones permitidas con `scanf` son esencialmente las mismas que las utilizadas por `printf`.
+- Las conversiones permitidas con `scanf` son esencialmente las mismas que las utilizadas por `printf`.
 
-`scanf` intenta hacer coincidir grupos de caracteres de entrada con las especificaciones de conversión en la cadena de formato.
+`scanf` intenta hacer coincidir grupos de caracteres de entrada con las especificaciones de conversión en la cadena de
+formato.
 
-- Para cada especificación de conversión, intenta localizar un elemento del tipo apropiado en los datos de entrada, omitiendo espacios en blanco si es necesario.
+- Para cada especificación de conversión, intenta localizar un elemento del tipo apropiado en los datos de entrada,
+  omitiendo espacios en blanco si es necesario.
 - Luego lee el elemento y se detiene cuando alcanza un carácter que no puede pertenecer al elemento.
 - Si el elemento se leyó correctamente, continúa procesando el resto de la cadena de formato.
-- Cuando busca un número, ignora los caracteres de espacio en blanco (espacio, tabulación horizontal y vertical, avance de página y nueva línea).
+- Cuando busca un número, ignora los caracteres de espacio en blanco (espacio, tabulación horizontal y vertical, avance
+  de página y nueva línea).
 
 ## Conceptos básicos de macros
 
@@ -686,12 +717,12 @@ El preprocesador del compilador sustituye `PI` por su valor (`3.1415926`) en tod
 
 ## Introducción a los Punteros
 
-
 ### Variables tipo Puntero
 
 El primer paso para comprender los punteros es visualizar lo que representan a nivel de máquina:
 
-- En la mayoría de las computadoras modernas, la memoria principal se divide en **_bytes_**, con cada _byte_ capaz de almacenar ocho _bits_ de información.
+- En la mayoría de las computadoras modernas, la memoria principal se divide en **_bytes_**, con cada _byte_ capaz de
+  almacenar ocho _bits_ de información.
 - Cada byte tiene una **única** dirección.
 - Si hay n _bytes_ en la memoria, se puede interpretar en las direcciones como números que van de 0 a n-1.
 
@@ -701,7 +732,8 @@ La **dirección del primer _byte_** se dice que es la **dirección de la variabl
 
 Las direcciones se pueden almacenar en variables de puntero especiales.
 
-- Cuando se almacena la dirección de una variable en una variable de puntero se dice que la variable puntero apunta a la otra variable.
+- Cuando se almacena la dirección de una variable en una variable de puntero se dice que la variable puntero apunta a la
+  otra variable.
 
 ```mermaid
 flowchart LR
@@ -720,15 +752,16 @@ flowchart LR
 
 Cuando se declara una variable de puntero, su nombre debe ir precedido por un asterisco `*`:
 
-
 Ejemplo:
+
 ```c
 int *p;
 ```
 
 `p` es una variable de puntero capaz de apuntar a objetos de tipo `int`.
 
-Se usa el término **objeto** en lugar de variable, ya que `p` podría apuntar a un área de la memoria que no pertenece a una
+Se usa el término **objeto** en lugar de variable, ya que `p` podría apuntar a un área de la memoria que no pertenece a
+una
 variable.
 
 Las variables de puntero pueden aparecer en
@@ -778,7 +811,8 @@ flowchart LR
     &i --> i
 ```
 
-Una vez que una variable de puntero apunta a un objeto, se puede usar el operador `*` (indirección) para acceder a lo que está almacenado en el objeto.
+Una vez que una variable de puntero apunta a un objeto, se puede usar el operador `*` (indirección) para acceder a lo
+que está almacenado en el objeto.
 
 Si `p` apunta a `i`, se puede imprimir el valor de `i` de la siguiente manera:
 
@@ -786,6 +820,7 @@ Si `p` apunta a `i`, se puede imprimir el valor de `i` de la siguiente manera:
 printf("%d\n", *p);
 ```
 
-Si varios punteros apuntan a la misma variable, se puede modificar el valor de esta variable mediante el operador de indirección `*` y de cualquiera de los punteros.
+Si varios punteros apuntan a la misma variable, se puede modificar el valor de esta variable mediante el operador de
+indirección `*` y de cualquiera de los punteros.
 
 Cualquier número de variables de puntero puede apuntar al mismo objeto.
