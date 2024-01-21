@@ -14,6 +14,12 @@
             <noindex-content>true</noindex-content>
         </variables>
     </build-profile>
+    <shortcuts>
+        <src>keymap.xml</src>
+        <layout name="Windows" display-name="Windows"/>
+        <layout name="macOS" display-name="macOS"/>
+        <layout name="Linux" display-name="Linux"/>
+    </shortcuts>
     <footer>
         <link href="https://github.com/TeenBiscuits/Pro2324">GitHub (Danos una ⭐)</link>
         <link href="https://creativecommons.org/licenses/by-nc/4.0/">Licencia Documentación</link>
