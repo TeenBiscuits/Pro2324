@@ -64,5 +64,7 @@ La teoría se basa en trabajos previos readaptados a este nuevo formato. Cualqui
 mejore la calidad educativa y la sencillez de las explicaciones. Más no es siempre mejor. La teoría se añade a secciones
 como: Apuntes - Teoría, Ejemplos y Tutoriales.
 
+Las imágenes están en subdirectorios ``./docs/images/*`` para mantener organizado la cantidad inmensa de imágenes.
+
 Para facilitar las contribuciones hay una página oculta llamada ``Para Colaboradores`` con algunas estructuras
 reutilizables.
