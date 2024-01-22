@@ -130,6 +130,22 @@ Faltan soluciones para los ejercicios del 29 al 31 y del 33 al 36. [Colabora](ht
 Faltan soluciones para los ejercicios del 29 al 31. [Colabora](https://github.com/TeenBiscuits/Pro2324)
 </warning>
 
+<!--
+
+### Ejercicio 29
+
+<code-block src="./Boletin_2/Ejercicio_29.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
+
+### Ejercicio 30
+
+<code-block src="./Boletin_2/Ejercicio_30.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
+
+### Ejercicio 31
+
+<code-block src="./Boletin_2/Ejercicio_31.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
+
+-->
+
 ### Ejercicio 32
 
 <code-block src="./Boletin_2/Ejercicio_32.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
@@ -140,3 +156,23 @@ Faltan soluciones para los ejercicios del 29 al 31. [Colabora](https://github.co
 
 Faltan soluciones para los ejercicios del 33 al 36. [Colabora](https://github.com/TeenBiscuits/Pro2324)
 </warning>
+
+<!--
+
+### Ejercicio 33
+
+<code-block src="./Boletin_2/Ejercicio_33.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
+
+### Ejercicio 34
+
+<code-block src="./Boletin_2/Ejercicio_34.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
+
+### Ejercicio 35
+
+<code-block src="./Boletin_2/Ejercicio_35.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
+
+### Ejercicio 36
+
+<code-block src="./Boletin_2/Ejercicio_36.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
+
+-->
