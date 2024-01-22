@@ -4,11 +4,22 @@
 
 <!-- TODO Poner el resto de agradecimientos una vez tengamos permiso explícito -->
 
-<!--
 ### Boletines
 
+#### Material Original
+
+##### Basado en
+
+<tip>
+
+**Problemas en Pascal estándar ISO-10206** Bóveda, Carmen; García, Esteban; Rodríguez, Alejandra. ISBN:
+978-84-16294-25-1
+
+</tip>
+
+##### Adaptación por
+
 <tip>Copyright © María Del Carmen Bóveda Álvarez</tip>
--->
 
 ### Teoría
 
