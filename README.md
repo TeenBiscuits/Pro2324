@@ -62,7 +62,6 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 
 </div>
 
-- [ ] 
 
 ### Teoría
 
