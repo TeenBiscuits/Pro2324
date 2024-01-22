@@ -15,7 +15,7 @@ env:
   DOCKER_VERSION: 233.4797
 
 jobs:
-  build:
+  construir:
     runs-on: ubuntu-latest
 
     steps:
@@ -29,7 +29,7 @@ jobs:
           artifact: ${{ env.ARTIFACT }}
           docker-version: ${{ env.DOCKER_VERSION }}
 
-      - name: Subir documentación
+      - name: Subir artefacto
         uses: actions/upload-artifact@v4
         with:
           name: docs
@@ -38,9 +38,9 @@ jobs:
             artifacts/report.json
           retention-days: 7
 
-  test:
+  comprobar:
     # Requires build job results
-    needs: build
+    needs: construir
     runs-on: ubuntu-latest
 
     steps:
@@ -55,12 +55,12 @@ jobs:
         with:
           instance: ${{ env.INSTANCE }}
 
-  deploy:
+  publicar:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     # Requires the build job results
-    needs: test
+    needs: comprobar
     runs-on: ubuntu-latest
     steps:
       - name: Descargar artefacto
@@ -68,7 +68,7 @@ jobs:
         with:
           name: docs
 
-      - name: Descomprimiendo artefacto
+      - name: Descomprimir artefacto
         run: unzip -O UTF-8 -qq ${{ env.ARTIFACT }} -d dir
 
       - name: Configurar Pages
