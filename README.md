@@ -15,6 +15,7 @@
 ![Build](https://github.com/TeenBiscuits/Pro2324/actions/workflows/deploy.yml/badge.svg)
 [![Web](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fteenbiscuits.github.io%2FPro2324%2Fpro2324.html)](https://teenbiscuits.github.io/Pro2324/pro2324.html)
 [![Pull Request](https://img.shields.io/github/issues-pr-closed/TeenBiscuits/Pro2324.svg)](https://github.com/TeenBiscuits/Pro2324/pulls)
+[![GitHub Contributors](https://img.shields.io/github/contributors/TeenBiscuits/Pro2324)](https://github.com/TeenBiscuits/Pro2324/graphs/contributors)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE.md)
 [![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC_BY--ND_4.0-lightgrey.svg)](./docs/LICENSE)
 [![Stars](https://img.shields.io/github/stars/TeenBiscuits/Pro2324.svg)](https://github.com/TeenBiscuits/Pro2324)
