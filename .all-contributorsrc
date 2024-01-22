@@ -1,4 +1,23 @@
 {
   "projectName": "Pro2324",
-  "projectOwner": "TeenBiscuits"
+  "projectOwner": "TeenBiscuits",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "TeenBiscuits",
+      "name": "Pablo Portas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81629707?v=4",
+      "profile": "https://github.com/TeenBiscuits",
+      "contributions": [
+        "code",
+        "content",
+        "doc"
+      ]
+    }
+  ]
 }
