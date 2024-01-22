@@ -11,11 +11,11 @@
 [![C](https://img.shields.io/badge/C99-%2300599C.svg?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C99)
 [![CLion](https://img.shields.io/badge/CLion-black.svg?logo=clion&logoColor=white)](https://www.jetbrains.com/es-es/clion/)
 [![Writerside](https://img.shields.io/badge/Writerside-purple.svg?logo=jetbrains&logoColor=white)](https://www.jetbrains.com/es-es/writerside/)
-[![Git](https://img.shields.io/badge/GIT-E44C30?logo=git&logoColor=white)](https://en.wikipedia.org/wiki/Git)
+[![Git](https://img.shields.io/badge/Git-E44C30?logo=git&logoColor=white)](https://en.wikipedia.org/wiki/Git)
 ![Build](https://github.com/TeenBiscuits/Pro2324/actions/workflows/deploy.yml/badge.svg)
-[![Web](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fteenbiscuits.github.io%2FPro2324%2Fpro2324.html)](https://teenbiscuits.github.io/Pro2324/pro2324.html)
-[![Pull Request](https://img.shields.io/github/issues-pr-closed/TeenBiscuits/Pro2324.svg)](https://github.com/TeenBiscuits/Pro2324/pulls)
-[![GitHub Contributors](https://img.shields.io/github/contributors/TeenBiscuits/Pro2324)](https://github.com/TeenBiscuits/Pro2324/graphs/contributors)
+[![Web](https://img.shields.io/website?down_message=offline&up_message=online&label=Web&url=https%3A%2F%2Fteenbiscuits.github.io%2FPro2324%2Fpro2324.html)](https://teenbiscuits.github.io/Pro2324/pro2324.html)
+[![Pull Request](https://img.shields.io/github/issues-pr-closed/TeenBiscuits/Pro2324.svg?label=Pull%20Request)](https://github.com/TeenBiscuits/Pro2324/pulls)
+[![GitHub Contributors](https://img.shields.io/github/contributors/TeenBiscuits/Pro2324?label=Contributors)](https://github.com/TeenBiscuits/Pro2324/graphs/contributors)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE.md)
 [![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC_BY--ND_4.0-lightgrey.svg)](./docs/LICENSE)
 [![Stars](https://img.shields.io/github/stars/TeenBiscuits/Pro2324.svg)](https://github.com/TeenBiscuits/Pro2324)
@@ -83,11 +83,14 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 
 ### Futuros/as ingenieros/as informáticos/as 😎😎😎😎
 
-<a href="https://github.com/TeenBiscuits/Pro2324/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=TeenBiscuits/Pro2324" width="100%"/>
-</a>
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 
-<br/>
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 > ¿Quieres aparecer ahí arriba? **¡Contribuye!**
 
