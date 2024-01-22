@@ -53,3 +53,9 @@
 
 
 <tip>MUCHAS GRACIAS A TODOS/AS ❤️</tip>
+
+### Apoye el desarrollo
+
+![GitHubSponsors.png](GitHubSponsors.png)
+
+[Apoye el desarrollo](https://github.com/sponsors/TeenBiscuits)
