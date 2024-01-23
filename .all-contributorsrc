@@ -1,13 +1,4 @@
 {
   "projectName": "Pro2324",
   "projectOwner": "TeenBiscuits",
-  "files": [
-    "README.md"
-  ],
-  "commitType": "docs",
-  "commitConvention": "angular",
-  "contributorsPerLine": 7,
-  "contributors": [
-  ],
-  "repoType": "github"
 }
