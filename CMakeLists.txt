@@ -17,5 +17,5 @@ add_subdirectory(./src/Boletin_4)
 add_subdirectory(./src/Ejemplos)
 # Extras
 add_subdirectory(./src/Extras)
-# Examenes
+# Exámenes
 add_subdirectory(./src/Examenes)
