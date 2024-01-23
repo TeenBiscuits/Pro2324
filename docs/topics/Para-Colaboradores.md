@@ -16,3 +16,21 @@ Supongo que ya lo has hecho, pero recuerda leer [la guía de contribución](http
 <!-- No voy a mentir, esto es lo último que tengo 
             como prioridad por acabar          -->
 </tip>
+
+<!-- Ejemplo de Ejecución -->
+
+<procedure>
+<title>Ejemplo de Ejecución</title>
+<p>
+<b>Primer Número:</b> 34<br/>
+<b>Segundo Número:</b> 56<br/>
+<b>Tercer Número:</b> 21<br/>
+</p>
+<p>56 es el número mayor de los tres introducidos</p>
+</procedure>
+
+<!-- Code - Block de Soluciones -->
+
+<code-block src="./Boletin_1/Ejercicio_01.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
+
+<!--  -->
