@@ -49,7 +49,7 @@
                 <title>Otros enlaces</title>
                 <a href="https://creativecommons.org/licenses/by-nc/4.0/" type="case" summary="Attribution-NonCommercial 4.0 International">Licencia Documentación</a>
                 <a href="https://www.gnu.org/licenses/gpl-3.0.en.html#license-text" type="case" summary="GNU General Public License v3.0">Licencia Código</a>
-                <a href="https://github.com/TeenBiscuits/Pro2324/issues/new/choose" type="offer" summary="¿Has encontrado un error? ¿Tienes alguna sugerencia? ¡Háznoslo saber!">Reportar un Error/Sugerencia</a>
+                <a href="https://github.com/TeenBiscuits/Pro2324/issues/new/choose" type="offer" summary="¿Has encontrado un error? ¿Tienes alguna sugerencia? ¡Háznoslo saber!">Reportar un Error / Sugerencia</a>
                 <a href="https://github.com/sponsors/TeenBiscuits" type="start" summary="Apoye el desarrollo mediante GitHub Sponsors">Apoye el desarrollo</a>
                 <a href="Agradecimientos.md" type="community" summary="Este proyecto no sería posible sin el trabajo previo y la colaboración de estas talentosas personas. 🤗">Agradecimientos</a>
             </cards>
