@@ -8,26 +8,6 @@
   "commitConvention": "angular",
   "contributorsPerLine": 7,
   "contributors": [
-    {
-      "login": "Fraagaa",
-      "name": "メ",
-      "avatar_url": "https://avatars.githubusercontent.com/u/66569329?v=4",
-      "profile": "https://github.com/Fraagaa",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "TeenBiscuits",
-      "name": "Pablo Portas",
-      "avatar_url": "https://avatars.githubusercontent.com/u/81629707?v=4",
-      "profile": "https://github.com/TeenBiscuits",
-      "contributions": [
-        "code",
-        "content",
-        "doc"
-      ]
-    }
   ],
   "repoType": "github"
 }
