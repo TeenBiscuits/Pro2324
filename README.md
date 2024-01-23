@@ -96,6 +96,7 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Fraagaa"><img src="https://avatars.githubusercontent.com/u/66569329?v=4?s=100" width="100px;" alt="メ"/><br /><sub><b>メ</b></sub></a><br /><a href="#code-Fraagaa" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sneiira"><img src="https://avatars.githubusercontent.com/u/151532950?v=4?s=100" width="100px;" alt="Santiago Neira Sejean"/><br /><sub><b>Santiago Neira Sejean</b></sub></a><br /><a href="#code-sneiira" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/dza205"><img src="https://avatars.githubusercontent.com/u/76247222?v=4?s=100" width="100px;" alt="Daniel Deza Prieto"/><br /><sub><b>Daniel Deza Prieto</b></sub></a><br /><a href="#code-dza205" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.informaticapau.com/"><img src="https://avatars.githubusercontent.com/u/71133325?v=4?s=100" width="100px;" alt="Daniel Feito Pin"/><br /><sub><b>Daniel Feito Pin</b></sub></a><br /><a href="#content-danielfeitopin" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
