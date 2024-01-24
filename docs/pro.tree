@@ -39,8 +39,9 @@
         <toc-element topic="Compilador.md"/>
     </toc-element>
     <toc-element topic="Extras.md"/>
-    <toc-element toc-title="GitHub"
-                 href="https://github.com/TeenBiscuits/Pro2324"/>
-    <toc-element topic="Agradecimientos.md" hidden="true"/>
+    <toc-element toc-title="Reportar un Error/Sugerencia" href="https://github.com/TeenBiscuits/Pro2324/issues/new/choose"/>
+    <toc-element toc-title="GitHub" href="https://github.com/TeenBiscuits/Pro2324"/>
+    <toc-element toc-title="Apoye el desarrollo" href="https://github.com/sponsors/TeenBiscuits"/>
+    <toc-element topic="Agradecimientos.md"/>
     <toc-element topic="Para-Colaboradores.md" hidden="true"/>
 </instance-profile>
