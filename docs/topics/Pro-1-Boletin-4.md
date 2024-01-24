@@ -8,9 +8,7 @@
 <warning>
 <b><b>¡Se necesita tu ayuda!</b></b>
 
-Faltan soluciones para los ejercicios del 5 al 8, del 11 al 14, del 16 al 19, del 21 al 23, del 26 al 28 y del 30 al
-
-40. [Colabora](https://github.com/TeenBiscuits/Pro2324)
+Faltan soluciones para los ejercicios del 5 al 8, del 11 al 14, del 16 al 19, del 21 al 23, del 26 al 28 y del 30 al 40. [Colabora](https://github.com/TeenBiscuits/Pro2324)
 
 </warning>
 
