@@ -73,7 +73,7 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 | [![Bloque 3](https://progress-bar.dev/100/?title=Bloque%203&width=200&color=d2007b)](https://teenbiscuits.github.io/Pro2324/bloque-3.html) | [![Bloque 4](https://progress-bar.dev/100/?title=Bloque%204&width=200&color=d2007b)](https://teenbiscuits.github.io/Pro2324/bloque-1.html) |
 | [![Bloque 5](https://progress-bar.dev/0/?title=Bloque%205&width=200&color=d2007b)](https://teenbiscuits.github.io/Pro2324/bloque-5.html)   | [![Bloque 6](https://progress-bar.dev/0/?title=Bloque%206&width=200&color=d2007b)](https://teenbiscuits.github.io/Pro2324/bloque-6.html)   |
 | [![Exámenes](https://img.shields.io/badge/Exámenes-0-grey?labelColor=d2007b)](https://teenbiscuits.github.io/Pro2324/examenes.html)        | [![Tutoriales](https://img.shields.io/badge/Tutoriales-1-grey?labelColor=d2007b)](https://teenbiscuits.github.io/Pro2324/tutoriales.html)  |
-| [![Ejemplos](https://img.shields.io/badge/Ejemplos-0-grey?labelColor=d2007b)](https://teenbiscuits.github.io/Pro2324/ejemplos.html)                                              | [![Extras](https://img.shields.io/badge/Extras-0-grey?labelColor=d2007b)](https://teenbiscuits.github.io/Pro2324/extras.html)                                                  |
+| [![Ejemplos](https://img.shields.io/badge/Ejemplos-0-grey?labelColor=d2007b)](https://teenbiscuits.github.io/Pro2324/ejemplos.html)                                              | [![Extras](https://img.shields.io/badge/Extras-6-grey?labelColor=d2007b)](https://teenbiscuits.github.io/Pro2324/extras.html)              |
 
 </div>
 
