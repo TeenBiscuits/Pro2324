@@ -25,9 +25,9 @@
         <primary>
             <title>Otras cosas interesantes</title>
             <!-- <a href="Ejemplos.md" type="cross-check" summary="Ejemplos sencillos y no tan sencillos, algunos sacados de clases de prácticas.">Ejemplos</a> -->
-            <a href="Ejemplos.md" type="lock" summary="Próximamente...">Ejemplos</a>
+            <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html" type="lock" summary="Próximamente...">Ejemplos</a>
             <!-- <a href="Examenes.md" type="academy" summary="Exámenes antiguos resueltos.">Exámenes</a> -->
-            <a href="Examenes.md" type="lock" summary="¡En construcción!">Antiguos Exámenes</a>
+            <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html" type="lock" summary="¡En construcción!">Antiguos Exámenes</a>
             <a href="Tutoriales.topic" type="keyboard" summary="Lo difícil hecho fácil.">Tutoriales</a>
             <!-- No se puede referenciar a un topic dentro de si mismo -->
             <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html" type="lock" summary="Próximamente...">Próximamente...</a>
@@ -37,8 +37,7 @@
         <!-- Secciones para "advanced/experienced users." -->
         <secondary>
             <title>Para estudiantes más avanzados</title>
-            <!-- <a href="Extras.md" type="mixed" summary="Algunos prográmas extras interesantes.">Extras</a> -->
-            <a href="Extras.md" type="lock" summary="¡En construcción!">Extras</a>
+            <a href="Extras.topic" type="mixed" summary="Algunos prográmas extras interesantes.">Extras</a>
             <a href="https://github.com/TeenBiscuits/Pro2324" type="open-source" summary="Este proyecto es Open Source, el código es libre y todo el mundo puede verlo y editarlo. Ayúdanos aportando tu granito de arena o simplemente danos una estrellita. ⭐">Colabora</a>
         </secondary>
 

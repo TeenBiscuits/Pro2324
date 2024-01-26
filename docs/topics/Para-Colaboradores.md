@@ -19,7 +19,6 @@ Prioridad uno: ¡En Construcción! Segunda prioridad: Próximamente...
 - [ ] Introducción Pro (¡En Construcción!)
 - [ ] Bibliografía Pro (¡En Construcción!)
 - [ ] Antiguos exámenes (¡En Construcción!)
-- [ ] Extras (¡En Construcción!)
 - [ ] Ejemplos (Próximamente...)
 - [ ] Añadir tutoriales (Próximamente...)
 - [ ] Boletines Pro II (Próximamente...)
@@ -49,4 +48,14 @@ Prioridad uno: ¡En Construcción! Segunda prioridad: Próximamente...
 
 <code-block src="./Boletin_1/Ejercicio_01.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
-<!--  -->
+<!-- Code - Normal -->
+
+<code-block lang="c" src="./Extras/Algoritmos/BubbleSort.c" collapsible="true" collapsed-title="Mostrar código"></code-block>
+
+<!-- Avisos -->
+
+<warning><b>¡En construcción! <a href="https://github.com/TeenBiscuits/Pro2324">Colabora</a></b></warning>
+
+<note><b>Próximamente... <a href="https://github.com/TeenBiscuits/Pro2324">Colabora</a></b></note>
+
+<tip>Copyright © 2024 "nombre"</tip>
