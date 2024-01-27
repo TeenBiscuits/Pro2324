@@ -1,8 +1,8 @@
 name: 💡 Solicitud de función
 description: Sugiere una idea para este proyecto.
-title: "[FEATURE REQUEST] <title>"
-labels: ["mejora"]
-assignees: "TeenBiscuits"
+title: '[FEATURE REQUEST] <title>'
+labels: 'mejora'
+assignees: 'TeenBiscuits'
 body:
   - type: input
     id: title
