@@ -1,0 +1,27 @@
+name: 🐛 Informe de error/bug
+about: Crea un informe para ayudarnos a mejorar
+title: "[BUG] <bug>"
+labels: ["bug", "good first issue"]
+assignees: 'TeenBiscuits'
+body:
+- type: input
+  id: bug
+  attributes:
+  label: El error/bug
+  description: "Una descripción clara y concisa de cuál es el error"
+  validations:
+  required: true
+- type: input
+  id: steps
+  attributes:
+  label: Pasos para reproducir el comportamiento
+  description: "¿Que hay que hacer para que el error/bug pase?"
+  placeholder: "1. Hago esto/aquello..."
+  validations:
+  required: false
+- type: input
+  id: extra
+  attributes:
+  label: Información extra
+  validations:
+  required: false
