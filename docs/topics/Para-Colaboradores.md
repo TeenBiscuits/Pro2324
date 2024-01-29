@@ -1,3 +1,5 @@
+<no-index/>
+
 # Para Colaboradores
 
 <tldr>
