@@ -132,3 +132,6 @@ fabric.properties
 
 # Writeside artifacts
 .idea/artifacts
+
+# JetBrains Fleet Cache
+.cache/**

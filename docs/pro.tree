@@ -30,8 +30,7 @@
         <toc-element toc-title="Pro II">
             <toc-element toc-title="Próximamente..."/>
         </toc-element>
-        <!-- <toc-element topic="Bibliografia.md"/> -->
-        <toc-element toc-title="Bibliografía"/>
+        <toc-element topic="Bibliografia.md"/>
     </toc-element>
     <toc-element toc-title="Ejemplos"/>
     <!-- <toc-element topic="Ejemplos.md"/> -->
@@ -46,7 +45,11 @@
     </toc-element>
     <toc-element toc-title="Reportar un Error/Sugerencia" href="https://github.com/TeenBiscuits/Pro2324/issues/new/choose"/>
     <toc-element toc-title="GitHub - Colabora" href="https://github.com/TeenBiscuits/Pro2324"/>
-    <toc-element toc-title="Apoye el desarrollo" href="https://github.com/sponsors/TeenBiscuits"/>
+    <toc-element toc-title="Apoye el desarrollo">
+        <toc-element toc-title="GitHub Sponsors" href="https://github.com/TeenBiscuits/Pro2324"/>
+        <toc-element toc-title="Ko-Fi" href="https://ko-fi.com/pablopl"/>
+        <toc-element toc-title="PayPal" href="https://paypal.me/pabloportaslopez"/>
+    </toc-element>
     <toc-element topic="Agradecimientos.md"/>
     <toc-element topic="Para-Colaboradores.md" hidden="true"/>
 </instance-profile>
