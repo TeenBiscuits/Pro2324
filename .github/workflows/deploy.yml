@@ -13,6 +13,7 @@ env:
   ARTIFACT: webHelpPRO2-all.zip
   # Writerside docker image version
   DOCKER_VERSION: 233.14272
+  ALGOLIA_ARTIFACT: algolia-indexes-PRO.zip
 
 jobs:
   construir:
@@ -38,7 +39,45 @@ jobs:
             artifacts/report.json
           retention-days: 7
 
+      - name: Upload algolia-indexes
+        uses: actions/upload-artifact@v3
+        with:
+          name: algolia-indexes
+          path: artifacts/${{ env.ALGOLIA_ARTIFACT }}
+          retention-days: 7
+
+  publicar-indexes:
+    # Requires the build-job results
+    needs: construir
+    runs-on: ubuntu-latest
+    container:
+      image: registry.jetbrains.team/p/writerside/builder/algolia-publisher:2.0.32-2
+
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: algolia-indexes
+      - name: Unzip artifact
+        run: |
+          unzip -O UTF-8 -qq ${{ env.ALGOLIA_ARTIFACT }} -d algolia-indexes
+          env "algolia-key=${{env.ALGOLIA_KEY}}" java -jar /opt/builder/help-publication-agent.jar \
+          update-index \
+          --application-name ${{env.ALGOLIA_APP_NAME}} \
+          --index-name ${{env.ALGOLIA_INDEX_NAME}} \
+          --product ${{env.CONFIG_JSON_PRODUCT}} \
+          --version ${{env.CONFIG_JSON_VERSION}} \
+          --index-directory algolia-indexes/ \
+          2>&1 | tee algolia-update-index-log.txt
+
   comprobar:
+    env:
+      ALGOLIA_APP_NAME: 0K3UBN277V
+      ALGOLIA_INDEX_NAME: pro2324
+      ALGOLIA_KEY: ${{ secrets.ALGOLIA_KEY }}
+      ALGOLIA_ARTIFACT: algolia-indexes-PRO.zip
+      CONFIG_JSON_PRODUCT: PRO
+      CONFIG_JSON_VERSION: 2023-2024
     # Requires build job results
     needs: construir
     runs-on: ubuntu-latest

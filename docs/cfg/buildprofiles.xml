@@ -10,6 +10,11 @@
         <download-title>Repositorio en GitHub</download-title>
         <download-page>https://github.com/TeenBiscuits/Pro2324</download-page>
         <showDownloadButton>true</showDownloadButton>
+        <!-- ANGOLIA SEARCH -->
+        <algolia-id>0K3UBN277V</algolia-id>
+        <algolia-index>pro2324</algolia-index>
+        <algolia-api-key>${{ secrets.ALGOLIA_KEY }}</algolia-api-key>
+        <web-root>https://teenbiscuits.github.io/Pro2324/</web-root>
     </variables>
     <shortcuts>
         <src>keymap.xml</src>
