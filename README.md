@@ -3,7 +3,7 @@
 <div align="center">
 <h3>🌐 <a href="https://teenbiscuits.github.io/Pro2324">Página Web</a> 🌐</h3>
 
-[![Objetivo](https://progress-bar.dev/44/?title=Objetivo%20de%20Estrellas&width=200&color=e3b341)](https://github.com/TeenBiscuits/Pro2324)
+[![Objetivo](https://progress-bar.dev/62/?title=Objetivo%20de%20Estrellas&width=200&color=e3b341)](https://github.com/TeenBiscuits/Pro2324)
 </div>
 
 # Pro2324
