@@ -18,7 +18,9 @@ sean interesantes y estén relacionados con la programación en C y/o similar.
 
 ### Qué contribuciones no se aceptarán
 
-No se añadirá, ningún **proyecto de entrega obligatoria**.
+> **Actualización**: Debido a las normas de Pro II, no se aceptará ningún proyecto, incluso después de la fecha de entrega.
+
+No se añadirá, ningún **proyecto**.
 
 Tampoco se añadirá código que no sea de creación propia o que fuera conseguido de forma ilícita.
 
@@ -27,6 +29,12 @@ Ni se añadirán exámenes, pruebas o demás material **cuyo autor/a no expresas
 ### ¿Como contribuir?
 
 > Cita siempre al autor original o a los coautores de todo lo que añadas, **hoy por ti mañana por mi**.
+
+Este Repositorio usa varias funciones de GitHub recientes, entre ellas proyectos. [Enlace al tabloide](https://github.com/users/TeenBiscuits/projects/1)
+
+Cuando se añada algo que esté especificado en el tabloide, se añadirá a la **branch** ya abierta para ello.
+
+En el caso de añadir algo nuevo, pues simplemente haz una pull request.
 
 #### Código
 
