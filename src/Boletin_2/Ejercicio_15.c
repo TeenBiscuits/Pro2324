@@ -1,16 +1,6 @@
 //
 // Created by pablo on 25/10/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que presente el menú que se
- *       especifica a continuación y que, según sea el carácter introducido por el
- *       usuario, escriba en pantalla BEBÉ, ADOLESCENTE, MUJER, HOMBRE.
- * in: Carácter
- * out: Escriba en pantalla que eligió
- * NOTA1:
- */
 #include <stdio.h>
 #include <stdbool.h>
 

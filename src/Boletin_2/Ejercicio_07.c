@@ -2,16 +2,7 @@
 // Created by Pablo on 04/12/2023.
 //
 #include <stdio.h>
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Implemente un programa que resuelva ecuaciones de segundo grado
- *       empleando sentencias switch para los casos: reales y distintas, complejas
- *       conjugadas y raíz real doble.
- * in: a, b, c (a*x^2 + b*x + c)
- * out: Reales, distintas, complejas conjugadas y raíz real doble.
- * NOTA1:
- */
+
 #include <math.h>
 
 int main() {

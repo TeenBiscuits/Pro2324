@@ -1,15 +1,6 @@
 //
 // Created by Pablo on 06/12/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente en Lenguaje C el juego MasterMind, empleando
- *       sentencias do...while
- * in: 4 Colores
- * out: Si están correctos o no
- */
-
 // Librerías
 #include <stdio.h>
 #include <time.h>
