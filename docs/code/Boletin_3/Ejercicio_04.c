@@ -1,18 +1,6 @@
 //
 // Created by Pablo on 01/12/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un subprograma en Lenguaje C para resolver una
- *       ecuación de segundo grado Ax^2+Bx+C=0 a partir de sus coeficientes A, B y C.
- *       Además del subprograma, implemente la función apropiada para probar su
- *       funcionamiento, activando este último desde el programa principal.
- * in: Coeficientes A B C
- * out:
- * NOTA1:
- */
-
 // Librerías
 #include <stdio.h>
 #include <stdbool.h>

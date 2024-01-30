@@ -2,16 +2,6 @@
 // Created by Pablo on 04/12/2023.
 //
 #include <stdio.h>
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en que solicite el nombre, apellidos y edad
- *       de un usuario por teclado y que le muestre el siguiente mensaje por pantalla.
- *       NOTA: Utilice la edad de jubilación como una constante con valor 67 años.
- * in: NOMBRE, APELLIDOS Y EDAD
- * out: Sr/Sra. Apellido, le faltan aún X años para jubilarse
- * NOTA1:
- */
 #define MAX 30
 
 int main() {

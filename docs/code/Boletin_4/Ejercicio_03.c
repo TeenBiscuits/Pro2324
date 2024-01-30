@@ -1,17 +1,6 @@
 //
 // Created by Pablo on 08/12/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en lenguaje C, que utilizando
- *       exclusivamente subprogramas, calcule la suma de los elementos de un array de
- *       números reales proporcionados por el usuario, considerando como máximo 30
- *       elementos.
- * in: Introduzca números reales, un máximo de 30
- * out: El sumatorio
- */
-
 // Librerías
 #include <stdio.h>
 

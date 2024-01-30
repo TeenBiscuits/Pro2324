@@ -1,14 +1,6 @@
 //
 // Created by Miguel Fraga on 06/12/2023.
 //
-
-/*
-        Plantee e implemente un programa en lenguaje C, que utilizando
-        exclusivamente subprogramas, solicite números enteros por teclado y vaya
-        almacenándolos en un array de 10 elementos, mostrando a continuación por
-        pantalla el contenido del array creado.
- */
-
 #include <stdio.h>
 
 void askNumbers(int *cadena)

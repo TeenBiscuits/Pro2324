@@ -2,16 +2,6 @@
 // Created by Pablo on 04/12/2023.
 //
 #include <stdio.h>
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que solicite por teclado la
- *       base y altura de un triángulo rectángulo y muestre por pantalla su superficie.
- *       Presente la salida con el siguiente formato.
- * in: BASE Y ALTURA
- * out: La superficie del triángulo de base XX.XX y altura YY.YY es ZZ.ZZ
- * NOTA1:
- */
 #define superficie3(x, y) ((x*y)/2) // Defino la fórmula del area del triángulo
 
 int main() {

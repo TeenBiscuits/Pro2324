@@ -1,18 +1,6 @@
 //
 // Created by Pablo on 01/12/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un subprograma en Lenguaje C para mostrar por pantalla
- *       el triángulo de Floyd hasta un número entero introducido por teclado. Además
- *       del subprograma, implemente la función apropiada para probar su
- *       funcionamiento, activando este último desde el programa principal.
- * in: Número entero
- * out: Tríangulo de Floyd de ese tamaño
- * NOTA1:
- */
-
 // Librerías
 #include <stdio.h>
 

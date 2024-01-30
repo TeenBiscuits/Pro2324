@@ -1,23 +1,10 @@
 //
 // Created by pablo on 25/10/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C para clasificar triángulos en
- *       función de las longitudes de sus lados, que se solicitarán por teclado, de forma
- *       que se indique por pantalla si el triángulo es equilátero (todos los lados iguales),
- *       isósceles (dos lados iguales) o escaleno (todos los lados diferentes).
- * in: TRES NÚMEROS ENTEROS
- * out: INPUT VÁLIDO, SE PUEDE FORMAR TRIÁNGULO, TIPO DEL TRIÁNGULO SEGÚN ÁNGULO Y LADOS.
- * NOTA1:
- */
-
-// YA TENÍA EL CÓDIGO HECHO DE UNA PRÁCTICA QUE HICIMOS EN CLASE
 #include <stdio.h>
-# include <math.h> // HACER SENOS Y COSENOS SIN ESTO ES DIFÍCIL
+#include <math.h> // HACER SENOS Y COSENOS SIN ESTO ES DIFÍCIL
 
-# define PI 3.14159265358979323846
+#define PI 3.14159265358979323846
 
 int main() {
     int a, b, c, continuar, correct, antiinf;

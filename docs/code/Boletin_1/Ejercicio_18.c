@@ -3,29 +3,6 @@
 //
 #include <stdio.h>
 
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que solicite a un usuario su
- *       nombre, apellidos, sueldo mensual (en euros) y el dinero que gasta diariamente
- *       en ocio, comida y transporte. A continuación, utilizando descriptores de
- *       formato, debe mostrar una tabla como la que se indica donde se recoja el % de
- *       su sueldo que gasta semanalmente en ocio, comida y transporte. Incluya
- *       también el total del gasto semanal realizado.
- * in: NOMBRE, APELLIDOS, SUELDO MENSUAL (€); DINERO QUE GASTA EN: OCIO, COMIDA, TRANSPORTE.
- * out: TABLA CON FORMATO COMO EL INDICADO:
- *
- *      ************************************************************************
- *      *******                 Sonia Rodríguez: 1000€                   *******
- *              %Ocio           %Comida             %Transporte           %Otros
- *              7.5%            5%                  10.34 %               2.16%
- *      *******                                                          *******
- *                                                                  Gasto semanal
- *                                                                           250€
- *
- * NOTA1:
- */
-
 #define MAX 20 // DEFINO MÁXIMO PARA LOS STRINGS DE CARACTERES
 #define porcentaje(x, y) ((x / y) * 100) // FÓRMULA PARA CALCULAR PORCENTAJES
 

@@ -1,17 +1,6 @@
 //
 // Created by Pablo on 04/12/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que solicite al usuario una
- *       fecha del año en curso y le muestre en el centro de la pantalla
- *       (aproximadamente) el número de días transcurridos desde el comienzo de año
- *       hasta esa fecha.
- * in: Fecha del Año en curso
- * out: Días transcurridos desde el comienzo del año
- * NOTA1:
- */
 #include <stdio.h>
 #include <stdbool.h>
 

@@ -2,15 +2,6 @@
 // Created by Pablo on 04/12/2023.
 //
 #include <stdio.h>
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que muestre por pantalla el
- *       mayor de tres números introducidos por teclado.
- * in: TRES NÚMEROS ENTEROS
- * out: EL MAYOR DE LOS TRES
- * NOTA1:
- */
 
 int main() {
     int a, b, c, menor, medio, mayor;

@@ -2,10 +2,6 @@
 // Created by Miguel Fraga on 10/12/2023.
 //
 
-/*
- *  Diseñe una función que devuelva al revés la cadena recibida como parámetro
-*/
-
 #include <stdio.h>
 #include <string.h>
 

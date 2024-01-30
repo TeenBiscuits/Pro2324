@@ -2,17 +2,6 @@
 // Created by Pablo on 04/12/2023.
 //
 #include <stdio.h>
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que a partir de la
- *       temperatura máxima y mínima diaria de una ciudad en grados Fahrenheit
- *       (introducidas por teclado) proporcione dichas temperaturas en grados
- *       centígrados por pantalla. Contemple una salida ordenada en forma de tabla.
- * in: TEMPERATURA MÁXIMA Y MÍNIMA EN ºF, NOMBRE CIUDAD
- * out: ORDENADO COMO TABLA LA TEMPERATURA MÍNIMA Y MÁXIMA TANTO EN ºC COMO EN ºF
- * NOTA1:
- */
 #include <time.h> // PARA PONER LA FECHA ACTUAL
 
 #define conversionfac(x) ((x - 32) * 5 / 9) // Fórmula de conversión de Fahrenheit a Grados Centígrados

@@ -1,16 +1,6 @@
 //
 // Created by Pablo on 30/11/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Escribir un programa, empleando funciones de usuario, que pida un número
- *       entero y muestre por pantalla el mayor entero que lo divide exceptuando el
- *       mismo.
- * in: Un número entero
- * out: Mayor entero que lo divide si contarse a sí mismo
- * NOTA1:
- */
 #include <stdio.h>
 
 int mayorDiv(int n);

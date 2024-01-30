@@ -3,28 +3,6 @@
 //
 #include <stdio.h>
 
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en LENGUAJE C para controlar la compra
- *       diaria. El programa debe pedir los kilos de patatas comprados y su precio sin
- *       IVA, los kilos de manzanas comprados y su precio sin IVA y cuánto ha pagado
- *       por un libro que se ha comprado, sin IVA. Suponga que el IVA de los productos
- *       alimenticios es del 21% y de los productos de cultura 10%. Muestre por pantalla
- *       el importe de cada producto y el importe total de la compra según se indica en
- *       el ejemplo:
- * in: KILOS DE MANZANA Y DE PATATA, PRECIO (KILO) SIN IVA DE MANZANA, PATATA Y PRECIO SIN IVA LIBRO
- * out:
- *
- * --------------------------------------------------------------------------------------- Ticket 1/1
- * Patatas              7 kg                0.69€               4.83€               5.84€   (IVA 21%)
- * Manzanas             4 kg                1.23€               4.92€               5.95€   (IVA 21%)
- * Libro                1                   19€                 19€                 20.90€  (IVA 10%)
- * --------------------------------------------------------------------------------------------------
- * TOTAL                                                                                       32.69€
- *
- * NOTA1:
- */
 #define IVA 0.21
 #define IVAC 0.10
 #define precioiva(x) (x * (1+IVA))
