@@ -3,18 +3,6 @@
 //
 #include <stdio.h>
 
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que calcule el producto
- *       escalar de dos vectores en el espacio euclídeo.
- *       NOTA: Pruebe durante la ejecución a introducir los valores numéricos separados por
- *       el carácter tabulador, por la barra espaciadora y/o por el carácter <enter>, y observe
- *       que ocurre.
- * in: COORDENADAS DEL PRIMER VECTOR, COORDENADAS DEL SEGUNDO VECTOR
- * out: RESULTADO DEL PRODUCTO ESCALAR
- * NOTA1:
- */
 #define productoescalar(vx1,vy1,vz1,vx2,vy2,vz2) ((vx1*vx2)+(vy1*vy2)+(vz1*vz2))
 
 int main() {

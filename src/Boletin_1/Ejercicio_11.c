@@ -2,16 +2,6 @@
 // Created by Pablo on 04/12/2023.
 //
 #include <stdio.h>
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que empleando expresiones,
- *       convierta un tiempo expresado en segundos al formato horas : minutos :
- *       segundos.
- * in: SEGUNDOS
- * out: HORAS:MINUTOS:SEGUNDOS
- * NOTA1:
- */
 
 int main() {
     int total, horas, minutos, segundos, resto;

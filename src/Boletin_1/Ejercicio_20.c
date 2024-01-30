@@ -2,30 +2,7 @@
 // Created by Pablo on 04/12/2023.
 //
 #include <stdio.h>
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que solicite a un usuario su
- *       nombre, apellidos, edad y el número de créditos matriculados en primera,
- *       segunda y tercera matrícula. A continuación debe mostrar una tabla como la
- *       que se indica donde se recoja el coste total de las asignaturas de primera,
- *       segunda y tercera matrícula. Suponga que el precio del crédito en primera
- *       matrícula (15.45€) se incrementa un 25% en segunda matrícula y un 50% en
- *       tercera. Incluya también el coste total de la matrícula del alumno.
- * in: NOMBRE, APELLIDOS, EDAD, NÚMERO DE CRÉDITOS MATRICULADOS EN PRIMERA, SEGUNDA Y TERCERA MATRÍCULA
- * out: NOMBRE, APELLIDO, EDAD, CRÉDITOS DE M1, M2 Y M3, COSTE DE M1, M2, M3 Y TOTAL
- * ************************************************************************
- * *******                  Álvaro Pérez: 31 años                   *******
- * Créditos M1  Coste M1    Créditos M2 Coste M2    Créditos M3    Coste M3
- *          14    216.3€             15  289.69€             10     231.75€
- * *******                                                          *******
- *                                                    Coste Total Matrícula
- *                                                                  737.74€
- * ************************************************************************
- *
- *
- * NOTA1:
- */
+
 #define incremetocoste(x, y) (x * (1 + y));
 #define costeporcredito(x, y) (x * y);
 #define MAX 20

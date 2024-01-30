@@ -3,18 +3,6 @@
 //
 #include <stdio.h>
 
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que solicite al usuario su
- *       nombre, edad y lo que se ha gastado en cañas y en transporte durante una
- *       semana (en euros) y muestre por pantalla esos mismos datos y la suma de los
- *       gastos.
- * in: NOMBRE, EDAD, GASTADO EN CAÑAS, GASTADO EN TRANSPORTE
- * out: NOMBRE, EDAD, GASTO EN CAÑAS, GASTO EN TRANSPORTE, TOTAL DE GASTOS
- * NOTA1:
- */
-
 int main() {
     int edad;
     char nombre[20];
