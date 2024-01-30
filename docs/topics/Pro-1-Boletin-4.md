@@ -43,15 +43,6 @@ horas estudiando) y más vago (menor número de horas estudiando).
 
 <code-block src="./Boletin_4/Ejercicio_04.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
-<!-- TODO FALTAN EJERCICIOS 5 - 8 -->
-<warning>
-<b>¡Se necesita tu ayuda!</b>
-
-Faltan soluciones para los ejercicios del 5 al 8. [Colabora](https://github.com/TeenBiscuits/Pro2324)
-</warning>
-
-<!--
-
 ### Ejercicio 5
 
 Plantee e implemente un programa en lenguaje C para almacenar las temperaturas (en ºC) registradas en una ciudad durante
@@ -60,6 +51,15 @@ ordenadamente las temperaturas registradas y calcule y muestre por pantalla la t
 alcanzadas.
 
 <code-block src="./Boletin_4/Ejercicio_05.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
+
+<!-- TODO FALTAN EJERCICIOS 6 - 8 -->
+<warning>
+<b>¡Se necesita tu ayuda!</b>
+
+Faltan soluciones para los ejercicios del 6 al 8. [Colabora](https://github.com/TeenBiscuits/Pro2324)
+</warning>
+
+<!--
 
 ### Ejercicio 6
 
