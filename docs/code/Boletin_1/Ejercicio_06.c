@@ -2,15 +2,6 @@
 // Created by Pablo on 04/12/2023.
 //
 #include <stdio.h>
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que pida el radio de una
- *       esfera y calcule su área y su volumen.
- * in: RADIO
- * out: AREA Y VOLUMEN DE UNA ESFERA
- * NOTA1:
- */
 # define PI 3.14159265359
 # define area(x) (4 * PI * x * x)
 # define volumen(x) ((4/(float)3) * PI * x * x * x)

@@ -1,9 +1,6 @@
 //
 // Created by santi on 29/11/2023.
 //
-//
-// Created by santi on 29/11/2023.
-//
 #include <stdio.h>
 
 void invertirNumero(int numero, int n){

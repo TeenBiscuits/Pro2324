@@ -1,16 +1,6 @@
 //
 // Created by pablo on 21/10/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C cuyo objetivo sea calcular las
- *       raíces de una ecuación de 2o grado, ax2+bx+c. El programa debe solicitar por
- *       teclado los coeficientes a, b, c. y mostrar por pantalla las soluciones x1 y x2.
- * in:
- * out:
- * NOTA1:
- */
 #include <stdio.h>
 #include <math.h>
 

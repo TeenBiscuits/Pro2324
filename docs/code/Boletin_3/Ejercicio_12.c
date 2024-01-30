@@ -1,18 +1,6 @@
 //
 // Created by Pablo on 05/12/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente una función en Lenguaje C que reciba un entero N y
- *       calcule 1+2+3+...+N, devolviendo dicho valor. Además de la función,
- *       implemente la función apropiada para probar su funcionamiento, activando este
- *       último desde el programa principal.
- * in:
- * out:
- * NOTA1:
- */
-
 // Librerías
 #include <stdio.h>
 

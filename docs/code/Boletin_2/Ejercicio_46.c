@@ -1,16 +1,6 @@
 //
 // Created by Pablo on 06/12/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C muestre por pantalla la tabla
- *       de multiplicación en el siguiente formato:
- *                                      *           *           *
- * in:
- * out: la tabla de multiplicar
- */
-
 // Librerías
 #include <stdio.h>
 

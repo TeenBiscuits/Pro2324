@@ -1,30 +1,6 @@
 //
 // Created by Pablo on 30/11/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C para calcular la media de
- *       cuatro puntuaciones de un estudiante de un curso de informática (representadas
- *       por 4 enteros entre 0 y 100) introducidas por teclado. Debe incluir
- *       obligatoriamente los siguientes elementos:
- *        - Procedimiento pedirNota: solicita un entero por teclado entre 0 y 100, si no es
- *          correcto lo sigue pidiendo hasta que lo sea.
- *        - Función calculaPuntuacion: recibe un real y devuelve la letra de la nota media en
- *          función a la siguiente tabla.
- *                                          Media Puntuación
- *                                          [90, 100]       A
- *                                          [80, 90]        B
- *                                          [70, 80]        C
- *                                          [60, 70]        D
- *                                          [0, 60]         E
- *        - Procedimiento que solicita al usuario cuatro notas (usando pedirNota) y calcula la
- *          media aritmética de las mismas, llamando además a calculaPuntuacion para obtener
- *          la letra de la puntuación que luego se debe mostrar en pantalla.
- * in: Cuatro Notas de 0 100
- * out: Letra de Puntuación Media
- * NOTA1:
- */
 // Librerías
 #include <stdio.h>
 

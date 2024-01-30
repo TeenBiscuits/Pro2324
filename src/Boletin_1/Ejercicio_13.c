@@ -2,23 +2,6 @@
 // Created by Pablo on 04/12/2023.
 //
 #include <stdio.h>
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que muestre por pantalla una
- *       tabla indicando el radio, el perímetro y el área de tres círculos cuyo radio es
- *       solicitado por teclado. La salida en pantalla debe tener el siguiente formato:
- *       RADIO              PERIMETRO           AREA
- *       RADIO
- *       =====              =========           =====
- *       2                  12.56               12.56
- *       3                  18.86               28.27
- *       4                  25.13               50.26
- *
- * in: TRES RADIOS
- * out: EL PERIMETRO Y AREA DE CADA UNO DE ELLOS
- * NOTA1:
- */
 #define PI 3.14159265359 // APROXIMACIÓN DE PI
 #define perimetro(x) (2 * PI * x) // PERIMETRO DEL CÍRCULO
 #define area(x) (PI * x * x) // AREA DEL CÍRCULO

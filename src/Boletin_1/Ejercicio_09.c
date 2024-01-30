@@ -3,18 +3,6 @@
 //
 #include <stdio.h>
 
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que solicite el nombre, edad,
- *       número de hijos y sueldo anual de una persona (en euros) y muestre por
- *       pantalla la misma información indicando su sueldo mensual en vez del sueldo
- *       anual.
- * in: NOMBRE, EDAD, NÚMERO DE HIJOS, SUELDO ANUAL
- * out: NOMBRE, EDAD, Nº HIJOS, SUELDO MENSUAL
- * NOTA1:
- */
-
 int main() {
     int edad, nhijos;
     char nombre[20];

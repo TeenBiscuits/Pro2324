@@ -1,18 +1,6 @@
 //
 // Created by Pablo on 03/12/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      De nuevo plantee e implemente una función en Lenguaje C que reciba un valor
- *       que representa un mes y devuelva el siguiente mes, utilizando para ello la
- *       siguiente interface:
- *                                  MesSiguiente(mes:tMes): tMes;
- * in: Número del 1-12
- * out: El més siguiente
- * NOTA1:
- */
-
 // Librerías
 #include <stdio.h>
 

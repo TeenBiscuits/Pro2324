@@ -1,21 +1,6 @@
 //
 // Created by pablo on 20/10/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que solicite el salario anual
- *       bruto de una persona y muestre por pantalla la reducción del IRPF que se le
- *       aplicaría según los hijos menores de 18 años que tenga a su cargo, sabiendo que
- *       cada hijo (hasta 5) reduce un 10% el total del impuesto que le correspondería
- *       pagar. Es decir, si un trabajador gana 20000 € anuales y tiene a su cargo 5 hijos
- *       menores de 18 años, suponiendo un IRPF del 15% (debe ser constante en el
- *       programa) tendría que pagar 3000€ de impuesto anual, pero se le reduce un
- *       n_hijos*10% (50%) y por tanto pagaría únicamente 1500€ al año.
- * in: N de Hijos menores, Sueldo anual bruto
- * out: Reducción del IRPF, Total a Pagar
- * NOTA1:
- */
 #include <stdio.h>
 
 #define IRPF 0.15

@@ -1,25 +1,6 @@
 //
 // Created by pablo on 25/10/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que solicite por teclado dos
- *       números enteros positivos (el primero de 3 cifras y el segundo de 1) y que
- *       muestre por pantalla su multiplicación en el formato que se indica en el ejemplo
- *       de ejecución. Debe comprobar que el primer número tiene efectivamente 3
- *       cifras y es positivo, y que el segundo número es también positivo y tiene una
- *       única cifra. En caso de que no se cumplan estas condiciones, el programa debe
- *       alertar al usuario con un mensaje apropiado (Ej. “El primer número no tiene 3
- *       cifras!!!”).
- *                               785
- *                               x 7
- *                              ====
- *                              5495
- * in: Dos números enteros, el primero de 3 cifras y el segundo de 1
- * out: Multiplicación en formato especificado
- * NOTA1:
- */
 #include <stdio.h>
 #include <stdbool.h>
 

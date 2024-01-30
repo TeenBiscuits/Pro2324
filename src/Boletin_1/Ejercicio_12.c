@@ -2,19 +2,6 @@
 // Created by Pablo on 04/12/2023.
 //
 #include <stdio.h>
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que muestre por pantalla las
- *       6 primeras filas de un triángulo de Floyd.
- *       NOTA: No se deben utilizar bucles en este ejercicio, simplemente sentencias printf
- *        con sus correspondientes descriptores de formato (ancho) para obtener una salida
- *        exactamente igual a la mostrada. No utilice espacios en blanco directamente para
- *        separar los números.
- * in:
- * out:
- * NOTA1:
- */
 
 int main() {
     printf("\n1\n");

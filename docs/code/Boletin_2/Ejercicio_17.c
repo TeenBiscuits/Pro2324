@@ -1,16 +1,6 @@
 //
 // Created by Pablo on 30/10/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que admita un carácter
- *       (introducido por teclado) y muestre por pantalla si es una vocal, una
- *       consonante, un dígito o un carácter especial.
- * in:
- * out:
- * NOTA1:
- */
 #include <stdio.h>
 
 int main() {

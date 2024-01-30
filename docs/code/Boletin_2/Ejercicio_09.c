@@ -1,18 +1,6 @@
 //
 // Created by pablo on 20/10/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que implemente el algoritmo
- *       necesario para calcular la edad de una persona suponiendo que se le pide al
- *       usuario que introduzca su fecha de nacimiento por teclado y a la salida muestra
- *       por pantalla su edad con respecto a la fecha actual. Tenga en cuenta el
- *       cumpleaños exacto de la persona para realizar el cálculo.
- * in: Fecha de Nacimiento
- * out: Edad (Exacta)
- * NOTA1:
- */
 #include <stdio.h>
 #include <stdbool.h>
 #include <time.h> // PARA OBTENER EL TIEMPO ACTUAL

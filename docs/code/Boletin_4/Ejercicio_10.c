@@ -1,16 +1,6 @@
 //
 // Created by Pablo on 09/12/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente una función en lenguaje C que reciba dos arrays de
- *       enteros desordenados de 50 elementos cada uno y devuelva una array ordenado
- *       los elementos de los dos anteriores.
- * in:
- * out: Un array de 100 números aleatorios ordenados
- */
-
 // Librerías
 #include <stdio.h>
 #include <time.h>

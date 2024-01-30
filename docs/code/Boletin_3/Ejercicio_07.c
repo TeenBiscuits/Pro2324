@@ -1,17 +1,6 @@
 //
 // Created by Pablo on 02/12/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que mediante una serie de
- *       subprogramas determine si una fecha introducida por teclado es o no correcta,
- *       teniendo en cuenta para ello los años bisiestos.
- * in: Fecha
- * out: Si es correcto o no
- * NOTA1:
- */
-
 // Librerías
 #include <stdio.h>
 #include <stdbool.h>

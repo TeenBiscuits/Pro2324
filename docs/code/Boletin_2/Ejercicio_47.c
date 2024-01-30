@@ -1,15 +1,6 @@
 //
 // Created by Pablo on 06/12/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C para obtener las primeras n
- *       filas del triángulo de Floyd.
- * in: n filas
- * out: Triángulo de Floyd de n filas.
- */
-
 // Librerías
 #include <stdio.h>
 

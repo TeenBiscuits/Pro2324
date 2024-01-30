@@ -1,16 +1,6 @@
 //
 // Created by Pablo on 06/12/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que calcule cuantos años
- *       tarda en doblarse un capital inicial (introducido por teclado), si se recibe un %
- *       de intereses al año, también determinado por el usuario a través del teclado.
- * in: capital e interes anual
- * out: tiempo en doblar el capital invertido
- */
-
 // Librerías
 #include <stdio.h>
 

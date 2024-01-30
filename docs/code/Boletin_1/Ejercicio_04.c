@@ -2,15 +2,6 @@
 // Created by Pablo on 04/12/2023.
 //
 #include <stdio.h>
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que solicite por teclado los
- *        lados de un rectángulo y muestre por pantalla su superficie.
- * in: BASE Y ALTURA
- * out: SUPERFICIE DEL RECTÁNGULO
- * NOTA1:
- */
 #define superficie2(x, y) (x*y) // DECLARO LA FÓRMULA DE LA SUPERFICIE DE UN RECTÁNGULO
 
 int main() {

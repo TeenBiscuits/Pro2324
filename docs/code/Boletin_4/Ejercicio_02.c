@@ -1,17 +1,6 @@
 //
 // Created by Pablo on 07/12/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en lenguaje C, que utilizando
- *       exclusivamente subprogramas, solicite nombres de animales por teclado y vaya
- *       rellenando un array de 7 elementos, mostrándolos posteriormente por pantalla
- *       apropiadamente.
- * in: Nombres de animales.
- * out: Nombres de animales
- */
-
 // Librerías
 #include <stdio.h>
 

@@ -1,22 +1,6 @@
 //
 // Created by pablo on 25/10/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C de generación de quinielas
- *       de forma aleatoria. El programa deberá mostrar en pantalla tantas quinielas
- *       como desee el usuario; se considera que todos los resultados son igualmente
- *       probables. El número máximo de quinielas generables simultáneamente es de
- *       10. Las quinielas se mostrarán en pantalla del modo habitual, esto es, ordenadas
- *       por filas (partidos) y columnas (resultados). Las opciones del programa serán:
- *       I)ndicar número de quinielas, M)ostrar quinielas, S)alir.
- *       No se podrán mostrar las quinielas sin haber indicado previamente el número
- *       de quinielas deseado.
- * in: Opción del menú, Número de Quinielas
- * out:
- * NOTA1:
- */
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

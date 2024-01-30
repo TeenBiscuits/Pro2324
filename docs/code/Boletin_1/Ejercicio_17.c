@@ -3,16 +3,6 @@
 //
 #include <stdio.h>
 
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C como en el ejercicio anterior,
- *       calculando esta vez el producto de las matrices leídas.
- * in: COMPOSICIÓN DE LAS MATRICES 1 y 2 (4 num * 2 matrices)
- * out: RESULTADO DE LA MULTIPLICACIÓN DE AMBAS
- * NOTA1:
- */
-
 int main() {
     // PARA LAS VARIABLES USO EL SIGUIENTE ESQUEMA DE NOMBRES
     /*

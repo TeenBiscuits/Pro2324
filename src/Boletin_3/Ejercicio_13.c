@@ -1,17 +1,6 @@
 //
 // Created by Pablo on 06/12/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente en Lenguaje C una función que calcule el valor del
- *       siguiente polinomio: 3x^5 + 2x^4 – 5x^3 – x^2 + 7^x - 6 Además del subprograma,
- *       implemente la función apropiada para probar su funcionamiento preguntándole
- *       al usuario el valor de x, y activando esta última desde el programa principal.
- * in: El valor de x
- * out: Solución al polinomio dado.
- */
-
 // Librerías
 #include <stdio.h>
 #include <math.h>

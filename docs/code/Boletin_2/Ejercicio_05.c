@@ -2,15 +2,6 @@
 // Created by Pablo on 04/12/2023.
 //
 #include <stdio.h>
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que muestre por pantalla tres
- *       números enteros introducidos por teclado ordenados de menor a mayor.
- * in: TRES NÚMEROS
- * out: NÚMEROS DADOS DE MENOR A MAYOR
- * NOTA1:
- */
 
 int main() {
     int a, b, c, menor, medio, mayor;

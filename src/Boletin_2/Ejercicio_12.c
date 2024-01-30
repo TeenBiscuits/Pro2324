@@ -1,26 +1,8 @@
 //
 // Created by pablo on 25/10/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que solicite tres números
- *       enteros positivos (por teclado) y que muestre por pantalla el cociente y el resto
- *       de dividir el mayor de ellos por el menor, con un formato similar al siguiente:
-
-    Introduzca primer número: 34
-    Introduzca segundo número: 22
-    Introduzca tercer número: 67
-                            67 dividido |entre 22
-                                        ------------
-                            C: 3        R: 1
-
- * in:  Tres números enteros positivos a, b, c
- * out: La división entera del mayor entre el menor con sus respectivos cociente y resto
- * NOTA1:
- */
-#import <stdio.h>
-#import <stdbool.h>
+#include <stdio.h>
+#include <stdbool.h>
 
 int main() {
     int a, b, c;

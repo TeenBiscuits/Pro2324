@@ -1,15 +1,6 @@
 //
 // Created by Pablo on 06/12/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C para obtener elementos del
- *       triángulo de Floyd hasta un número dado.
- * in: elementos hasta el que llegar
- * out: triángulo de Floyd hasta ese elemento
- */
-
 // Librerías
 #include <stdio.h>
 

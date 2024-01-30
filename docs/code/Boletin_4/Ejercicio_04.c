@@ -1,19 +1,6 @@
 //
 // Created by Pablo on 08/12/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en lenguaje C que almacene en memoria las
- *       horas de estudio que dedica un alumno a una asignatura determinada durante
- *       una semana. Solicite los datos apropiadamente al usuario y calcule y muestre la
- *       media de horas diarias empleadas en esa asignatura, asimismo indique el día en
- *       el que ha estado más aplicado (mayor número de horas estudiando) y más vago
- *       (menor número de horas estudiando).
- * in: Horas de estudio dedicada cada día
- * out: Medía de horas, el día de más horas y el de menos.
- */
-
 // Librerías
 #include <stdio.h>
 

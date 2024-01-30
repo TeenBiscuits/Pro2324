@@ -1,20 +1,6 @@
 //
 // Created by Pablo on 10/12/2023.
 //
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente en Lenguaje C un programa que calcule la impedancia
- *       (Z) en ohmios de un circuito LC en serie. Tenga en cuenta que Z = XL - XC .
- *       Donde XC es la reactancia capacitiva y XL la reactancia inductiva. Implemente
- *       las funciones apropiadas para los cálculos, y pruebe su funcionamiento,
- *       activándolas desde el programa principal. Pídale al usuario el valor del
- *       condensador en faradios, el valor de la inductancia en henrios y el valor de la
- *       frecuencia en hertzios para los cálculos de las reactancias.
- * in: Inductancia en henrios, condensador en faradios, frecuencia en hercios
- * out: Reactancia Inductiva (XL), Reactancia Capacitiva (XC) e Impedancia (Z)
- */
-
 // PARA HACER ESTE EJERCICIO HACEN FALTA CONOCIMIENTOS EN ELECTRÓNICA BÁSICA!!!
 
 // Librerías
