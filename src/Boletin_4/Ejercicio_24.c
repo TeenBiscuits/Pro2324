@@ -1,18 +1,6 @@
 //
 // Created by Miguel Fraga on 09/12/2023.
 //
-
-/*
-
-        Diseñe la estructura para almacenar en memoria la información de los
-        trabajadores de un taller de 20 empleados. Si el empleado es oficinista tendrá un
-        número de teléfono; si es conductor tendrá asignado el número de matrícula de
-        un vehículo; y si es técnico tendrá asignado el código de barras de un
-        ordenador. Se debe conocer el nombre, la fecha de nacimiento, tipo de puesto
-        de trabajo y el nivel de estudios de todos los trabajadores.
-
-*/
-
 #include <stdio.h>
 
 struct empleados
