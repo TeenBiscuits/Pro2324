@@ -123,6 +123,11 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 - Daniel Deza Prieto | [@dza205](https://github.com/dza205)
 -->
 
+
+<!-- Repobeats - Stats https://repobeats.axiom.co -->
+![Repobeats](https://repobeats.axiom.co/api/embed/675ebcf2934ba9390a99ffef8cabc521898b79e5.svg "Repobeats analytics image")
+
+
 ## Licencias
 
 Este proyecto contiende dos licencias. Una para el código y los ejemplos,  **GNU GPLv3** y otra para la documentación
