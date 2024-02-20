@@ -1,0 +1,10 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Pro2324
+Upstream-Contact: Pablo Portas Lopez <81629707+TeenBiscuits@users.noreply.github.com>
+Source: https://github.com/TeenBiscuits/Pro2324
+
+# Sample paragraph, commented out:
+#
+# Files: src/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: ...
