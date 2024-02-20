@@ -1,6 +1,6 @@
+// SPDX-FileCopyrightText: 2023 Nuria Gómez
 //
-// Created by Nuria Gómez on 08/12/2023.
-//
+// SPDX-License-Identifier: GPL-3.0-only
 #include <stdio.h>
 #include <string.h>//Librería añadida para poder utilizar strcmp
 

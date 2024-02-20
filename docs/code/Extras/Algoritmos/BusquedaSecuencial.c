@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2023 Pablo Portas López
+//
+// SPDX-License-Identifier: GPL-3.0-only
 #include <stdio.h>
 
 #define N 20

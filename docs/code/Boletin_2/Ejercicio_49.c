@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2023 Miguel Fraga Pico
+//
+// SPDX-License-Identifier: GPL-3.0-only
 #include <stdio.h>
 #include <math.h>
 
