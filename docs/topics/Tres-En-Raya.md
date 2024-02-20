@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Pablo Portas López
+
+SPDX-License-Identifier: CC-BY-NC-4.0
+-->
+
 # Tres En Raya
 
 <tldr>Juego del Tres En Raya escrito en C</tldr>

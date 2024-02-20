@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Daniel Feito Pin
+
+SPDX-License-Identifier: CC-BY-NC-4.0
+-->
+
 <tip>Copyright © 2024 Daniel Feito Pin</tip>
 
 # Bloque 2 - Control de Flujo
