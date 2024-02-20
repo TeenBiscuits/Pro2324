@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2023 Pablo Portas López
+#
+# SPDX-License-Identifier: CC0-1.0
+
 cmake_minimum_required(VERSION 3.26)
 project(Boletin_4 C)
 

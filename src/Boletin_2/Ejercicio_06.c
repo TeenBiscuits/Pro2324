@@ -1,6 +1,6 @@
+// SPDX-FileCopyrightText: 2023 Pablo Portas López
 //
-// Created by Pablo on 04/12/2023.
-//
+// SPDX-License-Identifier: GPL-3.0-only
 #include <stdio.h>
 
 #define porcentaje(x, y) ( x / (float) y * 100)

@@ -1,17 +1,6 @@
+// SPDX-FileCopyrightText: 2023 Pablo Portas López
 //
-// Created by Pablo on 30/10/2023.
-//
-/*
- * AUTOR: PABLO PORTAS
- * OBJETIVO:
- *      Plantee e implemente un programa en Lenguaje C que acepte valores enteros
- *       como entrada (por teclado) y que muestre por pantalla la suma de los valores
- *       introducidos. El programa terminará cuando el usuario introduzca un 0, tal y
- *       como se muestra en el ejemplo siguiente:
- * in: Sucesión de números
- * out: El sumatorio de todos
- * NOTA1:
- */
+// SPDX-License-Identifier: GPL-3.0-only
 #include <stdio.h>
 
 int main() {
