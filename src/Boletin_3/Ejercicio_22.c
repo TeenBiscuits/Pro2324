@@ -1,6 +1,6 @@
+// SPDX-FileCopyrightText: 2023 Santiago Neira Sejean
 //
-// Created by santi on 28/11/2023.
-//
+// SPDX-License-Identifier: GPL-3.0-only
 #include <stdio.h>
 int primo(int numero){
     int i;

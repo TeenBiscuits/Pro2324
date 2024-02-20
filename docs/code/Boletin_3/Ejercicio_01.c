@@ -1,6 +1,6 @@
+// SPDX-FileCopyrightText: 2023 Pablo Portas López
 //
-// Created by Pablo on 16/11/2023.
-//
+// SPDX-License-Identifier: GPL-3.0-only
 #include <stdio.h>
 void imprimeLBlanco(int nlineas);
 int main() {

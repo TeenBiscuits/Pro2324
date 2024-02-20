@@ -1,6 +1,6 @@
+// SPDX-FileCopyrightText: 2023 Pablo Portas López
 //
-// Created by Pablo on 08/12/2023.
-//
+// SPDX-License-Identifier: GPL-3.0-only
 // Librerías
 #include <stdio.h>
 

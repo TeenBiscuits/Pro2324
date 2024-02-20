@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Pablo Portas López
+
+SPDX-License-Identifier: GPL-3.0-only
+-->
+
 # Introducción
 
 ### Gracias por querer colaborar
@@ -67,6 +73,14 @@ los/as autores/as de los archivos:
 //
 // Created by <nombre> on dd/mm/yyyy.
 //
+```
+
+Pese a la comodidad de esto, la cabecera que se añadirá será la del **reuse**:
+
+```C
+// SPDX-FileCopyrightText: 2024 <nombre> <apellido1> <apellido2>
+//
+// SPDX-License-Identifier: GPL-3.0-only
 ```
 
 _Si no es añadida por defecto, añádela, así aquellos que ven los archivos en la web sabrán quien creo el archivo._

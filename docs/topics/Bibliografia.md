@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Pablo Portas López
+
+SPDX-License-Identifier: CC-BY-NC-4.0
+-->
+
 # Bibliografía
 
 <warning><b>¡En construcción! <a href="https://github.com/TeenBiscuits/Pro2324">Colabora</a></b></warning>

@@ -1,6 +1,6 @@
+// SPDX-FileCopyrightText: 2023 Pablo Portas López
 //
-// Created by Pablo on 04/12/2023.
-//
+// SPDX-License-Identifier: GPL-3.0-only
 #include <stdio.h
 #define MAX 20 // SE DECLARA EL TAMAÑO MÁXIMO Y SE ASIGNA POSTERIORMENTE EN nombre[MAX]
 // NUNCA SOBREESCRIBIR EL LIMITE, YA QUE SERÍA UN MEMORY OVERFLOW Y ESO ES GRAVISIMO 0 :(

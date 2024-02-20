@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Pablo Portas López
+
+SPDX-License-Identifier: CC-BY-NC-4.0
+-->
+
 # Agradecimientos
 
 <tldr>Este proyecto no sería posible sin el trabajo previo y la colaboración de estas talentosas personas. 🤗</tldr>

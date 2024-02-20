@@ -1,6 +1,6 @@
+// SPDX-FileCopyrightText: 2023 Miguel Fraga Pico
 //
-// Created by Miguel Fraga on 10/12/2023.
-//
+// SPDX-License-Identifier: GPL-3.0-only
 
 #include <stdio.h>
 #include <string.h>

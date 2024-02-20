@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2024 Daniel Deza Prieto
+//
+// SPDX-License-Identifier: GPL-3.0-only
 #include <stdio.h>
 void reader(char frase[200]) {
   printf("Please input the phrase up to a size of 200 characters\n");

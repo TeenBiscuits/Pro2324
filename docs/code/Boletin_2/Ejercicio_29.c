@@ -1,5 +1,6 @@
+// SPDX-FileCopyrightText: 2023 Santiago Neira Sejean
 //
-// Created by santi on 19/10/2023.
+// SPDX-License-Identifier: GPL-3.0-only
 #include <stdio.h>
 #include <math.h>
 int main(){

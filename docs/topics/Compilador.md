@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Pablo Portas López
+
+SPDX-License-Identifier: CC-BY-NC-4.0
+-->
+
 # El Compilador - CLion
 
 <tldr>Configura tu entorno de programación y compilador CLion by JetBrains.</tldr>

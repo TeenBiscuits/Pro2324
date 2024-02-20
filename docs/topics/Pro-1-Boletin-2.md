@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Pablo Portas López
+
+SPDX-License-Identifier: CC-BY-NC-4.0
+-->
+
 # Boletín 2
 
 <tldr>Bucles (while / do while / for) y condicionales (if / else / switch)</tldr>
