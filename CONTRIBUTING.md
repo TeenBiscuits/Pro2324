@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Pablo Portas López
+
+SPDX-License-Identifier: GPL-3.0-only
+-->
+
 # Introducción
 
 ### Gracias por querer colaborar

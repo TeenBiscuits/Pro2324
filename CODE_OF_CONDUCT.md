@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2021 Ethical Source
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
 # Código de Conducta convenido para Contribuyentes
 
 ## Nuestro compromiso
@@ -53,8 +59,8 @@ no.
 ## Aplicación
 
 Instancias de comportamiento abusivo, acosador o inaceptable de otro modo podrán ser reportadas a los administradores de
-la comunidad responsables del cumplimiento a través del método de comunicación que prefiera. Todas las quejas serán
-evaluadas e investigadas de una manera puntual y justa.
+la comunidad responsables del cumplimiento a través de 81629707+TeenBiscuits@users.noreply.github.com. Todas las quejas
+serán evaluadas e investigadas de una manera puntual y justa.
 
 Todos los administradores de la comunidad están obligados a respetar la privacidad y la seguridad de quienes reporten
 incidentes.

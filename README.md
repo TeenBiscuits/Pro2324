@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Pablo Portas López
+
+SPDX-License-Identifier: GPL-3.0-only
+-->
+
 [![Banner](./logo/Pro2324%20GitHub%20Preview.png)](https://teenbiscuits.github.io/Pro2324)
 
 <div align="center">
@@ -20,6 +26,7 @@
 [![GitHub Contributors](https://img.shields.io/github/contributors/TeenBiscuits/Pro2324?label=Contributors)](https://github.com/TeenBiscuits/Pro2324/graphs/contributors)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE.md)
 [![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC_BY--ND_4.0-lightgrey.svg)](./docs/LICENSE)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 [![Stars](https://img.shields.io/github/stars/TeenBiscuits/Pro2324.svg)](https://github.com/TeenBiscuits/Pro2324)
 
 </div>
