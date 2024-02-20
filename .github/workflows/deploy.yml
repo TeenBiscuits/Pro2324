@@ -12,7 +12,7 @@ env:
   INSTANCE: docs/pro
   ARTIFACT: webHelpPRO2-all.zip
   # Writerside docker image version
-  DOCKER_VERSION: 233.14272
+  DOCKER_VERSION: 233.14389
   ALGOLIA_ARTIFACT: algolia-indexes-PRO.zip
 
 jobs:
