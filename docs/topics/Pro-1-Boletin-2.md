@@ -8,28 +8,28 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 <tldr>Bucles (while / do while / for) y condicionales (if / else / switch)</tldr>
 
-## Ejercicio 1
+### Ejercicio 1
 
 Plantee e implemente un programa en Lenguaje C que solicite un número entero por teclado y muestre por pantalla si es
 positivo o negativo.
 
 <code-block src="./Boletin_2/Ejercicio_01.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
-## Ejercicio 2
+### Ejercicio 2
 
 Plantee e implemente un programa en Lenguaje C que solicite un número entero por teclado y muestre por pantalla si es
 par o impar.
 
 <code-block src="./Boletin_2/Ejercicio_02.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
-## Ejercicio 3
+### Ejercicio 3
 
 Plantee e implemente un programa en Lenguaje C que solicite por teclado dos números enteros y que muestre un mensaje
 indicando si el primero es o no divisible por el segundo.
 
 <code-block src="./Boletin_2/Ejercicio_03.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
-## Ejercicio 4
+### Ejercicio 4
 
 Plantee e implemente un programa en Lenguaje C que muestre por pantalla el mayor de tres números introducidos por
 teclado.
@@ -48,7 +48,7 @@ teclado.
 
 <code-block src="./Boletin_2/Ejercicio_04.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
-## Ejercicio 5
+### Ejercicio 5
 
 Plantee e implemente un programa en Lenguaje C que muestre por pantalla tres números enteros introducidos por teclado
 ordenados de menor a mayor.
