@@ -20,6 +20,7 @@ SPDX-License-Identifier: GPL-3.0-only
 [![CLion](https://img.shields.io/badge/CLion-black.svg?logo=clion&logoColor=white)](https://www.jetbrains.com/es-es/clion/)
 [![Writerside](https://img.shields.io/badge/Writerside-purple.svg?logo=jetbrains&logoColor=white)](https://www.jetbrains.com/es-es/writerside/)
 [![Git](https://img.shields.io/badge/Git-E44C30?logo=git&logoColor=white)](https://en.wikipedia.org/wiki/Git)
+[![GitHub Projects](https://img.shields.io/badge/GitHub_Projects-000000.svg?logo=github&logoColor=white)](https://github.com/TeenBiscuits/Pro2324/projects)
 ![Build](https://github.com/TeenBiscuits/Pro2324/actions/workflows/deploy.yml/badge.svg)
 [![Web](https://img.shields.io/website?down_message=offline&up_message=online&label=Web&url=https%3A%2F%2Fteenbiscuits.github.io%2FPro2324%2Fpro2324.html)](https://teenbiscuits.github.io/Pro2324/pro2324.html)
 [![Pull Request](https://img.shields.io/github/issues-pr-closed/TeenBiscuits/Pro2324.svg?label=Pull%20Request)](https://github.com/TeenBiscuits/Pro2324/pulls)
@@ -64,6 +65,12 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 
 ## Objetivos / To-Do List
 
+<div align="center">
+<h3>📢 Migrada la organización del proyecto a <a href="https://github.com/TeenBiscuits/Pro2324/projects">GitHub Projects</a> 📢</h3>
+</div>
+
+<!-- ME DABA PENA BORRARLO NO VOY A MENTIR
+
 ### Código
 
 <div align="center">
@@ -90,9 +97,13 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 
 </div>
 
+-->
+
 ## Contribuciones
 
 🛠️️ Todas las contribuciones son bienvenidas. Lee la guía para contribuir en [CONTRIBUTING.md](./CONTRIBUTING.md)
+
+<div align="center">
 
 ### Futuros/as ingenieros/as informáticos/as 😎😎😎😎
 
@@ -119,6 +130,8 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
+</div>
+
 
 > ¿Quieres aparecer ahí arriba? **¡Contribuye!**
 
@@ -132,8 +145,9 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 
 
 <!-- Repobeats - Stats https://repobeats.axiom.co -->
-![Repobeats](https://repobeats.axiom.co/api/embed/675ebcf2934ba9390a99ffef8cabc521898b79e5.svg "Repobeats analytics image")
-
+<div align="center">
+<img src="https://repobeats.axiom.co/api/embed/675ebcf2934ba9390a99ffef8cabc521898b79e5.svg"/>
+</div>
 
 ## Licencias
 
