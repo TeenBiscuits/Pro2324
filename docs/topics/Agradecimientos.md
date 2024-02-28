@@ -37,9 +37,23 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 <tip>Copyright © Bernardino Arcay Varela</tip>
 -->
 
+##### Material Original
+
+<tip>Copyright © Facultade de Informática da Coruña</tip>
+
 ##### Resúmenes
 
 <tip>Copyright © 2024 Daniel Feito Pin</tip>
+
+#### Programación II
+
+##### Material Original
+
+<tip>Copyright © Facultade de Informática da Coruña</tip>
+
+##### Resúmenes
+
+<tip>Copyright © 2024 Pablo Portas López</tip>
 
 ### Tutoriales
 
