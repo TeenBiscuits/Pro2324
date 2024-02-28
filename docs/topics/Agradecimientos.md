@@ -14,7 +14,7 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 #### Material Original
 
-##### Basado en
+**Basado en**
 
 <tip>
 
@@ -23,7 +23,7 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 </tip>
 
-##### Adaptación por
+**Adaptación por**
 
 <tip>Copyright © María Del Carmen Bóveda Álvarez</tip>
 
@@ -37,21 +37,21 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 <tip>Copyright © Bernardino Arcay Varela</tip>
 -->
 
-##### Material Original
+**Material Original**
 
 <tip>Copyright © Facultade de Informática da Coruña</tip>
 
-##### Resúmenes
+**Resúmenes**
 
 <tip>Copyright © 2024 Daniel Feito Pin</tip>
 
 #### Programación II
 
-##### Material Original
+**Material Original**
 
 <tip>Copyright © Facultade de Informática da Coruña</tip>
 
-##### Resúmenes
+**Resúmenes**
 
 <tip>Copyright © 2024 Pablo Portas López</tip>
 
