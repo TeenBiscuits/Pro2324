@@ -44,8 +44,9 @@ SPDX-License-Identifier: CC-BY-NC-4.0
         <secondary>
             <title>Programación II</title>
             <!-- TODO Añadir Apuntes de Pro II -->
+            <a href="Tema-1.md" type="server" summary="La abstracción funcional y de datos. Especificación, construcción y ejemplos."/>
             <a href="Tema-2.md" type="network" summary="Punteros en profundidad, las variables dinámicas, direcciones de memoria y la gestión de la memoria (pila (stack) y montículo (heap))."/>
-            <a href="Pro2324.topic" type="lock" summary="Proximamente...">Proximamente...</a>
+            <a href="Pro2324.topic" type="lock" summary="Próximamente...">Próximamente...</a>
         </secondary>
 
     </section-starting-page>
