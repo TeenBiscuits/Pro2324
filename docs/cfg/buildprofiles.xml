@@ -9,7 +9,7 @@ SPDX-License-Identifier: GPL-3.0-only
 
     <variables>
         <primary-color>blueberry</primary-color>
-        <product-web-url>https://github.com/TeenBiscuits/Pro2324</product-web-url>
+        <product-web-url>https://teenbiscuits.github.io/Pro2324/pro2324.html</product-web-url>
         <custom-favicons>Logo.ico</custom-favicons>
         <header-logo>Logo.svg</header-logo>
         <download-title>Repositorio en GitHub</download-title>
