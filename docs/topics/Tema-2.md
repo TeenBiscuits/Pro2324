@@ -8,19 +8,19 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 # Tema 2 - Gestión dinámica de memoria
 
-<tldr></tldr>
+<tldr>Punteros en profundidad, las variables dinámicas, direcciones de memoria y la gestión de la memoria (pila (stack) y montículo (heap)).</tldr>
 
 ## Organización de la memoria de un programa
 
 Existen dos lugares en memoria para almacenar elementos: la pila (**stack**) y el montículo (**heap**).
 
-| Nombre          | Función                                                                                                                                                            |
-|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Código          | El código compilado.                                                                                                                                               |
-| Datos estáticos | Datos estáticos compilados.                                                                                                                                        |
-| Pila            | Se utiliza para la llamada de funciones y punteros, ahí se almacenan sus direcciones, parámetros, constantes locales, etc...                                       |
-| ...             | Espacio para crecer.                                                                                                                                               |
-| Montículo       | Parte de la memoria que no está ligada a lo guardado en la pila, se utiliza para las variables dinámicas, la memoria se reserva cuando se solicita (```malloc```). |
+| Nombre           | Función                                                                                                                                                            |
+|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Código           | El código compilado.                                                                                                                                               |
+| Datos estáticos  | Datos estáticos compilados.                                                                                                                                        |
+| Pila (stack)     | Se utiliza para la llamada de funciones y punteros, ahí se almacenan sus direcciones, parámetros, constantes locales, etc...                                       |
+| ...              | Espacio para crecer.                                                                                                                                               |
+| Montículo (heap) | Parte de la memoria que no está ligada a lo guardado en la pila, se utiliza para las variables dinámicas, la memoria se reserva cuando se solicita (```malloc```). |
 
 
 ## Definición de variables de tipo puntero
