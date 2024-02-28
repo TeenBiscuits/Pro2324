@@ -49,7 +49,7 @@ _Gracias al pensamiento abstracto el avance tecnológico/científico humano no p
 límite._
 
 Un ejemplo sencillo, un conductor **no necesita** conocer el complicado mecanismo que permite a su coche cambiar las 
-marchas (siquiera que son las marchas) del motor. **Lo único que debe entender es una implementación (abstracción)** 
+marchas (ni siquiera que son las marchas) del motor. **Lo único que debe entender es una implementación (abstracción)** 
 "sencilla" como es el embrague y la palanca de cambios y **como interactuar** con ella.
 
 En el ámbito de la programación la abstracción es **constante**. Cuando programamos en C, **no necesitamos** conocer 
@@ -106,4 +106,31 @@ flowchart TB
     
     
 ```
+
+## Especificación de un TAD
+
+```
+Nombre_de_operación (tipo_de_argumento) -> tipo_de_resultado
+```
+
+| TAD            | Nombre_del_tipo                                                                     |
+|----------------|-------------------------------------------------------------------------------------|
+| VALORES        | valores que pueden tomar los datos del tipo                                         |
+| OPERACIONES    | nombre de las operaciones que los manipulan                                         |
+| Objetivo       | Descripción de la operación                                                         |
+| Entrada        | Descripción los datos de entrada                                                    |
+| Salida         | Que se espera como retorno en invocación                                            |
+| Precondiciones | Que condiciones se esperan de los datos de entrada                                  |
+| Poscondiciones | Que efectos laterales puede tener invocar la función (Que modifica, que añade, etc) |
+
+Podemos clasificarlas en:
+
+- Constructoras: Devuelven el TAD
+  - Generadoras: Solo ellas pueden generar el TAD
+  - Modificadoras: El resto
+- Observadoras / Acceso: No devuelve un TAD
+- Destructoras: Devuelven el TAD
+
+
+
 
