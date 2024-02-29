@@ -132,6 +132,11 @@ Podemos clasificarlas en:
 - Observadoras / Acceso: No devuelve un TAD
 - Destructoras: Devuelven el TAD
 
+## Ejemplo de especificación de un TAD
+
+<!-- TODO ## Ejemplo de especificación de un TAD: Rational -->
+
+<warning><b>¡En construcción! <a href="https://github.com/TeenBiscuits/Pro2324">Colabora</a></b></warning>
 
 
 
