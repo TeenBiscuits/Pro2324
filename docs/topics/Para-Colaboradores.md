@@ -15,7 +15,8 @@ Gracias por colaborar en serio 🤗
 
 <warning>
 
-Supongo que ya lo has hecho, pero recuerda leer [la guía de contribución](https://github.com/TeenBiscuits/Pro2324/blob/main/CONTRIBUTING.md).
+Supongo que ya lo has hecho, pero recuerda
+leer [la guía de contribución](https://github.com/TeenBiscuits/Pro2324/blob/main/CONTRIBUTING.md).
 
 </warning>
 

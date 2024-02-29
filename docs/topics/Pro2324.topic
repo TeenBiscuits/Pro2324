@@ -4,24 +4,28 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Pro2324" id="Pro2324">
-<!--
-SPDX-FileCopyrightText: 2024 Pablo Portas López
 
-SPDX-License-Identifier: CC-BY-NC-4.0
--->
-<!-- Basado en la plantilla por defecto del Writeside -->
+    <!--
+    SPDX-FileCopyrightText: 2024 Pablo Portas López
+
+    SPDX-License-Identifier: CC-BY-NC-4.0
+    -->
+
+    <!-- Basado en la plantilla por defecto del Writeside -->
 
     <section-starting-page>
         <title>Pro2324</title>
         <description>
-            Ejercicios Resueltos 📝 y Apuntes 📚 para las asignaturas de Programación I y II del Grao en Enxeñaría Informática de la Universidade da Coruña en el curso 2023/24. 💻🎓
+            Ejercicios Resueltos 📝 y Apuntes 📚 para las asignaturas de Programación I y II del Grao en Enxeñaría
+            Informática de la Universidade da Coruña en el curso 2023/24. 💻🎓
         </description>
 
 
         <!-- Secciones principales de la web -->
         <spotlight>
             <a href="Boletines.topic" type="documents" summary="Ejercicios resueltos de los boletines.">Boletines</a>
-            <a href="Teoria.topic" type="learn" summary="Material de estudio del lenguaje de programación C.">Apuntes</a>
+            <a href="Teoria.topic" type="learn"
+               summary="Material de estudio del lenguaje de programación C.">Apuntes</a>
         </spotlight>
 
 
@@ -29,9 +33,11 @@ SPDX-License-Identifier: CC-BY-NC-4.0
         <primary>
             <title>Otras cosas interesantes</title>
             <!-- <a href="Ejemplos.md" type="cross-check" summary="Ejemplos sencillos y no tan sencillos, algunos sacados de clases de prácticas.">Ejemplos</a> -->
-            <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html" type="lock" summary="Próximamente...">Ejemplos</a>
+            <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html" type="lock"
+               summary="Próximamente...">Ejemplos</a>
             <!-- <a href="Examenes.md" type="academy" summary="Exámenes antiguos resueltos.">Exámenes</a> -->
-            <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html" type="lock" summary="¡En construcción!">Antiguos Exámenes</a>
+            <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html" type="lock" summary="¡En construcción!">Antiguos
+                Exámenes</a>
             <a href="Tutoriales.topic" type="keyboard" summary="Lo difícil hecho fácil.">Tutoriales</a>
             <!-- No se puede referenciar a un topic dentro de si mismo -->
             <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html" type="lock" summary="Próximamente...">Próximamente...</a>
@@ -42,7 +48,8 @@ SPDX-License-Identifier: CC-BY-NC-4.0
         <secondary>
             <title>Para estudiantes más avanzados</title>
             <a href="Extras.topic" type="mixed" summary="Algunos prográmas extras interesantes.">Extras</a>
-            <a href="https://github.com/TeenBiscuits/Pro2324" type="open-source" summary="Este proyecto es Open Source, el código es libre y todo el mundo puede verlo y editarlo. Ayúdanos aportando tu granito de arena o simplemente danos una estrellita. ⭐">Colabora</a>
+            <a href="https://github.com/TeenBiscuits/Pro2324" type="open-source"
+               summary="Este proyecto es Open Source, el código es libre y todo el mundo puede verlo y editarlo. Ayúdanos aportando tu granito de arena o simplemente danos una estrellita. ⭐">Colabora</a>
         </secondary>
 
 
@@ -50,11 +57,17 @@ SPDX-License-Identifier: CC-BY-NC-4.0
         <misc>
             <cards narrow="true">
                 <title>Otros enlaces</title>
-                <a href="https://creativecommons.org/licenses/by-nc/4.0/" type="case" summary="Attribution-NonCommercial 4.0 International">Licencia Documentación</a>
-                <a href="https://www.gnu.org/licenses/gpl-3.0.en.html#license-text" type="case" summary="GNU General Public License v3.0">Licencia Código</a>
-                <a href="https://github.com/TeenBiscuits/Pro2324/issues/new/choose" type="offer" summary="¿Has encontrado un error? ¿Tienes alguna sugerencia? ¡Háznoslo saber!">Reportar un Error / Sugerencia</a>
-                <a href="https://github.com/sponsors/TeenBiscuits" type="start" summary="Apoye el desarrollo mediante GitHub Sponsors">Apoye el desarrollo</a>
-                <a href="Agradecimientos.md" type="community" summary="Este proyecto no sería posible sin el trabajo previo y la colaboración de estas talentosas personas. 🤗">Agradecimientos</a>
+                <a href="https://creativecommons.org/licenses/by-nc/4.0/" type="case"
+                   summary="Attribution-NonCommercial 4.0 International">Licencia Documentación</a>
+                <a href="https://www.gnu.org/licenses/gpl-3.0.en.html#license-text" type="case"
+                   summary="GNU General Public License v3.0">Licencia Código</a>
+                <a href="https://github.com/TeenBiscuits/Pro2324/issues/new/choose" type="offer"
+                   summary="¿Has encontrado un error? ¿Tienes alguna sugerencia? ¡Háznoslo saber!">Reportar un Error /
+                    Sugerencia</a>
+                <a href="https://github.com/sponsors/TeenBiscuits" type="start"
+                   summary="Apoye el desarrollo mediante GitHub Sponsors">Apoye el desarrollo</a>
+                <a href="Agradecimientos.md" type="community"
+                   summary="Este proyecto no sería posible sin el trabajo previo y la colaboración de estas talentosas personas. 🤗">Agradecimientos</a>
             </cards>
         </misc>
 
