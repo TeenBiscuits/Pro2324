@@ -12,7 +12,7 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 ### Boletines
 
-#### Material Original
+#### Bol: Programación I
 
 **Basado en**
 
@@ -23,16 +23,26 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 </tip>
 
-**Adaptación por**
+**Material Original**
 
 <tip>Copyright © María Del Carmen Bóveda Álvarez</tip>
+
+**Adaptado por**
+
+<tip>Copyright © 2024 Pablo Portas López</tip>
+
+#### TGR: Programación II
+
+**Material Original**
+
+<tip>Copyright © Facultade de Informática da Coruña</tip>
 
 ### Teoría
 
 #### Programación I
 
 <!--
-##### Material Original
+**Material Original**
 
 <tip>Copyright © Bernardino Arcay Varela</tip>
 -->

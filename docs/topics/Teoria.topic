@@ -4,11 +4,11 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Apuntes" id="Teoria" help-id="Teoría">
-<!--
-SPDX-FileCopyrightText: 2024 Pablo Portas López
+    <!--
+    SPDX-FileCopyrightText: 2024 Pablo Portas López
 
-SPDX-License-Identifier: CC-BY-NC-4.0
--->
+    SPDX-License-Identifier: CC-BY-NC-4.0
+    -->
 
     <section-starting-page>
         <title>Apuntes</title>
@@ -44,10 +44,26 @@ SPDX-License-Identifier: CC-BY-NC-4.0
         <secondary>
             <title>Programación II</title>
             <!-- TODO Añadir Apuntes de Pro II -->
-            <a href="Tema-1.md" type="server" summary="La abstracción funcional y de datos. Especificación, construcción y ejemplos."/>
-            <a href="Tema-2.md" type="network" summary="Punteros en profundidad, las variables dinámicas, direcciones de memoria y la gestión de la memoria (pila (stack) y montículo (heap))."/>
+            <a href="Tema-1.md" type="server"
+               summary="La abstracción funcional y de datos. Especificación, construcción y ejemplos."/>
+            <a href="Tema-2.md" type="container"
+               summary="Punteros en profundidad, las variables dinámicas, direcciones de memoria y la gestión de la memoria (pila (stack) y montículo (heap))."/>
+            <a href="Pro2324.topic" type="lock" summary="Próximamente...">Tema 3 - Listas</a>
             <a href="Pro2324.topic" type="lock" summary="Próximamente...">Próximamente...</a>
         </secondary>
+
+        <!-- Créditos -->
+        <misc>
+            <cards narrow="true">
+                <title>Créditos</title>
+                <a href="Agradecimientos.md" type="documents" summary="Copyright © Facultade de Informática da Coruña">Material
+                    Original</a>
+                <a href="Agradecimientos.md" type="account" summary="Copyright © 2024 Daniel Feito Pin">Resúmenes
+                    Programación I</a>
+                <a href="Agradecimientos.md" type="account" summary="Copyright © 2024 Pablo Portas López">Resúmenes
+                    Programación II</a>
+            </cards>
+        </misc>
 
     </section-starting-page>
 

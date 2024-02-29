@@ -41,18 +41,25 @@ SPDX-License-Identifier: CC-BY-NC-4.0
         <!--    Pro II    -->
         <secondary>
             <title>Programación II</title>
-            <!-- TODO Añadir los boletines de Programación II -->
+            <!-- TODO Añadir los TGRs de Programación II -->
+            <a href="Pro2324.topic" type="lock" summary="Próximamente...">TGR 1 - Especificación de tipos abstractos</a>
+            <a href="Pro2324.topic" type="lock" summary="Próximamente...">TGR 2 - Punteros</a>
             <a href="Pro2324.topic" type="lock" summary="Próximamente...">Próximamente...</a>
         </secondary>
 
+        <!-- Créditos -->
         <misc>
             <cards narrow="true">
                 <title>Créditos</title>
+                <a href="Agradecimientos.md" type="development" summary="Pablo Portas López, Miguel Fraga Pico, Santiago Neira Sejean y Daniel Deza Prieto.">Código</a>
+                <a href="Agradecimientos.md" type="account" summary="Pablo Portas López">Adaptado por</a>
                 <a href="Agradecimientos.md" type="community" summary="Copyright © María Del Carmen Bóveda Álvarez">Material
-                    Original</a>
+                    Original (Programación I)</a>
                 <a href="https://books.google.es/books?id=Mo-WAQAACAAJ" type="library"
                    summary="'Problemas en Pascal estándar ISO-10206': Bóveda, Carmen; García, Esteban; Rodríguez, Alejandra. ISBN: 978-84-16294-25-1">Basado
-                    en la Obra</a>
+                    en la Obra (Programación I)</a>
+                <a href="Agradecimientos.md" type="community" summary="Copyright © Facultade de Informática da Coruña">Material
+                    Original (Programación II)</a>
             </cards>
         </misc>
 
