@@ -4,11 +4,13 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Boletines" id="Boletines">
-<!--
-SPDX-FileCopyrightText: 2024 Pablo Portas López
 
-SPDX-License-Identifier: CC-BY-NC-4.0
--->
+    <!--
+    SPDX-FileCopyrightText: 2024 Pablo Portas López
+
+    SPDX-License-Identifier: CC-BY-NC-4.0
+    -->
+
     <section-starting-page>
         <title>Boletines</title>
         <description>
@@ -51,7 +53,8 @@ SPDX-License-Identifier: CC-BY-NC-4.0
         <misc>
             <cards narrow="true">
                 <title>Créditos</title>
-                <a href="Agradecimientos.md" type="development" summary="Pablo Portas López, Miguel Fraga Pico, Santiago Neira Sejean y Daniel Deza Prieto.">Código</a>
+                <a href="Agradecimientos.md" type="development"
+                   summary="Pablo Portas López, Miguel Fraga Pico, Santiago Neira Sejean y Daniel Deza Prieto.">Código</a>
                 <a href="Agradecimientos.md" type="account" summary="Pablo Portas López">Adaptado por</a>
                 <a href="Agradecimientos.md" type="community" summary="Copyright © María Del Carmen Bóveda Álvarez">Material
                     Original (Programación I)</a>
