@@ -744,11 +744,11 @@ Las direcciones se pueden almacenar en variables de puntero especiales.
 ```mermaid
 flowchart LR
     subgraph Puntero
-      Dirección
+        Dirección
     end
-    
+
     subgraph Variable
-      vc[Contenido]
+        vc[Contenido]
     end
 
     Dirección --> Variable
@@ -807,11 +807,11 @@ int i, *p = &i;
 ```mermaid
 flowchart LR
     subgraph p
-      &i
+        &i
     end
-    
+
     subgraph i
-      vc[?]
+        vc[?]
     end
 
     &i --> i
