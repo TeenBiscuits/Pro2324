@@ -132,11 +132,72 @@ Podemos clasificarlas en:
 - Observadoras / Acceso: No devuelve un TAD
 - Destructoras: Devuelven el TAD
 
-## Ejemplo de especificación de un TAD
+## Ejemplo de especificación de un TAD: Rational
 
-<!-- TODO ## Ejemplo de especificación de un TAD: Rational -->
+Vamos a crear un TAD para los números racionales, es decir, un par de números enteros: Numerador y denominador
 
-<warning><b>¡En construcción! <a href="https://github.com/TeenBiscuits/Pro2324">Colabora</a></b></warning>
+```tex
+\frac{Numerador}{Denominador}
+```
 
+**Constructoras Generadoras**
 
+- ```tex
+  CreateRational (Entero_{1}, Entero_{2}) \rightarrow Rational
+  ```
 
+  Objetivo: Crea un número racional.
+
+  Entrada: Numerador del nuevo racional y denominador del nuevo racional.
+
+  Precondición: Denominador distinto de 0.
+
+  Salida: El número racional creado.
+
+**Constructoras Modificadoras**
+
+- ```tex
+  Sum (Rational_{1}, Rational_{2}) \rightarrow Rational_{3}
+  ```
+
+  Objetivo: Calcula la suma de dos números racionales.
+
+  Entrada: Números racionales a sumar.
+
+  Salida: Un nuevo racional suma de los números a la entrada.
+
+**Observadoras**
+
+- ```tex
+  Numerator (Rational) \rightarrow Entero
+  ```
+
+  Objetivo: Obtiene el numerador de un número racional.
+
+  Entrada: Número racional del que obtener el numerador.
+
+  Salida: Numerador del número a la entrada.
+
+- ```tex
+  Denominator (Rational) \rightarrow Entero
+  ```
+
+  Objetivo: Obtiene el denominador de un número racional.
+
+  Entrada: Número racional del que obtener el denominador.
+
+  Salida: Denominador del número a la entrada.
+
+### Rational TAD: El código
+
+<code-block lang="C" src="./Ejemplos/TAD_Rational/main.c" collapsible="true" collapsed-title="main.c"/>
+
+<code-block lang="C" src="./Ejemplos/TAD_Rational/rational_pointer.c" collapsible="true" collapsed-title="rational_pointer.c"/>
+
+<code-block lang="C" src="./Ejemplos/TAD_Rational/rational_pointer.h" collapsible="true" collapsed-title="rational_pointer.h"/>
+
+<code-block lang="C" src="./Ejemplos/TAD_Rational/rational_struct.c" collapsible="true" collapsed-title="rational_struct.c"/>
+
+<code-block lang="C" src="./Ejemplos/TAD_Rational/rational_struct.h" collapsible="true" collapsed-title="rational_struct.h"/>
+
+<code-block lang="CMAKE" src="./Ejemplos/TAD_Rational/CMakeLists.txt" collapsible="true" collapsed-title="CMakeLists.txt"/>
