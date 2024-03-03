@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2023 Pablo Portas López
+# SPDX-FileCopyrightText: 2023 Pablo Portas López <pablo.portas@udc.es>
 #
 # SPDX-License-Identifier: CC0-1.0
 

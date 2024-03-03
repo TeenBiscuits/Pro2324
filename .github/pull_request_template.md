@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
+
+SPDX-License-Identifier: GPL-3.0-only
+-->
+
 ## Antes de nada
 
 - [ ] He leído la [Guía de Contribución](https://github.com/TeenBiscuits/Pro2324/blob/main/CONTRIBUTING.md)

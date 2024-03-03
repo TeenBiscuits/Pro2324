@@ -1,6 +1,7 @@
-// SPDX-FileCopyrightText: 2023 Pablo Portas López
+// SPDX-FileCopyrightText: 2023 Pablo Portas López <pablo.portas@udc.es>
 //
 // SPDX-License-Identifier: GPL-3.0-only
+
 #include <stdio.h>
 # define PI 3.14159265359
 # define area(x) (4 * PI * x * x)
