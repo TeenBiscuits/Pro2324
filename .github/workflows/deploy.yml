@@ -59,7 +59,7 @@ jobs:
       CONFIG_JSON_PRODUCT: PRO
       CONFIG_JSON_VERSION: 2023-2024
     # Requires the build-job results
-    needs: construir
+    needs: comprobar
     runs-on: ubuntu-latest
     container:
       image: registry.jetbrains.team/p/writerside/builder/algolia-publisher:2.0.32-2
