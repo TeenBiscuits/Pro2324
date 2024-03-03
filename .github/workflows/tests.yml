@@ -10,7 +10,6 @@ on:
       - opened
     paths:
       - 'docs/**'
-    branches: ["main"]
 
 permissions:
   id-token: write
