@@ -1,6 +1,7 @@
-// SPDX-FileCopyrightText: 2023 Pablo Portas López
+// SPDX-FileCopyrightText: 2023 Pablo Portas López <pablo.portas@udc.es>
 //
 // SPDX-License-Identifier: GPL-3.0-only
+
 #include <stdio.h>
 
 void intercambiar(int *a, int *b) {
