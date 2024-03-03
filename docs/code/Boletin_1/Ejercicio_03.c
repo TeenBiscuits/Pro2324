@@ -1,6 +1,7 @@
-// SPDX-FileCopyrightText: 2023 Pablo Portas López
+// SPDX-FileCopyrightText: 2023 Pablo Portas López <pablo.portas@udc.es>
 //
 // SPDX-License-Identifier: GPL-3.0-only
+
 #include <stdio.h>
 #define superficie3(x, y) ((x*y)/2) // Defino la fórmula del area del triángulo
 

@@ -1,6 +1,7 @@
-// SPDX-FileCopyrightText: 2023 Pablo Portas López
+// SPDX-FileCopyrightText: 2023 Pablo Portas López <pablo.portas@udc.es>
 //
 // SPDX-License-Identifier: GPL-3.0-only
+
 #include <stdio.h>
 
 #define productoescalar(vx1,vy1,vz1,vx2,vy2,vz2) ((vx1*vx2)+(vy1*vy2)+(vz1*vz2))

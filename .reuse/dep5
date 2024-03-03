@@ -1,10 +1,45 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Pro2324
-Upstream-Contact: Pablo Portas Lopez <81629707+TeenBiscuits@users.noreply.github.com>
+Upstream-Contact: Pablo Portas Lopez <pablo.portas@udc.es>
 Source: https://github.com/TeenBiscuits/Pro2324
 
-# Sample paragraph, commented out:
-#
-# Files: src/*
-# Copyright: $YEAR $NAME <$CONTACT>
-# License: ...
+Files:  logo/*
+        docs/images/Logo.*
+        docs/images/GitHubSponsors.png
+        docs/topics/*
+Copyright: 2023 Pablo Portas Lopez <pablo.portas@udc.es>
+License: CC-BY-NC-4.0
+
+Files:  .github/*
+        .all-contributorsrc
+        CONTRIBUTING.md
+        README.md
+        SECURITY.md
+        .idea/*
+        docs/code/*
+        docs/cfg/*
+        docs/keymap.xml
+        docs/pro.tree
+        docs/redirection-rules.xml
+        docs/writerside.cfg
+Copyright: 2024 Pablo Portas Lopez <pablo.portas@udc.es>
+License: GPL-3.0-only
+
+Files:  CODE_OF_CONDUCT.md
+Copyright: 2021 Ethical Source
+License: CC-BY-4.0
+
+Files: docs/images/Tutoriales/Compilador/*
+Copyright: Abel Cedron Santaeufemia
+License: CC-BY-4.0
+
+Files:  docs/topics/Bloque-1.md
+        docs/topics/Bloque-2.md
+        docs/topics/Bloque-3.md
+        docs/topics/Bloque-4.md
+Copyright: 2024 Daniel Feito Pin
+License: CC-BY-NC-4.0
+
+Files: docs/images/Apuntes/Bibliografia/C-Programming-Book.png
+Copyright: K. N. King
+License: CC0-1.0
