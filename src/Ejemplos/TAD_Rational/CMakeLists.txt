@@ -1,4 +1,6 @@
 # SPDX-FileCopyrightText: Facultade de Informática de A Coruña
+#
+# SPDX-License-Identifier: CC-BY-4.0
 
 cmake_minimum_required(VERSION 3.27)
 project(TAD_Rational)

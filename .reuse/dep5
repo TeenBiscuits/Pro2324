@@ -16,7 +16,6 @@ Files:  .github/*
         README.md
         SECURITY.md
         .idea/*
-        docs/code/*
         docs/cfg/*
         docs/keymap.xml
         docs/pro.tree
@@ -29,17 +28,18 @@ Files:  CODE_OF_CONDUCT.md
 Copyright: 2021 Ethical Source
 License: CC-BY-4.0
 
-Files: docs/images/Tutoriales/Compilador/*
+Files:  docs/images/Tutoriales/Compilador/*
 Copyright: Abel Cedron Santaeufemia
 License: CC-BY-4.0
 
-Files:  docs/topics/Bloque-1.md
-        docs/topics/Bloque-2.md
-        docs/topics/Bloque-3.md
-        docs/topics/Bloque-4.md
+Files:  docs/topics/03-Apuntes/Pro-1/*
 Copyright: 2024 Daniel Feito Pin
 License: CC-BY-NC-4.0
 
-Files: docs/images/Apuntes/Bibliografia/C-Programming-Book.png
+Files:  docs/images/Apuntes/Bibliografia/C-Programming-Book.png
 Copyright: K. N. King
 License: CC0-1.0
+
+Files:  src/Ejemplos/TAD_Rational/*
+Copyright: Facultade de Informatica de A Coruna
+License: CC-BY-4.0
