@@ -151,8 +151,8 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 
 ## Licencias
 
-Este proyecto contiende dos licencias. Una para el código y los ejemplos,  **GNU GPLv3** y otra para la documentación
-publicada en GitHub Pages, **CC BY-NC 4.0**.
+Este proyecto contiende dos licencias. Una para el código y los ejemplos, **GNU GPLv3** y otra para la documentación
+publicada en GitHub Pages, **CC BY-NC 4.0**. Para más información sobre las licencias que este proyecto contiene: [Reuse Info File](.reuse/dep5)
 
 Este programa es software libre: puedes redistribuirlo y/o modificarlo bajo los términos de la Licencia Pública General
 GNU publicada por la Free Software Foundation, ya sea la versión 3 de la Licencia, o (a su elección) cualquier versión

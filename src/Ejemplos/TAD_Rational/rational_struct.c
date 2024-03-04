@@ -1,4 +1,6 @@
 // SPDX-FileCopyrightText: Facultade de Informática de A Coruña
+//
+// SPDX-License-Identifier: CC-BY-4.0
 
 #include "rational_struct.h"
 

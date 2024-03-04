@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Apuntes" id="Teoria" help-id="Teoría">
+       title="Apuntes" id="03-Apuntes" help-id="Teoría;Teoria">
 
     <!--
     SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
@@ -21,8 +21,8 @@
         <!-- Introducción y bibliografía -->
         <spotlight>
             <!-- TODO Una vez escritas la introducción y la bibliografía desbloquearlas -->
-            <!-- <a href="Teoria-Introduccion.md" type="presentation" summary="Bienvenido/a al mundo de la programación"/> -->
-            <a href="Pro2324.topic" type="lock" summary="¡En construcción!">Teoría Introducción</a>
+            <!-- <a href="03-Apuntes-Introduccion.md" type="presentation" summary="Bienvenido/a al mundo de la programación"/> -->
+            <a href="01-Pro2324.topic" type="lock" summary="¡En construcción!">Teoría Introducción</a>
             <a href="Bibliografia.md" type="library"
                summary="Bibliografía recomendada, desde las lecturas esenciales más básicas hasta los grandes clásicos."/>
         </spotlight>
@@ -49,19 +49,19 @@
                summary="La abstracción funcional y de datos. Especificación, construcción y ejemplos."/>
             <a href="Tema-2.md" type="container"
                summary="Punteros en profundidad, las variables dinámicas, direcciones de memoria y la gestión de la memoria (pila (stack) y montículo (heap))."/>
-            <a href="Pro2324.topic" type="lock" summary="Próximamente...">Tema 3 - Listas</a>
-            <a href="Pro2324.topic" type="lock" summary="Próximamente...">Próximamente...</a>
+            <a href="01-Pro2324.topic" type="lock" summary="Próximamente...">Tema 3 - Listas</a>
+            <a href="01-Pro2324.topic" type="lock" summary="Próximamente...">Próximamente...</a>
         </secondary>
 
         <!-- Créditos -->
         <misc>
             <cards narrow="true">
                 <title>Créditos</title>
-                <a href="Agradecimientos.md" type="documents" summary="Copyright © Facultade de Informática da Coruña">Material
+                <a href="11-Agradecimientos.md" type="documents" summary="Copyright © Facultade de Informática da Coruña">Material
                     Original</a>
-                <a href="Agradecimientos.md" type="account" summary="Copyright © 2024 Daniel Feito Pin">Resúmenes
+                <a href="11-Agradecimientos.md" type="account" summary="Copyright © 2024 Daniel Feito Pin">Resúmenes
                     Programación I</a>
-                <a href="Agradecimientos.md" type="account" summary="Copyright © 2024 Pablo Portas López">Resúmenes
+                <a href="11-Agradecimientos.md" type="account" summary="Copyright © 2024 Pablo Portas López">Resúmenes
                     Programación II</a>
             </cards>
         </misc>
