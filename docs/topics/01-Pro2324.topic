@@ -32,9 +32,7 @@
         <!-- El resto de secciones -->
         <primary>
             <title>Otras cosas interesantes</title>
-            <!-- <a href="Ejemplos.md" type="cross-check" summary="Ejemplos sencillos y no tan sencillos, algunos sacados de clases de prácticas.">Ejemplos</a> -->
-            <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html" type="lock"
-               summary="Próximamente...">Ejemplos</a>
+            <a href="04-Ejemplos.topic" type="cross-check" summary="Ejemplos sencillos y no tan sencillos, algunos sacados de clases de prácticas.">Ejemplos</a>
             <!-- <a href="Examenes.md" type="academy" summary="Exámenes antiguos resueltos.">Exámenes</a> -->
             <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html" type="lock" summary="¡En construcción!">Antiguos
                 Exámenes</a>

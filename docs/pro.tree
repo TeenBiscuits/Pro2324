@@ -40,16 +40,19 @@ SPDX-License-Identifier: GPL-3.0-only
         </toc-element>
         <toc-element topic="Bibliografia.md"/>
     </toc-element>
-    <toc-element toc-title="Ejemplos"/>
-    <!-- <toc-element topic="04-Ejemplos.md"/> -->
+    <toc-element topic="04-Ejemplos.topic">
+        <toc-element topic="Rational-TAD-El-codigo.md"/>
+    </toc-element>
     <toc-element toc-title="Antiguos Exámenes"/>
     <!-- <toc-element topic="05-Examenes.md"/> -->
     <toc-element topic="06-Tutoriales.topic">
         <toc-element topic="Compilador.md"/>
+        <toc-element toc-title="Próximamente ..."/>
     </toc-element>
     <toc-element topic="07-Extras.topic">
         <toc-element topic="Tres-En-Raya.md"/>
         <toc-element topic="Algoritmos.md"/>
+        <toc-element toc-title="Próximamente ..."/>
     </toc-element>
     <toc-element toc-title="Reportar un Error / Sugerencia"
                  href="https://github.com/TeenBiscuits/Pro2324/issues/new/choose"/>
