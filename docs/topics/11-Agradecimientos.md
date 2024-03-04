@@ -65,9 +65,15 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 <tip>Copyright © 2024 Pablo Portas López</tip>
 
+### Ejemplos
+
+**Rational TAD**
+
+<tip>Copyright © Facultade de Informática da Coruña</tip>
+
 ### Tutoriales
 
-#### Compilador
+**Compilador**
 
 <tip>Copyright © Abel Cedrón Santaeufemia</tip>
 
