@@ -18,7 +18,7 @@
         </description>
 
         <spotlight>
-            <a href="Rational-TAD-El-codigo.md" type="server" summary="Un TAD para los números racionales, es decir, un par de números enteros: Numerador y denominador.">Rational TAD: El código</a>
+            <a href="Rational-TAD-El-codigo.md" type="server" summary="Un TAD para los números racionales, es decir, un par de números enteros: Numerador y denominador."/>
             <a href="01-Pro2324.topic" type="lock" summary="Próximamente...">Próximamente...</a>
         </spotlight>
 
