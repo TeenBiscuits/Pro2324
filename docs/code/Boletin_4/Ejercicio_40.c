@@ -1,6 +1,8 @@
 // SPDX-FileCopyrightText: 2024 Sprinter05
 //
 // SPDX-License-Identifier: GPL-3.0-only
+
+// Libraries
 #include <stdio.h> // Main library
 #include <stdlib.h> // For managing the program
 #include <stdbool.h> // Bool function
@@ -9,8 +11,6 @@
 #define N 16 // Change this number to change the matrix size
 #define SPEED 2 // Higher means faster: MUST BE GREATER OR EQUAL THAN 1
 #define clear() printf("\033[H\033[J") // Clean screen
-
-/*Design and implement a program in C language to simulate the game of life of John Conway.*/
 
 // NOTE: RUN FROM VSCODE TERMINAL OR THE MODERN WINDOWS TERMINAL APP NOT CMD OTHERWISE UTF-8 EMOJIS WILL NOT DISPLAY
 // ALSO MAKE SURE UTF-8 SUPPORT IS ENABLED IN YOUR TERMINAL OF CHOICE, APPLIES TO ALL OPERATING SYSTEMS

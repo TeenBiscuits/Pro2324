@@ -1,13 +1,10 @@
 // SPDX-FileCopyrightText: 2024 Sprinter05
 //
 // SPDX-License-Identifier: GPL-3.0-only
+
+// Libraries
 #include <stdio.h>
 #define N 100
-
-/*Design and implement a program in C language to read a sentence
-(maximum 100 characters) and then showing every word of it followed
-by the number of letters that compose it. For simplicity, assume that
-the words can be separated only by spaces, commas or periods.*/
 
 // Count the amount of characters in the string
 void countString(char toCount[N]){

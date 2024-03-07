@@ -1,13 +1,10 @@
 // SPDX-FileCopyrightText: 2024 Sprinter05
 //
 // SPDX-License-Identifier: GPL-3.0-only
+
+// Libraries
 #include <stdio.h>
 #define N 10
-
-/*Design and implement a program in C language, by sequential search allow
-finding the lowest and the highest index were a given X can be found into an
-array of integers. The program should allow the user to properly enter the array
-of integers and ask for the value you want to find.*/
 
 int main(){
     // Define variables and ask for parameters

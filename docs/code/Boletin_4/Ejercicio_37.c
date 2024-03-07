@@ -1,15 +1,11 @@
 // SPDX-FileCopyrightText: 2024 Sprinter05
 //
 // SPDX-License-Identifier: GPL-3.0-only
+
+// Libraries
 #include <stdio.h>
 #define N 11
 #define M 100
-
-/*Implement a program that reads a date and store it in a string that
-fit your 10 characters (dd/mm/yyyy) adding zeros to the left of the day,
-month and year if needed, and calculate and store in memory the next 100 leap years.
-The program should give the user the option to change the date entered and
-see on the screen the n leap years from the given date.*/
 
 void checkLeaps(int n, int year){
     int closeLeap, leaps[M], counter=1;

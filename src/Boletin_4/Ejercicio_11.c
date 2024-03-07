@@ -1,10 +1,9 @@
 // SPDX-FileCopyrightText: 2024 Sprinter05
 //
 // SPDX-License-Identifier: GPL-3.0-only
-#include <stdio.h>
 
-/*Design and implement a recursive function in C language that returns
-the sum of the elements of an array of integers.*/
+// Libraries
+#include <stdio.h>
 
 // Sum all the elements of the array using recursion
 int arraySum(int n, int sumNums[n], int loops, int accum){

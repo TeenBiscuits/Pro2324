@@ -1,13 +1,11 @@
 // SPDX-FileCopyrightText: 2024 Sprinter05
 //
 // SPDX-License-Identifier: GPL-3.0-only
+
+// Libraries
 #include <stdio.h>
 #include <stdbool.h>
 #define N 100
-
-/*Implement a program that ask for five integers (ni > 0) and display each number and
-factorial decomposition. Use a suitable data structure to store both the numbers
-and decompositions.*/
 
 void factorialDecomp(int toDecomp){
     int factors[N], primes=2, loops=0, og=toDecomp;
