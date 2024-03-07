@@ -116,11 +116,14 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/TeenBiscuits"><img src="https://avatars.githubusercontent.com/u/81629707?v=4?s=100" width="100px;" alt="Pablo Portas"/><br /><sub><b>Pablo Portas</b></sub></a><br /><a href="#code-TeenBiscuits" title="Code">💻</a> <a href="#content-TeenBiscuits" title="Content">🖋</a> <a href="#doc-TeenBiscuits" title="Documentation">📖</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Fraagaa"><img src="https://avatars.githubusercontent.com/u/66569329?v=4?s=100" width="100px;" alt="Miguel Fraga Pico メ"/><br /><sub><b>Miguel Fraga Pico メ</b></sub></a><br /><a href="#code-Fraagaa" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sneiira"><img src="https://avatars.githubusercontent.com/u/151532950?v=4?s=100" width="100px;" alt="Santiago Neira Sejean"/><br /><sub><b>Santiago Neira Sejean</b></sub></a><br /><a href="#code-sneiira" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/dza205"><img src="https://avatars.githubusercontent.com/u/76247222?v=4?s=100" width="100px;" alt="Daniel Deza Prieto"/><br /><sub><b>Daniel Deza Prieto</b></sub></a><br /><a href="#code-dza205" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://www.informaticapau.com/"><img src="https://avatars.githubusercontent.com/u/71133325?v=4?s=100" width="100px;" alt="Daniel Feito Pin"/><br /><sub><b>Daniel Feito Pin</b></sub></a><br /><a href="#content-danielfeitopin" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/TeenBiscuits"><img src="https://avatars.githubusercontent.com/u/81629707?v=4?s=100" width="100px;" alt="Pablo Portas"/><br /><sub><b>Pablo Portas</b></sub></a><br /><a href="#code-TeenBiscuits" title="Code">💻</a> <a href="#content-TeenBiscuits" title="Content">🖋</a> <a href="#doc-TeenBiscuits" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/Fraagaa"><img src="https://avatars.githubusercontent.com/u/66569329?v=4?s=100" width="100px;" alt="Miguel Fraga Pico メ"/><br /><sub><b>Miguel Fraga Pico メ</b></sub></a><br /><a href="#code-Fraagaa" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/sneiira"><img src="https://avatars.githubusercontent.com/u/151532950?v=4?s=100" width="100px;" alt="Santiago Neira Sejean"/><br /><sub><b>Santiago Neira Sejean</b></sub></a><br /><a href="#code-sneiira" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/dza205"><img src="https://avatars.githubusercontent.com/u/76247222?v=4?s=100" width="100px;" alt="Daniel Deza Prieto"/><br /><sub><b>Daniel Deza Prieto</b></sub></a><br /><a href="#code-dza205" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://www.informaticapau.com/"><img src="https://avatars.githubusercontent.com/u/71133325?v=4?s=100" width="100px;" alt="Daniel Feito Pin"/><br /><sub><b>Daniel Feito Pin</b></sub></a><br /><a href="#content-danielfeitopin" title="Content">🖋</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="20%"><a href="https://sprinter05.github.io/"><img src="https://avatars.githubusercontent.com/u/69991979?v=4?s=100" width="100px;" alt="Sprinter"/><br /><sub><b>Sprinter</b></sub></a><br /><a href="#code-Sprinter05" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
