@@ -54,6 +54,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "Sprinter05",
+      "name": "Sprinter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69991979?v=4",
+      "profile": "https://sprinter05.github.io/",
+      "contributions": [
+        "code"
+      ]
     }
   ]
 }
