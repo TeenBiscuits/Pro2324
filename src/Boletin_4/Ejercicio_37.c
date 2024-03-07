@@ -1,3 +1,5 @@
+// SPDX-FileCopyrightText: 2024 Sprinter05
+//
 // SPDX-License-Identifier: GPL-3.0-only
 #include <stdio.h>
 #define N 11
