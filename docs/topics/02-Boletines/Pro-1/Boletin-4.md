@@ -10,11 +10,12 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 <tldr>Arrays, registros y cadenas de caracteres.</tldr>
 
-<!-- TODO FALTAN EJERCICIOS 29 - 31, 33 - 36 -->
+<!-- TODO FALTAN EJERCICIOS  -->
 <warning>
 <b><b>¡Se necesita tu ayuda!</b></b>
 
-Faltan soluciones para los ejercicios del 5 al 8, del 11 al 14, del 16 al 19, del 21 al 23, del 26 al 28 y del 30 al 40. [Colabora](https://github.com/TeenBiscuits/Pro2324)
+Faltan soluciones para los ejercicios del 6 al 7, del 12 al 14, del 16 al 19, del 21 al 23, el 26, del 30 al 35 y del 38
+al 39. [Colabora](https://github.com/TeenBiscuits/Pro2324)
 
 </warning>
 
@@ -49,11 +50,11 @@ horas estudiando) y más vago (menor número de horas estudiando).
 
 <code-block src="./Boletin_4/Ejercicio_04.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
-<!-- TODO FALTAN EJERCICIOS 5 - 8 -->
+<!-- TODO FALTAN EJERCICIOS 5 - 7 -->
 <warning>
 <b>¡Se necesita tu ayuda!</b>
 
-Faltan soluciones para los ejercicios del 5 al 8. [Colabora](https://github.com/TeenBiscuits/Pro2324)
+Faltan soluciones para los ejercicios del 5 al 7. [Colabora](https://github.com/TeenBiscuits/Pro2324)
 </warning>
 
 <!--
@@ -85,11 +86,31 @@ presupuesto semanal que gastó cada día.
 
 <code-block src="./Boletin_4/Ejercicio_07.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
+-->
+
 ### Ejercicio 8
 
-<code-block src="./Boletin_4/Ejercicio_08.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
+Plantee e implemente un programa en lenguaje C que, mediante búsqueda secuencial, permita encontrar el menor y el mayor
+índice de donde se encuentra un valor dado X en un array de números enteros. El programa debe permitir al usuario
+introducir apropiadamente el array de números enteros y solicitarle el valor que desea encontrar.
 
--->
+<procedure>
+<title>Ejemplo de Ejecución</title>
+<p>
+    <b>Introduzca los elementos del array separados por espacios, "enter" para terminar:</b><br/>
+    1 2 3 5 3 2 3 4 5 6 3 1 2 3
+</p>
+<p>
+    <b>Introduzca el número que desea buscar:</b> 3<br/>
+    El número 3 aparece por primera vez en la posición 3 y por última vez en la posición 14.<br/>
+    <b>Introduzca el número que desea buscar:</b> 4<br/>
+    El número 4 aparece por primera y única vez en la posición 8.<br/>
+    <b>Introduzca el número que desea buscar:</b> 9<br/>
+    El número 9 no aparece en el array.<br/>
+</p>
+</procedure>
+
+<code-block src="./Boletin_4/Ejercicio_08.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
 ### Ejercicio 9
 
@@ -107,7 +128,13 @@ devuelva una array ordenado con los elementos de los dos anteriores.
 
 <code-block src="./Boletin_4/Ejercicio_10.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
-<!-- TODO FALTAN EJERCICIOS 11 - 14 -->
+### Ejercicio 11
+
+Plantee e implemente una función recursiva en lenguaje C que devuelva la suma de los elementos de un array de enteros.
+
+<code-block src="./Boletin_4/Ejercicio_11.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
+
+<!-- TODO FALTAN EJERCICIOS 12 - 14 -->
 <warning>
 <b>¡Se necesita tu ayuda!</b>
 
@@ -115,12 +142,6 @@ Faltan soluciones para los ejercicios del 11 al 14. [Colabora](https://github.co
 </warning>
 
 <!--
-
-### Ejercicio 11
-
-Plantee e implemente una función recursiva en lenguaje C que devuelva la suma de los elementos de un array de enteros.
-
-<code-block src="./Boletin_4/Ejercicio_11.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
 ### Ejercicio 12
 
@@ -256,11 +277,11 @@ línea), y determine la frecuencia de aparición de cada vocal respecto al total
 
 <code-block src="./Boletin_4/Ejercicio_25.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
-<!-- TODO FALTAN EJERCICIOS 26 - 28 -->
+<!-- TODO FALTAN EJERCICIOS 26 -->
 <warning>
 <b>¡Se necesita tu ayuda!</b>
 
-Faltan soluciones para los ejercicios del 26 al 28. [Colabora](https://github.com/TeenBiscuits/Pro2324)
+Faltan soluciones para el ejercicio 26. [Colabora](https://github.com/TeenBiscuits/Pro2324)
 </warning>
 
 <!--
@@ -273,7 +294,31 @@ original y la frase después de llevar a cabo la sustitución.
 
 <code-block src="./Boletin_4/Ejercicio_26.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
+-->
+
 ### Ejercicio 27
+
+Plantee e implemente un programa en lenguaje C que lea una frase (como máximo de 100 caracteres) y que muestre a
+continuación cada palabra de la misma seguida del número de letras que la componen. Para simplificar suponga que las
+palabras pueden separarse únicamente por espacios, comas o puntos.
+
+<procedure>
+<title>Ejemplo de Ejecución</title>
+<p>
+    <b>Introduzca una frase de como máximo 100 caracteres:</b><br/>
+    Buenos días, vamos a comenzar. Encended los equipos.
+</p>
+<p>
+    Buenos 6<br/>
+    días 4<br/>
+    vamos 5<br/>
+    a 1<br/>
+    comenzar 8<br/>
+    Encended 8<br/>
+    los 3<br/>
+    equipos 7<br/>
+</p>
+</procedure>
 
 <code-block src="./Boletin_4/Ejercicio_27.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
@@ -284,19 +329,17 @@ todas las secuencias de dos o más espacios por un único espacio y que muestre 
 
 <code-block src="./Boletin_4/Ejercicio_28.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
--->
-
 ### Ejercicio 29
 
 Diseñe una función que devuelva al revés la cadena recibida como parámetro.
 
 <code-block src="./Boletin_4/Ejercicio_29.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
-<!-- TODO FALTAN EJERCICIOS 30 - 40 -->
+<!-- TODO FALTAN EJERCICIOS 30 - 35 -->
 <warning>
 <b>¡Se necesita tu ayuda!</b>
 
-Faltan soluciones para los ejercicios del 30 al 40. [Colabora](https://github.com/TeenBiscuits/Pro2324)
+Faltan soluciones para los ejercicios del 30 al 35. [Colabora](https://github.com/TeenBiscuits/Pro2324)
 </warning>
 
 <!--
@@ -349,6 +392,8 @@ habitantes.
 
 <code-block src="./Boletin_4/Ejercicio_35.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
+-->
+
 ### Ejercicio 36
 
 Implemente un programa que solicite cinco números enteros (ni > 0) al usuario y muestre por pantalla cada número y su
@@ -366,6 +411,15 @@ bisiestos que desee a partir de la fecha dada.
 
 <code-block src="./Boletin_4/Ejercicio_37.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
+<!-- TODO FALTAN EJERCICIOS 38 - 39 -->
+<warning>
+<b>¡Se necesita tu ayuda!</b>
+
+Faltan soluciones para los ejercicios del 38 al 39. [Colabora](https://github.com/TeenBiscuits/Pro2324)
+</warning>
+
+<!--
+
 ### Ejercicio 38
 
 Implemente un programa en lenguaje C que tras leer un texto, indique el número de palabras que tienen un minino de tres
@@ -380,10 +434,10 @@ guardadas en una estructura de datos.
 
 <code-block src="./Boletin_4/Ejercicio_39.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
+-->
+
 ### Ejercicio 40
 
 Plantee e implemente un programa en lenguaje C para simular el juego de la vida de John Conway.
 
 <code-block src="./Boletin_4/Ejercicio_40.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
-
--->
