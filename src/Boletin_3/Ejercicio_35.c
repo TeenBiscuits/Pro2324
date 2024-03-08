@@ -254,13 +254,16 @@ void triangulo(int lado, char caracter) {
 //Función auxiliar con gets que lee un número por pantalla
 //Equivalente a scanf("%d")
 int leerNumero() {
-	size_t n;
+	size_t len = 10*sizeof(char);
 	char *str;
+	int n;
 
 	str = calloc(10, sizeof(char));
-	getline(&str, &n, stdin);
+	getline(&str, &len, stdin);
 
-	return strtol(str, NULL, 10);
+	n = strtol(str, NULL, 10);
+	free(str);
+	return n;
 }
 
 void menu() {
