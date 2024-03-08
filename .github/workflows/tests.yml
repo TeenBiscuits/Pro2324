@@ -6,20 +6,23 @@ name: Comprobar documentación
 
 on:
   pull_request:
-    types:
-      - opened
-    paths:
-      - 'docs/**'
+    types: ["opened"]
+    paths: ["docs/**"]
 
 permissions:
   id-token: write
   pages: write
 
 env:
-  INSTANCE: docs/pro
-  ARTIFACT: webHelpPRO2-all.zip
-  # Writerside docker image version
-  DOCKER_VERSION: 233.14389
+  INSTANCE: 'docs/pro'
+  ARTIFACT: 'webHelpPRO2-all.zip'
+  DOCKER_VERSION: '233.14389'
+  ALGOLIA_ARTIFACT: 'algolia-indexes-PRO.zip'
+  ALGOLIA_APP_NAME: '0K3UBN277V'
+  ALGOLIA_INDEX_NAME: 'pro2324'
+  ALGOLIA_KEY: '${{ secrets.ALGOLIA_KEY }}'
+  CONFIG_JSON_PRODUCT: 'PRO'
+  CONFIG_JSON_VERSION: '2023-2024'
 
 jobs:
   construir:
@@ -36,17 +39,17 @@ jobs:
           artifact: ${{ env.ARTIFACT }}
           docker-version: ${{ env.DOCKER_VERSION }}
 
-      - name: Subir artefacto
+      - name: Subir artefacto con los resultados de la construcción
         uses: actions/upload-artifact@v4
         with:
           name: docs
           path: |
             artifacts/${{ env.ARTIFACT }}
             artifacts/report.json
-          retention-days: 1
+            artifacts/${{ env.ALGOLIA_ARTIFACT }}
+          retention-days: 2
 
   comprobar:
-    # Requires build job results
     needs: construir
     runs-on: ubuntu-latest
 
