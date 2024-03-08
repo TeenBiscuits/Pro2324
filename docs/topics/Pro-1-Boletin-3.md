@@ -10,12 +10,6 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 <tldr>Funciones, recursividad y retorno de datos.</tldr>
 
-<!-- TODO FALTAN EJERCICIOS 29 - 31, 33 - 36 -->
-<warning>
-<b>¡Se necesita tu ayuda!</b>
-
-Faltan soluciones para los ejercicios del 29 al 31 y del 33 al 36. [Colabora](https://github.com/TeenBiscuits/Pro2324)
-</warning>
 
 ### Ejercicio 1
 
@@ -282,14 +276,6 @@ probar su funcionamiento.
 
 <code-block src="./Boletin_3/Ejercicio_28.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
-<!-- TODO FALTAN EJERCICIOS 29 - 31 -->
-<warning>
-<b>¡Se necesita tu ayuda!</b>
-
-Faltan soluciones para los ejercicios del 29 al 31. [Colabora](https://github.com/TeenBiscuits/Pro2324)
-</warning>
-
-<!--
 
 ### Ejercicio 29
 
@@ -297,6 +283,7 @@ Plantee e implemente una función recursiva en Lenguaje C para determinar si un 
 implemente otra función apropiada para probar su funcionamiento, activando esta última desde el programa principal.
 
 <code-block src="./Boletin_3/Ejercicio_29.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
+
 
 ### Ejercicio 30
 
@@ -306,15 +293,15 @@ activándola desde el programa principal.
 
 <code-block src="./Boletin_3/Ejercicio_30.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
+
 ### Ejercicio 31
 
 Plantee e implemente una función recursiva en Lenguaje C para resolver el problema de las torres de Hanoi. Además de la
 función, implemente la función apropiada para probar su funcionamiento, activando este último desde el programa
 principal.
 
-<code-block src="./Boletin_3/Ejercicio_31.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
+<code-block src="./Boletin_3/Ejercicio_31.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/> -->
 
--->
 
 ### Ejercicio 32
 
@@ -323,14 +310,6 @@ Además de la función, implemente otra función apropiada para probar su funcio
 
 <code-block src="./Boletin_3/Ejercicio_32.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
-<!-- TODO FALTAN EJERCICIOS 33 - 36 -->
-<warning>
-<b>¡Se necesita tu ayuda!</b>
-
-Faltan soluciones para los ejercicios del 33 al 36. [Colabora](https://github.com/TeenBiscuits/Pro2324)
-</warning>
-
-<!--
 
 ### Ejercicio 33
 
@@ -418,4 +397,3 @@ Implemente un programa en Lenguaje C para trabajar con números complejos. Las o
 
 <code-block src="./Boletin_3/Ejercicio_36.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
 
--->
