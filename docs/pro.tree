@@ -9,8 +9,8 @@ SPDX-License-Identifier: GPL-3.0-only
 
 <instance-profile id="pro" name="Programación" start-page="01-Pro2324.topic">
 
-    <toc-element topic="01-Pro2324.topic" accepts-web-file-names="readme.html"/>
-    <toc-element topic="02-Boletines.topic">
+    <toc-element topic="01-Pro2324.topic" accepts-web-file-names="readme.html,pro2324.hmtl"/>
+    <toc-element topic="02-Boletines.topic" accepts-web-file-names="boletines.html">
         <toc-element toc-title="Pro I">
             <toc-element topic="Boletin-1.md"/>
             <toc-element topic="Boletin-2.md"/>
@@ -23,7 +23,7 @@ SPDX-License-Identifier: GPL-3.0-only
             <toc-element toc-title="Próximamente ..."/>
         </toc-element>
     </toc-element>
-    <toc-element topic="03-Apuntes.topic">
+    <toc-element topic="03-Apuntes.topic" accepts-web-file-names="apuntes.html">
         <!-- <toc-element topic="Teoria-Introduccion.md"/> -->
         <toc-element toc-title="Teoría Introducción"/>
         <toc-element toc-title="Pro I">
@@ -40,16 +40,16 @@ SPDX-License-Identifier: GPL-3.0-only
         </toc-element>
         <toc-element topic="Bibliografia.md"/>
     </toc-element>
-    <toc-element topic="04-Ejemplos.topic">
+    <toc-element topic="04-Ejemplos.topic" accepts-web-file-names="ejemplos.html">
         <toc-element topic="Rational-TAD-El-codigo.md"/>
     </toc-element>
     <toc-element toc-title="Antiguos Exámenes"/>
     <!-- <toc-element topic="05-Examenes.md"/> -->
-    <toc-element topic="06-Tutoriales.topic">
+    <toc-element topic="06-Tutoriales.topic" accepts-web-file-names="tutoriales.html">
         <toc-element topic="Compilador.md"/>
         <toc-element toc-title="Próximamente ..."/>
     </toc-element>
-    <toc-element topic="07-Extras.topic">
+    <toc-element topic="07-Extras.topic" accepts-web-file-names="extras.html">
         <toc-element topic="Tres-En-Raya.md"/>
         <toc-element topic="Algoritmos.md"/>
         <toc-element toc-title="Próximamente ..."/>
@@ -62,6 +62,6 @@ SPDX-License-Identifier: GPL-3.0-only
         <toc-element toc-title="Ko-Fi" href="https://ko-fi.com/pablopl"/>
         <toc-element toc-title="PayPal" href="https://paypal.me/pabloportaslopez"/>
     </toc-element>
-    <toc-element topic="11-Agradecimientos.md"/>
-    <toc-element topic="99-Para-Colaboradores.md" hidden="true"/>
+    <toc-element topic="11-Agradecimientos.md" accepts-web-file-names="agradecimientos.html"/>
+    <toc-element topic="99-Para-Colaboradores.md" hidden="true" accepts-web-file-names="para-colaboradores.html"/>
 </instance-profile>
