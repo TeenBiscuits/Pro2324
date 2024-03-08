@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2024 Pablo Portas López
+SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
 
 SPDX-License-Identifier: GPL-3.0-only
 -->

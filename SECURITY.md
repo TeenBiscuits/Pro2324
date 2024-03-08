@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2024 Pablo Portas López
+SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
 
 SPDX-License-Identifier: GPL-3.0-only
 -->
@@ -15,4 +15,4 @@ SPDX-License-Identifier: GPL-3.0-only
 
 ## Informar de una vulnerabilidad
 
-En caso de encontrar una vulnerabilidad en el repositorio contactar por privado con [TeenBicuits](https://github.com/TeenBiscuits).
+En caso de encontrar una vulnerabilidad en el repositorio contactar por privado con Pablo Portas López <pablo.portas@udc.es>.

@@ -2,29 +2,29 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 <!--
-SPDX-FileCopyrightText: 2024 Pablo Portas López
+SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
 
 SPDX-License-Identifier: GPL-3.0-only
 -->
 
-<instance-profile id="pro" name="Programación"
-                  start-page="Pro2324.topic">
+<instance-profile id="pro" name="Programación" start-page="01-Pro2324.topic">
 
-    <toc-element topic="Pro2324.topic" accepts-web-file-names="readme.html"/>
-    <toc-element topic="Boletines.topic">
+    <toc-element topic="01-Pro2324.topic" accepts-web-file-names="readme.html,pro2324.html"/>
+    <toc-element topic="02-Boletines.topic" accepts-web-file-names="boletines.html">
         <toc-element toc-title="Pro I">
-            <toc-element topic="Pro-1-Boletin-1.md"/>
-            <toc-element topic="Pro-1-Boletin-2.md"/>
-            <toc-element topic="Pro-1-Boletin-3.md"/>
-            <toc-element topic="Pro-1-Boletin-4.md"/>
+            <toc-element topic="Boletin-1.md"/>
+            <toc-element topic="Boletin-2.md"/>
+            <toc-element topic="Boletin-3.md"/>
+            <toc-element topic="Boletin-4.md"/>
         </toc-element>
         <toc-element toc-title="Pro II">
-            <!--<toc-element toc-title="Boletín 5"/>-->
+            <toc-element toc-title="TGR 1 - Especificación de tipos abstractos"/>
+            <toc-element toc-title="TGR 2 - Punteros"/>
             <toc-element toc-title="Próximamente ..."/>
         </toc-element>
     </toc-element>
-    <toc-element topic="Teoria.topic">
-    <!-- <toc-element topic="Teoria-Introduccion.md"/> -->
+    <toc-element topic="03-Apuntes.topic" accepts-web-file-names="apuntes.html">
+        <!-- <toc-element topic="Teoria-Introduccion.md"/> -->
         <toc-element toc-title="Teoría Introducción"/>
         <toc-element toc-title="Pro I">
             <toc-element topic="Bloque-1.md"/>
@@ -33,28 +33,35 @@ SPDX-License-Identifier: GPL-3.0-only
             <toc-element topic="Bloque-4.md"/>
         </toc-element>
         <toc-element toc-title="Pro II">
+            <toc-element topic="Tema-1.md"/>
+            <toc-element topic="Tema-2.md"/>
+            <toc-element toc-title="Tema 3 - Listas"/>
             <toc-element toc-title="Próximamente..."/>
         </toc-element>
         <toc-element topic="Bibliografia.md"/>
     </toc-element>
-    <toc-element toc-title="Ejemplos"/>
-    <!-- <toc-element topic="Ejemplos.md"/> -->
-    <toc-element toc-title="Antiguos Exámenes"/>
-    <!-- <toc-element topic="Examenes.md"/> -->
-    <toc-element topic="Tutoriales.topic">
-        <toc-element topic="Compilador.md"/>
+    <toc-element topic="04-Ejemplos.topic" accepts-web-file-names="ejemplos.html">
+        <toc-element topic="Rational-TAD-El-codigo.md"/>
     </toc-element>
-    <toc-element topic="Extras.topic">
+    <toc-element toc-title="Antiguos Exámenes"/>
+    <!-- <toc-element topic="05-Examenes.md"/> -->
+    <toc-element topic="06-Tutoriales.topic" accepts-web-file-names="tutoriales.html">
+        <toc-element topic="Compilador.md"/>
+        <toc-element toc-title="Próximamente ..."/>
+    </toc-element>
+    <toc-element topic="07-Extras.topic" accepts-web-file-names="extras.html">
         <toc-element topic="Tres-En-Raya.md"/>
         <toc-element topic="Algoritmos.md"/>
+        <toc-element toc-title="Próximamente ..."/>
     </toc-element>
-    <toc-element toc-title="Reportar un Error/Sugerencia" href="https://github.com/TeenBiscuits/Pro2324/issues/new/choose"/>
+    <toc-element toc-title="Reportar un Error / Sugerencia"
+                 href="https://github.com/TeenBiscuits/Pro2324/issues/new/choose"/>
     <toc-element toc-title="GitHub - Colabora" href="https://github.com/TeenBiscuits/Pro2324"/>
     <toc-element toc-title="Apoye el desarrollo">
         <toc-element toc-title="GitHub Sponsors" href="https://github.com/TeenBiscuits/Pro2324"/>
         <toc-element toc-title="Ko-Fi" href="https://ko-fi.com/pablopl"/>
         <toc-element toc-title="PayPal" href="https://paypal.me/pabloportaslopez"/>
     </toc-element>
-    <toc-element topic="Agradecimientos.md"/>
-    <toc-element topic="Para-Colaboradores.md" hidden="true"/>
+    <toc-element topic="11-Agradecimientos.md" accepts-web-file-names="agradecimientos.html"/>
+    <toc-element topic="99-Para-Colaboradores.md" hidden="true" accepts-web-file-names="para-colaboradores.html"/>
 </instance-profile>

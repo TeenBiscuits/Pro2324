@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2024 Pablo Portas López
+SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
 
 SPDX-License-Identifier: GPL-3.0-only
 -->
@@ -59,7 +59,7 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 </div>
 <div align="center">
 
-[![github-sponsor](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white)](https://github.com/sponsors/TeenBiscuits)[![ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/T6T0TSIKT)[![paypalme](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](http://paypal.me/pabloportaslopez)  
+[![github-sponsor](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white)](https://github.com/sponsors/TeenBiscuits)[![ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/T6T0TSIKT)[![paypalme](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/pabloportaslopez)  
 
 </div>
 
@@ -116,11 +116,14 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/TeenBiscuits"><img src="https://avatars.githubusercontent.com/u/81629707?v=4?s=100" width="100px;" alt="Pablo Portas"/><br /><sub><b>Pablo Portas</b></sub></a><br /><a href="#code-TeenBiscuits" title="Code">💻</a> <a href="#content-TeenBiscuits" title="Content">🖋</a> <a href="#doc-TeenBiscuits" title="Documentation">📖</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Fraagaa"><img src="https://avatars.githubusercontent.com/u/66569329?v=4?s=100" width="100px;" alt="Miguel Fraga Pico メ"/><br /><sub><b>Miguel Fraga Pico メ</b></sub></a><br /><a href="#code-Fraagaa" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sneiira"><img src="https://avatars.githubusercontent.com/u/151532950?v=4?s=100" width="100px;" alt="Santiago Neira Sejean"/><br /><sub><b>Santiago Neira Sejean</b></sub></a><br /><a href="#code-sneiira" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/dza205"><img src="https://avatars.githubusercontent.com/u/76247222?v=4?s=100" width="100px;" alt="Daniel Deza Prieto"/><br /><sub><b>Daniel Deza Prieto</b></sub></a><br /><a href="#code-dza205" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://www.informaticapau.com/"><img src="https://avatars.githubusercontent.com/u/71133325?v=4?s=100" width="100px;" alt="Daniel Feito Pin"/><br /><sub><b>Daniel Feito Pin</b></sub></a><br /><a href="#content-danielfeitopin" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/TeenBiscuits"><img src="https://avatars.githubusercontent.com/u/81629707?v=4?s=100" width="100px;" alt="Pablo Portas López"/><br /><sub><b>Pablo Portas López</b></sub></a><br /><a href="#code-TeenBiscuits" title="Code">💻</a> <a href="#content-TeenBiscuits" title="Content">🖋</a> <a href="#doc-TeenBiscuits" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/Fraagaa"><img src="https://avatars.githubusercontent.com/u/66569329?v=4?s=100" width="100px;" alt="Miguel Fraga Pico メ"/><br /><sub><b>Miguel Fraga Pico メ</b></sub></a><br /><a href="#code-Fraagaa" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/sneiira"><img src="https://avatars.githubusercontent.com/u/151532950?v=4?s=100" width="100px;" alt="Santiago Neira Sejean"/><br /><sub><b>Santiago Neira Sejean</b></sub></a><br /><a href="#code-sneiira" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/dza205"><img src="https://avatars.githubusercontent.com/u/76247222?v=4?s=100" width="100px;" alt="Daniel Deza Prieto"/><br /><sub><b>Daniel Deza Prieto</b></sub></a><br /><a href="#code-dza205" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://www.informaticapau.com/"><img src="https://avatars.githubusercontent.com/u/71133325?v=4?s=100" width="100px;" alt="Daniel Feito Pin"/><br /><sub><b>Daniel Feito Pin</b></sub></a><br /><a href="#content-danielfeitopin" title="Content">🖋</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="20%"><a href="https://sprinter05.github.io/"><img src="https://avatars.githubusercontent.com/u/69991979?v=4?s=100" width="100px;" alt="Sprinter"/><br /><sub><b>Sprinter</b></sub></a><br /><a href="#code-Sprinter05" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
@@ -151,8 +154,8 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 
 ## Licencias
 
-Este proyecto contiende dos licencias. Una para el código y los ejemplos,  **GNU GPLv3** y otra para la documentación
-publicada en GitHub Pages, **CC BY-NC 4.0**.
+Este proyecto contiende dos licencias. Una para el código y los ejemplos, **GNU GPLv3** y otra para la documentación
+publicada en GitHub Pages, **CC BY-NC 4.0**. Para más información sobre las licencias que este proyecto contiene: [Reuse Info File](.reuse/dep5)
 
 Este programa es software libre: puedes redistribuirlo y/o modificarlo bajo los términos de la Licencia Pública General
 GNU publicada por la Free Software Foundation, ya sea la versión 3 de la Licencia, o (a su elección) cualquier versión

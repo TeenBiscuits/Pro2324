@@ -1,7 +1,12 @@
+# SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
+#
+# SPDX-License-Identifier: GPL-3.0-only
+
 name: Construir documentación
 
 on:
   push:
+    paths: ["docs/**"]
     branches: ["main"]
 
 permissions:
@@ -9,11 +14,15 @@ permissions:
   pages: write
 
 env:
-  INSTANCE: docs/pro
-  ARTIFACT: webHelpPRO2-all.zip
-  # Writerside docker image version
-  DOCKER_VERSION: 233.14389
-  ALGOLIA_ARTIFACT: algolia-indexes-PRO.zip
+  INSTANCE: 'docs/pro'
+  ARTIFACT: 'webHelpPRO2-all.zip'
+  DOCKER_VERSION: '233.14389'
+  ALGOLIA_ARTIFACT: 'algolia-indexes-PRO.zip'
+  ALGOLIA_APP_NAME: '0K3UBN277V'
+  ALGOLIA_INDEX_NAME: 'pro2324'
+  ALGOLIA_KEY: '${{ secrets.ALGOLIA_KEY }}'
+  CONFIG_JSON_PRODUCT: 'PRO'
+  CONFIG_JSON_VERSION: '2023-2024'
 
 jobs:
   construir:
@@ -30,55 +39,17 @@ jobs:
           artifact: ${{ env.ARTIFACT }}
           docker-version: ${{ env.DOCKER_VERSION }}
 
-      - name: Subir artefacto
+      - name: Subir artefacto con los resultados de la construcción
         uses: actions/upload-artifact@v4
         with:
           name: docs
           path: |
             artifacts/${{ env.ARTIFACT }}
             artifacts/report.json
+            artifacts/${{ env.ALGOLIA_ARTIFACT }}
           retention-days: 7
-
-      - name: Subir algolia-indexes
-        uses: actions/upload-artifact@v3
-        with:
-          name: algolia-indexes
-          path: artifacts/${{ env.ALGOLIA_ARTIFACT }}
-          retention-days: 7
-
-  publicar-indexes:
-    env:
-      ALGOLIA_APP_NAME: 0K3UBN277V
-      ALGOLIA_INDEX_NAME: pro2324
-      ALGOLIA_KEY: ${{ secrets.ALGOLIA_KEY }}
-      ALGOLIA_ARTIFACT: algolia-indexes-PRO.zip
-      CONFIG_JSON_PRODUCT: PRO
-      CONFIG_JSON_VERSION: 2023-2024
-    # Requires the build-job results
-    needs: construir
-    runs-on: ubuntu-latest
-    container:
-      image: registry.jetbrains.team/p/writerside/builder/algolia-publisher:2.0.32-2
-
-    steps:
-      - name: Descargar artefacto
-        uses: actions/download-artifact@v3
-        with:
-          name: algolia-indexes
-      - name: Unzip artefacto
-        run: |
-          unzip -O UTF-8 -qq ${{ env.ALGOLIA_ARTIFACT }} -d algolia-indexes
-          env "algolia-key=${{env.ALGOLIA_KEY}}" java -jar /opt/builder/help-publication-agent.jar \
-          update-index \
-          --application-name ${{env.ALGOLIA_APP_NAME}} \
-          --index-name ${{env.ALGOLIA_INDEX_NAME}} \
-          --product ${{env.CONFIG_JSON_PRODUCT}} \
-          --version ${{env.CONFIG_JSON_VERSION}} \
-          --index-directory algolia-indexes/ \
-          2>&1 | tee algolia-update-index-log.txt
 
   comprobar:
-    # Requires build job results
     needs: construir
     runs-on: ubuntu-latest
 
@@ -98,8 +69,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    # Requires the build job results
-    needs: comprobar
+    needs: [construir, comprobar]
     runs-on: ubuntu-latest
     steps:
       - name: Descargar artefacto
@@ -113,7 +83,7 @@ jobs:
       - name: Configurar Pages
         uses: actions/configure-pages@v4
 
-      - name: Subir artefacto
+      - name: Empaquetar y subir artefacto de Pages
         uses: actions/upload-pages-artifact@v3
         with:
           path: dir
@@ -121,3 +91,25 @@ jobs:
       - name: Implementar en GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  publicar-indexes:
+    needs: [construir, comprobar, publicar]
+    runs-on: ubuntu-latest
+    container:
+      image: registry.jetbrains.team/p/writerside/builder/algolia-publisher:2.0.32-2
+    steps:
+      - name: Descargar artefacto
+        uses: actions/download-artifact@v3
+        with:
+          name: docs
+      - name: Unzip artefacto
+        run: |
+          unzip -O UTF-8 -qq '${{ env.ALGOLIA_ARTIFACT }}' -d algolia-indexes
+          env algolia-key='${{env.ALGOLIA_KEY}}' java -jar /opt/builder/help-publication-agent.jar \
+          update-index \
+          --application-name '${{env.ALGOLIA_APP_NAME}}' \
+          --index-name '${{env.ALGOLIA_INDEX_NAME}}' \
+          --product '${{env.CONFIG_JSON_PRODUCT}}' \
+          --version '${{env.CONFIG_JSON_VERSION}}' \
+          --index-directory algolia-indexes/ \
+          2>&1 | tee algolia-update-index-log.txt
