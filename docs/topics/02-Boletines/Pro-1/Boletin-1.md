@@ -324,14 +324,6 @@ el coste total de la matrícula del alumno.
     <b>Número de créditos en segunda matrícula:</b> 15<br/>
     <b>Número de créditos en tercera matrícula:</b> 10<br/>
 </p>
-<code-block>
- * --------------------------------------------------------------------------------------- Ticket 1/1
- * Patatas              7 kg                0.69€               4.83€               5.84€   (IVA 21%)
- * Manzanas             4 kg                1.23€               4.92€               5.95€   (IVA 21%)
- * Libro                1                   19€                 19€                 20.90€  (IVA 10%)
- * --------------------------------------------------------------------------------------------------
- * TOTAL                                                                                       32.69€
-</code-block>
 </procedure>
 
 <code-block src="./Boletin_1/Ejercicio_20.c" lang="C" collapsible="true" collapsed-title="Mostrar Solución"/>
