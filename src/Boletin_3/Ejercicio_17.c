@@ -1,6 +1,7 @@
 // SPDX-FileCopyrightText: 2023 Santiago Neira Sejean
 //
 // SPDX-License-Identifier: GPL-3.0-only
+
 #include <stdio.h>
 void Esmayuscula(char caracter){
     if (65<= (int)caracter && (int)caracter<=90) {

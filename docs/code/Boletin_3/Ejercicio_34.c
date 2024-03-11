@@ -2,16 +2,6 @@
 //
 // SPDX-License-Identifier: GPL-3.0-only
 
-/* Enunciado: Plantee e implemente, mediante funciones y procedimientos, un programa en Lenguaje C gestionado por menú en el que se presenten opciones para realizar las siguientes operaciones sobre números enteros:
-
-- Calcular el número de cifras de un entero
-- Sumar las cifras de un entero
-- Indicar la cifra i-ésima menos significativa de un entero
-- Calcular la imagen especular de un entero
-- Comprobar si un entero es primo
-- Calcula el MCD (mínimo común divisor) de dos números enteros
-- Presentar la tabla de sumar, restar, multiplicar y dividir (hasta 10) de un número entero*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>

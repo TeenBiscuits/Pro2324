@@ -1,6 +1,7 @@
 // SPDX-FileCopyrightText: 2023 Santiago Neira Sejean
 //
 // SPDX-License-Identifier: GPL-3.0-only
+
 #include <stdio.h>
 #include <math.h>
 float nPotencia(float n,float numero){

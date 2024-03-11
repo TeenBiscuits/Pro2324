@@ -2,8 +2,6 @@
 //
 // SPDX-License-Identifier: GPL-3.0-only
 
-// Enunciado: Plantee e implemente una función recursiva en Lenguaje C para determinar si un número natural es capicúa. Además, implemente otra función apropiada para probar su funcionamiento, activando esta última desde el programa principal.
-
 //Para usar bool
 #include <stdbool.h>
 //Para usar pow

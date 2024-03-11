@@ -2,8 +2,6 @@
 //
 // SPDX-License-Identifier: GPL-3.0-only
 
-// Enunciado: Plantee e implemente una función recursiva que devuelva la suma de las cifras de un número entero > 0. Por ejemplo si el número es 721 devuelve 10. Además de la función, implemente la función apropiada para probar su funcionamiento, activándola desde el programa principal.
-
 #include <stdio.h>
 
 int sumaCifras(int num) {

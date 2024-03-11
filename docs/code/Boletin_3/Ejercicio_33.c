@@ -2,8 +2,6 @@
 //
 // SPDX-License-Identifier: GPL-3.0-only
 
-// Enunciado: Plantee e implemente una función recursiva en Lenguaje C que calcule la suma de los términos de la sucesión de Fibonacci hasta el término indicado por el usuario a través del teclado. Además de la función, implemente la función apropiada para probar su funcionamiento, activando está último desde el programa principal.
-
 #include <stdio.h>
 
 int sumaFib(int limite, int a, int b) {
