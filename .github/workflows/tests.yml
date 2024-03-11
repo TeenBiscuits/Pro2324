@@ -8,6 +8,7 @@ on:
   pull_request:
     types: ["opened"]
     paths: ["docs/**"]
+  workflow_dispatch:
 
 permissions:
   id-token: write
@@ -27,7 +28,6 @@ env:
 jobs:
   construir:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repositorio
         uses: actions/checkout@v4
@@ -52,7 +52,6 @@ jobs:
   comprobar:
     needs: construir
     runs-on: ubuntu-latest
-
     steps:
       - name: Descargar artefactos
         uses: actions/download-artifact@v4
