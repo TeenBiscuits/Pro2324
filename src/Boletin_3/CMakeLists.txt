@@ -2,10 +2,11 @@
 #
 # SPDX-License-Identifier: GPL-3.0-only
 
-cmake_minimum_required(VERSION 3.26)
+cmake_minimum_required(VERSION 3.25)
 project(Boletin_3 C)
 
 set(CMAKE_C_STANDARD 99)
+set(CMAKE_BUILD_TYPE Debug)
 
 add_executable(Bol3-Ej01 Ejercicio_01.c)
 add_executable(Bol3-Ej02 Ejercicio_02.c)
@@ -35,11 +36,19 @@ add_executable(Bol3-Ej25 Ejercicio_25.c)
 add_executable(Bol3-Ej26 Ejercicio_26.c)
 add_executable(Bol3-Ej27 Ejercicio_27.c)
 add_executable(Bol3-Ej28 Ejercicio_28.c)
-#add_executable(Bol3-Ej29 Ejercicio_29.c)
-#add_executable(Bol3-Ej30 Ejercicio_30.c)
-#add_executable(Bol3-Ej31 Ejercicio_31.c)
+add_executable(Bol3-Ej29 Ejercicio_29.c)
+add_executable(Bol3-Ej30 Ejercicio_30.c)
+add_executable(Bol3-Ej31 Ejercicio_31.c)
 add_executable(Bol3-Ej32 Ejercicio_32.c)
-#add_executable(Bol3-Ej33 Ejercicio_33.c)
-#add_executable(Bol3-Ej34 Ejercicio_34.c)
-#add_executable(Bol3-Ej35 Ejercicio_35.c)
-#add_executable(Bol3-Ej36 Ejercicio_36.c)
+add_executable(Bol3-Ej33 Ejercicio_33.c)
+add_executable(Bol3-Ej34 Ejercicio_34.c)
+add_executable(Bol3-Ej35 Ejercicio_35.c)
+add_executable(Bol3-Ej36 Ejercicio_36.c)
+
+#Necesario para math.h
+target_link_libraries(Bol3-Ej04 m)
+target_link_libraries(Bol3-Ej13 m)
+target_link_libraries(Bol3-Ej25 m)
+target_link_libraries(Bol3-Ej29 m)
+target_link_libraries(Bol3-Ej35 m)
+target_link_libraries(Bol3-Ej36 m)
