@@ -30,7 +30,6 @@
         <!--    Pro I    -->
         <primary>
             <title>Programación I</title>
-            <!-- TODO -->
             <a href="Bloque-1.md" type="check-list"
                summary="Algoritmos, lenguajes de programación, programas y sus elementos, tipos de datos y operadores, entrada y salida (printf / scanf), conceptos básicos de macros e introducción a los punteros."/>
             <a href="Bloque-2.md" type="branch"
@@ -49,7 +48,7 @@
                summary="La abstracción funcional y de datos. Especificación, construcción y ejemplos."/>
             <a href="Tema-2.md" type="container"
                summary="Punteros en profundidad, las variables dinámicas, direcciones de memoria y la gestión de la memoria (pila (stack) y montículo (heap))."/>
-            <a href="01-Pro2324.topic" type="lock" summary="Próximamente...">Tema 3 - Listas</a>
+            <a href="Tema-3.md" type="network" summary="El TAD Lista: especificación e implementaciónes."/>
             <a href="01-Pro2324.topic" type="lock" summary="Próximamente...">Próximamente...</a>
         </secondary>
 

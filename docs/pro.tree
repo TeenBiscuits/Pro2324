@@ -35,7 +35,7 @@ SPDX-License-Identifier: GPL-3.0-only
         <toc-element toc-title="Pro II">
             <toc-element topic="Tema-1.md"/>
             <toc-element topic="Tema-2.md"/>
-            <toc-element toc-title="Tema 3 - Listas"/>
+            <toc-element topic="Tema-3.md"/>
             <toc-element toc-title="Próximamente..."/>
         </toc-element>
         <toc-element topic="Bibliografia.md"/>
