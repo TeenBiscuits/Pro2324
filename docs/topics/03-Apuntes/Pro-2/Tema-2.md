@@ -179,6 +179,9 @@ Es decir ahora ```P``` **no** tiene la dirección de memoria que se le asignó a
 de ```Q```**. Visualmente:
 
 ```mermaid
+---
+title: P = NULL;
+---
 flowchart LR
     subgraph Stack
         P
@@ -192,6 +195,9 @@ flowchart LR
 ```
 
 ```mermaid
+---
+title: "P = malloc(...);"
+---
 flowchart LR
     subgraph Stack
         P
@@ -207,6 +213,9 @@ flowchart LR
 ```
 
 ```mermaid
+---
+title: "*P = 3;"
+---
 flowchart LR
     subgraph Stack
         P
@@ -222,6 +231,9 @@ flowchart LR
 ```
 
 ```mermaid
+---
+title: P = Q;
+---
 flowchart LR
     subgraph Stack
         P
@@ -237,6 +249,9 @@ flowchart LR
 ```
 
 ```mermaid
+---
+title: "*P = 11;"
+---
 flowchart LR
     subgraph Stack
         P
