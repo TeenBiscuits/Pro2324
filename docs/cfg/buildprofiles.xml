@@ -28,6 +28,7 @@ SPDX-License-Identifier: GPL-3.0-only
         <layout name="Linux" display-name="Linux"/>
     </shortcuts>
     <build-profile instance="pro">
+				<sitemap priority="0.35" change-frequency="weekly"/>
         <variables>
             <noindex-content>false</noindex-content>
             <offline-docs>false</offline-docs>
