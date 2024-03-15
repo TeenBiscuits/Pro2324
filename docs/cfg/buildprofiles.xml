@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <sitemap priority="0.35" change-frequency="weekly"/>
 
 <!--
 SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
@@ -23,6 +22,7 @@ SPDX-License-Identifier: GPL-3.0-only
         <algolia-api-key>d4e81705240b4f5de1022e3a86236964</algolia-api-key>
         <web-root>https://teenbiscuits.github.io/Pro2324/</web-root>
     </variables>
+    <sitemap priority="0.35" change-frequency="weekly"/>
     <shortcuts>
         <src>keymap.xml</src>
         <layout name="Windows" display-name="Windows"/>
