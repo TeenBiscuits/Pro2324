@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <sitemap priority="0.35" change-frequency="weekly"/>
+
 <!--
 SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
 
@@ -28,7 +30,6 @@ SPDX-License-Identifier: GPL-3.0-only
         <layout name="Linux" display-name="Linux"/>
     </shortcuts>
     <build-profile instance="pro">
-				<sitemap priority="0.35" change-frequency="weekly"/>
         <variables>
             <noindex-content>false</noindex-content>
             <offline-docs>false</offline-docs>
