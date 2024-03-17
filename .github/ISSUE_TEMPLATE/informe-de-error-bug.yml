@@ -4,7 +4,7 @@
 
 name: "🐛 Informe de error/bug"
 description: "Crea un informe para ayudarnos a mejorar"
-title: "[BUG] <bug>"
+title: "🐛 <bug>"
 labels: ["bug", "good first issue"]
 assignees: "TeenBiscuits"
 body:
