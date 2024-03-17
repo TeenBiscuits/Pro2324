@@ -8,9 +8,9 @@ SPDX-License-Identifier: GPL-3.0-only
 
 ## Versiones compatibles
 
-| Versión | Apoyado |
-| ------- | ------------------ |
-| 2023-2024 | :white_check_mark: |
+| Versión  | Apoyado |
+|----------| ------------------ |
+| 1.0      | :white_check_mark: |
 | anterior | :x: |
 
 ## Informar de una vulnerabilidad

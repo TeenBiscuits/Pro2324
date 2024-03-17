@@ -23,7 +23,7 @@ env:
   ALGOLIA_INDEX_NAME: 'pro2324'
   ALGOLIA_KEY: '${{ secrets.ALGOLIA_KEY }}'
   CONFIG_JSON_PRODUCT: 'PRO'
-  CONFIG_JSON_VERSION: '2023-2024'
+  CONFIG_JSON_VERSION: '1.0'
 
 jobs:
   construir:

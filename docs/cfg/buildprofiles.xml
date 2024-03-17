@@ -20,7 +20,7 @@ SPDX-License-Identifier: GPL-3.0-only
         <algolia-id>0K3UBN277V</algolia-id>
         <algolia-index>pro2324</algolia-index>
         <algolia-api-key>d4e81705240b4f5de1022e3a86236964</algolia-api-key>
-        <web-root>https://teenbiscuits.github.io/Pro2324/</web-root>
+        <web-root>https://teenbiscuits.github.io/Pro2324</web-root>
     </variables>
     <sitemap priority="0.35" change-frequency="weekly"/>
     <shortcuts>
@@ -31,8 +31,8 @@ SPDX-License-Identifier: GPL-3.0-only
     </shortcuts>
     <build-profile instance="pro">
         <variables>
-            <noindex-content>false</noindex-content>
             <offline-docs>false</offline-docs>
+            <noindex-content>false</noindex-content>
         </variables>
     </build-profile>
     <footer>
