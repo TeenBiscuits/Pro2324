@@ -4,7 +4,7 @@
 
 name: "💡 Solicitud de función"
 description: "Sugiere una idea para este proyecto."
-title: '[SOLICITUD DE FUNCIÓN] <mejora>'
+title: '💡 <mejora>'
 labels: 'mejora'
 assignees: 'TeenBiscuits'
 body:
