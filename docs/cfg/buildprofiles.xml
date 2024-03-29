@@ -36,6 +36,8 @@ SPDX-License-Identifier: GPL-3.0-only
         <feedback-support></feedback-support>
         <feedback-url></feedback-url>
         -->
+        <!--  COOKIE BANNER -->
+        <include-before-body>cookie-banner.html</include-before-body>
         <!-- GOOGLE SITE VERIFICATION -->
         <include-in-head>google-site-verification.html</include-in-head>
     </variables>
@@ -61,6 +63,8 @@ SPDX-License-Identifier: GPL-3.0-only
         <link href="https://github.com/TeenBiscuits/Pro2324/issues/new/choose">Reportar un Error / Sugerencia</link>
         <link href="https://teenbiscuits.github.io/Pro2324/agradecimientos.html#apoye-el-desarrollo">Apoye el desarrollo</link>
         <link href="https://teenbiscuits.github.io/Pro2324/agradecimientos.html">Agradecimientos</link>
+        <link href="https://www.iubenda.com/privacy-policy/31085815/cookie-policy">Política de Cookies</link>
+        <link href="https://www.iubenda.com/privacy-policy/31085815">Política de Privacidad</link>
         <copyright>2024 Pablo Portas López</copyright>
     </footer>
 </buildprofiles>
