@@ -9,18 +9,33 @@ SPDX-License-Identifier: GPL-3.0-only
 -->
 
     <variables>
+        <!-- PERSONALIZACIÓN -->
         <primary-color>blueberry</primary-color>
-        <product-web-url>https://teenbiscuits.github.io/Pro2324/pro2324.html</product-web-url>
+        <locale-code>es-es</locale-code>
+        <product-web-url>https://teenbiscuits.github.io/Pro2324</product-web-url>
         <custom-favicons>Logo.ico</custom-favicons>
         <header-logo>Logo.svg</header-logo>
         <download-title>Repositorio en GitHub</download-title>
         <download-page>https://github.com/TeenBiscuits/Pro2324</download-page>
         <showDownloadButton>true</showDownloadButton>
+        <write-help-state-file>release</write-help-state-file>
         <!-- ANGOLIA SEARCH -->
         <algolia-id>0K3UBN277V</algolia-id>
         <algolia-index>pro2324</algolia-index>
         <algolia-api-key>d4e81705240b4f5de1022e3a86236964</algolia-api-key>
         <web-root>https://teenbiscuits.github.io/Pro2324</web-root>
+        <!-- ANALYTICS -->
+        <analytics-head-script-file>gtag.js</analytics-head-script-file>
+        <!-- EDIT GITHUB -->
+        <enable-browser-edits>true</enable-browser-edits>
+        <browser-edits-url>https://github.com/TeenBiscuits/Pro2324/edit/main/docs/</browser-edits-url>
+        <!-- FEEDBACK - POR TERMINAR -->
+        <!--
+        <feedback-widget>true</feedback-widget>
+        <feedbackRequireEmail>false</feedbackRequireEmail>
+        <feedback-support></feedback-support>
+        <feedback-url></feedback-url>
+        -->
     </variables>
     <sitemap priority="0.35" change-frequency="weekly"/>
     <shortcuts>
@@ -33,6 +48,8 @@ SPDX-License-Identifier: GPL-3.0-only
         <variables>
             <offline-docs>false</offline-docs>
             <noindex-content>false</noindex-content>
+            <product-web-url>https://teenbiscuits.github.io/Pro2324</product-web-url>
+            <og-image>https://raw.githubusercontent.com/TeenBiscuits/Pro2324/main/logo/Pro2324%20GitHub%20Preview.png</og-image>
         </variables>
     </build-profile>
     <footer>
