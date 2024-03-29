@@ -64,7 +64,4 @@ SPDX-License-Identifier: GPL-3.0-only
     </toc-element>
     <toc-element topic="11-Agradecimientos.md" accepts-web-file-names="agradecimientos.html"/>
     <toc-element topic="99-Para-Colaboradores.md" hidden="true" accepts-web-file-names="para-colaboradores.html"/>
-    <toc-element toc-title="Google Site Verification" hidden="true"
-                 accepts-web-file-names="googleeef251b60d5d92f6.html"
-                 target-for-accept-web-file-names="https://raw.githubusercontent.com/TeenBiscuits/Pro2324/main/docs/googleeef251b60d5d92f6.html"/>
 </instance-profile>
