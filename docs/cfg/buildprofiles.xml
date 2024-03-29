@@ -36,7 +36,10 @@ SPDX-License-Identifier: GPL-3.0-only
         <feedback-support></feedback-support>
         <feedback-url></feedback-url>
         -->
+        <!--  COOKIE BANNER -->
         <include-before-body>cookie-banner.html</include-before-body>
+        <!-- GOOGLE SITE VERIFICATION -->
+        <include-in-head>google-site-verification.html</include-in-head>
     </variables>
     <sitemap priority="0.35" change-frequency="weekly"/>
     <shortcuts>
