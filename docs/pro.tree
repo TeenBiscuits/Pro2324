@@ -9,7 +9,7 @@ SPDX-License-Identifier: GPL-3.0-only
 
 <instance-profile id="pro" name="Pro2324" start-page="Inicio.topic">
     <toc-element topic="Inicio.topic" accepts-web-file-names="readme.html,pro2324.html,01-pro2324.html,introduction.html"/>
-    <toc-element topic="Boletines.topic" accepts-web-file-names-ref="SA929oF9">
+    <toc-element topic="Boletines.topic" accepts-web-file-names="02-boletines.html">
         <toc-element toc-title="Pro I">
             <toc-element topic="Boletin-1.md"/>
             <toc-element topic="Boletin-2.md"/>
@@ -22,7 +22,7 @@ SPDX-License-Identifier: GPL-3.0-only
             <toc-element toc-title="Próximamente ..."/>
         </toc-element>
     </toc-element>
-    <toc-element topic="Apuntes.topic" accepts-web-file-names-ref="mTi4w2Fu">
+    <toc-element topic="Apuntes.topic" accepts-web-file-names="03-apuntes.html">
         <!-- <toc-element topic="Teoria-Introduccion.md"/> -->
         <toc-element toc-title="Teoría Introducción"/>
         <toc-element toc-title="Pro I">
@@ -39,16 +39,16 @@ SPDX-License-Identifier: GPL-3.0-only
         </toc-element>
         <toc-element topic="Bibliografia.md"/>
     </toc-element>
-    <toc-element topic="Ejemplos.topic" accepts-web-file-names-ref="7pk3RBSt">
+    <toc-element topic="Ejemplos.topic" accepts-web-file-names="04-ejemplos.html">
         <toc-element topic="Rational-TAD-El-codigo.md"/>
     </toc-element>
     <toc-element toc-title="Antiguos Exámenes"/>
     <!-- <toc-element topic="05-Examenes.md"/> -->
-    <toc-element topic="tutoriales.topic" accepts-web-file-names-ref="oCu3LH2G">
+    <toc-element topic="tutoriales.topic" accepts-web-file-names="06-tutoriales.html">
         <toc-element topic="Compilador.md"/>
         <toc-element toc-title="Próximamente ..."/>
     </toc-element>
-    <toc-element topic="Extras.topic" accepts-web-file-names-ref="cU3Rh3R4">
+    <toc-element topic="Extras.topic" accepts-web-file-names="07-extras.html">
         <toc-element topic="Tres-En-Raya.md"/>
         <toc-element topic="Algoritmos.md"/>
         <toc-element toc-title="Próximamente ..."/>
@@ -61,6 +61,6 @@ SPDX-License-Identifier: GPL-3.0-only
         <toc-element toc-title="Ko-Fi" href="https://ko-fi.com/pablopl"/>
         <toc-element toc-title="PayPal" href="https://paypal.me/pabloportaslopez"/>
     </toc-element>
-    <toc-element topic="Agradecimientos.md" accepts-web-file-names-ref="B2vzeRvU"/>
-    <toc-element topic="Para-Colaboradores.md" hidden="true" accepts-web-file-names-ref="ri3AH8X2"/>
+    <toc-element topic="Agradecimientos.md" accepts-web-file-names="11-agradecimientos.html"/>
+    <toc-element topic="Para-Colaboradores.md" hidden="true" accepts-web-file-names="99-para-colaboradores.html"/>
 </instance-profile>
