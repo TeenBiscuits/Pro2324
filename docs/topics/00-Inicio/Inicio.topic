@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Pro2324" id="01-Pro2324" help-id="Pro2324">
+       title="Inicio" id="Inicio" help-id="Pro2324;01-Pro2324;home;inicio">
 
     <!--
     SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
@@ -23,8 +23,8 @@
 
         <!-- Secciones principales de la web -->
         <spotlight>
-            <a href="02-Boletines.topic" type="documents" summary="Ejercicios resueltos de los boletines.">Boletines</a>
-            <a href="03-Apuntes.topic" type="learn"
+            <a href="Boletines.topic" type="documents" summary="Ejercicios resueltos de los boletines.">Boletines</a>
+            <a href="Apuntes.topic" type="learn"
                summary="Material de estudio del lenguaje de programación C.">Apuntes</a>
         </spotlight>
 
@@ -32,11 +32,11 @@
         <!-- El resto de secciones -->
         <primary>
             <title>Otras cosas interesantes</title>
-            <a href="04-Ejemplos.topic" type="cross-check" summary="Ejemplos sencillos y no tan sencillos, algunos sacados de clases de prácticas.">Ejemplos</a>
+            <a href="Ejemplos.topic" type="cross-check" summary="Ejemplos sencillos y no tan sencillos, algunos sacados de clases de prácticas.">Ejemplos</a>
             <!-- <a href="Examenes.md" type="academy" summary="Exámenes antiguos resueltos.">Exámenes</a> -->
             <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html" type="lock" summary="¡En construcción!">Antiguos
                 Exámenes</a>
-            <a href="06-Tutoriales.topic" type="keyboard" summary="Lo difícil hecho fácil.">Tutoriales</a>
+            <a href="tutoriales.topic" type="keyboard" summary="Lo difícil hecho fácil.">Tutoriales</a>
             <!-- No se puede referenciar a un topic dentro de si mismo -->
             <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html" type="lock" summary="Próximamente...">Próximamente...</a>
         </primary>
@@ -45,7 +45,7 @@
         <!-- Secciones para "advanced/experienced users." -->
         <secondary>
             <title>Para estudiantes más avanzados</title>
-            <a href="07-Extras.topic" type="mixed" summary="Algunos prográmas extras interesantes.">Extras</a>
+            <a href="Extras.topic" type="mixed" summary="Algunos prográmas extras interesantes.">Extras</a>
             <a href="https://github.com/TeenBiscuits/Pro2324" type="open-source"
                summary="Este proyecto es Open Source, el código es libre y todo el mundo puede verlo y editarlo. Ayúdanos aportando tu granito de arena o simplemente danos una estrellita. ⭐">Colabora</a>
         </secondary>
@@ -64,7 +64,7 @@
                     Sugerencia</a>
                 <a href="https://github.com/sponsors/TeenBiscuits" type="start"
                    summary="Apoye el desarrollo mediante GitHub Sponsors">Apoye el desarrollo</a>
-                <a href="11-Agradecimientos.md" type="community"
+                <a href="Agradecimientos.md" type="community"
                    summary="Este proyecto no sería posible sin el trabajo previo y la colaboración de estas talentosas personas. 🤗">Agradecimientos</a>
             </cards>
         </misc>

@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Ejemplos" id="04-Ejemplos" help-id="Ejemplos">
+       title="Ejemplos" id="Ejemplos" help-id="Ejemplos;04-Ejemplos;ejemplos">
 
     <!--
     SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
@@ -19,23 +19,23 @@
 
         <spotlight>
             <a href="Rational-TAD-El-codigo.md" type="server" summary="Un TAD para los números racionales, es decir, un par de números enteros: Numerador y denominador."/>
-            <a href="01-Pro2324.topic" type="lock" summary="Próximamente...">Próximamente...</a>
+            <a href="Inicio.topic" type="lock" summary="Próximamente...">Próximamente...</a>
         </spotlight>
 
         <primary>
             <title>Otros ejemplos interesantes</title>
-            <a href="01-Pro2324.topic" type="lock" summary="Próximamente...">Próximamente...</a>
-            <a href="01-Pro2324.topic" type="lock" summary="Próximamente...">Próximamente...</a>
-            <a href="01-Pro2324.topic" type="lock" summary="Próximamente...">Próximamente...</a>
-            <a href="01-Pro2324.topic" type="lock" summary="Próximamente...">Próximamente...</a>
+            <a href="Inicio.topic" type="lock" summary="Próximamente...">Próximamente...</a>
+            <a href="Inicio.topic" type="lock" summary="Próximamente...">Próximamente...</a>
+            <a href="Inicio.topic" type="lock" summary="Próximamente...">Próximamente...</a>
+            <a href="Inicio.topic" type="lock" summary="Próximamente...">Próximamente...</a>
         </primary>
 
         <secondary>
             <title>Ejemplos más avanzados</title>
-            <a href="01-Pro2324.topic" type="lock" summary="Próximamente...">Próximamente...</a>
-            <a href="01-Pro2324.topic" type="lock" summary="Próximamente...">Próximamente...</a>
-            <a href="01-Pro2324.topic" type="lock" summary="Próximamente...">Próximamente...</a>
-            <a href="01-Pro2324.topic" type="lock" summary="Próximamente...">Próximamente...</a>
+            <a href="Inicio.topic" type="lock" summary="Próximamente...">Próximamente...</a>
+            <a href="Inicio.topic" type="lock" summary="Próximamente...">Próximamente...</a>
+            <a href="Inicio.topic" type="lock" summary="Próximamente...">Próximamente...</a>
+            <a href="Inicio.topic" type="lock" summary="Próximamente...">Próximamente...</a>
         </secondary>
 
     </section-starting-page>

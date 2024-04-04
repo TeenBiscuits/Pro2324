@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Boletines" id="02-Boletines" help-id="Boletines">
+       title="Boletines" id="Boletines" help-id="Boletines;02-Boletines;boletines">
 
     <!--
     SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
@@ -44,24 +44,24 @@
         <secondary>
             <title>Programación II</title>
             <!-- TODO Añadir los TGRs de Programación II -->
-            <a href="01-Pro2324.topic" type="lock" summary="Próximamente...">TGR 1 - Especificación de tipos abstractos</a>
-            <a href="01-Pro2324.topic" type="lock" summary="Próximamente...">TGR 2 - Punteros</a>
-            <a href="01-Pro2324.topic" type="lock" summary="Próximamente...">Próximamente...</a>
+            <a href="Inicio.topic" type="lock" summary="Próximamente...">TGR 1 - Especificación de tipos abstractos</a>
+            <a href="Inicio.topic" type="lock" summary="Próximamente...">TGR 2 - Punteros</a>
+            <a href="Inicio.topic" type="lock" summary="Próximamente...">Próximamente...</a>
         </secondary>
 
         <!-- Créditos -->
         <misc>
             <cards narrow="true">
                 <title>Créditos</title>
-                <a href="11-Agradecimientos.md" type="development"
+                <a href="Agradecimientos.md" type="development"
                    summary="Pablo Portas López, Miguel Fraga Pico, Santiago Neira Sejean y Daniel Deza Prieto.">Código</a>
-                <a href="11-Agradecimientos.md" type="account" summary="Pablo Portas López">Adaptado por</a>
-                <a href="11-Agradecimientos.md" type="community" summary="Copyright © María Del Carmen Bóveda Álvarez">Material
+                <a href="Agradecimientos.md" type="account" summary="Pablo Portas López">Adaptado por</a>
+                <a href="Agradecimientos.md" type="community" summary="Copyright © María Del Carmen Bóveda Álvarez">Material
                     Original (Programación I)</a>
                 <a href="https://books.google.es/books?id=Mo-WAQAACAAJ" type="library"
                    summary="'Problemas en Pascal estándar ISO-10206': Bóveda, Carmen; García, Esteban; Rodríguez, Alejandra. ISBN: 978-84-16294-25-1">Basado
                     en la Obra (Programación I)</a>
-                <a href="11-Agradecimientos.md" type="community" summary="Copyright © Facultade de Informática da Coruña">Material
+                <a href="Agradecimientos.md" type="community" summary="Copyright © Facultade de Informática da Coruña">Material
                     Original (Programación II)</a>
             </cards>
         </misc>

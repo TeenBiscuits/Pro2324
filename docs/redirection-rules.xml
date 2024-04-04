@@ -6,9 +6,37 @@ SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
 SPDX-License-Identifier: GPL-3.0-only
 -->
 <rules>
-    <!-- format is as follows
-    <rule id="<unique id>">
-        <accepts>page.html</accepts>
+    <!-- Página de Inicio -->
+    <rule id="J79tbEpB">
+        <accepts>readme.html,pro2324.html,01-pro2324.html,introduction.html</accepts>
     </rule>
-    -->
+    <!-- Página de Boletines -->
+    <rule id="SA929oF9">
+        <accepts>02-boletines.html,boletines.html</accepts>
+    </rule>
+    <!-- Página de Apuntes -->
+    <rule id="mTi4w2Fu">
+        <accepts>03-apuntes.html,apuntes.html</accepts>
+    </rule>
+    <!-- Página de Ejemplos -->
+    <rule id="7pk3RBSt">
+        <accepts>04-ejemplos.html</accepts>
+    </rule>
+    <!-- Página de Tutoriales -->
+    <rule id="oCu3LH2G">
+        <accepts>06-tutoriales.html</accepts>
+    </rule>
+    <!-- Página de Extras -->
+    <rule id="cU3Rh3R4">
+        <accepts>07-extras.html</accepts>
+    </rule>
+    <!-- Página de Agradecimientos -->
+    <rule id="B2vzeRvU">
+        <accepts>11-agradecimientos.html</accepts>
+    </rule>
+    <!-- Página de Colaboradores -->
+    <rule id="ri3AH8X2">
+        <accepts>99-para-colaboradores.html</accepts>
+    </rule>
+
 </rules>
