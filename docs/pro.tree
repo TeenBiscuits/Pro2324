@@ -8,8 +8,7 @@ SPDX-License-Identifier: GPL-3.0-only
 -->
 
 <instance-profile id="pro" name="Pro2324" start-page="Inicio.topic">
-
-    <toc-element topic="Inicio.topic" accepts-web-file-names-ref="J79tbEpB"/>
+    <toc-element topic="Inicio.topic" accepts-web-file-names="readme.html,pro2324.html,01-pro2324.html,introduction.html"/>
     <toc-element topic="Boletines.topic" accepts-web-file-names-ref="SA929oF9">
         <toc-element toc-title="Pro I">
             <toc-element topic="Boletin-1.md"/>
