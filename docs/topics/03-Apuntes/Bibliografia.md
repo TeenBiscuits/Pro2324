@@ -4,11 +4,13 @@ SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
 SPDX-License-Identifier: CC-BY-NC-4.0
 -->
 
+<web-summary rel="tldr"/>
+
 # Bibliografía
 
 <warning><b>¡En construcción! <a href="https://github.com/TeenBiscuits/Pro2324">Colabora</a></b></warning>
 
-<tldr>Bibliografía recomendada, desde las lecturas esenciales más básicas hasta los grandes clásicos.</tldr>
+<tldr id="tldr">Bibliografía recomendada, desde las lecturas esenciales más básicas hasta los grandes clásicos.</tldr>
 
 ### C Programming. A Modern Approach
 

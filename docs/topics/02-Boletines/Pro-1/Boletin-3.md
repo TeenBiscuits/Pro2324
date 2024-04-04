@@ -4,11 +4,13 @@ SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
 SPDX-License-Identifier: CC-BY-NC-4.0
 -->
 
+<web-summary rel="tldr"/>
+
 # Boletín 3
 
 <!-- VERSIÓN CON ENUNCIADOS -->
 
-<tldr>Funciones, recursividad y retorno de datos.</tldr>
+<tldr id="tldr">Funciones, recursividad y retorno de datos.</tldr>
 
 
 ### Ejercicio 1

@@ -4,9 +4,11 @@ SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
 SPDX-License-Identifier: CC-BY-NC-4.0
 -->
 
+<web-summary rel="tldr"/>
+
 # Boletín 2
 
-<tldr>Bucles (while / do while / for) y condicionales (if / else / switch)</tldr>
+<tldr id="tldr">Bucles (while / do while / for) y condicionales (if / else / switch)</tldr>
 
 ### Ejercicio 1
 

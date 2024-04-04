@@ -4,9 +4,11 @@ SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
 SPDX-License-Identifier: CC-BY-NC-4.0
 -->
 
+<web-summary rel="tldr"/>
+
 # El Compilador - CLion
 
-<tldr>Configura tu entorno de programación y compilador CLion by JetBrains.</tldr>
+<tldr id="tldr">Configura tu entorno de programación y compilador CLion by JetBrains.</tldr>
 
 <tip>Copyright Material Original © Francisco Abel Cedrón Santaeufemia</tip>
 

@@ -4,11 +4,13 @@ SPDX-FileCopyrightText: 2024 Daniel Feito Pin
 SPDX-License-Identifier: CC-BY-NC-4.0
 -->
 
+<web-summary rel="tldr"/>
+
 <tip>Copyright © 2024 Daniel Feito Pin</tip>
 
 # Bloque 3 - Subprogramas
 
-<tldr>Funciones, recursividad y retorno de datos. Divide y vencerás.</tldr>
+<tldr id="tldr">Funciones, recursividad y retorno de datos. Divide y vencerás.</tldr>
 
 ## Introducción
 

@@ -4,9 +4,11 @@ SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
 SPDX-License-Identifier: CC-BY-NC-4.0
 -->
 
+<web-summary rel="tldr"/>
+
 # Rational TAD
 
-<tldr>
+<tldr id="tldr">
 Un TAD para los números racionales, es decir, un par de números enteros: Numerador y denominador.
 </tldr>
 

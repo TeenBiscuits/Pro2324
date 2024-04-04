@@ -4,11 +4,13 @@ SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
 SPDX-License-Identifier: CC-BY-NC-4.0
 -->
 
+<web-summary rel="tldr"/>
+
 # Boletín 1
 
 <!-- VERSIÓN CON ENUNCIADOS -->
 
-<tldr>Entra y Salida. printf, scanf, gets, define y operaciones artiméticas básicas.</tldr>
+<tldr id="tldr">Entra y Salida. printf, scanf, gets, define y operaciones artiméticas básicas.</tldr>
 
 ### Ejercicio 1
 

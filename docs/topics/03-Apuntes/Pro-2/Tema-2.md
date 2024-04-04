@@ -4,11 +4,13 @@ SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
 SPDX-License-Identifier: CC-BY-NC-4.0
 -->
 
+<web-summary rel="tldr"/>
+
 <tip>Copyright © 2024 Pablo Portas López</tip>
 
 # Tema 2 - Gestión dinámica de memoria
 
-<tldr>Punteros en profundidad, las variables dinámicas, direcciones de memoria y la gestión de la memoria (pila (stack) y montículo (heap)).</tldr>
+<tldr id="tldr">Punteros en profundidad, las variables dinámicas, direcciones de memoria y la gestión de la memoria (pila (stack) y montículo (heap)).</tldr>
 
 ## Organización de la memoria de un programa
 

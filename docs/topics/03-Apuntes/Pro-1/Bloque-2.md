@@ -4,11 +4,13 @@ SPDX-FileCopyrightText: 2024 Daniel Feito Pin
 SPDX-License-Identifier: CC-BY-NC-4.0
 -->
 
+<web-summary rel="tldr"/>
+
 <tip>Copyright © 2024 Daniel Feito Pin</tip>
 
 # Bloque 2 - Control de Flujo
 
-<tldr>Bucles (while / do while / for), Condicionales (if / else / switch) y el Teorema de Böhm y Jacopini (o de la programación estructurada)</tldr>
+<tldr id="tldr">Bucles (while / do while / for), Condicionales (if / else / switch) y el Teorema de Böhm y Jacopini (o de la programación estructurada)</tldr>
 
 ## Introducción
 

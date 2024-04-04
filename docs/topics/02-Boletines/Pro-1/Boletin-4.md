@@ -4,11 +4,13 @@ SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
 SPDX-License-Identifier: CC-BY-NC-4.0
 -->
 
+<web-summary rel="tldr"/>
+
 # Boletín 4
 
 <!-- VERSIÓN CON ENUNCIADOS -->
 
-<tldr>Arrays, registros y cadenas de caracteres.</tldr>
+<tldr id="tldr">Arrays, registros y cadenas de caracteres.</tldr>
 
 <!-- TODO FALTAN EJERCICIOS  -->
 <warning>
