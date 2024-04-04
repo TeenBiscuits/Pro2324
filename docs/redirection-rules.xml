@@ -12,11 +12,11 @@ SPDX-License-Identifier: GPL-3.0-only
     </rule>
     <!-- Página de Boletines -->
     <rule id="SA929oF9">
-        <accepts>02-boletines.html,boletines.html</accepts>
+        <accepts>02-boletines.html</accepts>
     </rule>
     <!-- Página de Apuntes -->
     <rule id="mTi4w2Fu">
-        <accepts>03-apuntes.html,apuntes.html</accepts>
+        <accepts>03-apuntes.html</accepts>
     </rule>
     <!-- Página de Ejemplos -->
     <rule id="7pk3RBSt">

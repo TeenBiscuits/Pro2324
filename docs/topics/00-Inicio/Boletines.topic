@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Boletines" id="Boletines" help-id="Boletines;02-Boletines;boletines">
+       title="Boletines" id="Boletines" help-id="02-Boletines;boletines">
 
     <!--
     SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>

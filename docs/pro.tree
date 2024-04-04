@@ -63,5 +63,5 @@ SPDX-License-Identifier: GPL-3.0-only
         <toc-element toc-title="PayPal" href="https://paypal.me/pabloportaslopez"/>
     </toc-element>
     <toc-element topic="Agradecimientos.md" accepts-web-file-names-ref="B2vzeRvU"/>
-    <toc-element topic="Para-Colaboradores.md" hidden="true" accepts-web-file-names="para-colaboradores.html"/>
+    <toc-element topic="Para-Colaboradores.md" hidden="true" accepts-web-file-names-ref="ri3AH8X2"/>
 </instance-profile>
