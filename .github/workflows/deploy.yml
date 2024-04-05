@@ -1,8 +1,8 @@
 # SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
 #
-# SPDX-License-Identifier: GPL-3.0-only
+# SPDX-License-Identifier: GPL-3.0-only AND MIT AND Apache-2.0
 
-name: 🚀 Despliegue en producción
+name: 🚀 Despliegue Documentación
 
 on:
   push:
@@ -30,18 +30,27 @@ jobs:
     name: 📦 Construir
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repositorio
+      - name: ⬇️ Checkout repositorio
+        # GitHub Actions
+        # MIT
+        # https://github.com/actions/checkout
         uses: actions/checkout@v4
 
-      - name: Construir documentación de Writerside usando Docker
+      - name: 🏗️ Construir con Writerside usando Docker
+        # JetBrains Open Source
+        # Apache-2.0
+        # https://github.com/JetBrains/writerside-github-action
         uses: JetBrains/writerside-github-action@v4
         with:
           instance: ${{ env.INSTANCE }}
           artifact: ${{ env.ARTIFACT }}
           docker-version: ${{ env.DOCKER_VERSION }}
 
-      - name: Subir artefacto con los resultados de la construcción
+      - name: ⬆️ Subir artefacto con los resultados de la construcción
         uses: actions/upload-artifact@v3
+        # GitHub Actions
+        # MIT
+        # https://github.com/actions/upload-artifact
         with:
           name: docs
           path: |
@@ -55,13 +64,19 @@ jobs:
     needs: construir
     runs-on: ubuntu-latest
     steps:
-      - name: Descargar artefactos
+      - name: ⬇️ Descargar artefactos
+        # GitHub Actions
+        # MIT
+        # https://github.com/actions/download-artifact
         uses: actions/download-artifact@v3
         with:
           name: docs
           path: artifacts
 
-      - name: Comprobar documentación
+      - name: 📊 Comprobar documentación
+        # JetBrains Open Source
+        # Apache-2.0
+        # https://github.com/JetBrains/writerside-checker-action
         uses: JetBrains/writerside-checker-action@v1
         with:
           instance: ${{ env.INSTANCE }}
@@ -74,26 +89,32 @@ jobs:
     needs: [construir, comprobar]
     runs-on: ubuntu-latest
     steps:
-      - name: Descargar artefacto
+      - name: ⬇️ Descargar artefacto
+        # GitHub Actions
+        # MIT
+        # https://github.com/actions/download-artifact
         uses: actions/download-artifact@v3
         with:
           name: docs
 
-      - name: Descomprimir artefacto
+      - name: 🗃️ Descomprimir artefacto
         run: unzip -O UTF-8 -qq '${{ env.ARTIFACT }}' -d dir
 
-      - name: Configurar IndexNow
+      - name: 🔎 Configurar IndexNow
         run: echo ${{ secrets.INDEXNOW_KEY }} > dir/${{ secrets.INDEXNOW_KEY }}.txt
 
-      - name: Configurar Pages
+      - name: 🔩 Configurar Pages
         uses: actions/configure-pages@v5
 
-      - name: Empaquetar y subir artefacto de Pages
+      - name: 📦 Empaquetar y subir artefacto de Pages
         uses: actions/upload-pages-artifact@v3
         with:
           path: dir
 
-      - name: Implementar en GitHub Pages
+      - name: 📖 Implementar en GitHub Pages
+        # GitHub Actions
+        # MIT
+        # https://github.com/actions/deploy-pages
         id: deployment
         uses: actions/deploy-pages@v4
 
@@ -101,14 +122,18 @@ jobs:
     name: 🔎 Publicar Indexes
     needs: [construir, comprobar, publicar]
     runs-on: ubuntu-latest
+    # 
     container:
       image: registry.jetbrains.team/p/writerside/builder/algolia-publisher:2.0.32-2
     steps:
-      - name: Descargar artefacto
+      - name: ⬇️ Descargar artefacto
+        # GitHub Actions
+        # MIT
+        # https://github.com/actions/download-artifact
         uses: actions/download-artifact@v3
         with:
           name: docs
-      - name: Unzip artefacto
+      - name: 🗃️ Descomprimir artefacto
         run: |
           unzip -O UTF-8 -qq '${{ env.ALGOLIA_ARTIFACT }}' -d algolia-indexes
           env algolia-key='${{env.ALGOLIA_KEY}}' java -jar /opt/builder/help-publication-agent.jar \
@@ -126,8 +151,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: ⬆️ Subir Sitemap
+        # Bojie Yang
+        # MIT
+        # https://github.com/bojieyang/indexnow-action
         uses: bojieyang/indexnow-action@v2
         with:
           sitemap-location: 'https://teenbiscuits.github.io/Pro2324/sitemap.xml' 
           key: ${{ secrets.INDEXNOW_KEY }}
           # endpoint: www.bing.com # Es el default
+          failure-strategy: error
