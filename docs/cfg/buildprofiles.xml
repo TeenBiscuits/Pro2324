@@ -42,7 +42,7 @@ SPDX-License-Identifier: GPL-3.0-only
         <!-- SUPPORT EMAIL -->
         <webmaster>pablo.portas@udc.es</webmaster>
     </variables>
-    <sitemap priority="0.35" change-frequency="weekly"/>
+    <sitemap priority="0.5" change-frequency="weekly"/>
     <shortcuts>
         <src>keymap.xml</src>
         <layout name="Windows" display-name="Windows"/>
