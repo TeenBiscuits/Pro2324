@@ -49,14 +49,11 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 🕊️ Bajo la licencia <b>GNU GPLv3</b>, el código de este proyecto es libre de ser compartido y modificado, siempre amparado bajo los términos de dicha <a href="./LICENSE">licencia</a>.
 <br/>
 </div>
-
-<div>
 <br/>
 
+> [!IMPORTANT]
 > Este repositorio está bajo desarrollo activo, se esperan cambios y se aceptan contribuciones. 🤗
 
-<br/>
-</div>
 <div align="center">
 
 [![github-sponsor](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white)](https://github.com/sponsors/TeenBiscuits)[![ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/T6T0TSIKT)[![paypalme](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/pabloportaslopez)  
@@ -65,43 +62,13 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 
 ## Objetivos / To-Do List
 
-<div align="center">
-<h3>📢 Migrada la organización del proyecto a <a href="https://github.com/TeenBiscuits/Pro2324/projects">GitHub Projects</a> 📢</h3>
-</div>
-
-<!-- ME DABA PENA BORRARLO NO VOY A MENTIR
-
-### Código
-
-<div align="center">
-
-| [![Boletín 1](https://progress-bar.dev/100/?title=Boletín%201&width=200&color=d2007b)](./src/Boletin_1) | [![Boletín 2](https://progress-bar.dev/100/?title=Boletín%202&width=200&color=d2007b)](./src/Boletin_2) |
-|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| [![Boletín 3](https://progress-bar.dev/66/?title=Boletín%203&width=200&color=d2007b)](./src/Boletin_3)  | [![Boletín 4](https://progress-bar.dev/27/?title=Boletín%204&width=200&color=d2007b)](./src/Boletin_4)  |
-| [![Exámenes](https://img.shields.io/badge/Exámenes-0-grey?labelColor=d2007b)](./src/Examenes)           | [![Extras](https://img.shields.io/badge/Extras-6-grey?labelColor=d2007b)](./src/Extras)                 |
-| [![Ejemplos](https://img.shields.io/badge/Ejemplos-0-grey?labelColor=d2007b)](./src/Ejemplos)          |                                                                                                         |
-
-</div>
-
-
-### Teoría
-
-<div align="center">
-
-| [![Bloque 1](https://progress-bar.dev/100/?title=Bloque%201&width=200&color=d2007b)](https://teenbiscuits.github.io/Pro2324/bloque-1.html) | [![Bloque 2](https://progress-bar.dev/100/?title=Bloque%202&width=200&color=d2007b)](https://teenbiscuits.github.io/Pro2324/bloque-2.html) |
-|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [![Bloque 3](https://progress-bar.dev/100/?title=Bloque%203&width=200&color=d2007b)](https://teenbiscuits.github.io/Pro2324/bloque-3.html) | [![Bloque 4](https://progress-bar.dev/100/?title=Bloque%204&width=200&color=d2007b)](https://teenbiscuits.github.io/Pro2324/bloque-1.html) |
-| [![Tema 1](https://progress-bar.dev/0/?title=Tema%201&width=200&color=d2007b)](https://teenbiscuits.github.io/Pro2324/bloque-5.html)   | [![Tema 2](https://progress-bar.dev/0/?title=Tema%202&width=200&color=d2007b)](https://teenbiscuits.github.io/Pro2324/bloque-6.html)   |
-| [![Exámenes](https://img.shields.io/badge/Exámenes-0-grey?labelColor=d2007b)](https://teenbiscuits.github.io/Pro2324/examenes.html)        | [![Tutoriales](https://img.shields.io/badge/Tutoriales-1-grey?labelColor=d2007b)](https://teenbiscuits.github.io/Pro2324/tutoriales.html)  |
-| [![Ejemplos](https://img.shields.io/badge/Ejemplos-0-grey?labelColor=d2007b)](https://teenbiscuits.github.io/Pro2324/ejemplos.html)                                              | [![Extras](https://img.shields.io/badge/Extras-6-grey?labelColor=d2007b)](https://teenbiscuits.github.io/Pro2324/extras.html)              |
-
-</div>
-
--->
+> [!WARNING]
+> 📢 Migrada la organización del proyecto a [GitHub Projects](https://github.com/TeenBiscuits/Pro2324/projects)
 
 ## Contribuciones
 
-🛠️️ Todas las contribuciones son bienvenidas. Lee la guía para contribuir en [CONTRIBUTING.md](./CONTRIBUTING.md)
+> [!NOTE]
+> 🛠️️ Todas las contribuciones son bienvenidas. Lee la guía para contribuir en [CONTRIBUTING.md](./CONTRIBUTING.md) 
 
 <div align="center">
 
@@ -136,7 +103,7 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 
 </div>
 
-
+> [!TIP]
 > ¿Quieres aparecer ahí arriba? **¡Contribuye!**
 
 
@@ -150,7 +117,7 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 
 <!-- Repobeats - Stats https://repobeats.axiom.co -->
 <div align="center">
-<img src="https://repobeats.axiom.co/api/embed/675ebcf2934ba9390a99ffef8cabc521898b79e5.svg"/>
+<a href="https://github.com/TeenBiscuits/Pro2324/pulse"><img src="https://repobeats.axiom.co/api/embed/675ebcf2934ba9390a99ffef8cabc521898b79e5.svg"/></a>
 </div>
 
 ## Licencias
