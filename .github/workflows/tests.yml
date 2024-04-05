@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 name: 🔬 Comprobar documentación
-run-name: 🔬 ${{ github.actor }} esta comprobando su documentación
+run-name: ${{ github.actor }} comprobar documentación
 
 on:
   pull_request:
