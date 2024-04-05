@@ -27,7 +27,7 @@ env:
 
 jobs:
   construir:
-    name: 📦 Construir Documentación
+    name: 📦 Construir
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repositorio
@@ -51,7 +51,7 @@ jobs:
           retention-days: 7
 
   comprobar:
-    name: 📊 Comprobar Documentación
+    name: 📊 Comprobar
     needs: construir
     runs-on: ubuntu-latest
     steps:
@@ -67,7 +67,7 @@ jobs:
           instance: ${{ env.INSTANCE }}
 
   publicar:
-    name: 🌐 Publicar
+    name: 🌐 Publicar Web
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -98,7 +98,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
   publicar-indexes:
-    name: 🔎 Publicar Indexes de Búsqueda
+    name: 🔎 Publicar Indexes
     needs: [construir, comprobar, publicar]
     runs-on: ubuntu-latest
     container:
@@ -122,7 +122,7 @@ jobs:
 
   indexnow:
     needs: [construir, comprobar, publicar]
-    name: 🔎 Publicar Sitemap de Búsqueda
+    name: 🔎 Publicar Sitemap
     runs-on: ubuntu-latest
     steps:
       - name: ⬆️ Subir Sitemap
