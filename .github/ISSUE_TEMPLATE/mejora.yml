@@ -1,0 +1,47 @@
+# SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
+#
+# SPDX-License-Identifier: GPL-3.0-only
+
+name: "💡 Solicitud de función"
+description: "Sugiere una idea para este proyecto."
+title: '💡 <mejora>'
+labels: 'mejora'
+assignees: 'TeenBiscuits'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por colaborar con tus ideas! 💞
+  - type: input
+    id: title
+    attributes:
+      label: "La idea 💡"
+      description: "Descripción breve de la idea que tienes para este proyecto"
+    validations:
+      required: true
+  - type: dropdown
+    id: ubi
+    attributes:
+      label: ¿Para donde es la mejora?
+      multiple: true
+      options:
+        - Web / Documentación
+        - Código
+        - GitHub (Actions...)
+        - Otro
+  - type: input
+    id: steps
+    attributes:
+      label: "Cuéntame más 🤓"
+      description: "Explica tu idea"
+      placeholder: "Explica en profundidad tu idea..."
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Código de Conducta
+      description: Al enviar este bug, acepta seguir nuestro [Código de Conducta](https://github.com/TeenBiscuits/Pro2324#coc-ov-file)
+      options:
+        - label: Acepto seguir el Código de conducta de este proyecto.
+          required: true

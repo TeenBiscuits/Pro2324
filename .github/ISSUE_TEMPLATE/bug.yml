@@ -1,0 +1,60 @@
+# SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
+#
+# SPDX-License-Identifier: GPL-3.0-only
+
+name: "🐛 Informe de error/bug"
+description: "Crea un informe para ayudarnos a mejorar"
+title: "🐛 <bug>"
+labels: ["bug", "good first issue"]
+assignees: 
+  - TeenBiscuits
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por colaborar cazando esos bugs que tantos dolores de cabeza dan! 💞
+  - type: input
+    id: bug
+    attributes:
+      label: "El error/bug"
+      description: "Una descripción clara y concisa de cuál es el error"
+    validations:
+      required: true
+  - type: dropdown
+    id: ubi
+    attributes:
+      label: ¿Donde se encuentra el error/bug?
+      multiple: true
+      options:
+        - Web / Documentación
+        - Código
+        - GitHub (Actions...)
+        - Otro
+  - type: input
+    id: steps
+    attributes:
+      label: "Pasos a reproducir"
+      description: "¿Que hay que hacer para que el error/bug pase?"
+      placeholder: "1. Hago esto/aquello..."
+    validations:
+      required: false
+  - type: input
+    id: extra
+    attributes:
+      label: "Información extra"
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Salida/Logs relevantes"
+      description: Copie y pegue cualquier registro relevante. Esto se formateará automáticamente en código, por lo que no será necesario utilizar comillas invertidas.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: "Código de Conducta"
+      description: Al enviar este bug, acepta seguir nuestro [Código de Conducta](https://github.com/TeenBiscuits/Pro2324#coc-ov-file)
+      options:
+        - label: Acepto seguir el Código de conducta de este proyecto.
+          required: true
