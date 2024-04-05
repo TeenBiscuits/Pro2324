@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: GPL-3.0-only
 
-name: Comprobar documentación
+name: 🔬 ${{ github.actor }} esta comprobando su documentación
 
 on:
   pull_request:
@@ -18,15 +18,10 @@ env:
   INSTANCE: 'docs/pro'
   ARTIFACT: 'webHelpPRO2-all.zip'
   DOCKER_VERSION: '233.14938'
-  ALGOLIA_ARTIFACT: 'algolia-indexes-PRO.zip'
-  ALGOLIA_APP_NAME: '0K3UBN277V'
-  ALGOLIA_INDEX_NAME: 'pro2324'
-  ALGOLIA_KEY: '${{ secrets.ALGOLIA_KEY }}'
-  CONFIG_JSON_PRODUCT: 'PRO'
-  CONFIG_JSON_VERSION: '1.0'
 
 jobs:
   construir:
+    name: 📦 Construir Documentación
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repositorio
@@ -46,10 +41,10 @@ jobs:
           path: |
             artifacts/${{ env.ARTIFACT }}
             artifacts/report.json
-            artifacts/${{ env.ALGOLIA_ARTIFACT }}
           retention-days: 7
 
   comprobar:
+    name: 📊 Comprobar Documentación
     needs: construir
     runs-on: ubuntu-latest
     steps:

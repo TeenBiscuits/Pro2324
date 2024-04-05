@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: GPL-3.0-only
 
-name: Construir documentación
+name: 🚀 Despliegue en producción
 
 on:
   push:
@@ -27,6 +27,7 @@ env:
 
 jobs:
   construir:
+    name: 📦 Construir Documentación
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repositorio
@@ -50,6 +51,7 @@ jobs:
           retention-days: 7
 
   comprobar:
+    name: 📊 Comprobar Documentación
     needs: construir
     runs-on: ubuntu-latest
     steps:
@@ -65,6 +67,7 @@ jobs:
           instance: ${{ env.INSTANCE }}
 
   publicar:
+    name: 🌐 Publicar
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -79,6 +82,9 @@ jobs:
       - name: Descomprimir artefacto
         run: unzip -O UTF-8 -qq '${{ env.ARTIFACT }}' -d dir
 
+      - name: Configurar IndexNow
+        run: echo ${{ secrets.INDEXNOW_KEY }} > dir/${{ secrets.INDEXNOW_KEY }}.txt
+
       - name: Configurar Pages
         uses: actions/configure-pages@v5
 
@@ -92,6 +98,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
   publicar-indexes:
+    name: 🔎 Publicar Indexes de Búsqueda
     needs: [construir, comprobar, publicar]
     runs-on: ubuntu-latest
     container:
@@ -112,3 +119,15 @@ jobs:
           --version '${{env.CONFIG_JSON_VERSION}}' \
           --index-directory algolia-indexes/ \
           2>&1 | tee algolia-update-index-log.txt
+
+  indexnow:
+    needs: [construir, comprobar, publicar]
+    name: 🔎 Publicar Sitemap de Búsqueda
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⬆️ Subir Sitemap
+        uses: bojieyang/indexnow-action@v2
+        with:
+          sitemap-location: 'https://teenbiscuits.github.io/Pro2324/sitemap.xml' 
+          key: ${{ secrets.INDEXNOW_KEY }}
+          # endpoint: www.bing.com # Es el default
