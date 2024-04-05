@@ -1,0 +1,12 @@
+# SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
+#
+# SPDX-License-Identifier: GPL-3.0-only
+
+blank_issues_enabled: true
+contact_links:
+  - name: 💻 ¡Quiero añadir código!
+    url: https://github.com/TeenBiscuits/Pro2324/pulls
+    about: ¡Es genial oir eso! Para colaborar haznos una pull request.
+  - name: ✉️ Soporte
+    url: mailto:pablo.portas@udc.es
+    about: Para cualquiera cuestión o comunicación relacionada con este repositorio.
