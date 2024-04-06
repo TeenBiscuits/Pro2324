@@ -20,21 +20,6 @@ leer [la guía de contribución](https://github.com/TeenBiscuits/Pro2324/blob/ma
 
 </warning>
 
-<procedure>
-<title>TO DO</title>
-
-Prioridad uno: ¡En Construcción! Segunda prioridad: Próximamente...
-
-- [ ] Introducción Pro (¡En Construcción!)
-- [ ] Bibliografía Pro (¡En Construcción!)
-- [ ] Antiguos exámenes (¡En Construcción!)
-- [ ] Ejemplos (Próximamente...)
-- [ ] Añadir tutoriales (Próximamente...)
-- [ ] Boletines Pro II (Próximamente...)
-- [ ] Añadir teoría Pro II (Próximamente...)
-
-</procedure>
-
 <tip>
 <b>En construcción...</b> 
 <!-- No voy a mentir, esto es lo último que tengo 
