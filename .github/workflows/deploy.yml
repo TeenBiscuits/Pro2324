@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: GPL-3.0-only AND MIT AND Apache-2.0
 
-name: 🚀 Despliegue Documentación
+name: 🚀 Despliegue documentación
 
 on:
   push:
