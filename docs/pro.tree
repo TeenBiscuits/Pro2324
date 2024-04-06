@@ -11,10 +11,10 @@ SPDX-License-Identifier: GPL-3.0-only
     <toc-element topic="Inicio.topic" accepts-web-file-names="readme.html,pro2324.html,01-pro2324.html,introduction.html"/>
     <toc-element topic="Boletines.topic" accepts-web-file-names="02-boletines.html">
         <toc-element toc-title="Pro I">
-            <toc-element topic="Boletin-1.md"/>
-            <toc-element topic="Boletin-2.md"/>
-            <toc-element topic="Boletin-3.md"/>
-            <toc-element topic="Boletin-4.md"/>
+            <toc-element topic="Boletin-1-Conceptos-Basicos.md" accepts-web-file-names="boletin-1.html"/>
+            <toc-element topic="Boletin-2-Control-de-Flujo.md" accepts-web-file-names="boletin-2.html"/>
+            <toc-element topic="Boletin-3-Subprogramas.md" accepts-web-file-names="boletin-3.html"/>
+            <toc-element topic="Boletin-4-Estructuras-de-Datos.md" accepts-web-file-names="boletin-4.html"/>
         </toc-element>
         <toc-element toc-title="Pro II">
             <toc-element toc-title="TGR 1 - Especificación de tipos abstractos"/>
@@ -26,15 +26,16 @@ SPDX-License-Identifier: GPL-3.0-only
         <!-- <toc-element topic="Teoria-Introduccion.md"/> -->
         <toc-element toc-title="Teoría Introducción"/>
         <toc-element toc-title="Pro I">
-            <toc-element topic="Bloque-1.md"/>
-            <toc-element topic="Bloque-2.md"/>
-            <toc-element topic="Bloque-3.md"/>
-            <toc-element topic="Bloque-4.md"/>
+            <toc-element topic="Bloque-1-Conceptos-Basicos.md" accepts-web-file-names="bloque-1.html"/>
+            <toc-element topic="Bloque-2-Control-de-Flujo.md" accepts-web-file-names="bloque-2.html"/>
+            <toc-element topic="Bloque-3-Subprogramas.md" accepts-web-file-names="bloque-3.html"/>
+            <toc-element topic="Bloque-4-Estructuras-de-Datos.md" accepts-web-file-names="bloque-4.html"/>
         </toc-element>
         <toc-element toc-title="Pro II">
-            <toc-element topic="Tema-1.md"/>
-            <toc-element topic="Tema-2.md"/>
-            <toc-element toc-title="Tema 3 - Listas"/>
+            <toc-element topic="Tema-1-Tipos-Abstractos-de-Datos-TAD.md" accepts-web-file-names="tema-1.html"/>
+            <toc-element topic="Tema-2-Gestion-dinamica-de-memoria.md" accepts-web-file-names="tema-2.html"/>
+            <toc-element topic="Tema-3-Listas.md" accepts-web-file-names="tema-3.html"/>
+            <toc-element topic="Tema-4-Colas.md" accepts-web-file-names="tema-4.html"/>
             <toc-element toc-title="Próximamente..."/>
         </toc-element>
         <toc-element topic="Bibliografia.md"/>

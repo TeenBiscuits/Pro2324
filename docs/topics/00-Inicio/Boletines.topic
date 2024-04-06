@@ -21,22 +21,24 @@
         <!-- Aquí van lo boletines más importantes, hasta ahora el boletín 3 y el 4 son los más
         complicados por eso salen aquí -->
         <spotlight>
-            <a href="Boletin-3.md" type="development" summary="Funciones, recursividad y retorno de datos.">Boletín
-                3</a>
-            <a href="Boletin-4.md" type="data" summary="Arrays, registros y cadenas de caracteres.">Boletín 4</a>
+            <a href="Boletin-3-Subprogramas.md" type="development"
+               summary="Funciones, recursividad y retorno de datos."/>
+            <a href="Boletin-4-Estructuras-de-Datos.md" type="folder"
+               summary="Arrays, registros y cadenas de caracteres."/>
         </spotlight>
 
 
         <!--    Pro I    -->
         <primary>
             <title>Programación I</title>
-            <a href="Boletin-1.md" type="check-list"
-               summary="Entra y Salida. printf, scanf, gets, define y operaciones artiméticas básicas.">Boletín 1</a>
-            <a href="Boletin-2.md" type="branch"
-               summary="Bucles (while / do while / for) y condicionales (if / else / switch)">Boletín 2</a>
-            <a href="Boletin-3.md" type="development" summary="Funciones, recursividad y retorno de datos.">Boletín
-                3</a>
-            <a href="Boletin-4.md" type="data" summary="Arrays, registros y cadenas de caracteres.">Boletín 4</a>
+            <a href="Boletin-1-Conceptos-Basicos.md" type="check-list"
+               summary="Entra y Salida. printf, scanf, gets, define y operaciones artiméticas básicas."/>
+            <a href="Boletin-2-Control-de-Flujo.md" type="branch"
+               summary="Bucles (while / do while / for) y condicionales (if / else / switch)"/>
+            <a href="Boletin-3-Subprogramas.md" type="development"
+               summary="Funciones, recursividad y retorno de datos."/>
+            <a href="Boletin-4-Estructuras-de-Datos.md" type="folder"
+               summary="Arrays, registros y cadenas de caracteres."/>
         </primary>
 
 
