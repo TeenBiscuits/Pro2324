@@ -42,8 +42,13 @@ Los estudiantes deben convercerse de que la programación no un arte misterioso,
 
 <procedure>
 <title>Abstraer</title>
-<step>tr. Separar por medio de una operación intelectual un rasgo o una cualidad de algo para analizarlos aisladamente o considerarlos en su pura esencia o noción.</step>
-<step>intr. Hacer caso omiso de algo, o dejarlo a un lado.</step>
+<step>
+tr. Separar por medio de una operación intelectual un rasgo o una cualidad de algo para analizarlos aisladamente o
+considerarlos en su pura esencia o noción.
+</step>
+<step>
+intr. Hacer caso omiso de algo, o dejarlo a un lado.
+</step>
 </procedure>
 
 <tip>Si la definición de la RAE te ha dejado igual que como estabas. No te preocupes.</tip>

@@ -12,7 +12,8 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 <tldr id="tldr">
 
-Punteros en profundidad, las variables dinámicas, direcciones de memoria y la gestión de la memoria (pila (stack) y montículo (heap)).
+Punteros en profundidad, las variables dinámicas, direcciones de memoria y la gestión de la memoria (pila (stack) y
+montículo (heap)).
 
 </tldr>
 
@@ -77,7 +78,12 @@ int* P2;
   Utilizar punteros con contenido _basura_ puede tener **efectos fatales**. Por lo tanto, es mejor inicializarlos a
   nulo ```P = NULL;```
 
-<warning>En el lenguaje C este valor nulo se representa con la constante <b>NULL</b>, esta constante es <b>la dirección de memoria nula</b>.</warning>
+<warning>
+
+En el lenguaje C este valor nulo se representa con la constante **NULL**, esta constante es **la dirección de memoria
+nula**.
+
+</warning>
 
 ### La variable dinámica
 
