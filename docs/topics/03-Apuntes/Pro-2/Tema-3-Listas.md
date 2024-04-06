@@ -577,7 +577,15 @@ flowchart TB
 
 ## Comparación entre TADs
 
-<include from="Para-Colaboradores.md" element-id="en-construccion"></include>
+<table>
+<tr><td> </td><td>Estática</td><td>Simple Enlace</td><td>Doble Enlace</td></tr>
+<tr><td>Necesidad de memoria</td><td>Mucha</td><td>Menos en promedio</td><td>Menos en promedio (+ que simple enlace)</td></tr>
+<tr><td>Memoria contigua</td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Acceso directo</td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Ampliable</td><td>❌</td><td>✅</td><td>✅</td></tr>
+<tr><td>Operaciones más costosas</td><td>insertItem, deleteAtPosition (excepto al final)</td><td>insertItem (final), deleteAtPosition (final), previous, last, deleteList, copyList</td><td>insertItem (final), last, deleteList, copyList</td></tr>
+<tr><td>Seguridad</td><td>⚔️😡🛡️</td><td>😴🛡️</td><td>😴🛡️</td></tr>
+</table>
 
 ## Archivo de Cabecera TAD
 
