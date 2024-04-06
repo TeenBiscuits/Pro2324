@@ -10,8 +10,6 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 # Tema 3 - Listas
 
-<include from="Para-Colaboradores.md" element-id="en-construccion"></include>
-
 <tldr id="tldr">
 
 El TAD Lista, especificación informal, implementación y descripción gráfica. Operaciones explicadas de forma gráfica e
@@ -33,23 +31,18 @@ relativos unos a otros.
 title: TAD Lista enlazada simple
 ---
 flowchart LR
-    LISTA
-
     subgraph NODO1[NODO 1]
         CONTENIDO1[INFORMACIÓN]
         SIGUIENTE1[SIGUIENTE]
     end
-
     subgraph NODO2[NODO 2]
         CONTENIDO2[INFORMACIÓN]
         SIGUIENTE2[SIGUIENTE]
     end
-
     subgraph NODO3[NODO 3]
         CONTENIDO3[INFORMACIÓN]
         SIGUIENTE3[SIGUIENTE]
     end
-
     LISTA --> NODO1
     SIGUIENTE1 --> NODO2
     SIGUIENTE2 --> NODO3
@@ -482,23 +475,18 @@ En caso de ordenación alfabética:
 title: TAD Lista ordenada enlazada simple
 ---
 flowchart LR
-    LISTA
-
     subgraph NODO1[NODO 1]
         CONTENIDO1[AAAA]
         SIGUIENTE1[SIGUIENTE]
     end
-
     subgraph NODO2[NODO 2]
         CONTENIDO2[BBBB]
         SIGUIENTE2[SIGUIENTE]
     end
-
     subgraph NODO3[NODO 3]
         CONTENIDO3[CCCC]
         SIGUIENTE3[SIGUIENTE]
     end
-
     LISTA --> NODO1
     SIGUIENTE1 --> NODO2
     SIGUIENTE2 --> NODO3
