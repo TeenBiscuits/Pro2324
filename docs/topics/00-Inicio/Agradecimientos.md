@@ -63,6 +63,11 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 <tip>Copyright © Facultade de Informática da Coruña</tip>
 
+<!--
+El PDF Multilistas tenía estos autores
+<tip>Copyright © M. Alonso, M. Cabrero, B. Guijarro y E. Hernández</tip>
+-->
+
 **Resúmenes**
 
 <tip>Copyright © 2024 Pablo Portas López</tip>
