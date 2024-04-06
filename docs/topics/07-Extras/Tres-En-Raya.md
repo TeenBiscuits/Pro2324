@@ -10,7 +10,7 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 <tldr id="tldr">Juego del Tres En Raya escrito en C</tldr>
 
-<warning><b>¡En construcción! <a href="https://github.com/TeenBiscuits/Pro2324">Colabora</a></b></warning>
+<include from="Para-Colaboradores.md" element-id="en-construccion"/>
 
 <!-- DESCRIPCIÓN DEL PROGRAMA -->
 Descripción

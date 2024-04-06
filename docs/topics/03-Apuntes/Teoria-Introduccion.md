@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 # Introducción
 
-<warning><b>¡En construcción! <a href="https://github.com/TeenBiscuits/Pro2324">Colabora</a></b></warning>
+<include from="Para-Colaboradores.md" element-id="en-construccion"/>
 
 <!--
 <tldr>Bienvenido/a al mundo de la programación</tldr>

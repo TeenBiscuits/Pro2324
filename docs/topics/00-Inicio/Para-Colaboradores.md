@@ -8,6 +8,10 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 # Para Colaboradores
 
+{is-library="true"}
+
+<!-- El comentario de más arriba permite que este archivo sea usado como librería reutilizable -->
+
 <tldr>
 Esta página no se muestra en la documentación, si estás aquí es porque estás viendo el proyecto desde el código fuente.
 Gracias por colaborar en serio 🤗
@@ -48,8 +52,12 @@ leer [la guía de contribución](https://github.com/TeenBiscuits/Pro2324/blob/ma
 
 <!-- Avisos -->
 
+<snippet id="en-construccion">
 <warning><b>¡En construcción! <a href="https://github.com/TeenBiscuits/Pro2324">Colabora</a></b></warning>
+</snippet>
 
+<snippet id="proximamente">
 <note><b>Próximamente... <a href="https://github.com/TeenBiscuits/Pro2324">Colabora</a></b></note>
+</snippet>
 
 <tip>Copyright © 2024 "nombre"</tip>
