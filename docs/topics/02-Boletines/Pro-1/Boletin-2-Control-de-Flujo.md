@@ -8,7 +8,11 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 # Boletín 2
 
-<tldr id="tldr">Bucles (while / do while / for) y condicionales (if / else / switch)</tldr>
+<tldr id="tldr">
+
+Bucles (while / do while / for) y condicionales (if / else / switch)
+
+</tldr>
 
 ### Ejercicio 1
 

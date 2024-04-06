@@ -10,7 +10,11 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 # Tema 2 - Gestión dinámica de memoria
 
-<tldr id="tldr">Punteros en profundidad, las variables dinámicas, direcciones de memoria y la gestión de la memoria (pila (stack) y montículo (heap)).</tldr>
+<tldr id="tldr">
+
+Punteros en profundidad, las variables dinámicas, direcciones de memoria y la gestión de la memoria (pila (stack) y montículo (heap)).
+
+</tldr>
 
 ## Organización de la memoria de un programa
 

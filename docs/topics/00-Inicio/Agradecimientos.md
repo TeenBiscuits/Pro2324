@@ -8,7 +8,11 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 # Agradecimientos
 
-<tldr id="tldr">Este proyecto no sería posible sin el trabajo previo y la colaboración de estas talentosas personas. 🤗</tldr>
+<tldr id="tldr">
+
+Este proyecto no sería posible sin el trabajo previo y la colaboración de estas talentosas personas. 🤗
+
+</tldr>
 
 <!-- TODO Poner el resto de agradecimientos una vez tengamos permiso explícito -->
 

@@ -10,7 +10,11 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 <!-- VERSIÓN CON ENUNCIADOS -->
 
-<tldr id="tldr">Entra y Salida. printf, scanf, gets, define y operaciones artiméticas básicas.</tldr>
+<tldr id="tldr">
+
+Entra y Salida. printf, scanf, gets, define y operaciones artiméticas básicas.
+
+</tldr>
 
 ### Ejercicio 1
 

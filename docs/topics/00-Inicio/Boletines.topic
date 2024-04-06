@@ -31,14 +31,10 @@
         <!--    Pro I    -->
         <primary>
             <title>Programación I</title>
-            <a href="Boletin-1-Conceptos-Basicos.md" type="check-list"
-               summary="Entra y Salida. printf, scanf, gets, define y operaciones artiméticas básicas."/>
-            <a href="Boletin-2-Control-de-Flujo.md" type="branch"
-               summary="Bucles (while / do while / for) y condicionales (if / else / switch)"/>
-            <a href="Boletin-3-Subprogramas.md" type="development"
-               summary="Funciones, recursividad y retorno de datos."/>
-            <a href="Boletin-4-Estructuras-de-Datos.md" type="folder"
-               summary="Arrays, registros y cadenas de caracteres."/>
+            <a href="Boletin-1-Conceptos-Basicos.md" type="check-list"/>
+            <a href="Boletin-2-Control-de-Flujo.md" type="branch"/>
+            <a href="Boletin-3-Subprogramas.md" type="development"/>
+            <a href="Boletin-4-Estructuras-de-Datos.md" type="folder"/>
         </primary>
 
 

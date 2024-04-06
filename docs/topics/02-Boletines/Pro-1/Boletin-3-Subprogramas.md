@@ -10,7 +10,11 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 <!-- VERSIÓN CON ENUNCIADOS -->
 
-<tldr id="tldr">Funciones, recursividad y retorno de datos.</tldr>
+<tldr id="tldr">
+
+Funciones, recursividad y retorno de datos.
+
+</tldr>
 
 
 ### Ejercicio 1

@@ -45,7 +45,7 @@ SPDX-License-Identifier: GPL-3.0-only
     </toc-element>
     <toc-element toc-title="Antiguos Exámenes"/>
     <!-- <toc-element topic="05-Examenes.md"/> -->
-    <toc-element topic="tutoriales.topic" accepts-web-file-names="06-tutoriales.html">
+    <toc-element topic="Tutoriales.topic" accepts-web-file-names="06-tutoriales.html">
         <toc-element topic="Compilador.md"/>
         <toc-element toc-title="Próximamente ..."/>
     </toc-element>

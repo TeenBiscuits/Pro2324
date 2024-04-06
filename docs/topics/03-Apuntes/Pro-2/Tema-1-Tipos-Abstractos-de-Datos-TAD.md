@@ -10,7 +10,11 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 # Tema 1 - Tipos Abstractos de Datos (TAD)
 
-<tldr id="tldr">La abstracción funcional y de datos. Especificación, construcción y ejemplos.</tldr>
+<tldr id="tldr">
+
+La abstracción funcional y de datos. Especificación, construcción y ejemplos.
+
+</tldr>
 
 <note>
 

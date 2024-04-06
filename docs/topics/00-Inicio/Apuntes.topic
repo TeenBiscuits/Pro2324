@@ -23,32 +23,25 @@
             <!-- TODO Una vez escritas la introducción y la bibliografía desbloquearlas -->
             <!-- <a href="03-Apuntes-Introduccion.md" type="presentation" summary="Bienvenido/a al mundo de la programación"/> -->
             <a href="Inicio.topic" type="lock" summary="¡En construcción!">Teoría Introducción</a>
-            <a href="Bibliografia.md" type="library"
-               summary="Bibliografía recomendada, desde las lecturas esenciales más básicas hasta los grandes clásicos."/>
+            <a href="Bibliografia.md" type="library"/>
         </spotlight>
 
         <!--    Pro I    -->
         <primary>
             <title>Programación I</title>
-            <a href="Bloque-1-Conceptos-Basicos.md" type="check-list"
-               summary="Algoritmos, lenguajes de programación, programas y sus elementos, tipos de datos y operadores, entrada y salida (printf / scanf), conceptos básicos de macros e introducción a los punteros."/>
-            <a href="Bloque-2-Control-de-Flujo.md" type="branch"
-               summary="Bucles (while / do while / for), Condicionales (if / else / switch) y el Teorema de Böhm y Jacopini (o de la programación estructurada)"/>
-            <a href="Bloque-3-Subprogramas.md" type="development"
-               summary="Funciones, recursividad y retorno de datos. Divide y vencerás."/>
-            <a href="Bloque-4-Estructuras-de-Datos.md" type="folder"
-               summary="Arrays, registros, cadenas de caracteres y algoritmos de búsqueda y ordenación."/>
+            <a href="Bloque-1-Conceptos-Basicos.md" type="check-list"/>
+            <a href="Bloque-2-Control-de-Flujo.md" type="branch"/>
+            <a href="Bloque-3-Subprogramas.md" type="development"/>
+            <a href="Bloque-4-Estructuras-de-Datos.md" type="folder"/>
         </primary>
 
         <!--    Pro II    -->
         <secondary>
             <title>Programación II</title>
-            <a href="Tema-1-Tipos-Abstractos-de-Datos-TAD.md" type="server"
-               summary="La abstracción funcional y de datos. Especificación, construcción y ejemplos."/>
-            <a href="Tema-2-Gestion-dinamica-de-memoria.md" type="container"
-               summary="Punteros en profundidad, las variables dinámicas, direcciones de memoria y la gestión de la memoria (pila (stack) y montículo (heap))."/>
-            <a href="Tema-3-Listas.md" type="network" summary="Próximamente..."/>
-            <a href="Tema-4-Colas.md" type="data" summary="Próximamente..."/>
+            <a href="Tema-1-Tipos-Abstractos-de-Datos-TAD.md" type="server"/>
+            <a href="Tema-2-Gestion-dinamica-de-memoria.md" type="container"/>
+            <a href="Tema-3-Listas.md" type="network"/>
+            <a href="Tema-4-Colas.md" type="data"/>
             <a href="Inicio.topic" type="lock" summary="Próximamente...">Próximamente...</a>
         </secondary>
 
