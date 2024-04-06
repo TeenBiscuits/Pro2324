@@ -22,7 +22,7 @@ implementadas.
 Una cola es una secuencia de cero o más elementos del mismo tipo. Los elementos de una cola están ordenados de una forma
 lineal, no por su contenido, sino por la posición que ocupan.
 
-Cuando un elemento es insertado, simplemente se añade al final de la cola. Para eliminar un elemento, solo se podrá eliminar el primero. Este concepto es descrito como **FIFO** (First in, first out).
+Cuando un elemento es insertado se añade al principio de la cola. Para eliminar un elemento, solo se podrá eliminar el primero. Este concepto es descrito como **FIFO** (First in, first out).
 
 <note>
 
