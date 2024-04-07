@@ -48,7 +48,7 @@ leer [la guía de contribución](https://github.com/TeenBiscuits/Pro2324/blob/ma
 
 <!-- Code - Normal -->
 
-<code-block lang="c" src="./Extras/Algoritmos/BubbleSort.c" collapsible="true" collapsed-title="Mostrar código"></code-block>
+<code-block lang="c" src="./Extras/Algoritmos/BubbleSort.c" collapsible="true" collapsed-title="Mostrar código"/>
 
 <!-- Avisos -->
 
