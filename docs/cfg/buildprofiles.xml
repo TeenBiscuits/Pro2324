@@ -11,7 +11,7 @@ SPDX-License-Identifier: GPL-3.0-only
     <variables>
         <!-- PERSONALIZACIÓN -->
         <primary-color>blueberry</primary-color>
-        <locale-code>es-ES</locale-code>
+        <!--<locale-code>es-ES</locale-code> NO PARECE HACER NADA-->
         <product-web-url>https://teenbiscuits.github.io/Pro2324</product-web-url>
         <generate-canonicals>true</generate-canonicals>
         <custom-favicons>Logo.ico</custom-favicons>
