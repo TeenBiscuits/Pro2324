@@ -1,9 +1,4 @@
-<!--
-SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
-
-SPDX-License-Identifier: GPL-3.0-only
--->
-<!-- Cookie Policy -->
+<!-- Iubenda Cookie Policy -->
 <script type="text/javascript">
     var _iub = _iub || [];
 _iub.csConfiguration = {"askConsentAtCookiePolicyUpdate":true,"floatingPreferencesButtonDisplay":"anchored-bottom-left","lang":"es","perPurposeConsent":true,"siteId":3576343,"whitelabel":false,"cookiePolicyId":31085815, "banner":{ "acceptButtonDisplay":true,"closeButtonDisplay":false,"customizeButtonDisplay":true,"listPurposes":true,"position":"float-bottom-right","rejectButtonDisplay":true,"showTitle":false }};
