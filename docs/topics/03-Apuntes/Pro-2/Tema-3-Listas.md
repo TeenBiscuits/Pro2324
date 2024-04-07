@@ -17,6 +17,8 @@ implementadas. Otros tipos de TAD como Lista Ordenada y Multilistas también exp
 
 </tldr>
 
+<include from="Para-Colaboradores.md" element-id="en-construccion"></include>
+
 ## TAD Lista
 
 <note>Esto es una especificación informal del TAD</note>
@@ -78,6 +80,7 @@ Poscondición: La lista sin datos<br/>
 flowchart LR
     LISTA --&gt; NULL
 </code-block>
+<code-block lang="c" src="./Ejemplos/Tema_3/createEmptyList.c" collapsible="true" collapsed-title="Mostrar implementación"/>
 </li>
 <li>
 <code-block lang="tex"> insertItem (Item, Position, List) \rightarrow List, Boolean </code-block><br/>
@@ -128,6 +131,7 @@ flowchart LR
     SIGUIENTE2 -.-&gt; NODO3
     SIGUIENTE3 --&gt; NULL
 </code-block>
+<code-block lang="c" src="./Ejemplos/Tema_3/insertItem.c" collapsible="true" collapsed-title="Mostrar implementación"/>
 </li>
 </list>
 
@@ -170,6 +174,7 @@ flowchart LR
     LISTA1[LISTA 1] --&gt; NODO1[NODO 1] --&gt; NODO2[NODO 2] --&gt; NULL
     LISTA2[LISTA 2] --&gt; NODO21[NODO 1] --&gt; NODO22[NODO 2] --&gt; NULL
 </code-block>
+<code-block lang="c" src="./Ejemplos/Tema_3/copyList.c" collapsible="true" collapsed-title="Mostrar implementación"/>
 </li>
 <li>
 <code-block lang="tex"> updateItem (Item, Position, List) \rightarrow List </code-block><br/>
@@ -208,6 +213,7 @@ flowchart LR
     INFO -.-&gt; CONTENIDO3
     POS --&gt; NODO3
 </code-block>
+<code-block lang="c" src="./Ejemplos/Tema_3/updateItem.c" collapsible="true" collapsed-title="Mostrar implementación"/>
 </li>
 </list>
 
@@ -262,6 +268,7 @@ flowchart TB
     SIGUIENTE1 --&gt; NODO3
     SIGUIENTE3 --&gt; NULL
 </code-block>
+<code-block lang="c" src="./Ejemplos/Tema_3/deleteAtPosition.c" collapsible="true" collapsed-title="Mostrar implementación"/>
 </li>
 <li>
 <code-block lang="tex"> deleteList (List) \rightarrow List </code-block><br/>
@@ -324,6 +331,7 @@ flowchart TB
 flowchart LR
     LISTA --&gt; NULL
 </code-block>
+<code-block lang="c" src="./Ejemplos/Tema_3/deleteList.c" collapsible="true" collapsed-title="Mostrar implementación"/>
 </li>
 </list>
 
@@ -402,6 +410,7 @@ flowchart TB
     SIGUIENTE3 --&gt; NULL
     FIND["¿ERES EL USUARIO3?"] -- SI --&gt; NODO3
 </code-block>
+<code-block lang="c" src="./Ejemplos/Tema_3/findItem.c" collapsible="true" collapsed-title="Mostrar implementación"/>
 </li>
 <li>
 <code-block lang="tex"> isEmptyList (List) \rightarrow Boolean </code-block><br/>
@@ -410,6 +419,7 @@ Objetivo: Determina si la lista está vacía<br/>
 Entrada: List: Lista a comprobar<br/>
 Salida: Verdadero si la lista está vacía, falso en caso contrario<br/>
 </p>
+<code-block lang="c" src="./Ejemplos/Tema_3/isEmptyList.c" collapsible="true" collapsed-title="Mostrar implementación"/>
 </li>
 <li>
 <code-block lang="tex"> getItem (Position, List) \rightarrow Item </code-block><br/>
@@ -420,6 +430,7 @@ List: Lista donde realizar la búsqueda<br/>
 Salida: Item: Contenido del elemento que está en Position<br/>
 Precondición: Position es una posición válida en la lista<br/>
 </p>
+<code-block lang="c" src="./Ejemplos/Tema_3/getItem.c" collapsible="true" collapsed-title="Mostrar implementación"/>
 </li>
 <li>
 <code-block lang="tex"> first (List) \rightarrow Position </code-block><br/>
@@ -429,6 +440,7 @@ Entrada: List: Lista a manipular<br/>
 Salida: Position: Posición del primer elemento<br/>
 Precondición: La lista no está vacía<br/>
 </p>
+<code-block lang="c" src="./Ejemplos/Tema_3/first.c" collapsible="true" collapsed-title="Mostrar implementación"/>
 </li>
 <li>
 <code-block lang="tex"> last (List) \rightarrow Position </code-block><br/>
@@ -438,6 +450,7 @@ Entrada: List: Lista a manipular<br/>
 Salida: Position: Posición del último elemento<br/>
 Precondición: La lista no está vacía<br/>
 </p>
+<code-block lang="c" src="./Ejemplos/Tema_3/last.c" collapsible="true" collapsed-title="Mostrar implementación"/>
 </li>
 <li>
 <code-block lang="tex"> previous (Position, List) \rightarrow Position </code-block><br/>
@@ -448,6 +461,7 @@ List: Lista a manipular<br/>
 Salida: Posición del elemento anterior o nulo si es el primero<br/>
 Precondición: Position es una posición válida de la lista<br/>
 </p>
+<code-block lang="c" src="./Ejemplos/Tema_3/previous.c" collapsible="true" collapsed-title="Mostrar implementación"/>
 </li>
 <li>
 <code-block lang="tex"> next (Position, List) \rightarrow Position </code-block><br/>
@@ -459,6 +473,7 @@ List: Lista a manipular<br/>
 Salida: Position: Posición del elemento siguiente o nulo si es el último<br/>
 Precondición: Position es una posición válida de la lista<br/>
 </p>
+<code-block lang="c" src="./Ejemplos/Tema_3/next.c" collapsible="true" collapsed-title="Mostrar implementación"/>
 </li>
 </list>
 
@@ -560,6 +575,7 @@ flowchart TB
     SIGUIENTE4 -.-&gt; NODO3
     SIGUIENTE3 --&gt; NULL
 </code-block>
+<code-block lang="c" src="./Ejemplos/Tema_3/insertItem_Ordenada.c" collapsible="true" collapsed-title="Mostrar implementación"/>
 </li>
 </list>
 
