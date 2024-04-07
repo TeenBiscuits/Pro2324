@@ -10,7 +10,7 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 <tldr id="tldr">Algunos algoritmos de interés general</tldr>
 
-<warning><b>¡En construcción! <a href="https://github.com/TeenBiscuits/Pro2324">Colabora</a></b></warning>
+<include from="Para-Colaboradores.md" element-id="en-construccion"/>
 
 ###  BubbleSort
 

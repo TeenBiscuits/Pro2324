@@ -37,8 +37,8 @@ SPDX-License-Identifier: GPL-3.0-only
         <feedback-widget>true</feedback-widget>
         <feedbackRequireEmail>true</feedbackRequireEmail>
         -->
-        <!-- GOOGLE SITE VERIFICATION -->
-        <include-in-head>google-site-verification.html</include-in-head>
+        <!-- GOOGLE SITE VERIFICATION AND COPYRIGHT -->
+        <include-in-head>header.html</include-in-head>
         <!-- SUPPORT EMAIL -->
         <webmaster>pablo.portas@udc.es</webmaster>
     </variables>

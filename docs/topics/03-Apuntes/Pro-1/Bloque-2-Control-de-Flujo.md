@@ -10,7 +10,11 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 # Bloque 2 - Control de Flujo
 
-<tldr id="tldr">Bucles (while / do while / for), Condicionales (if / else / switch) y el Teorema de Böhm y Jacopini (o de la programación estructurada)</tldr>
+<tldr id="tldr">
+
+Bucles (while / do while / for), Condicionales (if / else / switch) y el Teorema de Böhm y Jacopini (o de la programación estructurada)
+
+</tldr>
 
 ## Introducción
 

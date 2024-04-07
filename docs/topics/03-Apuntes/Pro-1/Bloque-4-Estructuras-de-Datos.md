@@ -10,7 +10,11 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 # Bloque 4 - Estructuras de Datos
 
-<tldr id="tldr">Arrays, registros, cadenas de caracteres y algoritmos de búsqueda y ordenación.</tldr>
+<tldr id="tldr">
+
+Arrays, registros, cadenas de caracteres y algoritmos de búsqueda y ordenación.
+
+</tldr>
 
 ## Tipos Estructurados
 

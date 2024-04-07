@@ -10,7 +10,11 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 # Bloque 3 - Subprogramas
 
-<tldr id="tldr">Funciones, recursividad y retorno de datos. Divide y vencerás.</tldr>
+<tldr id="tldr">
+
+Funciones, recursividad y retorno de datos. Divide y vencerás.
+
+</tldr>
 
 ## Introducción
 

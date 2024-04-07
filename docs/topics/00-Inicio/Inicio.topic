@@ -36,7 +36,7 @@
             <!-- <a href="Examenes.md" type="academy" summary="Exámenes antiguos resueltos.">Exámenes</a> -->
             <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html" type="lock" summary="¡En construcción!">Antiguos
                 Exámenes</a>
-            <a href="tutoriales.topic" type="keyboard" summary="Lo difícil hecho fácil.">Tutoriales</a>
+            <a href="Tutoriales.topic" type="keyboard" summary="Lo difícil hecho fácil.">Tutoriales</a>
             <!-- No se puede referenciar a un topic dentro de si mismo -->
             <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html" type="lock" summary="Próximamente...">Próximamente...</a>
         </primary>
@@ -64,8 +64,7 @@
                     Sugerencia</a>
                 <a href="https://github.com/sponsors/TeenBiscuits" type="start"
                    summary="Apoye el desarrollo mediante GitHub Sponsors">Apoye el desarrollo</a>
-                <a href="Agradecimientos.md" type="community"
-                   summary="Este proyecto no sería posible sin el trabajo previo y la colaboración de estas talentosas personas. 🤗">Agradecimientos</a>
+                <a href="Agradecimientos.md" type="community"/>
             </cards>
         </misc>
 

@@ -10,7 +10,11 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 <!-- VERSIÓN CON ENUNCIADOS -->
 
-<tldr id="tldr">Arrays, registros y cadenas de caracteres.</tldr>
+<tldr id="tldr">
+
+Arrays, registros y cadenas de caracteres.
+
+</tldr>
 
 <!-- TODO FALTAN EJERCICIOS  -->
 <warning>

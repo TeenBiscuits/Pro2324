@@ -9,3 +9,4 @@ set(CMAKE_C_STANDARD 99)
 
 #add_executable(Ejemplo-01 Ejemplo-01.c)
 add_subdirectory(./TAD_Rational)
+# La carpeta Tema_3 es para las funciones del TAD Lista, no se debe tratar de compilar

@@ -8,6 +8,10 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 # Para Colaboradores
 
+{is-library="true"}
+
+<!-- El comentario de más arriba permite que este archivo sea usado como librería reutilizable -->
+
 <tldr>
 Esta página no se muestra en la documentación, si estás aquí es porque estás viendo el proyecto desde el código fuente.
 Gracias por colaborar en serio 🤗
@@ -19,21 +23,6 @@ Supongo que ya lo has hecho, pero recuerda
 leer [la guía de contribución](https://github.com/TeenBiscuits/Pro2324/blob/main/CONTRIBUTING.md).
 
 </warning>
-
-<procedure>
-<title>TO DO</title>
-
-Prioridad uno: ¡En Construcción! Segunda prioridad: Próximamente...
-
-- [ ] Introducción Pro (¡En Construcción!)
-- [ ] Bibliografía Pro (¡En Construcción!)
-- [ ] Antiguos exámenes (¡En Construcción!)
-- [ ] Ejemplos (Próximamente...)
-- [ ] Añadir tutoriales (Próximamente...)
-- [ ] Boletines Pro II (Próximamente...)
-- [ ] Añadir teoría Pro II (Próximamente...)
-
-</procedure>
 
 <tip>
 <b>En construcción...</b> 
@@ -59,12 +48,16 @@ Prioridad uno: ¡En Construcción! Segunda prioridad: Próximamente...
 
 <!-- Code - Normal -->
 
-<code-block lang="c" src="./Extras/Algoritmos/BubbleSort.c" collapsible="true" collapsed-title="Mostrar código"></code-block>
+<code-block lang="c" src="./Extras/Algoritmos/BubbleSort.c" collapsible="true" collapsed-title="Mostrar código"/>
 
 <!-- Avisos -->
 
+<snippet id="en-construccion">
 <warning><b>¡En construcción! <a href="https://github.com/TeenBiscuits/Pro2324">Colabora</a></b></warning>
+</snippet>
 
+<snippet id="proximamente">
 <note><b>Próximamente... <a href="https://github.com/TeenBiscuits/Pro2324">Colabora</a></b></note>
+</snippet>
 
 <tip>Copyright © 2024 "nombre"</tip>
