@@ -55,7 +55,7 @@ Por lo tanto, la lista está formada por ``nodos`` idénticos. Cada nodo está f
 del propio nodo y un puntero que apunta al siguiente. Además, el inicio de la lista está delimitado por un
 puntero ``Lista``, y finaliza con el último nodo que apunta a ``NULL``.
 
-### Operaciones (sintaxis y semántica)
+### Operaciones
 
 Siguiendo los pasos para la especificación de un TAD, definimos las operaciones del mismo clasificándolas en:
 constructoras, generadoras, modificadoras, observadoras y destructoras.
