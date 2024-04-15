@@ -16,6 +16,8 @@ Files:  .github/*
         README.md
         SECURITY.md
         .idea/*
+        src/* # En caso de no existir una cabecera de licencia soy el autor
+        docs/code/* # En caso de no existir una cabecera de licencia soy el autor
         docs/cfg/*
         docs/keymap.xml
         docs/pro.tree
