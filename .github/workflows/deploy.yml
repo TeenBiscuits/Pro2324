@@ -165,17 +165,17 @@ jobs:
           endpoint: www.bing.com # Es el default
           failure-strategy: error
 
-  google-indexing:
-    needs: [construir, comprobar, publicar]
-    name: 🔎 Google Index
-    if: github.repository == 'TeenBiscuits/Pro2324'
-    runs-on: ubuntu-latest
-    steps:
-      - name: ⬆️ Subir Urls
-        # Robin Genz
-        # MIT
-        # https://github.com/robingenz/google-indexing-action
-        uses: TeenBiscuits/google-indexing-action@main
-        with:
-          siteUrl: 'https://teenbiscuits.github.io/Pro2324'
-          gcpServiceAccountKey: ${{ secrets.GCP_SA_KEY }}
+  #google-indexing:
+  #  needs: [construir, comprobar, publicar]
+  #  name: 🔎 Google Index
+  #  if: github.repository == 'TeenBiscuits/Pro2324'
+  #  runs-on: ubuntu-latest
+  #  steps:
+  #    - name: ⬆️ Subir Urls
+  #      # Robin Genz
+  #      # MIT
+  #      # https://github.com/robingenz/google-indexing-action
+  #      uses: TeenBiscuits/google-indexing-action@main
+  #      with:
+  #        siteUrl: 'https://teenbiscuits.github.io/Pro2324'
+  #        gcpServiceAccountKey: ${{ secrets.GCP_SA_KEY }}
