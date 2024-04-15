@@ -120,7 +120,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
   publicar-indexes:
-    name: 🔎 Publicar Indexes
+    name: 🔎 Algolia Index
     if: github.repository == 'TeenBiscuits/Pro2324'
     needs: [construir, comprobar, publicar]
     runs-on: ubuntu-latest
@@ -149,7 +149,7 @@ jobs:
 
   indexnow:
     needs: [construir, comprobar, publicar]
-    name: 🔎 Publicar Sitemap
+    name: 🔎 Bing IndexNow
     if: github.repository == 'TeenBiscuits/Pro2324'
     runs-on: ubuntu-latest
     steps:
@@ -161,5 +161,21 @@ jobs:
         with:
           sitemap-location: 'https://teenbiscuits.github.io/Pro2324/sitemap.xml' 
           key: ${{ secrets.INDEXNOW_KEY }}
-          # endpoint: www.bing.com # Es el default
+          key-location: 'https://teenbiscuits.github.io/Pro2324/${{ secrets.INDEXNOW_KEY }}.txt'
+          endpoint: www.bing.com # Es el default
           failure-strategy: error
+
+  google-indexing:
+    needs: [construir, comprobar, publicar]
+    name: 🔎 Google Index
+    if: github.repository == 'TeenBiscuits/Pro2324'
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⬆️ Subir Urls
+        # Robin Genz
+        # MIT
+        # https://github.com/robingenz/google-indexing-action
+        uses: robingenz/google-indexing-action@main
+        with:
+          siteUrl: 'https://teenbiscuits.github.io/Pro2324'
+          gcpServiceAccountKey: ${{ secrets.GCP_SA_KEY }}
