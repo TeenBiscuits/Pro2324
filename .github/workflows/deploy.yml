@@ -80,7 +80,9 @@ jobs:
         uses: JetBrains/writerside-checker-action@v1
         with:
           instance: ${{ env.INSTANCE }}
-
+  
+  if: github.repository == 'TeenBiscuits/Pro2324'
+  
   publicar:
     name: 🌐 Publicar Web
     environment:
