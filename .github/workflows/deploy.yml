@@ -81,10 +81,9 @@ jobs:
         with:
           instance: ${{ env.INSTANCE }}
   
-  if: github.repository == 'TeenBiscuits/Pro2324'
-  
   publicar:
     name: 🌐 Publicar Web
+    if: github.repository == 'TeenBiscuits/Pro2324'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -122,6 +121,7 @@ jobs:
 
   publicar-indexes:
     name: 🔎 Publicar Indexes
+    if: github.repository == 'TeenBiscuits/Pro2324'
     needs: [construir, comprobar, publicar]
     runs-on: ubuntu-latest
     # 
@@ -150,6 +150,7 @@ jobs:
   indexnow:
     needs: [construir, comprobar, publicar]
     name: 🔎 Publicar Sitemap
+    if: github.repository == 'TeenBiscuits/Pro2324'
     runs-on: ubuntu-latest
     steps:
       - name: ⬆️ Subir Sitemap
