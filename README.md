@@ -7,7 +7,9 @@ SPDX-License-Identifier: GPL-3.0-only
 [![Banner](./logo/Pro2324%20GitHub%20Preview.png)](https://teenbiscuits.github.io/Pro2324)
 
 <div align="center">
-<h3>🌐 <a href="https://teenbiscuits.github.io/Pro2324">Página Web</a> 🌐</h3>
+
+[![Web](https://img.shields.io/badge/Página_Web-4d6aff?style=for-the-badge&logo=htmx&logoColor=#white)](https://teenbiscuits.github.io/Pro2324)[![Wuolah](https://img.shields.io/badge/Wuolah-black?style=for-the-badge&logo=googledocs&logoColor=white)](https://wuolah.com/profile/pablopl)
+
 
 [![Objetivo](https://progress-bar.dev/75/?title=Objetivo%20de%20Estrellas&width=200&color=e3b341)](https://github.com/TeenBiscuits/Pro2324)
 </div>
@@ -41,7 +43,7 @@ SPDX-License-Identifier: GPL-3.0-only
 
 <div align="right">
 <br/>
-Los apuntes y el código de este repositorio están publicados en <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html">esta web</a>. 📖
+Los apuntes y el código de este repositorio están publicados en <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html">esta web</a>. 📖 También están disponibles en PDF en <a href="https://wuolah.com/profile/pablopl">Wuolah</a>. 📕
 <br/>
 </div>
 
@@ -57,7 +59,7 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 
 <div align="center">
 
-[![github-sponsor](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white)](https://github.com/sponsors/TeenBiscuits)[![ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/T6T0TSIKT)[![paypalme](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/pabloportaslopez)  
+[![github-sponsor](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors)](https://github.com/sponsors/TeenBiscuits)[![Wuolah](https://img.shields.io/badge/Wuolah-4285F4?style=for-the-badge&logo=googledocs&logoColor=white)](https://wuolah.com/profile/pablopl)[![ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/T6T0TSIKT)[![paypalme](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/pabloportaslopez)  
 
 </div>
 

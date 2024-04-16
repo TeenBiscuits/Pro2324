@@ -1,8 +1,8 @@
 # SPDX-FileCopyrightText: 2023 Pablo Portas López <pablo.portas@udc.es>
 #
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: GPL-3.0-only
 
-cmake_minimum_required(VERSION 3.26)
+cmake_minimum_required(VERSION 3.22) # Esta versión del CMake es la de Ubuntu 22.04 LTS
 project(Pro2324 C)
 
 set(CMAKE_C_STANDARD 99)

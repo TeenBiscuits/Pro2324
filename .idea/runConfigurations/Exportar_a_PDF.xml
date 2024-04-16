@@ -3,11 +3,11 @@
     <option name="addCover" value="true" />
     <option name="addFooter" value="true" />
     <option name="addHeader" value="true" />
-    <option name="copyright" value="Pro2324 © 2024 by Pablo Portas López is licensed under Attribution-NonCommercial 4.0 International. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/&#10;To see the rest of the Licenses that apply visit https://github.com/TeenBiscuits/Pro2324?tab=readme-ov-file#licencias" />
-    <option name="description" value="Ejercicios Resueltos  y Apuntes  para las asignaturas de Programación I y II del Grao en Enxeñaría Informática de la Universidade da Coruña en el curso 2023/24. &#10;GitHub: https://github.com/TeenBiscuits/Pro2324&#10;Web: https://teenbiscuits.github.io/Pro2324/" />
+    <option name="copyright" value="Pro2324 © 2024 by Pablo Portas López (pablo.portas@udc.es) is licensed under Attribution-NonCommercial 4.0 International. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/&#10;To see the rest of the Licenses that apply visit https://github.com/TeenBiscuits/Pro2324?tab=readme-ov-file#licencias" />
+    <option name="description" value="Ejercicios Resueltos  y Apuntes  para las asignaturas de Programación I y II del Grao en Enxeñaría Informática de la Universidade da Coruña en el curso 2023/24. &#10;GitHub: https://github.com/TeenBiscuits/Pro2324&#10;Web: https://teenbiscuits.github.io/Pro2324" />
     <option name="folderPath" value="$PROJECT_DIR$/.idea/artifacts" />
     <option name="footer" value="Pro2324 © 2024 by Pablo Portas López is licensed under CC BY-NC 4.0" />
-    <option name="header" value="Pablo Portas López - TeenBiscuits / Pro2324 - https://teenbiscuits.github.io/Pro2324/" />
+    <option name="header" value="Pablo Portas López (pablo.portas@udc.es) - https://teenbiscuits.github.io/Pro2324" />
     <option name="instanceId" value="pro" />
     <option name="instanceName" value="Pro2324" />
     <option name="layout" value="Windows" />

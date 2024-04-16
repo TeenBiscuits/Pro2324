@@ -3,9 +3,9 @@ Upstream-Name: Pro2324
 Upstream-Contact: Pablo Portas Lopez <pablo.portas@udc.es>
 Source: https://github.com/TeenBiscuits/Pro2324
 
-Files:  logo/*
+Files:  images/*
         docs/images/Logo.*
-        docs/images/GitHubSponsors.png
+        docs/images/GitHubSponsors.jpg
         docs/topics/*
 Copyright: 2023 Pablo Portas Lopez <pablo.portas@udc.es>
 License: CC-BY-NC-4.0
