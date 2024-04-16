@@ -105,7 +105,7 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 </div>
 
 > [!TIP]
-> ¿Quieres aparecer ahí arriba? **¡Contribuye!**
+> ¿Quieres aparecer ahí arriba? [**¡Contribuye!**](./CONTRIBUTING.md)
 
 
 <!-- Me daba pena borrarlo :(
