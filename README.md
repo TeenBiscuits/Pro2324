@@ -9,7 +9,7 @@ SPDX-License-Identifier: GPL-3.0-only
 <div align="center">
 <h3>🌐 <a href="https://teenbiscuits.github.io/Pro2324">Página Web</a> 🌐</h3>
 
-[![Objetivo](https://progress-bar.dev/68/?title=Objetivo%20de%20Estrellas&width=200&color=e3b341)](https://github.com/TeenBiscuits/Pro2324)
+[![Objetivo](https://progress-bar.dev/75/?title=Objetivo%20de%20Estrellas&width=200&color=e3b341)](https://github.com/TeenBiscuits/Pro2324)
 </div>
 
 # Pro2324
