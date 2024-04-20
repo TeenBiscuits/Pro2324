@@ -123,6 +123,18 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 <a href="https://github.com/TeenBiscuits/Pro2324/pulse"><img src="https://repobeats.axiom.co/api/embed/675ebcf2934ba9390a99ffef8cabc521898b79e5.svg"/></a>
 </div>
 
+## Estrellitas 🌟
+
+<div align="center">
+  <a href="https://star-history.com/#TeenBiscuits/Pro2324&Date">
+   <picture>
+     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=TeenBiscuits/Pro2324&type=Date&theme=dark" />
+     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=TeenBiscuits/Pro2324&type=Date" />
+     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=TeenBiscuits/Pro2324&type=Date" />
+   </picture>
+  </a>
+</div>
+
 ## Licencias
 
 Este proyecto contiende dos licencias. Una para el código y los ejemplos, **GNU GPLv3** y otra para la documentación
