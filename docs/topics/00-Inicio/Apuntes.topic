@@ -42,6 +42,9 @@
             <a href="Tema-2-Gestion-dinamica-de-memoria.md" type="container"/>
             <a href="Tema-3-Listas.md" type="network"/>
             <a href="Tema-4-Colas.md" type="data"/>
+            <a href="Inicio.topic" type="lock" summary="¡En construcción!">Tema 5 - Pilas</a>
+            <a href="Inicio.topic" type="lock" summary="¡En construcción!">Tema 6 - Árboles</a>
+            <a href="Inicio.topic" type="lock" summary="¡En construcción!">Tema 7 - Árboles Binarios de Búsqueda (ABB)</a>
             <a href="Inicio.topic" type="lock" summary="Próximamente...">Próximamente...</a>
         </secondary>
 
