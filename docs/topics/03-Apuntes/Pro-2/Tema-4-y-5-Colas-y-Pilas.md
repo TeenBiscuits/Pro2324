@@ -8,24 +8,33 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 <tip>Copyright © 2024 Pablo Portas López</tip>
 
-# Tema 4 - Colas
+# Tema 4 y 5 - Colas y Pilas
 
 <tldr id="tldr">
 
-El TAD Cola, especificación informal, implementación y descripción gráfica. Operaciones explicadas de forma gráfica.
-Implementaciones con array circular, lista dinámica circular y a partir del TAD Lista.
+El TAD Cola y el TAD Pila, especificación informal, implementación y descripción gráfica. Diferencias entre ambos
+explicadas.
+
+Implementaciones con array circular, lista dinámica circular y a partir del TAD Lista. Operaciones explicadas de
+forma gráfica.
 
 </tldr>
 
 <include from="Para-Colaboradores.md" element-id="en-construccion"></include>
+
+<note>
+
+Para ver las diferencias entre los dos TADs: [](#tad-cola-vs-tad-pila)
+
+</note>
 
 ## TAD Colas
 
 Una cola es una secuencia de cero o más elementos del mismo tipo. Los elementos de una cola están ordenados de una forma
 lineal, no por su contenido, sino por la posición que ocupan.
 
-Cuando un elemento es insertado se añade al principio de la cola. Para eliminar un elemento, solo se podrá eliminar el
-primero. Este concepto es descrito como **FIFO** (First in, first out).
+Cuando un elemento es insertado se añade al principio de la cola. Para eliminar o extraer un elemento, solo se podrá eliminar el
+primero, que fue el primero en ser insertado. Este concepto es descrito como **FIFO** (First in, first out).
 
 <note>
 
@@ -138,3 +147,32 @@ Esta implementación se basa en el [](Tema-3-Listas.md).
 </note>
 
 <include from="Para-Colaboradores.md" element-id="en-construccion"></include>
+
+## TAD Pilas
+
+Una pila es una secuencia de cero o más elementos del mismo tipo. Los elementos de una cola están ordenados de una forma
+lineal, no por su contenido, sino por la posición que ocupan.
+
+Cuando un elemento es insertado se añade al principio de la pila. Para extraer o eliminar un elemento solo se puede el
+primer elemento, que fue último en añadirse. Este concepto es descrito como **LIFO** (Last in, first out).
+
+<note>
+
+Para saber más sobre LIFO. [Wikipedia](https://es.wikipedia.org/wiki/Last_in,_first_out)
+
+</note>
+
+```mermaid
+---
+title: TAD Pila
+---
+flowchart LR
+    subgraph MEMORIA
+        NODO1[NODO 3]
+        NODO2[NODO 2]
+        NODO3[NODO 1]
+    end
+    ENTRADA & SALIDA --> NODO1 --> NODO2 --> NODO3
+```
+
+## TAD Cola vs TAD Pila
