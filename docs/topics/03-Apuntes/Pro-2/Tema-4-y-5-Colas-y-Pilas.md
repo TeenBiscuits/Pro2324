@@ -55,7 +55,7 @@ flowchart LR
     ENTRADA --> NODO3 --> NODO2 --> NODO1 --> SALIDA
 ```
 
-### Operaciones
+### Operaciones {id="cola-operaciones"}
 
 Siguiendo los pasos para la especificación de un TAD, definimos las operaciones del mismo clasificándolas en:
 constructoras, generadoras, modificadoras, observadoras y destructoras.
@@ -66,7 +66,7 @@ Para más información: [](Tema-1-Tipos-Abstractos-de-Datos-TAD.md#especificaci-
 
 </note>
 
-#### Generadoras
+#### Generadoras {id="cola-generadoras"}
 
 <list>
 <li>
@@ -91,7 +91,7 @@ Salida: Queue: Cola con el elemento Item insertado y verdadero si se ha podido i
 </li>
 </list>
 
-#### Destructoras
+#### Destructoras {id="cola-destructoras"}
 
 <list>
 <li>
@@ -106,7 +106,7 @@ Precondición: La cola no está vacía<br/>
 </li>
 </list>
 
-#### Observadoras
+#### Observadoras {id="cola-observadoras"}
 
 <list>
 <li>
@@ -130,15 +130,15 @@ Salida: Verdadero si la cola está vacía, falso en caso contrario<br/>
 </li>
 </list>
 
-## Implementación con array circular
+### Implementación con array circular
 
 <include from="Para-Colaboradores.md" element-id="en-construccion"></include>
 
-## Implementación con lista dinámica circular
+### Implementación con lista dinámica circular
 
 <include from="Para-Colaboradores.md" element-id="en-construccion"></include>
 
-## Implementación a partir del TAD Lista
+### Implementación a partir del TAD Lista
 
 <note>
 
@@ -174,5 +174,80 @@ flowchart LR
     end
     ENTRADA & SALIDA --> NODO1 --> NODO2 --> NODO3
 ```
+
+### Operaciones {id="pila-operaciones"}
+
+Siguiendo los pasos para la especificación de un TAD, definimos las operaciones del mismo clasificándolas en:
+constructoras, generadoras, modificadoras, observadoras y destructoras.
+
+<note>
+
+Para más información: [](Tema-1-Tipos-Abstractos-de-Datos-TAD.md#especificaci-n-de-un-tad)
+
+</note>
+
+#### Generadoras {id="pila-generadoras"}
+
+<list>
+<li>
+<code-block lang="tex"> createEmptyStack \rightarrow Stack </code-block><br/>
+<p>
+Objetivo: Crea una pila vacía<br/>
+Salida: Una pila vacía<br/>
+PosCondición: La pila sin datos<br/>
+</p>
+<code-block lang="c" src="./Ejemplos/Tema_5/createEmptyStack.c" collapsible="true" collapsed-title="Mostrar implementación"/>
+</li>
+<li>
+<code-block lang="tex"> push (Item, Quede) \rightarrow Stack, bool </code-block><br/>
+<p>
+Objetivo: Inserta un elemento en la cola quedando al final.<br/>
+Entrada:<br/>
+Item: Contenido del elemento a insertar.<br/>
+Queue: Cola donde vamos a insertar.<br/>
+Salida: Stack: Cola con el elemento Item insertado y verdadero si se ha podido insertar, falso en caso contrario.<br/>
+</p>
+<code-block lang="c" src="./Ejemplos/Tema_5/push.c" collapsible="true" collapsed-title="Mostrar implementación"/>
+</li>
+</list>
+
+#### Destructoras {id="pila-destructoras"}
+
+<list>
+<li>
+<code-block lang="tex"> pop(Stack) \rightarrow Stack </code-block><br/>
+<p>
+Objetivo: Saca el elemento de la cima de la pila<br/>
+Entrada: Stack: Pila de donde vamos a sacar<br/>
+Salida: Stack: Pila sin el elemento de su cima<br/>
+Precondición: La pila no está vacía<br/>
+</p>
+<code-block lang="c" src="./Ejemplos/Tema_5/pop.c" collapsible="true" collapsed-title="Mostrar implementación"/>
+</li>
+</list>
+
+#### Observadoras {id="pila-observadoras"}
+
+<list>
+<li>
+<code-block lang="tex"> peek(Stack) \rightarrow Item </code-block><br/>
+<p>
+Objetivo: Recupera el contenido del elemento de la cima de la pila<br/>
+Entrada: Stack: Pila donde obtener el datoo<br/>
+Salida: Item: Contenido del elemento de la cima de la pila<br/>
+Precondición: La pila no está vacía<br/>
+</p>
+<code-block lang="c" src="./Ejemplos/Tema_5/peek.c" collapsible="true" collapsed-title="Mostrar implementación"/>
+</li>
+<li>
+<code-block lang="tex"> isEmptyStack(Stack) \rightarrow bool </code-block><br/>
+<p>
+Objetivo: Determina si una pila está vacía<br/>
+Entrada: Stack: Pila a comprobar<br/>
+Salida: Verdadero si la pila está vacía, falso en caso contrario<br/>
+</p>
+<code-block lang="c" src="./Ejemplos/Tema_5/isEmptyStack.c" collapsible="true" collapsed-title="Mostrar implementación"/>
+</li>
+</list>
 
 ## TAD Cola vs TAD Pila

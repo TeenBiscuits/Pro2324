@@ -36,8 +36,8 @@ SPDX-License-Identifier: GPL-3.0-only
             <toc-element topic="Tema-1-Tipos-Abstractos-de-Datos-TAD.md" accepts-web-file-names="tema-1.html"/>
             <toc-element topic="Tema-2-Gestion-dinamica-de-memoria.md" accepts-web-file-names="tema-2.html"/>
             <toc-element topic="Tema-3-Listas.md" accepts-web-file-names="tema-3.html"/>
-            <toc-element topic="Tema-4-y-5-Colas-y-Pilas.md" accepts-web-file-names="tema-4.html,tema-4-colas.html"/>
-            <toc-element topic="Tema-5-Pilas.md"/>
+            <toc-element topic="Tema-4-y-5-Colas-y-Pilas.md"
+                         accepts-web-file-names="tema-4.html,tema-4-colas.html,tema-5-pilas.html,tema-5.html"/>
             <toc-element topic="Tema-6-Arboles.md"/>
             <toc-element topic="Tema-7-Arboles-Binarios-de-Busqueda-ABB.md"/>
             <toc-element toc-title="Próximamente..."/>

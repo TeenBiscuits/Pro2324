@@ -11,8 +11,4 @@ SPDX-License-Identifier: GPL-3.0-only
         <accepts>readme.html,pro2324.html,01-pro2324.html,introduction.html</accepts>
     </rule>
     -->
-    <rule id="318dd725">
-        <description>Created after removal of "Overview" from Pro2324</description>
-        <accepts>Overview.html</accepts>
-    </rule>
 </rules>
