@@ -104,6 +104,11 @@ jobs:
       - name: 🔎 Configurar IndexNow
         run: echo ${{ secrets.INDEXNOW_KEY }} > dir/${{ secrets.INDEXNOW_KEY }}.txt
 
+      - name: 💅 Archivos personalizados
+        run: |
+          curl https://raw.githubusercontent.com/TeenBiscuits/Pro2324/main/docs/cfg/robots.txt -o dir/robots.txt && \
+          curl https://raw.githubusercontent.com/TeenBiscuits/Pro2324/main/docs/cfg/humans.txt -o dir/humans.txt
+      
       - name: 🔩 Configurar Pages
         uses: actions/configure-pages@v5
 

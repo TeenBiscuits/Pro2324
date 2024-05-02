@@ -1,0 +1,5 @@
+Sitemap: https://teenbiscuits.github.io/Pro2324/sitemap.xml
+
+User-Agent: *
+Disallow: /para-colaboradores.html
+Disallow: /agradecimientos.html
