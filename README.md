@@ -95,6 +95,7 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
     <tr>
       <td align="center" valign="top" width="20%"><a href="https://sprinter05.github.io/"><img src="https://avatars.githubusercontent.com/u/69991979?v=4?s=100" width="100px;" alt="Sprinter"/><br /><sub><b>Sprinter</b></sub></a><br /><a href="#code-Sprinter05" title="Code">💻</a></td>
       <td align="center" valign="top" width="20%"><a href="https://github.com/Parodper"><img src="https://avatars.githubusercontent.com/u/12100800?v=4?s=100" width="100px;" alt="Parodper"/><br /><sub><b>Parodper</b></sub></a><br /><a href="#code-Parodper" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/elianarl"><img src="https://avatars.githubusercontent.com/u/160122335?v=4?s=100" width="100px;" alt="elianarl"/><br /><sub><b>elianarl</b></sub></a><br /><a href="#code-elianarl" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
