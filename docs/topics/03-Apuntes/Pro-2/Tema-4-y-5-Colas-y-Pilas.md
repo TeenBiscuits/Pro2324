@@ -13,10 +13,8 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 <tldr id="tldr">
 
 El TAD Cola y el TAD Pila, especificación informal, implementación y descripción gráfica. Diferencias entre ambos
-explicadas.
-
-Implementaciones con array circular, lista dinámica circular y a partir del TAD Lista. Operaciones explicadas de
-forma gráfica.
+explicadas. Implementaciones con array circular, lista dinámica circular y a partir del TAD Lista. Operaciones
+explicadas de forma gráfica.
 
 </tldr>
 
@@ -33,7 +31,8 @@ Para ver las diferencias entre los dos TADs: [](#tad-cola-vs-tad-pila)
 Una cola es una secuencia de cero o más elementos del mismo tipo. Los elementos de una cola están ordenados de una forma
 lineal, no por su contenido, sino por la posición que ocupan.
 
-Cuando un elemento es insertado se añade al principio de la cola. Para eliminar o extraer un elemento, solo se podrá eliminar el
+Cuando un elemento es insertado se añade al principio de la cola. Para eliminar o extraer un elemento, solo se podrá
+eliminar el
 primero, que fue el primero en ser insertado. Este concepto es descrito como **FIFO** (First in, first out).
 
 <note>
@@ -130,15 +129,15 @@ Salida: Verdadero si la cola está vacía, falso en caso contrario<br/>
 </li>
 </list>
 
-### Implementación con array circular
+## Implementación con array circular
 
 <include from="Para-Colaboradores.md" element-id="en-construccion"></include>
 
-### Implementación con lista dinámica circular
+## Implementación con lista dinámica circular
 
 <include from="Para-Colaboradores.md" element-id="en-construccion"></include>
 
-### Implementación a partir del TAD Lista
+## Implementación a partir del TAD Lista
 
 <note>
 
@@ -199,7 +198,7 @@ PosCondición: La pila sin datos<br/>
 <code-block lang="c" src="./Ejemplos/Tema_5/createEmptyStack.c" collapsible="true" collapsed-title="Mostrar implementación"/>
 </li>
 <li>
-<code-block lang="tex"> push (Item, Quede) \rightarrow Stack, bool </code-block><br/>
+<code-block lang="tex"> push (Item, Stack) \rightarrow Stack, bool </code-block><br/>
 <p>
 Objetivo: Inserta un elemento en la cola quedando al final.<br/>
 Entrada:<br/>
@@ -251,3 +250,45 @@ Salida: Verdadero si la pila está vacía, falso en caso contrario<br/>
 </list>
 
 ## TAD Cola vs TAD Pila
+
+El TAD Cola y el TAD Pila son muy similares, por eso en estos apuntes han sido unificados en un solo tema.
+
+<table>
+<tr><td>TAD Cola (Quede)</td><td>TAD Pila (Stack)</td></tr>
+<tr><td>El primero en entrar, el primero en salir (FIFO)</td><td>El último en entrar, el primero en salir (LIFO)</td></tr>
+<tr><td><code>createEmptyQueue()</code></td><td><code>createEmptyStack()</code></td></tr>
+<tr><td><code>isEmptyQueue(Quede)</code></td><td><code>isEmptyStack(Stack)</code></td></tr>
+<tr><td><code>enquede(Item, Quede)</code> y <code>dequede(Quede)</code>: Añadir y Eliminar un elemento a la cola</td><td><code>push(Item, Stack)</code> y <code>pop(Stack)</code>: Añadir y Eliminar un elemento a la pila</td></tr>
+<tr><td><code>front(Quede)</code>: Devuelve el elemento <code>n</code> de la cola (el primero en entrar).</td><td><code>peek(Stack)</code>: Devuelve el elemento <code>0</code> de la pila (el último en entrar).</td></tr>
+<tr>
+<td>
+<code-block lang="mermaid">
+---
+title: TAD Cola
+---
+flowchart TB
+subgraph MEMORIA
+NODO1[NODO 1]
+NODO2[NODO 2]
+NODO3[NODO 3]
+end
+ENTRADA --&gt; NODO3 --&gt; NODO2 --&gt; NODO1 --&gt; SALIDA
+</code-block>
+</td>
+<td>
+<code-block lang="mermaid">
+---
+title: TAD Pila
+---
+flowchart TB
+subgraph MEMORIA
+NODO1[NODO 3]
+NODO2[NODO 2]
+NODO3[NODO 1]
+end
+ENTRADA &amp; SALIDA --&gt; NODO1 --&gt; NODO2 --&gt; NODO3
+</code-block>
+</td>
+</tr>
+</table>
+
