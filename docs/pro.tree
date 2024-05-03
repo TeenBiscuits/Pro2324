@@ -40,7 +40,7 @@ SPDX-License-Identifier: GPL-3.0-only
                          accepts-web-file-names="tema-4.html,tema-4-colas.html,tema-5-pilas.html,tema-5.html"/>
             <toc-element topic="Tema-6-Arboles.md"/>
             <toc-element topic="Tema-7-Arboles-Binarios-de-Busqueda-ABB.md"/>
-            <toc-element toc-title="Próximamente..."/>
+            <toc-element topic="Tema-8-Arboles-binarios-de-busqueda-equilibrados-AVL.md"/>
         </toc-element>
         <toc-element topic="Bibliografia.md"/>
     </toc-element>
