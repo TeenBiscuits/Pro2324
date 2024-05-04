@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
 SPDX-License-Identifier: GPL-3.0-only
 -->
 
-[![Banner](./images/Pro2324%20GitHub%20Preview.png)](https://teenbiscuits.github.io/Pro2324)
+[![Banner](./images/Pro2324%20GitHub%20Readme.png)](https://teenbiscuits.github.io/Pro2324)
 
 <div align="center">
 
