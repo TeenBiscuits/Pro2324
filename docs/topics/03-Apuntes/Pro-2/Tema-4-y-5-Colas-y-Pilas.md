@@ -82,8 +82,8 @@ PosCondición: La cola sin datos<br/>
 <p>
 Objetivo: Inserta un elemento en la cola quedando al final.<br/>
 Entrada:<br/>
-Item: Contenido del elemento a insertar.<br/>
-Queue: Cola donde vamos a insertar.<br/>
+- Item: Contenido del elemento a insertar.<br/>
+- Queue: Cola donde vamos a insertar.<br/>
 Salida: Queue: Cola con el elemento Item insertado y verdadero si se ha podido insertar, falso en caso contrario.<br/>
 </p>
 <code-block lang="c" src="./Ejemplos/Tema_4/enqueue.c" collapsible="true" collapsed-title="Mostrar implementación"/>
@@ -202,8 +202,8 @@ PosCondición: La pila sin datos<br/>
 <p>
 Objetivo: Inserta un elemento en la cola quedando al final.<br/>
 Entrada:<br/>
-Item: Contenido del elemento a insertar.<br/>
-Queue: Cola donde vamos a insertar.<br/>
+- Item: Contenido del elemento a insertar.<br/>
+- Queue: Cola donde vamos a insertar.<br/>
 Salida: Stack: Cola con el elemento Item insertado y verdadero si se ha podido insertar, falso en caso contrario.<br/>
 </p>
 <code-block lang="c" src="./Ejemplos/Tema_5/push.c" collapsible="true" collapsed-title="Mostrar implementación"/>
