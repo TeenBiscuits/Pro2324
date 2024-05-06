@@ -72,3 +72,88 @@ C --&gt; F((_F_))
 
 Un árbol binario es un conjunto cero o más de elementos del mismo tipo llamados nodos.
 
+- O bien 0 nodos, en cuyo casa: **árbol vacío**
+- O bien existe un elemento distinguido **llamado raíz**, y el resto de los nodos se distribuyen en dos subconjuntos, y a su
+  vez cada nodo tiene una serie de **hasta dos hijos** los cuales solo pueden tener **hasta dos hijos**. Formando así los
+  subconjuntos siguientes.
+
+### Operaciones
+
+Siguiendo los pasos para la especificación de un TAD, definimos las operaciones del mismo clasificándolas en:
+constructoras, generadoras, modificadoras, observadoras y destructoras.
+
+<note>
+
+Para más información: [](Tema-1-Tipos-Abstractos-de-Datos-TAD.md#especificaci-n-de-un-tad)
+
+</note>
+
+#### Generadoras
+
+<list>
+<li>
+<code-block lang="tex"> createEmptyTree \rightarrow Tree </code-block><br/>
+<p>
+Objetivo: Crea un árbol vacío<br/>
+Salida: Un árbol vacía<br/>
+PosCondición: El árbol sin datos<br/>
+</p>
+<code-block lang="c" src="./Ejemplos/Tema_6/createEmptyTree.c" collapsible="true" collapsed-title="Mostrar implementación"/>
+</li>
+<li>
+<code-block lang="tex"> BuildTree (Tree, Item, Tree) \rightarrow Tree, bool </code-block><br/>
+<p>
+Objetivo: Crea un árbol con cierta información en la raíz y como hijos los árboles que se reciben en las entradas.<br/>
+Entrada: <br/>
+- Tree(1): Árbol que constituirá el hijo izquierdo.<br/>
+- Item: Contenido del elemento raíz.<br/>
+- Tree(2): Árbol que constituirá el hijo derecho.<br/>
+Salida: Tree: Nuevo árbol construido y verdadero si se ha podido construir, falso en caso contrario.<br/>
+</p>
+<code-block lang="c" src="./Ejemplos/Tema_6/buildTree.c" collapsible="true" collapsed-title="Mostrar implementación"/>
+</li>
+</list>
+
+#### Observadoras
+
+<list>
+<li>
+<code-block lang="tex"> leftChild(Tree) \rightarrow Tree </code-block><br/>
+<p>
+Objetivo: Devuelve el árbol que constituye el hijo izquierdo del árbol<br/>
+Entrada: Tree: Árbol a manipular<br/>
+Salida: Tree: Árbol que constituye el hijo izquierdo o nulo del árbol<br/>
+Precondición: El árbol no está vacío<br/>
+</p>
+<code-block lang="c" src="./Ejemplos/Tema_6/leftChild.c" collapsible="true" collapsed-title="Mostrar implementación"/>
+</li>
+<li>
+<code-block lang="tex"> rightChild(Tree) \rightarrow bool </code-block><br/>
+<p>
+Objetivo: Devuelve el árbol que constituye el hijo derecho del árbol<br/>
+Entrada: Tree: Árbol a manipular<br/>
+Salida: Tree: Árbol que constituye el hijo derecho o nulo del árbol<br/>
+Precondición: El árbol no está vacío<br/>
+</p>
+<code-block lang="c" src="./Ejemplos/Tema_6/rightChild.c" collapsible="true" collapsed-title="Mostrar implementación"/>
+</li>
+<li>
+<code-block lang="tex"> root(Tree) \rightarrow Item </code-block><br/>
+<p>
+Objetivo: Devuelve el dato de la raíz del árbol<br/>
+Entrada: Tree: Árbol a manipular<br/>
+Salida: Item: Contenido del elemento de la raíz<br/>
+PreCondición: El árbol no está vacío<br/>
+</p>
+<code-block lang="c" src="./Ejemplos/Tema_6/root.c" collapsible="true" collapsed-title="Mostrar implementación"/>
+</li>
+<li>
+<code-block lang="tex"> isEmptyTree(Tree) \rightarrow bool </code-block><br/>
+<p>
+Objetivo: Determina si el árbol está vacío<br/>
+Entrada: Tree: Árbol a manipular<br/>
+Salida: Verdadero si el árbol está vacía, falso en caso contrario<br/>
+</p>
+<code-block lang="c" src="./Ejemplos/Tema_6/isEmptyTree.c" collapsible="true" collapsed-title="Mostrar implementación"/>
+</li>
+</list>
