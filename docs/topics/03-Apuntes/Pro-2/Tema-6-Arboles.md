@@ -77,6 +77,17 @@ Un árbol binario es un conjunto cero o más de elementos del mismo tipo llamado
   vez cada nodo tiene una serie de **hasta dos hijos** los cuales solo pueden tener **hasta dos hijos**. Formando así los
   subconjuntos siguientes.
 
+```mermaid
+---
+title: TAD Árbol Binario
+---
+flowchart TB
+    TREE[ÁRBOL] --> A[[A]] --> B[[B]] & C[[C]]
+    B --> D[[D]] & E[NULL]
+    D --> H[NULL] & I[NULL]
+    C --> F[NULL] & G[NULL]
+```
+
 ### Operaciones
 
 Siguiendo los pasos para la especificación de un TAD, definimos las operaciones del mismo clasificándolas en:
@@ -98,6 +109,10 @@ Objetivo: Crea un árbol vacío<br/>
 Salida: Un árbol vacía<br/>
 PosCondición: El árbol sin datos<br/>
 </p>
+<code-block lang="mermaid">
+flowchart LR
+    TREE[ÁRBOL] --&gt; NULL
+</code-block>
 <code-block lang="c" src="./Ejemplos/Tema_6/createEmptyTree.c" collapsible="true" collapsed-title="Mostrar implementación"/>
 </li>
 <li>
@@ -110,6 +125,24 @@ Entrada: <br/>
 - Tree(2): Árbol que constituirá el hijo derecho.<br/>
 Salida: Tree: Nuevo árbol construido y verdadero si se ha podido construir, falso en caso contrario.<br/>
 </p>
+<code-block lang="mermaid">
+flowchart TB
+TREE1[ÁRBOL1] --&gt; A[[A]] --&gt; B[[B]] &amp; C[[C]]
+ITEM
+TREE2[ÁRBOL2] --&gt; 1[[1]] --&gt; 2[[2]] &amp; 3[[3]]
+</code-block>
+<code-block lang="mermaid">
+flowchart TB
+TREE1[ÁRBOL1] --&gt; A[[A]] --&gt; B[[B]] &amp; C[[C]]
+TREE3[ÁRBOL] --&gt; ITEM[[ITEM]]
+TREE2[ÁRBOL2] --&gt; 1[[1]] --&gt; 2[[2]] &amp; 3[[3]]
+</code-block>
+<code-block lang="mermaid">
+flowchart TB
+TREE1[ÁRBOL1] -.-&gt; A[[A]] --&gt; B[[B]] &amp; C[[C]]
+TREE3[ÁRBOL] --&gt; ITEM[[ITEM]] --&gt; A &amp; 1
+TREE2[ÁRBOL2] -.-&gt; 1[[1]] --&gt; 2[[2]] &amp; 3[[3]]
+</code-block>
 <code-block lang="c" src="./Ejemplos/Tema_6/buildTree.c" collapsible="true" collapsed-title="Mostrar implementación"/>
 </li>
 </list>
