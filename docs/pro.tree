@@ -19,6 +19,9 @@ SPDX-License-Identifier: GPL-3.0-only
         <toc-element toc-title="Pro II">
             <toc-element toc-title="TGR 1 - Especificación de tipos abstractos"/>
             <toc-element toc-title="TGR 2 - Punteros"/>
+            <toc-element toc-title="TGR 3 - Ejercicios con el TAD Lista"/>
+            <toc-element toc-title="TGR 4"/>
+            <toc-element toc-title="TGR 5 - Ejercicios de árboles"/>
             <toc-element toc-title="Próximamente ..."/>
         </toc-element>
     </toc-element>
