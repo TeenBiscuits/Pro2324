@@ -97,6 +97,7 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
       <td align="center" valign="top" width="20%"><a href="https://github.com/Parodper"><img src="https://avatars.githubusercontent.com/u/12100800?v=4?s=100" width="100px;" alt="Parodper"/><br /><sub><b>Parodper</b></sub></a><br /><a href="#code-Parodper" title="Code">💻</a></td>
       <td align="center" valign="top" width="20%"><a href="https://github.com/elianarl"><img src="https://avatars.githubusercontent.com/u/160122335?v=4?s=100" width="100px;" alt="elianarl"/><br /><sub><b>elianarl</b></sub></a><br /><a href="#code-elianarl" title="Code">💻</a></td>
       <td align="center" valign="top" width="20%"><a href="https://github.com/Nurig04"><img src="https://avatars.githubusercontent.com/u/152159453?v=4?s=100" width="100px;" alt="Nurig04"/><br /><sub><b>Nurig04</b></sub></a><br /><a href="#code-Nurig04" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="http://ferdev.es"><img src="https://avatars.githubusercontent.com/u/114153352?v=4?s=100" width="100px;" alt="Fernando Álvarez"/><br /><sub><b>Fernando Álvarez</b></sub></a><br /><a href="#code-FerLS" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
