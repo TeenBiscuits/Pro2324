@@ -8,7 +8,8 @@ SPDX-License-Identifier: GPL-3.0-only
 -->
 
 <instance-profile id="pro" name="Pro2324" start-page="Inicio.topic">
-    <toc-element topic="Inicio.topic" accepts-web-file-names="readme.html,pro2324.html,01-pro2324.html,introduction.html"/>
+    <toc-element accepts-web-file-names="readme.html,pro2324.html,01-pro2324.html,introduction.html"
+                 topic="Inicio.topic"/>
     <toc-element topic="Boletines.topic" accepts-web-file-names="02-boletines.html">
         <toc-element toc-title="Pro I">
             <toc-element topic="Boletin-1-Conceptos-Basicos.md" accepts-web-file-names="boletin-1.html"/>
@@ -38,11 +39,15 @@ SPDX-License-Identifier: GPL-3.0-only
             <toc-element topic="Tema-1-Tipos-Abstractos-de-Datos-TAD.md" accepts-web-file-names="tema-1.html"/>
             <toc-element topic="Tema-2-Gestion-dinamica-de-memoria.md" accepts-web-file-names="tema-2.html"/>
             <toc-element topic="Tema-3-Listas.md" accepts-web-file-names="tema-3.html"/>
-            <toc-element topic="Tema-4-Colas.md" accepts-web-file-names="tema-4.html"/>
-            <toc-element toc-title="Tema 5 - Pilas"/>
-            <toc-element toc-title="Tema 6 - Árboles"/>
-            <toc-element toc-title="Tema 7 - Árboles Binarios de Búsqueda (ABB)"/>
-            <toc-element toc-title="Próximamente..."/>
+            <toc-element topic="Tema-4-y-5-Colas-y-Pilas.md"
+                         accepts-web-file-names="tema-4.html,tema-4-colas.html,tema-5-pilas.html,tema-5.html"/>
+            <toc-element topic="Tema-6-Arboles.md"/>
+            <toc-element toc-title="Tema 7 - Árboles Binarios de Búsqueda ABB"/>
+            <toc-element toc-title="Tema 8 - Árboles binarios de búsqueda equilibrados (AVL)"/>
+            <!--
+            <toc-element topic="Tema-7-Arboles-Binarios-de-Busqueda-ABB.md"/>
+            <toc-element topic="Tema-8-Arboles-binarios-de-busqueda-equilibrados-AVL.md"/>
+            -->
         </toc-element>
         <toc-element topic="Bibliografia.md"/>
     </toc-element>

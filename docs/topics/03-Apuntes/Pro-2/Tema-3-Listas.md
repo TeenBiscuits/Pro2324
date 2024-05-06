@@ -88,9 +88,9 @@ flowchart LR
 Objetivo: Si la posición es nula, añade un elemento al final de la lista. En caso contrario, el elemento quedará
 insertado justo antes del que actualmente ocupa la posición indicada.<br/>
 Entrada:<br/>
-Item: Contenido del elemento a insertar<br/>
-Position: Posición de referencia para la inserción<br/>
-List: Lista donde vamos a insertar<br/>
+- Item: Contenido del elemento a insertar<br/>
+- Position: Posición de referencia para la inserción<br/>
+- List: Lista donde vamos a insertar<br/>
 Salida: List: Lista con el elemento Item insertado y verdadero si se ha podido insertar, falso en caso contrario<br/>
 Precondición: Position es una posición válida de la lista o es una posición nula<br/>
 Postcondición: Las posiciones de los elementos de la lista posteriores a la del elemento insertado pueden haber
@@ -181,9 +181,9 @@ flowchart LR
 <p>
 Objetivo: Modifica el contenido de un elemento de la lista<br/>
 Entrada:<br/>
-Item: Nuevo contenido a asignar al elemento en Position<br/>
-Position: Posición del elemento que queremos modificar<br/>
-List: Lista a modificar<br/>
+- Item: Nuevo contenido a asignar al elemento en Position<br/>
+- Position: Posición del elemento que queremos modificar<br/>
+- List: Lista a modificar<br/>
 Salida: List: Lista con el contenido del elemento modificado<br/>
 Precondición: Position es una posición válida de la lista<br/>
 </p>
@@ -343,8 +343,8 @@ flowchart LR
 <p>
 Objetivo: Busca el primer elemento con cierto contenido en la lista<br/>
 Entrada:<br/>
-Item: Contenido del elemento buscado<br/>
-List: Lista donde realizar la búsqueda<br/>
+- Item: Contenido del elemento buscado<br/>
+- List: Lista donde realizar la búsqueda<br/>
 Salida: Position: Posición del elemento encontrado o nulo si no se encuentra<br/>
 </p>
 <code-block lang="mermaid">
@@ -468,8 +468,8 @@ Precondición: Position es una posición válida de la lista<br/>
 <p>
 Objetivo: Devuelve la posición del elemento siguiente al actual<br/>
 Entrada:<br/>
-Position: Posición del elemento actual<br/>
-List: Lista a manipular<br/>
+- Position: Posición del elemento actual<br/>
+- List: Lista a manipular<br/>
 Salida: Position: Posición del elemento siguiente o nulo si es el último<br/>
 Precondición: Position es una posición válida de la lista<br/>
 </p>
@@ -518,8 +518,8 @@ Las operaciones del TAD lista ordenada es idéntico al TAD anterior, la única a
 <p>
 Objetivo: Inserta un elemento en la lista según el criterio de ordenación sobre el campo Item<br/>
 Entrada:<br/>
-Item: Contenido del elemento a insertar<br/>
-List: Lista donde vamos a insertar<br/>
+- Item: Contenido del elemento a insertar<br/>
+- List: Lista donde vamos a insertar<br/>
 Salida: List: Lista con el elemento Item insertado en la posición correspondiente según su contenido y verdadero si se
 ha podido insertar, falso en caso contrario<br/>
 Precondición: La lista está inicializada<br/>
