@@ -13,8 +13,7 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 <tldr id="tldr">
 
 El TAD Árbol Binario, especificación informal, implementación y descripción gráfica. Operaciones explicadas de forma
-gráfica e
-implementadas.
+gráfica e implementadas.
 
 </tldr>
 
@@ -71,4 +70,5 @@ C --&gt; F((_F_))
 
 ## TAD Árbol Binario
 
+Un árbol binario es un conjunto cero o más de elementos del mismo tipo llamados nodos.
 
