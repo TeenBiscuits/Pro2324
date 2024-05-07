@@ -8,16 +8,18 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 <tip>Copyright © 2024 Pablo Portas López</tip>
 
-# Tema 7 - Árboles Binarios de Búsqueda ABB
+# Tema 7 y 8 - Árboles Binarios de Búsqueda ABB y Equilibrados AVL
 
 <tldr id="tldr">
 
-El TAD Árbol Binario de Búsqueda ABB, especificación informal, implementación y descripción gráfica. Operaciones
-explicadas de forma gráfica e implementadas.
+El TAD Árbol Binario de Búsqueda ABB y el TAD Árbol Binario de Búsqueda AVL, especificación informal, implementación y
+descripción gráfica. Operaciones explicadas de forma gráfica e implementadas.
 
 </tldr>
 
-## Definición
+## TAD Árbol Binario de Búsqueda ABB
+
+### Definición {id=abb-definicion}
 
 - Es un árbol binario.
 - Tiene asociada una clave de ordenación _k_.
@@ -26,8 +28,8 @@ explicadas de forma gráfica e implementadas.
     - los valores de los nodos del subárbol **derecho** son _T_ mayores que el valor de _T_.
 
 - **Mayor eficiencia** frente a...
-  - estructuras **estadísticas** en operaciones de **inserción** y **eliminación**.
-  - estructuras **dinámicas** en la operación de **búsqueda**.
+    - estructuras **estadísticas** en operaciones de **inserción** y **eliminación**.
+    - estructuras **dinámicas** en la operación de **búsqueda**.
 
 ```mermaid
 ---
@@ -35,7 +37,7 @@ title: Árbol binario de búsqueda (ABB)
 ---
 flowchart
     k(((k))) --> A[/claves < k\] & B[/claves > k\]
-    
+
 ```
 
 | Pros                                                       | Contras                                                                                  |

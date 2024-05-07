@@ -43,12 +43,7 @@
             <a href="Tema-3-Listas.md" type="network"/>
             <a href="Tema-4-y-5-Colas-y-Pilas.md" type="data"/>
             <a href="Tema-6-Arboles.md" type="branch"/>
-            <a href="Inicio.topic" type="lock" summary="¡En construcción!">Tema 7 - Árboles Binarios de Búsqueda ABB</a>
-            <a href="Inicio.topic" type="lock" summary="¡En construcción!">Tema 8 - Árboles binarios de búsqueda equilibrados (AVL)</a>
-            <a href="Tema-7-Arboles-Binarios-de-Busqueda-ABB.md" type="search"/>
-            <!-- TODO
-            <a href="Tema-8-Arboles-binarios-de-busqueda-equilibrados-AVL.md" type="search"/>
-            -->
+            <a href="Tema-7-y-8-Arboles-Binarios-de-Busqueda.md" type="search"/>
         </secondary>
 
         <!-- Créditos -->
