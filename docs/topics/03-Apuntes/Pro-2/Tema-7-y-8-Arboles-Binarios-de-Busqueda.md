@@ -35,12 +35,34 @@ descripción gráfica. Operaciones explicadas de forma gráfica e implementadas.
 ---
 title: Árbol binario de búsqueda (ABB)
 ---
-flowchart
+flowchart TB
     k(((k))) --> A[/claves < k\] & B[/claves > k\]
 
 ```
 
-| Pros                                                       | Contras                                                                                  |
-|------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| Eficiencia del proceso de búsqueda en árboles equilibrados | Si los nodos se añaden en un orden aleatorio habrá que equilibrarlo                      |
-|                                                            | Si los nodos se añaden en un orden determinado el árbol degenerará en una lista ordenada |
+### Pros y contras
+
+- Eficiencia del proceso de búsqueda en árboles equilibrados
+- Si los nodos se añaden en un orden aleatorio habrá que equilibrarlo
+  ```mermaid
+  ---
+  title: Árbol sin equilibrar
+  ---
+  flowchart TB
+    k[[6]] --> 1[[1]] & 8[[8]]
+    1 --> 0[[0]] & 2[[2]]
+    2 --> 3[[3]] --> 4[[4]]
+    8 --> 7[[7]]
+  ```
+- Si los nodos se añaden en un orden determinado el árbol degenerará en una lista ordenada
+  ```mermaid
+  ---
+  title: Árbol degenerado en lista
+  ---
+  flowchart TB
+  k[[4]] -->  3[[3]] & NULL1[[NULL]]
+  3 --> 2[[2]] & NULL2[[NULL]] 
+  2 --> 1[[1]] & NULL3[[NULL]]
+  ```
+
+
