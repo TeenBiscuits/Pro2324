@@ -42,10 +42,9 @@ SPDX-License-Identifier: GPL-3.0-only
             <toc-element topic="Tema-4-y-5-Colas-y-Pilas.md"
                          accepts-web-file-names="tema-4.html,tema-4-colas.html,tema-5-pilas.html,tema-5.html"/>
             <toc-element topic="Tema-6-Arboles.md"/>
-            <toc-element toc-title="Tema 7 - Árboles Binarios de Búsqueda ABB"/>
+            <toc-element topic="Tema-7-Arboles-Binarios-de-Busqueda-ABB.md"/>
             <toc-element toc-title="Tema 8 - Árboles binarios de búsqueda equilibrados (AVL)"/>
             <!--
-            <toc-element topic="Tema-7-Arboles-Binarios-de-Busqueda-ABB.md"/>
             <toc-element topic="Tema-8-Arboles-binarios-de-busqueda-equilibrados-AVL.md"/>
             -->
         </toc-element>
