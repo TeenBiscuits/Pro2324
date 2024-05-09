@@ -17,6 +17,8 @@ gráfica e implementadas.
 
 </tldr>
 
+<include from="Para-Colaboradores.md" element-id="en-construccion"></include>
+
 ## ¿Que es un árbol?
 
 ```mermaid
@@ -190,3 +192,8 @@ Salida: Verdadero si el árbol está vacía, falso en caso contrario<br/>
 <code-block lang="c" src="./Ejemplos/Tema_6/isEmptyTree.c" collapsible="true" collapsed-title="Mostrar implementación"/>
 </li>
 </list>
+
+
+## Recorridos de Árboles
+
+<include from="Para-Colaboradores.md" element-id="en-construccion"></include>
