@@ -5,8 +5,8 @@
 void deleteList(tList *lista) {
     tPosL posAux;
     while (*lista != LNULL) {
-        posAux = *lista;
-        *lista = (*lista)->next;
+        while (posAux->next != NULL)
+            posAux = posAux->next;
         free(posAux);
     }
 }
