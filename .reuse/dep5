@@ -42,6 +42,10 @@ Files:  docs/images/Apuntes/Bibliografia/C-Programming-Book.png
 Copyright: K. N. King
 License: CC0-1.0
 
+Files: docs/images/Apuntes/Pro-2/Tema-4-y-5/*
+Copyright: Unsplash
+License: LicenseRef-UNPLASH
+
 Files:  src/Ejemplos/TAD_Rational/*
         PDFs/*
 Copyright: Facultade de Informatica de A Coruna
