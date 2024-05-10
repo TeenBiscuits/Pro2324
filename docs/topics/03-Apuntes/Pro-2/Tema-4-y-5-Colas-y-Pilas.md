@@ -52,7 +52,18 @@ flowchart LR
         NODO3[NODO 3]
     end
     ENTRADA --> NODO3 --> NODO2 --> NODO1 --> SALIDA
+    FRENTE([Este es el frente de la cola]) -.-> NODO1
+    FINAL([Este es el final de la cola]) -.-> NODO3
 ```
+
+El **primero en llegar a una cola**, es el **primero en salir de la cola**, ya que está al principio (_front_) de la
+cola.
+
+El **último en llegar**, por otra parte, debe preguntar: _¿Dónde está el final de la cola?_ Y esperar pacientemente, ya
+que será
+**el último en salir de la cola**.
+
+![Colas.png](Colas.png)
 
 ### Operaciones {id="cola-operaciones"}
 
@@ -173,6 +184,15 @@ flowchart LR
     end
     ENTRADA & SALIDA --> NODO1 --> NODO2 --> NODO3
 ```
+
+Cuando agregas libros a una pila, el **primer libro** queda _aplastado_ bajo el peso de todos los demás. **Al fondo de
+la pila**.
+
+El **último libro** es el de la **cima** (_peek_) y es el que primero puedes retirar.
+
+Para poder retirar el libro que **primero** se depositó en la pila debes **retirar todos antes**.
+
+![Pila.jpg](Pila.jpg)
 
 ### Operaciones {id="pila-operaciones"}
 
