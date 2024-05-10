@@ -65,7 +65,7 @@ C --&gt; F((_F_)) &amp; G((_G_))
 flowchart TB
 A(((_A_))) --&gt; B((_B_)) &amp; C((_C_))
 B --&gt; D((_D_)) &amp; E((_E_))
-C --&gt; F((_F_))
+C --&gt; F((_F_)) &amp; NULL(NULL)
 </code-block>
 </td></tr>
 </table>
