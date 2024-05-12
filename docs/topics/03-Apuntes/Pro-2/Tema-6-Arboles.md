@@ -244,7 +244,7 @@ Nacional de Colombia
 
 </tip>
 
-<video src="https://youtu.be/95CgVIsOxLA"/>
+<video src="https://www.youtube.com/watch?v=95CgVIsOxLA"/>
 
 <note>
 En los dibujos no ha sido representado la totalidad del recorrido, solo una idea general del movimiento.
