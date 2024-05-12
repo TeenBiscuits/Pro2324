@@ -250,66 +250,69 @@ Nacional de Colombia
 En los dibujos no ha sido representado la totalidad del recorrido, solo una idea general del movimiento.
 </note>
 
-1. Preorden:
-    - (R) Raíz
-    - (I) Izquierdo
-    - (D) Derecho
+#### Preorden (R | ID)
 
-      ```mermaid
-      flowchart TB
-          RECORRIDO[A, B, D, E, F, C, G, H]
-            
-          A((_A_)) --> B((_B_)) & C((_C_))
-          A -. "(R)" .-> A
-          B --> D((_D_)) & E((_E_))
-          D --> NULL3(NULL) & NULL4(NULL)
-          C --> G((_G_)) & H((_H_))
-          E --> F((_F_)) & NULL(NULL)
-    
-          A -. "(I)" .-> B -. "(R)" .-> B -. "(I)" .-> D 
-          D -. "(R)" .-> D -. "(I)" .-> NULL3 -.-> D -. "(D)" .-> NULL4
-          NULL4 -.-> D -.-> B -. "(D)" .-> E -. "(R)" .-> E -. "etc" .-> F 
-      ```
+- (R) Raíz
+- (I) Izquierdo
+- (D) Derecho
 
-2. Inorden
-    - (I) Izquierdo
-    - (R) Raíz
-    - (D) Derecho
+```mermaid
+flowchart TB
+    RECORRIDO[A, B, D, E, F, C, G, H]
+        
+    A((_A_)) --> B((_B_)) & C((_C_))
+    A -. "(R)" .-> A
+    B --> D((_D_)) & E((_E_))
+    D --> NULL3(NULL) & NULL4(NULL)
+    C --> G((_G_)) & H((_H_))
+    E --> F((_F_)) & NULL(NULL)
 
-    ```mermaid
-    flowchart TB
-        RECORRIDO[D, B, F, E, A, G, C, H]
-   
-        A((_A_)) --> B((_B_)) & C((_C_))
-        B --> D((_D_)) & E((_E_))
-        D --> NULL3(NULL) & NULL4(NULL)
-        C --> G((_G_)) & H((_H_))
-        E --> F((_F_)) & NULL(NULL)
-   
-        A -. "(I)" .-> B -. "(I)" .-> D -. "(R)" .-> D 
-        D -. "(I)" .-> NULL3 -.-> D -.-> B -. "(R)" .-> B
-        B -. "(D)" .-> E -. "etc" .-> F
-    ```
+    A -. "(I)" .-> B -. "(R)" .-> B -. "(I)" .-> D 
+    D -. "(R)" .-> D -. "(I)" .-> NULL3 -.-> D -. "(D)" .-> NULL4
+    NULL4 -.-> D -.-> B -. "(D)" .-> E -. "(R)" .-> E -. "etc" .-> F 
+```
 
-3. Posorden
-    - (I) Izquierdo
-    - (D) Derecho
-    - (R) Raíz
+#### Inorden (I | R | D)
 
-    ```mermaid
-    flowchart TB
-        RECORRIDO[D, F, E, B, G, H, C, A]
-   
-        A((_A_)) --> B((_B_)) & C((_C_))
-        B --> D((_D_)) & E((_E_))
-        D --> NULL3(NULL) & NULL4(NULL)
-        C --> G((_G_)) & H((_H_))
-        E --> F((_F_)) & NULL(NULL)
-   
-        A -. "(I)" .-> B -. "(I)" .-> D -. "(I)" .-> NULL3 
-        NULL3 -.-> D -. "(D)" .-> NULL4 -.-> D -. "(R)" .-> D
-        D -.-> B -. "(D)" .-> E -. "etc" .-> F
-    ```
+- (I) Izquierdo
+- (R) Raíz
+- (D) Derecho
+
+```mermaid
+flowchart TB
+    RECORRIDO[D, B, F, E, A, G, C, H]
+
+    A((_A_)) --> B((_B_)) & C((_C_))
+    B --> D((_D_)) & E((_E_))
+    D --> NULL3(NULL) & NULL4(NULL)
+    C --> G((_G_)) & H((_H_))
+    E --> F((_F_)) & NULL(NULL)
+
+    A -. "(I)" .-> B -. "(I)" .-> D -. "(R)" .-> D 
+    D -. "(I)" .-> NULL3 -.-> D -.-> B -. "(R)" .-> B
+    B -. "(D)" .-> E -. "etc" .-> F
+```
+
+#### Posorden (ID | R)
+
+- (I) Izquierdo
+- (D) Derecho
+- (R) Raíz
+
+```mermaid
+flowchart TB
+    RECORRIDO[D, F, E, B, G, H, C, A]
+
+    A((_A_)) --> B((_B_)) & C((_C_))
+    B --> D((_D_)) & E((_E_))
+    D --> NULL3(NULL) & NULL4(NULL)
+    C --> G((_G_)) & H((_H_))
+    E --> F((_F_)) & NULL(NULL)
+
+    A -. "(I)" .-> B -. "(I)" .-> D -. "(I)" .-> NULL3 
+    NULL3 -.-> D -. "(D)" .-> NULL4 -.-> D -. "(R)" .-> D
+    D -.-> B -. "(D)" .-> E -. "etc" .-> F
+```
 
 ### Recorrido en anchura
 
