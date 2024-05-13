@@ -18,6 +18,8 @@ equilibrio.
 
 </tldr>
 
+<include from="Para-Colaboradores.md" element-id="en-construccion"></include>
+
 ## TAD Árbol Binario de Búsqueda ABB
 
 ### Definición {id=abb-definicion}
@@ -245,11 +247,22 @@ TAD. [Wikipedia](https://es.wikipedia.org/wiki/Árbol_AVL)
 Respecto a la [especificación del árbol binario de búsqueda ABB](#abb-operaciones) solo cambian las funciones de
 inserción y borrados, que también deben **mantener equilibrado el árbol**.
 
-#### Insertar (insertKey)
-
-Si el árbol está en perfecto equilibrio una inserción no romperá el equilibrio. De no estarlo, una inserción podría
-romper el equilibrio.
+Si el árbol está en perfecto equilibrio una inserción o un borrado no romperá el equilibrio. De no estarlo, una
+inserción o un borrado podría romper el equilibrio.
 
 ![EqInserción.png](EqInserción.png)
 
-#### Borrar (removeKey)
+Para solucionar estó debemos emplear [](#rotaciones-para-restaurar-el-equilibrio).
+
+### Rotaciones para restaurar el equilibrio
+
+- Rotaciones simples
+    - Son aquellas que involucran a dos nodos.
+    - La rotación left-left (LL) y la rotación right-right (RR).
+- Rotaciones complejas
+    - Son aquellas que involucran a tres nodos.
+    - Tenemos la rotación right-left (RL) y la rotación left-right (LR).
+
+Ejemplos gráficos:
+
+<include from="Para-Colaboradores.md" element-id="en-construccion"></include>
