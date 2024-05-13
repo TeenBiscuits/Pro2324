@@ -440,7 +440,7 @@ int main () {
 int *p;
 
 int printscr2 (int* m) {
-  printf(” %d \n”,*m);
+  printf(" %d \n",*m);
 }
 void main () {
   ...

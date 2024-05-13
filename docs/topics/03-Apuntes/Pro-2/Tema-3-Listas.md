@@ -17,8 +17,6 @@ implementadas. Otros tipos de TAD como Lista Ordenada y Multilistas también exp
 
 </tldr>
 
-<include from="Para-Colaboradores.md" element-id="en-construccion"></include>
-
 ## TAD Lista
 
 <note>Esto es una especificación informal del TAD</note>
@@ -579,6 +577,13 @@ flowchart TB
 </li>
 </list>
 
+<note>
+
+Al ser una lista ordenada, puede aprovecharse para volver más eficiente el algoritmo de búsqueda
+de ``findItem(Item,List)``.
+
+</note>
+
 ## Comparación entre TADs
 
 <table>
@@ -634,8 +639,17 @@ En este caso el TAD multilistas es un ejemplo de combinación de TADs, en este c
 
 ### TAD Multilistas
 
-<include from="Para-Colaboradores.md" element-id="en-construccion"/>
+La multilista consiste, en crear sublistas enlazadas a los nodos de una lista principal.
+
+A una lista de usuarios podríamos enlazar, por ejemplo, una playlist para cada uno.
+
+![Multilista.png](Multilista.png)
 
 ### TAD Multiordenadas
 
-<include from="Para-Colaboradores.md" element-id="en-construccion"/>
+Esta lista multiordenada consta de dos punteros, uno apunta al primer nodo ordenada por nombre, y el otro al primer DNI.
+
+Los están enlazados entre ellos doblemente. Marcando el nodo anterior y siguiente, en dos categorías: **Nombre** y **DNI
+**.
+
+![Multiordenada.png](Multiordenada.png)
