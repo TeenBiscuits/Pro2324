@@ -13,7 +13,8 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 <tldr id="tldr">
 
 El TAD Árbol Binario de Búsqueda ABB y el TAD Árbol Binario de Búsqueda AVL, especificación informal, implementación y
-descripción gráfica. Operaciones explicadas de forma gráfica e implementadas.
+descripción gráfica. Operaciones explicadas de forma gráfica e implementadas. Rotaciones (LL, RR, LR y RL) y factor de
+equilibrio.
 
 </tldr>
 
@@ -244,3 +245,11 @@ TAD. [Wikipedia](https://es.wikipedia.org/wiki/Árbol_AVL)
 Respecto a la [especificación del árbol binario de búsqueda ABB](#abb-operaciones) solo cambian las funciones de
 inserción y borrados, que también deben **mantener equilibrado el árbol**.
 
+#### Insertar (insertKey)
+
+Si el árbol está en perfecto equilibrio una inserción no romperá el equilibrio. De no estarlo, una inserción podría
+romper el equilibrio.
+
+![EqInserción.png](EqInserción.png)
+
+#### Borrar (removeKey)
