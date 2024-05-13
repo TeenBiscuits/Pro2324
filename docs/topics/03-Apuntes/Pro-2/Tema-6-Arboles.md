@@ -245,6 +245,12 @@ Nacional de Colombia
 
 </tip>
 
+<warning>
+
+Debido a un bug, el reproductor no funciona. [Link al vídeo](https://youtu.be/95CgVIsOxLA?si=xT7m6D4k92DadqFb)
+
+</warning>
+
 <video src="https://www.youtube.com/watch?v=95CgVIsOxLA"/>
 
 <note>
