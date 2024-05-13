@@ -12,8 +12,9 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 <tldr id="tldr">
 
-El TAD Árbol Binario, especificación informal, implementación y descripción gráfica. Operaciones explicadas de forma
-gráfica e implementadas.
+El TAD Árbol Binario, definiciones, especificación informal, implementación y descripción gráfica. Operaciones
+explicadas de forma gráfica e implementadas. Recorridos en profundidad (preorden, inorden y posorden) y recorrido en
+anchura.
 
 </tldr>
 
