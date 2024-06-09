@@ -17,7 +17,7 @@ permissions:
 env:
   INSTANCE: 'docs/pro'
   ARTIFACT: 'webHelpPRO2-all.zip'
-  DOCKER_VERSION: '241.15989'
+  DOCKER_VERSION: '241.16003'
 
 jobs:
   construir:
@@ -29,6 +29,8 @@ jobs:
         # MIT
         # https://github.com/actions/checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: 🏗️ Construir con Writerside usando Docker
         # JetBrains Open Source
@@ -41,7 +43,7 @@ jobs:
           docker-version: ${{ env.DOCKER_VERSION }}
 
       - name: ⬆️ Subir artefacto con los resultados de la construcción
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         # GitHub Actions
         # MIT
         # https://github.com/actions/upload-artifact
@@ -62,7 +64,7 @@ jobs:
         # GitHub Actions
         # MIT
         # https://github.com/actions/download-artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: docs
           path: artifacts
