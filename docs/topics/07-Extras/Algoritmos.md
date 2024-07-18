@@ -5,12 +5,11 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 -->
 
 <web-summary rel="tldr"/>
+<secondary-label ref="wip"/>
 
 # Algoritmos
 
 <tldr id="tldr">Algunos algoritmos de interés general</tldr>
-
-<include from="Para-Colaboradores.md" element-id="en-construccion"/>
 
 ###  BubbleSort
 

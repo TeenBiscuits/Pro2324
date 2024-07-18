@@ -5,10 +5,9 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 -->
 
 <web-summary rel="tldr"/>
+<secondary-label ref="wip"/>
 
 # Bibliografía
-
-<include from="Para-Colaboradores.md" element-id="en-construccion"/>
 
 <tldr id="tldr">
 

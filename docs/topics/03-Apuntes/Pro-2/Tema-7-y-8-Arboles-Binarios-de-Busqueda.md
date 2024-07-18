@@ -5,6 +5,7 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 -->
 
 <web-summary rel="tldr"/>
+<secondary-label ref="wip"/>
 
 <tip>Copyright © 2024 Pablo Portas López</tip>
 
@@ -17,8 +18,6 @@ descripción gráfica. Operaciones explicadas de forma gráfica e implementadas.
 equilibrio.
 
 </tldr>
-
-<include from="Para-Colaboradores.md" element-id="en-construccion"></include>
 
 ## TAD Árbol Binario de Búsqueda ABB
 
@@ -255,6 +254,7 @@ inserción o un borrado podría romper el equilibrio.
 Para solucionar estó debemos emplear [](#rotaciones-para-restaurar-el-equilibrio).
 
 ### Rotaciones para restaurar el equilibrio
+<secondary-label ref="wip"/>
 
 - Rotaciones simples
     - Son aquellas que involucran a dos nodos.
@@ -262,7 +262,3 @@ Para solucionar estó debemos emplear [](#rotaciones-para-restaurar-el-equilibri
 - Rotaciones complejas
     - Son aquellas que involucran a tres nodos.
     - Tenemos la rotación right-left (RL) y la rotación left-right (LR).
-
-Ejemplos gráficos:
-
-<include from="Para-Colaboradores.md" element-id="en-construccion"></include>

@@ -5,6 +5,7 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 -->
 
 <web-summary rel="tldr"/>
+<secondary-label ref="wip"/>
 
 <tip>Copyright © 2024 Pablo Portas López</tip>
 
@@ -17,8 +18,6 @@ explicadas. Implementaciones con array circular, lista dinámica circular y a pa
 explicadas de forma gráfica.
 
 </tldr>
-
-<include from="Para-Colaboradores.md" element-id="en-construccion"></include>
 
 <note>
 
@@ -141,22 +140,19 @@ Salida: Verdadero si la cola está vacía, falso en caso contrario<br/>
 </list>
 
 ## Implementación con array circular
-
-<include from="Para-Colaboradores.md" element-id="en-construccion"></include>
+<secondary-label ref="wip"/>
 
 ## Implementación con lista dinámica circular
-
-<include from="Para-Colaboradores.md" element-id="en-construccion"></include>
+<secondary-label ref="wip"/>
 
 ## Implementación a partir del TAD Lista
+<secondary-label ref="wip"/>
 
 <note>
 
 Esta implementación se basa en el [](Tema-3-Listas.md).
 
 </note>
-
-<include from="Para-Colaboradores.md" element-id="en-construccion"></include>
 
 ## TAD Pilas
 
