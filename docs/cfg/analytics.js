@@ -14,3 +14,5 @@ _iub.csConfiguration = {"askConsentAtCookiePolicyUpdate":true,"floatingPreferenc
 
   gtag('config', 'G-R2981R9F76');
 </script>
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8724801153903590" crossorigin="anonymous"></script>
