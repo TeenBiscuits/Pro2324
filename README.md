@@ -10,8 +10,6 @@ SPDX-License-Identifier: GPL-3.0-only
 
 [![Web](https://img.shields.io/badge/Página_Web-4d6aff?style=for-the-badge&logo=htmx&logoColor=#white)](https://teenbiscuits.github.io/Pro2324)[![Wuolah](https://img.shields.io/badge/Wuolah-black?style=for-the-badge&logo=googledocs&logoColor=white)](https://wuolah.com/profile/pablopl)
 
-
-[![Objetivo](https://progress-bar.dev/75/?title=Objetivo%20de%20Estrellas&width=200&color=e3b341)](https://github.com/TeenBiscuits/Pro2324)
 </div>
 
 # Pro2324
