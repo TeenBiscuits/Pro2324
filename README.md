@@ -4,6 +4,9 @@ SPDX-FileCopyrightText: 2024 Pablo Portas López <pablo.portas@udc.es>
 SPDX-License-Identifier: GPL-3.0-only
 -->
 
+> [!IMPORTANT]
+> Este proyecto ha sido descontinuado. Gracias a todos/as por colaborar.
+
 [![Banner](./images/Pro2324%20GitHub%20Readme.png)](https://pro2324.pablopl.dev/)
 
 <div align="center">
@@ -52,24 +55,13 @@ Los apuntes y el código de este repositorio están publicados en <a href="https
 </div>
 <br/>
 
-> [!IMPORTANT]
-> Este repositorio está bajo desarrollo activo, se esperan cambios y se aceptan contribuciones. 🤗
-
 <div align="center">
 
 [![github-sponsor](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors)](https://github.com/sponsors/TeenBiscuits)[![Wuolah](https://img.shields.io/badge/Wuolah-4285F4?style=for-the-badge&logo=googledocs&logoColor=white)](https://wuolah.com/profile/pablopl)[![ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/T6T0TSIKT)[![paypalme](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/pabloportaslopez)  
 
 </div>
 
-## Objetivos / To-Do List
-
-> [!WARNING]
-> 📢 Migrada la organización del proyecto a [GitHub Projects](https://github.com/TeenBiscuits/Pro2324/projects)
-
 ## Contribuciones
-
-> [!NOTE]
-> 🛠️️ Todas las contribuciones son bienvenidas. Lee la guía para contribuir en [CONTRIBUTING.md](./CONTRIBUTING.md) 
 
 <div align="center">
 

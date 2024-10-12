@@ -5,6 +5,7 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 -->
 
 <web-summary rel="tldr"/>
+<secondary-label ref="wip"/>
 
 <tip>Copyright © 2024 Pablo Portas López</tip>
 
