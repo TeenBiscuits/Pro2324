@@ -12,7 +12,7 @@ SPDX-License-Identifier: GPL-3.0-only
         <!-- PERSONALIZACIÓN -->
         <primary-color>blueberry</primary-color>
         <!--<locale-code>es-ES</locale-code> NO PARECE HACER NADA-->
-        <product-web-url>https://teenbiscuits.github.io/Pro2324</product-web-url>
+        <product-web-url>https://pro2324.pablopl.dev/</product-web-url>
         <generate-canonicals>true</generate-canonicals>
         <custom-favicons>Logo.ico</custom-favicons>
         <header-logo>Logo.svg</header-logo>
@@ -24,7 +24,7 @@ SPDX-License-Identifier: GPL-3.0-only
         <algolia-id>0K3UBN277V</algolia-id>
         <algolia-index>pro2324</algolia-index>
         <algolia-api-key>d4e81705240b4f5de1022e3a86236964</algolia-api-key>
-        <web-root>https://teenbiscuits.github.io/Pro2324</web-root>
+        <web-root>https://pro2324.pablopl.dev/</web-root>
         <!-- ANALYTICS AND COOKIE BANNER -->
         <analytics-head-script-file>analytics.js</analytics-head-script-file>
         <!-- EDIT GITHUB -->
@@ -55,7 +55,7 @@ SPDX-License-Identifier: GPL-3.0-only
             <!-- Ej: Las fuentes de JetBrains son muy atractivas -->
             <offline-docs>false</offline-docs>
             <noindex-content>false</noindex-content>
-            <product-web-url>https://teenbiscuits.github.io/Pro2324</product-web-url>
+            <product-web-url>https://pro2324.pablopl.dev/</product-web-url>
             <og-image>https://raw.githubusercontent.com/TeenBiscuits/Pro2324/main/images/Pro2324%20GitHub%20Preview.png</og-image>
             <og-twitter>@PabloPortasL</og-twitter>
         </variables>
