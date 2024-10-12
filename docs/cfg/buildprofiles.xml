@@ -19,7 +19,6 @@ SPDX-License-Identifier: GPL-3.0-only
         <download-title>Repositorio en GitHub</download-title>
         <download-page>https://github.com/TeenBiscuits/Pro2324</download-page>
         <showDownloadButton>true</showDownloadButton>
-        <write-help-state-file>release</write-help-state-file>
         <!-- ANGOLIA SEARCH -->
         <algolia-id>0K3UBN277V</algolia-id>
         <algolia-index>pro2324</algolia-index>
@@ -28,8 +27,8 @@ SPDX-License-Identifier: GPL-3.0-only
         <!-- ANALYTICS AND COOKIE BANNER -->
         <analytics-head-script-file>analytics.js</analytics-head-script-file>
         <!-- EDIT GITHUB -->
-        <enable-browser-edits>true</enable-browser-edits>
-        <browser-edits-url>https://github.com/TeenBiscuits/Pro2324/edit/main/docs/</browser-edits-url>
+        <enable-contribution>true</enable-contribution>
+        <contribute-url>https://github.com/TeenBiscuits/Pro2324/edit/main/docs/</contribute-url>
         <!-- FEEDBACK - POR TERMINAR -->
         <!--
         <feedback-support>https://github.com/TeenBiscuits/Pro2324/issues/new/choose</feedback-support>
