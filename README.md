@@ -22,7 +22,7 @@ SPDX-License-Identifier: GPL-3.0-only
 [![Git](https://img.shields.io/badge/Git-E44C30?logo=git&logoColor=white)](https://en.wikipedia.org/wiki/Git)
 [![GitHub Projects](https://img.shields.io/badge/GitHub_Projects-000000.svg?logo=github&logoColor=white)](https://github.com/TeenBiscuits/Pro2324/projects)
 [![Build](https://github.com/TeenBiscuits/Pro2324/actions/workflows/deploy.yml/badge.svg)](https://github.com/TeenBiscuits/Pro2324/actions/workflows/deploy.yml)
-[![Web](https://img.shields.io/website?down_message=offline&up_message=online&label=Web&url=https%3A%2F%2Fteenbiscuits.github.io%2FPro2324%2Fpro2324.html)](https://teenbiscuits.github.io/Pro2324/inicio.html)
+[![Web](https://img.shields.io/website?down_message=offline&up_message=online&label=Web&url=https%3A%2F%2Fpro2324.pablopl.dev%2Finicio.html)](https://pro2324.pablopl.dev/inicio.html)
 [![Pull Request](https://img.shields.io/github/issues-pr-closed/TeenBiscuits/Pro2324.svg?label=Pull%20Request)](https://github.com/TeenBiscuits/Pro2324/pulls)
 [![GitHub Contributors](https://img.shields.io/github/contributors/TeenBiscuits/Pro2324?label=Contributors)](https://github.com/TeenBiscuits/Pro2324/graphs/contributors)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE.md)
@@ -41,7 +41,7 @@ SPDX-License-Identifier: GPL-3.0-only
 
 <div align="right">
 <br/>
-Los apuntes y el código de este repositorio están publicados en <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html">esta web</a>. 📖 También están disponibles en PDF en <a href="https://wuolah.com/profile/pablopl">Wuolah</a>. 📕
+Los apuntes y el código de este repositorio están publicados en <a href="https://pro2324.pablopl.dev/pro2324.html">esta web</a>. 📖 También están disponibles en PDF en <a href="https://wuolah.com/profile/pablopl">Wuolah</a>. 📕
 <br/>
 </div>
 

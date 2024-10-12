@@ -34,11 +34,11 @@
             <title>Otras cosas interesantes</title>
             <a href="Ejemplos.topic" type="cross-check" summary="Ejemplos sencillos y no tan sencillos, algunos sacados de clases de prácticas.">Ejemplos</a>
             <!-- <a href="Examenes.md" type="academy" summary="Exámenes antiguos resueltos.">Exámenes</a> -->
-            <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html" type="lock" summary="¡En construcción!">Antiguos
+            <a href="https://pro2324.pablopl.dev/pro2324.html" type="lock" summary="¡En construcción!">Antiguos
                 Exámenes</a>
             <a href="Tutoriales.topic" type="keyboard" summary="Lo difícil hecho fácil.">Tutoriales</a>
             <!-- No se puede referenciar a un topic dentro de si mismo -->
-            <a href="https://teenbiscuits.github.io/Pro2324/pro2324.html" type="lock" summary="Próximamente...">Próximamente...</a>
+            <a href="https://pro2324.pablopl.dev/pro2324.html" type="lock" summary="Próximamente...">Próximamente...</a>
         </primary>
 
 

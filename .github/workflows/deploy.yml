@@ -165,9 +165,9 @@ jobs:
         # https://github.com/bojieyang/indexnow-action
         uses: bojieyang/indexnow-action@v2
         with:
-          sitemap-location: 'https://teenbiscuits.github.io/Pro2324/sitemap.xml' 
+          sitemap-location: 'https://pro2324.pablopl.dev/sitemap.xml'
           key: ${{ secrets.INDEXNOW_KEY }}
-          key-location: 'https://teenbiscuits.github.io/Pro2324/${{ secrets.INDEXNOW_KEY }}.txt'
+          key-location: 'https://pro2324.pablopl.dev/${{ secrets.INDEXNOW_KEY }}.txt'
           endpoint: www.bing.com # Es el default
           failure-strategy: error
 
@@ -183,5 +183,5 @@ jobs:
         # https://github.com/robingenz/google-indexing-action
         uses: TeenBiscuits/google-indexing-action@main # Temporalmente mientras no se soluciona un bug
         with:
-          siteUrl: 'https://teenbiscuits.github.io/Pro2324/'
+          siteUrl: 'https://pro2324.pablopl.dev/'
           gcpServiceAccountKey: ${{ secrets.GCP_SA_KEY }}

@@ -1,4 +1,4 @@
-Sitemap: https://teenbiscuits.github.io/Pro2324/sitemap.xml
+Sitemap: https://pro2324.pablopl.dev/sitemap.xml
 
 User-Agent: *
 Disallow: /para-colaboradores.html
