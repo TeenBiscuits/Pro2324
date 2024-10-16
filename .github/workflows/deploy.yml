@@ -181,7 +181,7 @@ jobs:
         # Robin Genz
         # MIT
         # https://github.com/robingenz/google-indexing-action
-        uses: TeenBiscuits/google-indexing-action@main # Temporalmente mientras no se soluciona un bug
+        uses: robingenz/action-google-indexing@v1.0.0
         with:
-          siteUrl: 'https://pro2324.pablopl.dev/'
+          siteUrl: 'pro2324.pablopl.dev'
           gcpServiceAccountKey: ${{ secrets.GCP_SA_KEY }}
