@@ -16,6 +16,16 @@ Entra y Salida. printf, scanf, gets, define y operaciones artiméticas básicas.
 
 </tldr>
 
+<procedure>
+
+![Pásame El Código](https://pc.pablopl.dev/og.jpg)
+
+Visita nuestra nueva página web con contenidos actualizados y mucho más.
+
+Este boletín también está en: [Pásame el Código](https://pc.pablopl.dev/prouno/boletines/b1-boletin-1/)
+
+</procedure>
+
 ### Ejercicio 1
 
 Plantee e implemente un programa en lenguaje C que solicite el nombre y la edad de un usuario por teclado de forma que

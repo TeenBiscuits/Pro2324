@@ -5,7 +5,7 @@ SPDX-License-Identifier: GPL-3.0-only
 -->
 
 > [!IMPORTANT]
-> Este proyecto ha sido descontinuado. Gracias a todos/as por colaborar.
+> Este proyecto ha sido descontinuado. Gracias a todos/as por colaborar. Continuación en: [Pásame el Código](https://github.com/TeenBiscuits/Pasame-Codigo)
 
 [![Banner](./images/Pro2324%20GitHub%20Readme.png)](https://pro2324.pablopl.dev/)
 
@@ -29,7 +29,7 @@ SPDX-License-Identifier: GPL-3.0-only
 [![Pull Request](https://img.shields.io/github/issues-pr-closed/TeenBiscuits/Pro2324.svg?label=Pull%20Request)](https://github.com/TeenBiscuits/Pro2324/pulls)
 [![GitHub Contributors](https://img.shields.io/github/contributors/TeenBiscuits/Pro2324?label=Contributors)](https://github.com/TeenBiscuits/Pro2324/graphs/contributors)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE.md)
-[![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC_BY--ND_4.0-lightgrey.svg)](./docs/LICENSE)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](./docs/LICENSE)
 [![REUSE Compliance](https://github.com/TeenBiscuits/Pro2324/actions/workflows/compilance.yml/badge.svg)](https://github.com/TeenBiscuits/Pro2324/actions/workflows/compilance.yml)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 [![Stars](https://img.shields.io/github/stars/TeenBiscuits/Pro2324.svg)](https://github.com/TeenBiscuits/Pro2324)

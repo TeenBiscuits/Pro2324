@@ -6,6 +6,16 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 <web-summary rel="tldr"/>
 
+<procedure>
+
+![Pásame El Código](https://pc.pablopl.dev/og.jpg)
+
+Visita nuestra nueva página web con contenidos actualizados y mucho más.
+
+Estos apuntes también están en: [Pásame el Código](https://pc.pablopl.dev/prodos/apuntes/t1-tipos-abstractos-de-datos-tad/)
+
+</procedure>
+
 <tip>Copyright © 2024 Pablo Portas López</tip>
 
 # Tema 1 - Tipos Abstractos de Datos (TAD)

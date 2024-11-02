@@ -14,6 +14,16 @@ Bucles (while / do while / for) y condicionales (if / else / switch)
 
 </tldr>
 
+<procedure>
+
+![Pásame El Código](https://pc.pablopl.dev/og.jpg)
+
+Visita nuestra nueva página web con contenidos actualizados y mucho más.
+
+Este boletín también está en: [Pásame el Código](https://pc.pablopl.dev/prouno/boletines/b2-boletin-2/)
+
+</procedure>
+
 ### Ejercicio 1
 
 Plantee e implemente un programa en Lenguaje C que solicite un número entero por teclado y muestre por pantalla si es

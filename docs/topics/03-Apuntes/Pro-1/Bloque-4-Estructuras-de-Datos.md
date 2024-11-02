@@ -6,6 +6,16 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 <web-summary rel="tldr"/>
 
+<procedure>
+
+![Pásame El Código](https://pc.pablopl.dev/og.jpg)
+
+Visita nuestra nueva página web con contenidos actualizados y mucho más.
+
+Estos apuntes también están en: [Pásame el Código](https://pc.pablopl.dev/prouno/apuntes/b4-estructuras-de-datos/)
+
+</procedure>
+
 <tip>Copyright © 2024 Daniel Feito Pin</tip>
 
 # Bloque 4 - Estructuras de Datos

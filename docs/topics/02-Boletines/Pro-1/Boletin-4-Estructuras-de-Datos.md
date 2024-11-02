@@ -16,6 +16,16 @@ Arrays, registros y cadenas de caracteres.
 
 </tldr>
 
+<procedure>
+
+![Pásame El Código](https://pc.pablopl.dev/og.jpg)
+
+Visita nuestra nueva página web con contenidos actualizados y mucho más.
+
+Este boletín también está en: [Pásame el Código](https://pc.pablopl.dev/prouno/boletines/b4-boletin-4/)
+
+</procedure>
+
 <!-- TODO FALTAN EJERCICIOS  -->
 <warning>
 <b><b>¡Se necesita tu ayuda!</b></b>

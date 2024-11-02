@@ -6,6 +6,16 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 <web-summary rel="tldr"/>
 
+<procedure>
+
+![Pásame El Código](https://pc.pablopl.dev/og.jpg)
+
+Visita nuestra nueva página web con contenidos actualizados y mucho más.
+
+Estos apuntes también están en: [Pásame el Código](https://pc.pablopl.dev/prodos/apuntes/t3-listas/)
+
+</procedure>
+
 <tip>Copyright © 2024 Pablo Portas López</tip>
 
 # Tema 3 - Listas

@@ -19,3 +19,51 @@ SPDX-License-Identifier: GPL-3.0-only AND CC-BY-NC-4.0
         document.body.insertBefore(aviso, document.body.firstChild);
     };
 </script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const today = new Date().toISOString().split('T')[0];
+
+      if (localStorage.getItem("popupLastClosed") !== today) {
+
+        const overlay = document.createElement("div");
+        overlay.style.position = "fixed";
+        overlay.style.top = "0";
+        overlay.style.left = "0";
+        overlay.style.width = "100%";
+        overlay.style.height = "100%";
+        overlay.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+        overlay.style.display = "flex";
+        overlay.style.alignItems = "center";
+        overlay.style.justifyContent = "center";
+        overlay.style.zIndex = "1000";
+
+        const popup = document.createElement("div");
+        popup.style.width = "80%";
+        popup.style.maxWidth = "500px";
+        popup.style.padding = "30px";
+        popup.style.backgroundColor = "#333";
+        popup.style.color = "#fff";
+        popup.style.borderRadius = "10px";
+        popup.style.textAlign = "center";
+        popup.style.boxShadow = "0px 8px 16px rgba(0, 0, 0, 0.5)";
+
+        popup.innerHTML = `
+          <img src="https://pc.pablopl.dev/og.jpg" alt="Imagen destacada" style="width: 100%; max-width: 100%; border-radius: 10px; margin-bottom: 15px;">
+          <h1>¡Nueva Web Disponible: Pásame el Código!</h1>
+          <p>Visita nuestra nueva página web con contenidos actualizados y mucho más. Todos los apuntes y ejercicios de esta página están siendo migrados para ahí.</p>
+          <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+            <button id="close-popup" style="padding: 10px 20px; background-color: #555; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Cerrar 😔</button>
+            <a href="https://pc.pablopl.dev/" target="_blank" id="visit-new-site" style="padding: 10px 20px; background-color: #0284c7; color: #fff; text-decoration: none; border-radius: 5px; cursor: pointer;">Ir a la nueva web 😎</a>
+          </div>
+        `;
+
+        overlay.appendChild(popup);
+        document.body.appendChild(overlay);
+
+        document.getElementById("close-popup").addEventListener("click", function() {
+          overlay.style.display = "none";
+          localStorage.setItem("popupLastClosed", today);
+        });
+      }
+    });
+</script>

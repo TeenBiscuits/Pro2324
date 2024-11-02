@@ -16,6 +16,15 @@ Funciones, recursividad y retorno de datos.
 
 </tldr>
 
+<procedure>
+
+![Pásame El Código](https://pc.pablopl.dev/og.jpg)
+
+Visita nuestra nueva página web con contenidos actualizados y mucho más.
+
+Este boletín también está en: [Pásame el Código](https://pc.pablopl.dev/prouno/boletines/b3-boletin-3/)
+
+</procedure>
 
 ### Ejercicio 1
 

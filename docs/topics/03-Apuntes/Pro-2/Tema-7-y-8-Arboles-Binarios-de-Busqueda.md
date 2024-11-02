@@ -7,6 +7,16 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 <web-summary rel="tldr"/>
 <secondary-label ref="wip"/>
 
+<procedure>
+
+![Pásame El Código](https://pc.pablopl.dev/og.jpg)
+
+Visita nuestra nueva página web con contenidos actualizados y mucho más.
+
+Estos apuntes también están en: [Pásame el Código](https://pc.pablopl.dev/prodos/apuntes/t7-t8-arboles-binarios-de-busqueda/)
+
+</procedure>
+
 <tip>Copyright © 2024 Pablo Portas López</tip>
 
 # Tema 7 y 8 - Árboles Binarios de Búsqueda ABB y Equilibrados AVL
