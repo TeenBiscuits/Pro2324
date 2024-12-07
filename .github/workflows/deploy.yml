@@ -17,7 +17,7 @@ permissions:
 env:
   INSTANCE: 'docs/pro'
   ARTIFACT: 'webHelpPRO2-all.zip'
-  DOCKER_VERSION: '242.21870'
+  DOCKER_VERSION: '243.21565'
   ALGOLIA_ARTIFACT: 'algolia-indexes-PRO.zip'
   ALGOLIA_APP_NAME: '0K3UBN277V'
   ALGOLIA_INDEX_NAME: 'pro2324'
