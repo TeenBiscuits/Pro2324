@@ -181,7 +181,7 @@ jobs:
         # Robin Genz
         # MIT
         # https://github.com/robingenz/google-indexing-action
-        uses: robingenz/action-google-indexing@v1.0.0
+        uses: robingenz/action-google-indexing@v1.0.1
         with:
           siteUrl: 'pro2324.pablopl.dev'
           gcpServiceAccountKey: ${{ secrets.GCP_SA_KEY }}
