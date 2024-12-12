@@ -123,7 +123,7 @@ jobs:
           path: artifacts
 
       - name: 🗃️ Descomprimir artefacto
-        run: unzip -O UTF-8 -qq "artifacts/${{ needs.build.outputs.artifact }}" -d dir
+        run: unzip -O UTF-8 -qq "artifacts/${{ needs.construir.outputs.artifact }}" -d dir
 
       - name: 🔎 Configurar IndexNow
         run: echo ${{ secrets.INDEXNOW_KEY }} > dir/${{ secrets.INDEXNOW_KEY }}.txt
@@ -165,7 +165,7 @@ jobs:
           name: docs
           path: artifacts
       - name: 🗃️ Descomprimir artefacto
-        run: unzip -O UTF-8 -qq "artifacts/${{ needs.build.outputs.algolia_artifact }}" -d algolia-indexes
+        run: unzip -O UTF-8 -qq "artifacts/${{ needs.construir.outputs.algolia_artifact }}" -d algolia-indexes
       - name: 🆙 Update Algolia Index
         run: |
           if [ -z "${{ secrets.ALGOLIA_KEY }}" ]; then
