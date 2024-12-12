@@ -6,23 +6,26 @@ name: 🔬 Comprobar documentación
 
 on:
   pull_request:
-    types: ["opened"]
-    paths: ["docs/**"]
+    types: [ "opened" ]
+    paths: [ "docs/**" ]
   workflow_dispatch:
 
 permissions:
+  contents: read
   id-token: write
   pages: write
 
 env:
   INSTANCE: 'docs/pro'
-  ARTIFACT: 'webHelpPRO2-all.zip'
-  DOCKER_VERSION: '243.21565'
+  DOCKER_VERSION: '243.22562'
 
 jobs:
   construir:
     name: 📦 Construir
     runs-on: ubuntu-latest
+    outputs:
+      algolia_artifact: ${{ steps.define-ids.outputs.algolia_artifact }}
+      artifact: ${{ steps.define-ids.outputs.artifact }}
     steps:
       - name: ⬇️ Checkout repositorio
         # GitHub Actions
@@ -31,6 +34,26 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: ✳️ Define instance id and artifacts
+        id: define-ids
+        run: |
+          INSTANCE=${INSTANCE#*/}
+          INSTANCE_ID_UPPER=$(echo "$INSTANCE" | tr '[:lower:]' '[:upper:]')
+          ARTIFACT="webHelp${INSTANCE_ID_UPPER}2-all.zip"
+          ALGOLIA_ARTIFACT="algolia-indexes-${INSTANCE_ID_UPPER}.zip"
+
+          # Print the values
+          echo "INSTANCE_ID_UPPER: $INSTANCE_ID_UPPER"
+          echo "ARTIFACT: $ARTIFACT"
+          echo "ALGOLIA_ARTIFACT: $ALGOLIA_ARTIFACT"
+
+          # Set the environment variables and outputs
+          echo "INSTANCE_ID_UPPER=$INSTANCE_ID_UPPER" >> $GITHUB_ENV
+          echo "ARTIFACT=$ARTIFACT" >> $GITHUB_ENV
+          echo "ALGOLIA_ARTIFACT=$ALGOLIA_ARTIFACT" >> $GITHUB_ENV
+          echo "artifact=$ARTIFACT" >> $GITHUB_OUTPUT
+          echo "algolia_artifact=$ALGOLIA_ARTIFACT" >> $GITHUB_OUTPUT
 
       - name: 🏗️ Construir con Writerside usando Docker
         # JetBrains Open Source

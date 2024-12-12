@@ -24,6 +24,7 @@ SPDX-License-Identifier: GPL-3.0-only
         <algolia-id>0K3UBN277V</algolia-id>
         <algolia-index>pro2324</algolia-index>
         <algolia-api-key>d4e81705240b4f5de1022e3a86236964</algolia-api-key>
+        <algolia-show-logo>true</algolia-show-logo>
         <!-- ANALYTICS AND COOKIE BANNER -->
         <analytics-head-script-file>analytics.js</analytics-head-script-file>
         <!-- EDIT GITHUB -->
