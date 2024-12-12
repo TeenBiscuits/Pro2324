@@ -134,7 +134,7 @@ jobs:
           curl https://raw.githubusercontent.com/TeenBiscuits/Pro2324/main/docs/cfg/humans.txt -o dir/humans.txt
 
       - name: 🔩 Configurar Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
       - name: 📦 Empaquetar y subir artefacto de Pages
         uses: actions/upload-pages-artifact@v3
