@@ -14,3 +14,5 @@ _iub.csConfiguration = {"askConsentAtCookiePolicyUpdate":true,"floatingPreferenc
 
   gtag('config', 'G-MK6BSW78PJ');
 </script>
+<!-- Vercel Analytics -->
+<script defer src="/_vercel/insights/script.js"></script>
