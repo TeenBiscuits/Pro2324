@@ -103,55 +103,11 @@ jobs:
         uses: JetBrains/writerside-checker-action@v1
         with:
           instance: ${{ env.INSTANCE }}
-  
-  publicar:
-    name: 🌐 Publicar Web
-    if: github.repository == 'TeenBiscuits/Pro2324'
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    needs: [ construir, comprobar ]
-    runs-on: ubuntu-latest
-    steps:
-      - name: ⬇️ Descargar artefacto
-        # GitHub Actions
-        # MIT
-        # https://github.com/actions/download-artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: docs
-          path: artifacts
-
-      - name: 🗃️ Descomprimir artefacto
-        run: unzip -O UTF-8 -qq "artifacts/${{ needs.construir.outputs.artifact }}" -d dir
-
-      - name: 🔎 Configurar IndexNow
-        run: echo ${{ secrets.INDEXNOW_KEY }} > dir/${{ secrets.INDEXNOW_KEY }}.txt
-
-      - name: 💅 Archivos personalizados
-        run: |
-          curl https://raw.githubusercontent.com/TeenBiscuits/Pro2324/main/docs/cfg/robots.txt -o dir/robots.txt && \
-          curl https://raw.githubusercontent.com/TeenBiscuits/Pro2324/main/docs/cfg/humans.txt -o dir/humans.txt
-
-      - name: 🔩 Configurar Pages
-        uses: actions/configure-pages@v4
-
-      - name: 📦 Empaquetar y subir artefacto de Pages
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: dir
-
-      - name: 📖 Implementar en GitHub Pages
-        # GitHub Actions
-        # MIT
-        # https://github.com/actions/deploy-pages
-        id: deployment
-        uses: actions/deploy-pages@v4
 
   publicar-indexes:
     name: 🔎 Algolia Index
     if: github.repository == 'TeenBiscuits/Pro2324'
-    needs: [ construir, comprobar, publicar ]
+    needs: [ construir, comprobar ]
     runs-on: ubuntu-latest
     container:
       image: registry.jetbrains.team/p/writerside/builder/algolia-publisher:2.0.32-3
@@ -183,7 +139,7 @@ jobs:
           fi
 
   indexnow:
-    needs: [ construir, comprobar, publicar ]
+    needs: [ construir, comprobar ]
     name: 🔎 Bing IndexNow
     if: github.repository == 'TeenBiscuits/Pro2324'
     runs-on: ubuntu-latest
@@ -201,7 +157,7 @@ jobs:
           failure-strategy: error
 
   google-indexing:
-    needs: [ construir, comprobar, publicar ]
+    needs: [ construir, comprobar ]
     name: 🔎 Google Index
     if: github.repository == 'TeenBiscuits/Pro2324'
     runs-on: ubuntu-latest
