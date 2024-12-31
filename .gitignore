@@ -140,3 +140,5 @@ fabric.properties
 
 # JetBrains Fleet Cache
 .cache/**
+
+.vercel
